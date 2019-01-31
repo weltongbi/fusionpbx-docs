@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/call_flows.rst:3
+msgid "Call Flows"
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:5
+msgid "Direct calls between two destinations by calling a feature code."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:14
+msgid "**Name:** Define the name of the call flow"
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:15
+msgid ""
+"**Extension:** Define what extension to use. (This will make an extension"
+" not allready created)"
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:16
+msgid "**Feature Code:** Define what *  number to use"
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:17
+msgid "**Context:** Domain context (typically leave as is)"
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:18
+msgid "Status: Define what currently is in use."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:19
+msgid "Pin Number: Define a pin number in order to execute either mode."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:20
+msgid "**Destination:** Define where the call will go in the intial mode."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:21
+msgid "Sound: Define the sound that will play once mode is engaged."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:22
+msgid "Destination: Define what the destination will be."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:23
+msgid "Alternative Label: Label that will show when alternative mode is in use."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:24
+msgid ""
+"Alternative Sound: Define the sound that will play once alternative mode "
+"is engaged."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:25
+msgid ""
+"**Alternative Destination:** Define where the call will go in the "
+"alternative mode."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:26
+msgid "**Description:** Label what this call flow does."
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:32
+msgid "Call Flow Example"
+msgstr ""
+
+#: ../../source/applications/call_flows.rst:34
+msgid ""
+"In the Call Flow example below we have the name as Call Flow.  Made the "
+"Extension number 30 that didn't exist until now.  Feature code we made "
+"with a *code as *30.  Kept the context as is with "
+"`training.fusionpbx.com`_ . Status to show which mode. Made a pin number "
+"to help secure the call flow. Made the detination label as Day Mode. "
+"Picked a sound to familiarize which mode is activated. Choose a "
+"destination for the alternative mode. Made the alternative detination "
+"label as Night Mode. Picked an alternative sound to familiarize which "
+"mode is activated. Choose a destination for the alternative mode. Finally"
+" describe what this call flow does."
+msgstr ""
+

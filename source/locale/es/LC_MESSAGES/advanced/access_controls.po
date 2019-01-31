@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/access_controls.rst:3
+msgid "Access Controls"
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:5
+msgid ""
+"Access control list can allow or deny ranges of IP addresses.  There are "
+"several purposes for using the ACL."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:7
+msgid "The main purpose is for your carriers ip addresses."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:8
+msgid "Be careful with what and how you use ACL."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:9
+msgid ""
+"Most common mistakes result in calls not working between extensions and "
+"other undesirable results."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:10
+msgid "Be sure to keep Domains access control to default deny."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:11
+msgid ""
+"Do not put your public ip or phone IP addresses in the domains access "
+"control list."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:12
+msgid "Don't supply both the domain and the cidr on the same node."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:13
+msgid ""
+"If adding a single IP address to the CIDR field make sure to add /32 on "
+"the end of the IP address."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:17
+msgid "Access Control Example"
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:19
+msgid ""
+"Goto Advanced > Access Controls.  Click the edit icon for **domains**.  "
+"At the bottom under **nodes** click the plus icon."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:29
+msgid "Click save"
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:31
+msgid "Goto > Status > Sip Status and click **reloadacl**."
+msgstr ""
+
+#: ../../source/advanced/access_controls.rst:33
+msgid ""
+"Under Status > log viewer you should notice the ip added.  This can be "
+"seen also from command line fs_cli by using **reloadacl**"
+msgstr ""
+

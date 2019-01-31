@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/hardware.rst:3
+msgid "Hardware"
+msgstr ""
+
+#: ../../source/hardware.rst:8
+msgid "Auto Provision Phones"
+msgstr ""
+
+#: ../../source/hardware.rst:10
+msgid ""
+"Auto provisioning is disabled by default. This is to give a chance to "
+"secure provisioning server with HTTP Authentication or CIDR. HTTP "
+"Authentication requires the phone to send hash of the combined username "
+"and password in order to get configuration. CIDR is an IP address "
+"restriction that can be used to restrict which IP addresses are allowed "
+"to get the device configuration. An example of CIDR is xxx.xxx.xxx.xxx/32"
+" the /32 represents a single IP address. To set one of these values go to"
+" Advanced > Default Settings and find the Provision category from there "
+"used the edit button to set a value. After this is done it is safe to set"
+" enabled equal to true."
+msgstr ""
+
+#: ../../source/hardware.rst:27
+msgid "Manually Provision Phones"
+msgstr ""
+
+#: ../../source/hardware.rst:29
+msgid "How to setup the device using the phone’s web interface."
+msgstr ""
+
+#: ../../source/hardware.rst:51
+msgid "Firewall Devices"
+msgstr ""
+
+#: ../../source/hardware.rst:53
+msgid "Firewall device settings that help with SIP connections."
+msgstr ""
+

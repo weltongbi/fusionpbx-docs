@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/limit.rst:3
+msgid "Limit"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:6
+msgid "Limit specific default settings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:9
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:9
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:9
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:9
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:9
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:11
+msgid "call_center_queues"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:11
+#: ../../source/advanced/default_settings/limit.rst:13
+#: ../../source/advanced/default_settings/limit.rst:15
+#: ../../source/advanced/default_settings/limit.rst:17
+#: ../../source/advanced/default_settings/limit.rst:19
+#: ../../source/advanced/default_settings/limit.rst:21
+#: ../../source/advanced/default_settings/limit.rst:23
+#: ../../source/advanced/default_settings/limit.rst:25
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:11
+#: ../../source/advanced/default_settings/limit.rst:13
+#: ../../source/advanced/default_settings/limit.rst:15
+#: ../../source/advanced/default_settings/limit.rst:17
+#: ../../source/advanced/default_settings/limit.rst:19
+#: ../../source/advanced/default_settings/limit.rst:21
+#: ../../source/advanced/default_settings/limit.rst:23
+#: ../../source/advanced/default_settings/limit.rst:25
+msgid "3"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:11
+#: ../../source/advanced/default_settings/limit.rst:13
+#: ../../source/advanced/default_settings/limit.rst:15
+#: ../../source/advanced/default_settings/limit.rst:17
+#: ../../source/advanced/default_settings/limit.rst:19
+#: ../../source/advanced/default_settings/limit.rst:21
+#: ../../source/advanced/default_settings/limit.rst:23
+#: ../../source/advanced/default_settings/limit.rst:25
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:11
+msgid "Limit used in Call Center Queues."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:13
+msgid "destinations"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:13
+msgid "Limit used in Destinations."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:15
+msgid "devices"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:15
+msgid "Limit used in Devices."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:17
+msgid "extensions"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:17
+msgid "Limit used in Extensions."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:19
+msgid "gateways"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:19
+msgid "Limit used in Gateways."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:21
+msgid "ivr_menus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:21
+msgid "Limit used in IVR Menus."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:23
+msgid "ring_groups"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:23
+msgid "Limit used in Ring Groups."
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:25
+msgid "users"
+msgstr ""
+
+#: ../../source/advanced/default_settings/limit.rst:25
+msgid "Limit used in Users."
+msgstr ""
+

@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/variables.rst:3
+msgid "Variables"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:6
+msgid "Define preprocessor switch variables here."
+msgstr ""
+
+#: ../../source/advanced/variables.rst:13
+msgid "Variables have several different categories."
+msgstr ""
+
+#: ../../source/advanced/variables.rst:19
+msgid "Codecs"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:25
+msgid "Defaults"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:30
+msgid "IP Address"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:36
+msgid "Music on Hold"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:40
+msgid "Ringtones"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:46
+msgid "Sip"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:53
+msgid "Sip Profile:External"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:58
+msgid "Sip Profile:Internal"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:63
+msgid "Sound"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:68
+msgid "Tones"
+msgstr ""
+
+#: ../../source/advanced/variables.rst:74
+msgid "Xmpp"
+msgstr ""
+

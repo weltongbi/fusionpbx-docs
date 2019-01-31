@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:3
+msgid "ASUS RT-AC66U"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:6
+msgid ""
+"This guide was created for the ASUS RT-AC66U router with Firmware Version"
+" 3.0.0.4.380_8120.  FusionPBX is in the cloud with a public IP, and the "
+"ASUS RT-AC66U router is at the customer’s location with the extensions "
+"behind it.  The RT-AC66U is a “prosumer” grade router.  It has good "
+"performance for the dollar and is a good choice for home offices."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:11
+msgid "How to setup QoS"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:13
+msgid "First, enable the QoS feature:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:15
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:59
+msgid "Log into the router"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:16
+msgid "Click “Traffic Manager” on the left menu"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:17
+msgid ""
+"Click the “Enable QoS” button to turn it on.  Once you do this, the "
+"Upload and Download Bandwidth boxes will appear."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:18
+msgid ""
+"Enter in your Up/Down speeds.  You can use http://beta.speedtest.net/ as "
+"noted."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:19
+msgid "Click the Apply button and wait for the router to reboot."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:25
+msgid "Next, assign the QoS rules."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:27
+msgid "Log back into the router after rebooting, and go to Traffic Manager."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:28
+msgid ""
+"On the top-right selection box, select “user-defined QoS rules” if it is "
+"not already selected"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:29
+msgid ""
+"Your settings may vary based on your environment, but you can use the "
+"image below as a good starting point."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:30
+msgid ""
+"It is important to note that the default rules set “Web Surf” and “HTTPS”"
+" to highest priority.  We don’t want that to compete with VOIP traffic, "
+"so reduce those to “High.”"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:31
+msgid "Click Apply."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:38
+msgid "An important note regarding Priorities"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:40
+msgid ""
+"Another important area is the “user-defined priorities” section of "
+"Traffic Manager – QoS.  As you can see, the default rules     give a very"
+" large amount of the bandwidth share to the highest priority.  This is "
+"very likely excessive for VOIP traffic.  We don’t need much bandwidth, we"
+" just need to make sure we get prioritized traffic.  You should adjust "
+"these to suit your environment."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:50
+msgid "ASUS RT-AC66U SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:53
+msgid ""
+"This guide was created for the ASUS RT-AC66U router with Firmware Version"
+" 3.0.0.4.380_8120.  FusionPBX is in the cloud with a public IP, and the "
+"ZyXEL USG60 router is at the customer’s location with the extensions "
+"behind it.  The RT-AC66U is a “prosumer” grade router.  It has good "
+"performance for the dollar and is a good choice for home offices."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:57
+msgid "How to Disable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:60
+msgid "On the left nav menu, click “WAN”"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:61
+msgid "Click the “NAT Passthrough” tab at the top-right"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:62
+msgid "Set “SIP Passthrough” to Disable"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:63
+msgid "Click Apply"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:64
+msgid "Reboot the router."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u.rst:68
+msgid ""
+"This part is a little confusing.  It seems that ASUS has either reversed "
+"the meaning of SIP Passthrough or changed how it works over a few "
+"firmware releases.  At any rate, if you have difficulties with Audio or "
+"Registrations, you can try toggling this setting.  With these home-grade "
+"routers you should perform a full reboot in order to clear the tables "
+"before testing the phones."
+msgstr ""
+

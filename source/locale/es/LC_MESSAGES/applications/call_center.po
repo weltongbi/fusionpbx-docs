@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/call_center.rst:3
+msgid "Call Center"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:5
+msgid "List of queues for the call center."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:12
+msgid "Call Center Queues"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:18
+msgid "To add a Call Center Queue **click** the plus edit icon on the right"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:21
+msgid ""
+"Once a Queue is created click the edit pencil icon on the right.  At the "
+"top right you can view, stop, start, restart and save the queue"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:24
+msgid "Call Center Agents"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:26
+msgid "List of call center agents."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:33
+msgid ""
+"From Apps > Call Center click Agents at the top right to access Call "
+"Center Agents"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:34
+msgid "Click the plus icon on the top right to add agents"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:37
+msgid "Call Center Strategies"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:43
+msgid ""
+"**Agent With Least Talk Time:**  Rings the Agent will ring that has the "
+"least time talking."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:44
+msgid "**Agent With Fewest Calls:**  Agent will ring that has the least calls."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:45
+msgid ""
+"**Longest Idle Agent:**  The agent will ring who idles the longest "
+"depending on their tier level."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:46
+msgid "**Ring All:**  All agents ring simultaneously."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:47
+msgid "**Random:**  Rings Agents will ring randomly in not particular order."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:48
+msgid ""
+"**Ring Progressively:**  Agents will ring the same as top-down and will "
+"progress until each agent ends up ringing."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:49
+msgid "**Round Robin:**  Will ring the next agent available in line."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:50
+msgid ""
+"**Sequentially By Agent Order:**  Agents will ring in a sequence by the "
+"tier and the tiers order."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:51
+msgid "**Top Down:**  Agent rings in order starting from one."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:54
+msgid "Agents"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:56
+msgid ""
+"Select agents from the drop down list and specify tier level and tier "
+"position."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:59
+msgid "Music On Hold"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:61
+msgid ""
+"Select the desired hold music. Music on hold, `streams`_ and ringtones "
+"can be used."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:64
+msgid "Record"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:66
+msgid "Save the recording"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:69
+msgid "Time base score"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:71
+msgid ""
+"**Queue:** Caller in queue time will start.  If the caller goes to "
+"another queue the time will start over."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:72
+msgid ""
+"**System:** Caller in queue will have their wait calculated as soon as "
+"they enter the system.  If a caller chooses the wrong queue, when they "
+"get to the correct queue the timer won't start over again."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:75
+msgid "Max Wait Time"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:77
+msgid ""
+"A value of 0 is the default and equals an infinate amount of time.  Any "
+"other numeric value is calculated in seconds."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:80
+msgid "Max Wait Time with No Agent"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:82
+msgid ""
+"Enter the max wait time with no agent. FusionPBX sets the default to 90 "
+"seconds and the **Timeout Action** will be used if there are no agents "
+"available."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:85
+msgid "Max Wait Time with No Agent Time Reached"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:87
+msgid ""
+"Enter the max wait time with no agent. FusionPBX sets the default to 30 "
+"seconds and the **Timeout Action** will be used if there are no agents "
+"available."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:90
+msgid "Timeout Action"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:92
+msgid "Set the action to perform when the max wait time is reached."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:95
+msgid "Tier Rules Apply"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:97
+msgid ""
+"**True:** Set the tier rule rules apply to true.  The defined tiers will "
+"be used."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:98
+msgid ""
+"**False:** Set the tier rule rules apply to false.  All tiers will be "
+"used."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:101
+msgid "Tier Rule Wait Second"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:103
+msgid "30 seconds is default. Enter the tier rule wait seconds."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:106
+msgid "Tier Rule Wait Multiply Level"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:108
+msgid ""
+"**True:** The amount of seconds the caller waits until the next tier.  "
+"This value will increase(multiply) if **Tier Rule Wait Multiply Level** "
+"is marked true."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:109
+msgid ""
+"**False:** **Tier Rule Wait Multiply Level** is marked false then after "
+"the set amount of seconds pass the tiers in order will execute with no "
+"wait."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:112
+msgid "Tier Rule No Agent No Wait"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:114
+msgid "**True:** Setting is enabled."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:115
+#: ../../source/applications/call_center.rst:125
+msgid "**False:** Setting is disabled."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:118
+msgid "Discard Abandoned After"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:119
+msgid "Default is 900 seconds. Sets the discard abandonded after seconds."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:122
+msgid "Abandoned Resume Allowed"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:124
+msgid ""
+"**True:** Setting is enabled.  Permits a call to resume their posistion "
+"in the queue but only in the amount of seconds set in **discard "
+"abandonded after** ."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:128
+msgid "Caller ID Name Prefix"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:130
+msgid "Set a prefix on the caller ID name."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:133
+msgid "Announce Sound"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:135
+msgid ""
+"A sound to play to a caller every announce sound seconds.  Needs the full"
+" path to the .wav file."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:138
+msgid "Announce Frequency"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:140
+msgid "How often the announce sound is played in seconds."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:143
+msgid "Exit Key"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:145
+msgid "Keys to quit the current queue waiting."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:148
+msgid "Description"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:150
+msgid "Enter a description to help organize and define what the queue is for."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:153
+msgid "Agent Call Center Login"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:155
+msgid ""
+"Agents can login to call center with *22 from the phone or via the "
+"FusionPBX web interface. Admin and Super Admin accounts can also log "
+"other agents in or out."
+msgstr ""
+
+#: ../../source/applications/call_center.rst:157
+msgid "Login then go to Status > `Agent Status`_"
+msgstr ""
+
+#: ../../source/applications/call_center.rst:161
+msgid "`Call Center Default Settings`_"
+msgstr ""
+

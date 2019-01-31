@@ -1,0 +1,1268 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 23:11-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/doc_guide.rst:6
+msgid "Documentation Guide"
+msgstr ""
+
+#: ../../source/doc_guide.rst:8
+msgid ""
+"This page shows an nice overview of the reStructuredText syntax. This is "
+"not a comprehensive list of everything you can do, but should be enough "
+"to get you up and running to contribute some really nice documentation. "
+"It is based on resources found at `Sphinx <http://sphinx-"
+"doc.org/rest.html>`_ ."
+msgstr ""
+
+#: ../../source/doc_guide.rst:10
+msgid "To get your own local documentation repository running, simply"
+msgstr ""
+
+#: ../../source/doc_guide.rst:13
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/doc_guide.rst:15
+msgid ""
+"The reStructuredText (RST) syntax provides an easy-to-read, what-you-see-"
+"is-what-you-get plaintext markup syntax and parser system. However, you "
+"need to be very precise and stick to some strict rules:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:17
+msgid "like Python, RST syntax is sensitive to indentation !"
+msgstr ""
+
+#: ../../source/doc_guide.rst:18
+msgid "RST requires blank lines between paragraphs"
+msgstr ""
+
+#: ../../source/doc_guide.rst:20
+msgid ""
+"This entire document is written with the RST syntax. In the right "
+"sidebar, you should find a link **\"Edit on Github\"**, which will show "
+"each page in reStructuredText raw text format."
+msgstr ""
+
+#: ../../source/doc_guide.rst:25
+msgid "Contents"
+msgstr ""
+
+#: ../../source/doc_guide.rst:28
+msgid "Getting Started"
+msgstr ""
+
+#: ../../source/doc_guide.rst:31
+msgid "Getting Git Right"
+msgstr ""
+
+#: ../../source/doc_guide.rst:33
+msgid ""
+"Learn Git in 15 Minutes `Git Tutorial`_ that will help you get started if"
+" you prefer. There is also awesome Git Tutorials on the `Atlassian Git "
+"site`_. Here is the link on installing Git if you don't have it yet `Git "
+"Install`_"
+msgstr ""
+
+#: ../../source/doc_guide.rst:36
+msgid "Setting up the Docs Locally"
+msgstr ""
+
+#: ../../source/doc_guide.rst:38
+msgid ""
+"One of the great things about Git and documentation is that all people "
+"who contribute are encouraged to setup their own local copy of the docs "
+"for off-line editing. This by default will ensure that many backups of "
+"the documents exist and there is never any concern about losing them."
+msgstr ""
+
+#: ../../source/doc_guide.rst:40
+msgid "Assuming you have Python_ already, install Sphinx locally::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:44
+msgid "Clone the FusionPBX Github documentation repository::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:50
+msgid "Edit files or add new ones then build your changes::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:54
+msgid "Open index.html with your web browser and check your changes::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:58
+msgid ""
+"Edit your files and rebuild until you like what you see, then commit your"
+" changes and push to the public repository. Assuming the file you changed"
+" is called myfile.rst::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:65
+msgid "Text Formatting"
+msgstr ""
+
+#: ../../source/doc_guide.rst:68
+msgid "Inline markup and special characters (e.g., bold, italic, verbatim)"
+msgstr ""
+
+#: ../../source/doc_guide.rst:70
+msgid ""
+"There are a few special characters used to format text. The special "
+"character ``*`` is used to defined bold and italic text as shown in the "
+"table below. The backquote character ````` is another special character "
+"used to create links to internal or external web pages as you will see in"
+" section `Internal and External Links`_."
+msgstr ""
+
+#: ../../source/doc_guide.rst:73
+msgid "usage"
+msgstr ""
+
+#: ../../source/doc_guide.rst:73
+msgid "syntax"
+msgstr ""
+
+#: ../../source/doc_guide.rst:73
+msgid "HTML rendering"
+msgstr ""
+
+#: ../../source/doc_guide.rst:75
+msgid "italic"
+msgstr ""
+
+#: ../../source/doc_guide.rst:75
+msgid "`*italic*`"
+msgstr ""
+
+#: ../../source/doc_guide.rst:75
+msgid "*italic*"
+msgstr ""
+
+#: ../../source/doc_guide.rst:76
+msgid "bold"
+msgstr ""
+
+#: ../../source/doc_guide.rst:76
+msgid "`**bold**`"
+msgstr ""
+
+#: ../../source/doc_guide.rst:76
+msgid "**bold**"
+msgstr ""
+
+#: ../../source/doc_guide.rst:77
+msgid "link"
+msgstr ""
+
+#: ../../source/doc_guide.rst:77
+msgid "```python <www.python.org>`__``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:77
+msgid "`python <www.python.org>`__"
+msgstr ""
+
+#: ../../source/doc_guide.rst:78
+msgid "verbatim"
+msgstr ""
+
+#: ../../source/doc_guide.rst:78
+msgid "````*````"
+msgstr ""
+
+#: ../../source/doc_guide.rst:78
+msgid "``*``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:81
+msgid ""
+"The double backquote is used to enter in verbatim mode, which can be used"
+" as the escaping character. There are some restrictions about the ``*`` "
+"and `````` syntax. They"
+msgstr ""
+
+#: ../../source/doc_guide.rst:84
+msgid "cannot not be nested,"
+msgstr ""
+
+#: ../../source/doc_guide.rst:85
+msgid "content may not start or end with whitespace: ``* text*`` is wrong,"
+msgstr ""
+
+#: ../../source/doc_guide.rst:86
+msgid ""
+"it must be separated from surrounding text by non-word characters like a "
+"space."
+msgstr ""
+
+#: ../../source/doc_guide.rst:88
+msgid ""
+"The use of backslash is a work around to second previous restrictions "
+"about whitespaces in the following case:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:90
+msgid "``this is a *longish* paragraph`` is correct and gives *longish*."
+msgstr ""
+
+#: ../../source/doc_guide.rst:91
+msgid ""
+"``this is a long*ish* paragraph`` is not interpreted as expected. You "
+"should use ``this is a long\\ *ish* paragraph`` to obtain long\\ *ish* "
+"paragraph"
+msgstr ""
+
+#: ../../source/doc_guide.rst:95
+msgid ""
+"In Python docstrings it will be necessary to escape any backslash "
+"characters so that they actually reach reStructuredText. The simplest way"
+" to do this is to use raw strings by adding the letter ``r`` in front of "
+"the docstring."
+msgstr ""
+
+#: ../../source/doc_guide.rst:98
+msgid "Python string"
+msgstr ""
+
+#: ../../source/doc_guide.rst:98
+msgid "Typical result"
+msgstr ""
+
+#: ../../source/doc_guide.rst:100
+msgid "``r\"\"\"\\*escape* \\`with` \"\\\\\"\"\"\"``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:100 ../../source/doc_guide.rst:101
+msgid "``*escape* `with` \"\\\"``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:101
+msgid "``\"\"\"\\\\*escape* \\\\`with` \"\\\\\\\\\"\"\"\"``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:102
+msgid "``\"\"\"\\*escape* \\`with` \"\\\\\"\"\"\"``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:102
+msgid "``escape with \"\"``"
+msgstr ""
+
+#: ../../source/doc_guide.rst:107
+msgid "Headings"
+msgstr ""
+
+#: ../../source/doc_guide.rst:109
+msgid ""
+"In order to write a title, you can either underline it or under and "
+"overline it. The following examples are correct titles."
+msgstr ""
+
+#: ../../source/doc_guide.rst:124
+msgid "Two rules:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:126
+msgid "If under and overline are used, their length must be identical"
+msgstr ""
+
+#: ../../source/doc_guide.rst:127
+msgid "The length of the underline must be at least as long as the title itself"
+msgstr ""
+
+#: ../../source/doc_guide.rst:129
+msgid ""
+"Normally, there are no heading levels assigned to certain characters as "
+"the structure is determined from the succession of headings. However, it "
+"is better to stick to the same convention throughout a project. For "
+"instance:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:132
+msgid "`#` with overline, for parts"
+msgstr ""
+
+#: ../../source/doc_guide.rst:133
+msgid "`*` with overline, for chapters"
+msgstr ""
+
+#: ../../source/doc_guide.rst:134
+msgid "`=`, for sections"
+msgstr ""
+
+#: ../../source/doc_guide.rst:135
+msgid "`-`, for subsections"
+msgstr ""
+
+#: ../../source/doc_guide.rst:136
+msgid "`^`, for subsubsections"
+msgstr ""
+
+#: ../../source/doc_guide.rst:137
+msgid "`\"`, for paragraphs"
+msgstr ""
+
+#: ../../source/doc_guide.rst:141
+msgid "Internal and External Links"
+msgstr ""
+
+#: ../../source/doc_guide.rst:147
+msgid "In Sphinx, you have 3 type of links:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:144
+msgid "External links (http-like)"
+msgstr ""
+
+#: ../../source/doc_guide.rst:145
+msgid "Implicit links to title"
+msgstr ""
+
+#: ../../source/doc_guide.rst:146
+msgid "Explicit links to user-defined label (e.g., to refer to external titles)."
+msgstr ""
+
+#: ../../source/doc_guide.rst:150
+msgid "External links"
+msgstr ""
+
+#: ../../source/doc_guide.rst:152
+msgid "If you want to create a link to a website, the syntax is ::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:156
+msgid ""
+"which appear as `<http://www.python.org/>`_ . Note the underscore after "
+"the final single quote. Since the full name of the link is not always "
+"simple or meaningful, you can specify a label (note the space between the"
+" label and link name)::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:160
+msgid "The rendering is now: `Python <http://www.python.org/>`_."
+msgstr ""
+
+#: ../../source/doc_guide.rst:162
+msgid ""
+"If you have an underscore within the label/name, you got to escape it "
+"with a '\\\\' character."
+msgstr ""
+
+#: ../../source/doc_guide.rst:168
+msgid "Implicit Links to Titles"
+msgstr ""
+
+#: ../../source/doc_guide.rst:170
+msgid ""
+"All titles are considered as hyperlinks. A link to a title is just its "
+"name within quotes and a final underscore::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:174
+msgid ""
+"This syntax works only if the title and link are within the same RST "
+"file. If this is not the case, then you need to create a label before the"
+" title and refer to this new link explicitly, as explained in `Explicit "
+"Links`_ section."
+msgstr ""
+
+#: ../../source/doc_guide.rst:178
+msgid "Explicit Links"
+msgstr ""
+
+#: ../../source/doc_guide.rst:180
+msgid ""
+"You can create explicit links within your RST files. For instance, this "
+"document has a label at the top called ``rst_tutorial``, which is "
+"specified by typing::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:184
+msgid ""
+"You can refer to this label using two different methods. The first one "
+"is::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:188
+msgid "The second method use the ``ref`` role as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:192
+msgid ""
+"With the first method, the link appears as rst_tutorial_, whereas the "
+"second method use the first title's name found after the link. Here, the "
+"second method would appear as :ref:`rst_tutorial`."
+msgstr ""
+
+#: ../../source/doc_guide.rst:195
+msgid ""
+"Note that if you use the ``ref`` role, the final underscore is not "
+"required anymore."
+msgstr ""
+
+#: ../../source/doc_guide.rst:199
+msgid "List and bullets"
+msgstr ""
+
+#: ../../source/doc_guide.rst:201
+msgid "The following code::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:213 ../../source/doc_guide.rst:270
+#: ../../source/doc_guide.rst:366 ../../source/doc_guide.rst:393
+msgid "gives:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:215
+msgid "This is a bulleted list."
+msgstr ""
+
+#: ../../source/doc_guide.rst:216
+msgid "It has two items, the second item uses two lines. (note the indentation)"
+msgstr ""
+
+#: ../../source/doc_guide.rst:219 ../../source/doc_guide.rst:222
+msgid "This is a numbered list."
+msgstr ""
+
+#: ../../source/doc_guide.rst:220 ../../source/doc_guide.rst:223
+msgid "It has two items too."
+msgstr ""
+
+#: ../../source/doc_guide.rst:225
+msgid ""
+"if two lists are separated by a blanck line only, then the two lists are "
+"not differentiated as you can see above."
+msgstr ""
+
+#: ../../source/doc_guide.rst:229
+msgid "What are directives"
+msgstr ""
+
+#: ../../source/doc_guide.rst:231
+msgid ""
+"Sphinx and the RST syntax provides directives to include formatted text. "
+"As an example, let us consider the **code-block** syntax. It allows to "
+"insert code (here HTML) within your document::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:238
+msgid "Its rendering is:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:245
+msgid ""
+"Here, **code-block** is the name of the directive. **html** is an "
+"argument telling that the code is in HTML format, **lineos** is an option"
+" telling to insert line number and finally after a blank line is the text"
+" to include."
+msgstr ""
+
+#: ../../source/doc_guide.rst:247
+msgid "Note that options are tabulated."
+msgstr ""
+
+#: ../../source/doc_guide.rst:250
+msgid "Code and Literal blocks"
+msgstr ""
+
+#: ../../source/doc_guide.rst:253
+msgid "How to include simple code"
+msgstr ""
+
+#: ../../source/doc_guide.rst:255
+msgid ""
+"This easiest way to insert literal code blocks is to end a paragraph with"
+" the special marker made of a double coulumn `::`. Then, the literal "
+"block must be indented::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:262
+msgid "or::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:272
+msgid "This is a simple example::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:279
+msgid "code-block directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:281
+msgid ""
+"By default the syntax of the language is Python, but you can specify the "
+"language using the **code-block** directive as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:288
+msgid "produces"
+msgstr ""
+
+#: ../../source/doc_guide.rst:296
+msgid "Include code with the literalinclude directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:298
+msgid "Then, it is also possible to include the contents of a file as follows:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:312
+msgid "Tables"
+msgstr ""
+
+#: ../../source/doc_guide.rst:314
+msgid ""
+"There are several ways to write tables. Use standard reStructuredText "
+"tables as explained here. They work fine in HTML output, however, there "
+"are some gotchas when using tables for LaTeX output."
+msgstr ""
+
+#: ../../source/doc_guide.rst:316
+msgid ""
+"The rendering of the table depends on the CSS/HTML style, not on sphinx "
+"itself."
+msgstr ""
+
+#: ../../source/doc_guide.rst:320
+msgid "Simple tables"
+msgstr ""
+
+#: ../../source/doc_guide.rst:323
+msgid "Simple tables can be written as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:329
+msgid "which gives:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:332 ../../source/doc_guide.rst:344
+msgid "1"
+msgstr ""
+
+#: ../../source/doc_guide.rst:332 ../../source/doc_guide.rst:344
+#: ../../source/doc_guide.rst:436
+msgid "2"
+msgstr ""
+
+#: ../../source/doc_guide.rst:332 ../../source/doc_guide.rst:344
+#: ../../source/doc_guide.rst:436
+msgid "3"
+msgstr ""
+
+#: ../../source/doc_guide.rst:335
+msgid "Size of the cells can be adjusted as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:341
+msgid "renders as follows:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:347
+msgid "This syntax is quite limited, especially for multi cells/columns."
+msgstr ""
+
+#: ../../source/doc_guide.rst:351
+msgid "Multicells tables, first method"
+msgstr ""
+
+#: ../../source/doc_guide.rst:352
+msgid "A first method is the following syntax::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:369
+msgid "Header 1"
+msgstr ""
+
+#: ../../source/doc_guide.rst:369
+msgid "Header 2"
+msgstr ""
+
+#: ../../source/doc_guide.rst:369
+msgid "Header 3"
+msgstr ""
+
+#: ../../source/doc_guide.rst:371
+msgid "body row 1"
+msgstr ""
+
+#: ../../source/doc_guide.rst:371
+msgid "column 2"
+msgstr ""
+
+#: ../../source/doc_guide.rst:371
+msgid "column 3"
+msgstr ""
+
+#: ../../source/doc_guide.rst:373
+msgid "body row 2"
+msgstr ""
+
+#: ../../source/doc_guide.rst:373
+msgid "Cells may span columns."
+msgstr ""
+
+#: ../../source/doc_guide.rst:375
+msgid "body row 3"
+msgstr ""
+
+#: ../../source/doc_guide.rst:375
+msgid "Cells may span rows."
+msgstr ""
+
+#: ../../source/doc_guide.rst:375
+msgid "Cells"
+msgstr ""
+
+#: ../../source/doc_guide.rst:376
+msgid "contain"
+msgstr ""
+
+#: ../../source/doc_guide.rst:377
+msgid "blocks."
+msgstr ""
+
+#: ../../source/doc_guide.rst:377
+msgid "body row 4"
+msgstr ""
+
+#: ../../source/doc_guide.rst:381
+msgid "Multicells table, second method"
+msgstr ""
+
+#: ../../source/doc_guide.rst:382
+msgid "The previous syntax can be simplified::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:398
+msgid "Inputs"
+msgstr ""
+
+#: ../../source/doc_guide.rst:398
+msgid "Output"
+msgstr ""
+
+#: ../../source/doc_guide.rst:400
+msgid "A"
+msgstr ""
+
+#: ../../source/doc_guide.rst:400
+msgid "B"
+msgstr ""
+
+#: ../../source/doc_guide.rst:400
+msgid "A or B"
+msgstr ""
+
+#: ../../source/doc_guide.rst:402 ../../source/doc_guide.rst:403
+msgid "False"
+msgstr ""
+
+#: ../../source/doc_guide.rst:403
+msgid "True"
+msgstr ""
+
+#: ../../source/doc_guide.rst:406
+msgid ""
+"table and latex documents are not yet compatible in sphinx, and you "
+"should therefore precede them with the a special directive (.. "
+"htmlonly::)"
+msgstr ""
+
+#: ../../source/doc_guide.rst:409
+msgid "The tabularcolumns directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:411
+msgid ""
+"The previous examples work fine in HTML output, however there are some "
+"gotchas when using tables in LaTeX: the column width is hard to determine"
+" correctly automatically. For this reason, the following directive "
+"exists::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:415
+msgid ""
+"This directive gives a â€œcolumn specâ€ for the next table occurring in "
+"the source file. It can have values like::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:419
+msgid ""
+"which means three left-adjusted (LaTeX syntax). By default, Sphinx uses a"
+" table layout with L for every column. This code::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:427 ../../source/doc_guide.rst:558
+#: ../../source/doc_guide.rst:625 ../../source/doc_guide.rst:699
+msgid "gives"
+msgstr ""
+
+#: ../../source/doc_guide.rst:434
+msgid "title"
+msgstr ""
+
+#: ../../source/doc_guide.rst:436
+msgid "simple text"
+msgstr ""
+
+#: ../../source/doc_guide.rst:440
+msgid "The csv-table directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:441
+msgid ""
+"Finally, a convenient way to create table is the usage of CSV-like "
+"syntax::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:451
+msgid "that is rendered as follows:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:454
+msgid "a title"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "name"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "firstname"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "age"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "Smith"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "John"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "40"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "John, Junior"
+msgstr ""
+
+#: ../../source/doc_guide.rst:1
+msgid "20"
+msgstr ""
+
+#: ../../source/doc_guide.rst:464
+msgid "The toctree directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:466
+msgid ""
+"Sooner or later you will want to structure your project documentation by "
+"having several RST files. The **toctree** directive allows you to insert "
+"other files within a RST file. The reason to use this directive is that "
+"RST does not have facilities to interconnect several documents, or split "
+"documents into multiple output files. The **toctree** directive looks "
+"like"
+msgstr ""
+
+#: ../../source/doc_guide.rst:481
+msgid ""
+"It includes 3 RST files and shows a TOC that includes the title found in "
+"the RST documents."
+msgstr ""
+
+#: ../../source/doc_guide.rst:483
+msgid "Here are a few notes about the different options"
+msgstr ""
+
+#: ../../source/doc_guide.rst:485
+msgid "**maxdepth** is used to indicates the depth of the tree."
+msgstr ""
+
+#: ../../source/doc_guide.rst:486
+msgid "**numbered** adds relevant section numbers."
+msgstr ""
+
+#: ../../source/doc_guide.rst:487
+msgid "**titlesonly** adds only the main title of each document"
+msgstr ""
+
+#: ../../source/doc_guide.rst:488
+msgid ""
+"**glob** can be used to indicate that * and ? characters are used to "
+"indicate patterns."
+msgstr ""
+
+#: ../../source/doc_guide.rst:489
+msgid ""
+"**hidden** hides the toctree. It can be used to include files that do not"
+" need to be shown (e.g. a bibliography)."
+msgstr ""
+
+#: ../../source/doc_guide.rst:492
+msgid "The glob option works as follows:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:503
+msgid ""
+"Note also that the title that appear in the toctree are the file's title."
+" You may want to change this behaviour by changing the toctree as "
+"follows:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:512
+msgid "So that the title of this section is more meaningful."
+msgstr ""
+
+#: ../../source/doc_guide.rst:516
+msgid "Images and figures"
+msgstr ""
+
+#: ../../source/doc_guide.rst:519
+msgid "Include Images"
+msgstr ""
+
+#: ../../source/doc_guide.rst:521
+msgid "Use::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:529
+msgid "to put an image"
+msgstr ""
+
+#: ../../source/doc_guide.rst:538
+msgid "Include a Figure"
+msgstr ""
+
+#: ../../source/doc_guide.rst:567
+msgid "figure are like images but with a caption"
+msgstr ""
+
+#: ../../source/doc_guide.rst:569
+msgid "and whatever else youwish to add"
+msgstr ""
+
+#: ../../source/doc_guide.rst:575
+msgid ""
+"The option **figclass** is a CSS class that can be tuned for the final "
+"HTML rendering."
+msgstr ""
+
+#: ../../source/doc_guide.rst:579
+msgid "Boxes"
+msgstr ""
+
+#: ../../source/doc_guide.rst:582
+msgid "Colored boxes: note, seealso, todo and warnings"
+msgstr ""
+
+#: ../../source/doc_guide.rst:584
+msgid ""
+"There are simple directives like **seealso** that creates nice colored "
+"boxes:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:586
+msgid "This is a simple **seealso** note."
+msgstr ""
+
+#: ../../source/doc_guide.rst:588
+msgid "created using::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:592
+msgid "You have also the **note** directive:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:594
+msgid "This is a **note** box."
+msgstr ""
+
+#: ../../source/doc_guide.rst:596
+msgid "with ::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:600
+msgid "and the warning directive:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:602
+msgid "note the space between the directive and the text"
+msgstr ""
+
+#: ../../source/doc_guide.rst:604
+msgid "generated with::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:609
+msgid ""
+"There is another  **todo** directive but requires an extension. See "
+"`Useful extensions`_"
+msgstr ""
+
+#: ../../source/doc_guide.rst:614
+msgid "Topic directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:615
+msgid ""
+"A **Topic** directive  allows to write a title and a text together within"
+" a box similarly to the **note** directive."
+msgstr ""
+
+#: ../../source/doc_guide.rst:617
+msgid "This code::"
+msgstr ""
+
+msgid "Your Topic Title"
+msgstr ""
+
+#: ../../source/doc_guide.rst:629
+msgid ""
+"Subsequent indented lines comprise the body of the topic, and are "
+"interpreted as body elements."
+msgstr ""
+
+#: ../../source/doc_guide.rst:634
+msgid "Sidebar directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:636
+msgid "It is possible to create sidebar using the following code::"
+msgstr ""
+
+msgid "Sidebar Title"
+msgstr ""
+
+#: ../../source/doc_guide.rst:649
+msgid ""
+"Subsequent indented lines comprise the body of the sidebar, and are "
+"interpreted as body elements."
+msgstr ""
+
+#: ../../source/doc_guide.rst:654
+msgid "Others"
+msgstr ""
+
+#: ../../source/doc_guide.rst:657
+msgid "Comments"
+msgstr ""
+
+#: ../../source/doc_guide.rst:659
+msgid ""
+"Comments can be made by adding two dots at the beginning of a line as "
+"follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:665
+msgid "Substitutions"
+msgstr ""
+
+#: ../../source/doc_guide.rst:666
+msgid "Substitutions  are defined as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:670
+msgid ""
+"and to refer to it, use the same syntax as for the internal links: just "
+"insert the alias in the text (e.g., ``Python_``,  which appears as "
+"Python_ )."
+msgstr ""
+
+#: ../../source/doc_guide.rst:672
+msgid "A second method is as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:676
+msgid "and then insert  ``|longtext|`` wherever required."
+msgstr ""
+
+#: ../../source/doc_guide.rst:679
+msgid "glossary, centered, index, download and field list"
+msgstr ""
+
+#: ../../source/doc_guide.rst:682
+msgid "Field list"
+msgstr ""
+
+#: ../../source/doc_guide.rst
+msgid "Whatever"
+msgstr ""
+
+#: ../../source/doc_guide.rst:684
+msgid "this is handy to create new field and the following text is indented"
+msgstr ""
+
+#: ../../source/doc_guide.rst:691
+msgid "glossary"
+msgstr ""
+
+#: ../../source/doc_guide.rst:702
+msgid "apical"
+msgstr ""
+
+#: ../../source/doc_guide.rst:704
+msgid "at the top of the plant."
+msgstr ""
+
+#: ../../source/doc_guide.rst:708
+msgid "index"
+msgstr ""
+
+#: ../../source/doc_guide.rst:715
+msgid "download"
+msgstr ""
+
+#: ../../source/doc_guide.rst:721
+msgid "gives :download:`download sample.py <_downloads/sample.py>`"
+msgstr ""
+
+#: ../../source/doc_guide.rst:725
+msgid "hlist directive"
+msgstr ""
+
+#: ../../source/doc_guide.rst:727
+msgid "hlist can be use to set a list on several columns."
+msgstr ""
+
+#: ../../source/doc_guide.rst:746
+msgid "first item"
+msgstr ""
+
+#: ../../source/doc_guide.rst:747
+msgid "second item"
+msgstr ""
+
+#: ../../source/doc_guide.rst:748
+msgid "3d item"
+msgstr ""
+
+#: ../../source/doc_guide.rst:749
+msgid "4th item"
+msgstr ""
+
+#: ../../source/doc_guide.rst:750
+msgid "5th item"
+msgstr ""
+
+#: ../../source/doc_guide.rst:753
+msgid "Footnote"
+msgstr ""
+
+#: ../../source/doc_guide.rst:755
+msgid ""
+"For footnotes, use ``[#name]_`` to mark the footnote location, and add "
+"the footnote body at the bottom of the document after a â€œFootnotesâ€ "
+"rubric heading, like so::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:766
+msgid ""
+"You can also explicitly number the footnotes (``[1]_``) or use auto-"
+"numbered footnotes without names (``[#]_``). Here is an example "
+"[#footnote1]_."
+msgstr ""
+
+#: ../../source/doc_guide.rst:770
+msgid "Citations"
+msgstr ""
+
+#: ../../source/doc_guide.rst:772
+msgid ""
+"Citation references, like [CIT2002]_ may be defined at the bottom of the "
+"page::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:777
+msgid "and called as follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:782
+msgid "More about aliases"
+msgstr ""
+
+#: ../../source/doc_guide.rst:784
+msgid "Directives can be used within aliases::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:790
+msgid ""
+"Using this image alias, you can insert it easily in the text `|logo|`, "
+"like this |logo|. This is especially useful when dealing with complicated"
+" code. For instance, in order to include 2 images within a table do as "
+"follows::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:797
+msgid "|logo|"
+msgstr ""
+
+#: ../../source/doc_guide.rst:797
+msgid "|longtext|"
+msgstr ""
+
+#: ../../source/doc_guide.rst:800
+msgid "Not easy to get exactly what you want though."
+msgstr ""
+
+#: ../../source/doc_guide.rst:804
+msgid "Intersphinx"
+msgstr ""
+
+#: ../../source/doc_guide.rst:806
+msgid ""
+"When you create a project, Sphinx generates a file containing an index to"
+"  all the possible links (title, classes, functions, ...)."
+msgstr ""
+
+#: ../../source/doc_guide.rst:808
+msgid ""
+"You can refer to those index only if Sphinx knowns where to find this "
+"index. THis is possible thanks to the **intersphinx** option in your "
+"configuration file."
+msgstr ""
+
+#: ../../source/doc_guide.rst:811
+msgid ""
+"For instance, Python provides such a file, by default Sphinx knows about "
+"it. The following code can be found at the end of a typical Sphinx "
+"configuration file. Complete it to your needds::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:818
+msgid "file-wide metadata"
+msgstr ""
+
+#: ../../source/doc_guide.rst:819
+msgid "when using the following syntax::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:824
+msgid ""
+"some special keywords are recognised. For instance, *orphan*, "
+"*nocomments*, *tocdepth*."
+msgstr ""
+
+#: ../../source/doc_guide.rst:826
+msgid "An example of rendering is the toctree of top of this page."
+msgstr ""
+
+#: ../../source/doc_guide.rst:829
+msgid "orphan"
+msgstr ""
+
+#: ../../source/doc_guide.rst:831
+msgid ""
+"Sometimes, you have an rst file, that is not included in any rst files "
+"(when using include for instance). Yet, there are warnings. If you want "
+"to supprresse the warnings, include this code in the file::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:835
+msgid "There is also tocdepth and nocomments metadata. See Sphinx homepage."
+msgstr ""
+
+#: ../../source/doc_guide.rst:838
+msgid "metainformation"
+msgstr ""
+
+#: ../../source/doc_guide.rst:842
+msgid "Specifies the author of the current section.::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:846
+msgid ""
+"By default, this markup isnâ€™t reflected in the output in any way,  but "
+"you can set the configuration value **show_authors** to True to make them"
+" produce a paragraph in the output."
+msgstr ""
+
+#: ../../source/doc_guide.rst:855
+msgid "contents directives"
+msgstr ""
+
+#: ../../source/doc_guide.rst:865
+msgid "**depth** indicates the max section depth to be shown in the contents"
+msgstr ""
+
+#: ../../source/doc_guide.rst:886
+msgid "Useful extensions"
+msgstr ""
+
+#: ../../source/doc_guide.rst:888
+msgid ""
+"In the special file called **conf.py**, there is a variable called "
+"**extensions**. You can add extension in this variable. For instance::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:910
+msgid "pngmath: Maths and Equations with LaTeX"
+msgstr ""
+
+#: ../../source/doc_guide.rst:912
+msgid "The extension to be added is the pngmath from sphinx::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:916
+msgid ""
+"In order to include equations or simple Latex code in the text (e.g., "
+":math:`\\alpha \\leq \\beta` ) use the following code::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:922
+msgid ""
+"The *math* markup can be used within RST files (to be parsed by Sphinx) "
+"but within your python's docstring, the slashes need to be escaped ! "
+"``:math:`\\alpha``` should therefore be written ``:math:`\\\\alpha``` or "
+"put an \"r\" before the docstring"
+msgstr ""
+
+#: ../../source/doc_guide.rst:924
+msgid ""
+"Note also, that you can easily include more complex mathematical "
+"expressions using the math directive::"
+msgstr ""
+
+#: ../../source/doc_guide.rst:930
+msgid "Here is another:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:934
+msgid "It seems that there is no limitations to LaTeX usage:"
+msgstr ""
+
+#: ../../source/doc_guide.rst:941
+msgid "TODO extension"
+msgstr ""
+
+#: ../../source/doc_guide.rst:944
+msgid ""
+"Similarly to the note directive, one can include todo boxes but it "
+"requires the `sphinx.ext.todo` extension to be added in the **conf.py** "
+"file by adding two lines of code::"
+msgstr ""
+

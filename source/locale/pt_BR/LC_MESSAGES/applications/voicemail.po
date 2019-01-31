@@ -1,0 +1,339 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/voicemail.rst:3
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:6
+msgid ""
+"To edit voicemail settings click the pencil edit icon on the right of the"
+" extension number."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:12
+msgid "Here you can edit voicemail settings."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:14
+msgid "Play Tutorial- Play the voicemail tutorial after the next voicemail login"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:15
+msgid ""
+"Greeting- When you dial ***97**, record a greeting and set a number you "
+"can choose which greeting to use"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:16
+msgid "Alternate Greet ID- An alternative greet id used in the default greeting"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:17
+msgid "Options- Define caller options for the voicemail greeting"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:18
+msgid "Mail to- have voicemails emailed to this address"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:19
+msgid ""
+"Voicemail File- Select a listening option to include with the email "
+"notification"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:20
+msgid ""
+"Keep Local- Choose whether to keep the voicemail in the system after "
+"sending the email notification"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:21
+msgid ""
+"Forward Destinations- Forward voicemail messages to additional "
+"destinations"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:22
+msgid "Enabled- Enable or disable the voicemail box"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:29
+msgid ""
+"Starting version 4.2 remote access to voicemail by interrupting the "
+"greeting message by pressing \"*\" and entering the password is disabled "
+"by default."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:31
+msgid "To enable remote access to voicemail"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:33
+msgid "Go to your Fusionpbx installation menu."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:34
+msgid "Advanced."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:35
+msgid "Default Settings."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:36
+msgid "Voicemail category."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:37
+msgid "Enable and set true remote_access."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:40
+msgid "Voicemail Options"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:43
+msgid "To access an extensions voicemail **away** from the extension."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:45
+msgid "Dial the extension and interupt the greeting with the ***star** key."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:48
+msgid "***97**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:48
+msgid ""
+"To access **that** extensions voicemail **from the extension** or the "
+"voicemail button"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:50
+msgid "***98**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:50
+msgid "To access **any** extensions voicemail"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:52
+msgid "***99[ext]**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:52
+msgid "To access **a specific** extension voicemail"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:57
+msgid "**Main Menu**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:59
+msgid "**press 5**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:59
+msgid "For advanced options"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:64
+msgid "**Advanced Options**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:66
+msgid "**press 1**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:66
+msgid "Record a greeting"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:68
+msgid "**press 2**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:68
+msgid "Choose a greeting"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:70
+msgid "**press 3**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:70
+msgid "Record name"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:72
+msgid "**press 6**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:72
+msgid "Change password"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:74
+msgid "**press 0**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:74
+msgid "For main menu"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:78
+msgid ""
+"`Email Setup/Default Settings "
+"<http://docs.fusionpbx.com/en/latest/advanced/default_settings.html#email>`_"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:79
+msgid ""
+"Click the link above for setting up email server settings.  These are the"
+" settings needed to enable your FusionPBX installation to be able to send"
+" email notifications."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:82
+msgid "`Voicemail Default Settings`_"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:85
+msgid ""
+"Voicemail default settings gives the options to adjust voicemail settings"
+" on your FusionPBX installation globally."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:87
+msgid "**Variables**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:89
+msgid "These variables can be set in advanced -> variables or in the dialplan."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:92
+msgid "Name"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:92
+msgid "Value"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:94
+#: ../../source/applications/voicemail.rst:110
+msgid "vm_say_date_time"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:94
+#: ../../source/applications/voicemail.rst:96
+#: ../../source/applications/voicemail.rst:98
+#: ../../source/applications/voicemail.rst:106
+#: ../../source/applications/voicemail.rst:108
+#: ../../source/applications/voicemail.rst:110
+msgid "true or false"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:96
+msgid "skip_greeting"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:98
+msgid "skip_instructions"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:100
+msgid "voicemail_greeting_number"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:100
+msgid "0-9"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:102
+msgid "vm_disk_quota"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:102
+msgid "0-3600 seconds"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:104
+msgid "vm_message_ext"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:104
+msgid "wav or mp3"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:106
+msgid "voicemail_authorized"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:108
+msgid "vm_say_caller_id_number"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:113
+msgid ""
+"Wav file is the default voicemail message file type. MP3 requires "
+"mod_shout to be installed and running."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:116
+msgid "**Not Found Message**"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:118
+msgid ""
+"When an extension is unavailable and no voicemail is configured, there is"
+" an option to play a message to the caller alerting them to this."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:120
+msgid ""
+"To enable/disable this, change the option for the **not_found_message** "
+"setting in **Advanced > Default Settings > Voicemail** category to suit "
+"your preference."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:122
+msgid ""
+"Please note that enabling this option means that the call must be "
+"answered in order to play the message to the caller and so the call will "
+"complete with a 200 OK rather than a 480 Unavailable or 486 Busy. In some"
+" jurisdictions this could potentially be illegal as it turns an otherwise"
+" toll free call into a chargeable one."
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:125
+msgid "Voicemail Transcription"
+msgstr ""
+
+#: ../../source/applications/voicemail.rst:129
+msgid ""
+"FusionPBX supports Voicemail Transcription, where emails will include a "
+"transcribed version of the voicemail the email was sent in regards to. To"
+" configure this feature, see applications/voicemail_transcription.rst."
+msgstr ""
+

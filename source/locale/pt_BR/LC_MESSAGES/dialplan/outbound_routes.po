@@ -1,0 +1,112 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/dialplan/outbound_routes.rst:2
+msgid "Outbound Routes"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:4
+msgid ""
+"Route outbound calls to gateways, tdm, enum and more. When a call matches"
+" the conditions the call to outbound routes. `Check out the youtube video"
+" <https://youtu.be/rhyfCKLBI-Y>`_ ."
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:13
+msgid "**Configuring an Outbound Route.**"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:15
+msgid ""
+"Select **Dialplan** from the drop-down list and then click **Outbound "
+"Routes** ."
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:17
+msgid ""
+"Click the **plus** button on the right. Enter the route information below"
+" and Click **Save** once entry is complete."
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:41
+msgid ""
+"**By using** `VoiceTel <http://tiny.cc/voicetel>`_ **you help support "
+"FusionPBX.  Thank you for your support!**"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:45
+msgid "Pin Numbers"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:47
+msgid ""
+"To have the system ask for a PIN number before a call is made. A good use"
+" is if you don't want every user on the system to be able to call "
+"international destinations. This can be done with a single PIN or "
+"multiple PINs by using the \"PIN Number APP\"."
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:50
+msgid "**To use a single PIN number for all calls**"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:52
+#: ../../source/dialplan/outbound_routes.rst:67
+msgid "Before the bridge action on the outbound route add the following actions"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:61
+msgid "**To use the PIN Number App to manage multiple PINs**"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:63
+msgid ""
+"First enable access to the **\"PIN Number\"** app by giving permissions "
+"to the group of users you want to have access in **Advanced > Group "
+"Manager**. Make sure the **\"PIN Number\"** App is displayed in the menu "
+"by selecting the groups that can view it in **Advanced > Menu Manager**."
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:65
+msgid "Set the PINs you would like to use in **Apps > PIN Numbers**"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:75
+msgid "Which gateway is my call using?"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:77
+msgid ""
+"If you want to know the gateway your call is using there is currently no "
+"way to do this with FusionPBX's GUI. Instead you can do it this way."
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:79
+msgid ""
+"Go to **Advanced -> Command** and in the **switch** command dropdown "
+"section type"
+msgstr ""
+
+#: ../../source/dialplan/outbound_routes.rst:85
+msgid ""
+"In the output that is returned, look for the string **sofia/gateway/ and "
+"the gateway name.** This is the gateway your call is using."
+msgstr ""
+

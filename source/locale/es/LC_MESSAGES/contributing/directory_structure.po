@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/contributing/directory_structure.rst:3
+msgid "File & Directory Structure"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:6
+msgid "HMVC"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:8
+msgid "Hierarchical model–view–controller"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:10
+msgid ""
+"The concept of the directory and file structure is to create plug-able "
+"self contained applications. It is also designed as a move to refactor "
+"the project to use the HMVC design pattern. See the following links for "
+"additional information."
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:12
+msgid ""
+"`Scaling Web Applications With HMVC "
+"<http://techportal.inviqa.com/2010/02/22/scaling-web-applications-with-"
+"hmvc>`_"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:14
+msgid ""
+"`HMVC An Introduction And Application "
+"<http://net.tutsplus.com/tutorials/php/hvmc-an-introduction-and-"
+"application>`_"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:17
+msgid "App Structure"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:19
+#: ../../source/contributing/directory_structure.rst:24
+#: ../../source/contributing/directory_structure.rst:29
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. His singulis "
+"copiose responderi solet, sed quae perspicua sunt longa esse"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:22
+msgid "Core Structure"
+msgstr ""
+
+#: ../../source/contributing/directory_structure.rst:27
+msgid "Future Improvements"
+msgstr ""
+

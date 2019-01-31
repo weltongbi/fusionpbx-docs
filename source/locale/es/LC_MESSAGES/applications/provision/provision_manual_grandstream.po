@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:2
+msgid "GrandStream"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:9
+msgid ""
+"Registering an **Extension** using a hardware phone or adapter (ata) "
+"using Grandstream."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:13
+msgid ""
+"Granstream is one of the common brand of phone and adapters for voip.  "
+"From call centers to offices and home offices Grandstream products can be"
+" found.  Grandstream has a large selection of hardware from phones, video"
+" phones to analog telephone adapters."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:17
+msgid ""
+"In our example we will register an analog telephone adapter (ata) model "
+"HT701."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:21
+msgid ""
+"Goto the device ip address. The default password should be admin. Enter "
+"admin and click login"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:28
+msgid "Click on the **FXS PORT** tab on the top right."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:30
+msgid "``Primary Sip Server: subdomain.domain.com``"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:31
+msgid ""
+"``Failover SIP Server: subdomain1.domain.com (this can be left blank or "
+"can use Primary if only 1 sip server)``"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:32
+msgid "``SIP User ID: 1000``"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:33
+msgid "``Authenticated Password: thepassword``"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:37
+msgid "Click **Update** then click **Apply** at the bottom"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:46
+msgid ""
+"Click the **Status** tab on the top left.  You should see the "
+"*Registration* as **Registered** and the *User ID* **1000**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:53
+msgid "Troubleshooting tips"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:57
+msgid ""
+"Check, double check that the correct extension number and password is "
+"being used."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:58
+msgid "Reboot the device."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:59
+msgid "Check Fail2ban and see if the ip got blocked."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:60
+msgid ""
+"Make sure you have created an DNS A record for the domain being used and "
+"there are no typos"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:61
+msgid ""
+"Nat, firewalls and router settings.  Some brands of routers can cause "
+"issues.  Google the make and model of router or firewall appliance for "
+"common settings or remedies."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_grandstream.rst:62
+msgid "Visit Grandstream Supoprt http://www.grandstream.com/support"
+msgstr ""
+

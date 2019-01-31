@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/accounts/users.rst:3
+msgid "Users"
+msgstr ""
+
+#: ../../source/accounts/users.rst:9
+msgid "Define the users information to login to the web interface."
+msgstr ""
+
+#: ../../source/accounts/users.rst:11
+msgid "Username"
+msgstr ""
+
+#: ../../source/accounts/users.rst:12
+msgid "User id to be used to login."
+msgstr ""
+
+#: ../../source/accounts/users.rst:13
+msgid "Password"
+msgstr ""
+
+#: ../../source/accounts/users.rst:14
+msgid "Secret password used to login."
+msgstr ""
+
+#: ../../source/accounts/users.rst:15
+msgid "Language"
+msgstr ""
+
+#: ../../source/accounts/users.rst:16
+msgid "Per user language to override the domain or global language."
+msgstr ""
+
+#: ../../source/accounts/users.rst:17
+msgid "Time Zone"
+msgstr ""
+
+#: ../../source/accounts/users.rst:18
+msgid ""
+"Per user time zone only needed if it needs to be different from the "
+"global time zone."
+msgstr ""
+
+#: ../../source/accounts/users.rst:19
+msgid "Status"
+msgstr ""
+
+#: ../../source/accounts/users.rst:20
+msgid "Set the user's presence."
+msgstr ""
+
+#: ../../source/accounts/users.rst:21
+msgid "Contact"
+msgstr ""
+
+#: ../../source/accounts/users.rst:22
+msgid "Assign a contact to this user account. View"
+msgstr ""
+
+#: ../../source/accounts/users.rst:23
+msgid "Groups"
+msgstr ""
+
+#: ../../source/accounts/users.rst:24
+msgid "The group the user is assigned."
+msgstr ""
+
+#: ../../source/accounts/users.rst:25
+msgid "Domain"
+msgstr ""
+
+#: ../../source/accounts/users.rst:26
+msgid "The domain the user is assigned to."
+msgstr ""
+
+#: ../../source/accounts/users.rst:27
+msgid "API Key"
+msgstr ""
+
+#: ../../source/accounts/users.rst:28
+msgid "Generates an API Key"
+msgstr ""
+
+#: ../../source/accounts/users.rst:29
+msgid "Message Key"
+msgstr ""
+
+#: ../../source/accounts/users.rst:30
+msgid "Generates a Key to use with Messages Application."
+msgstr ""
+
+#: ../../source/accounts/users.rst:33
+msgid "Enable"
+msgstr ""
+
+#: ../../source/accounts/users.rst:32
+msgid "Whether the user is enabled."
+msgstr ""
+
+#: ../../source/accounts/users.rst:36
+msgid "`Users Default Settings`_"
+msgstr ""
+
+#: ../../source/accounts/users.rst:38
+msgid "Click the link above for Users default settings."
+msgstr ""
+

@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/home/account_settings.rst:3
+msgid "Account Settings"
+msgstr ""
+
+#: ../../source/home/account_settings.rst:13
+msgid "**User Name:** The user name."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:14
+msgid "**Password:** The password."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:15
+msgid "**Confirm Password:** Must match the password."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:16
+msgid "**Language:** Choose a language for the user."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:17
+msgid "**Time Zone:** Time zone specific to the user."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:18
+msgid "**Status:** Used for call center and operator panel."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:19
+msgid ""
+"**Contact:** The users contact.  Is used in a phone directory or Apps > "
+"Contacts."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:20
+msgid ""
+"**Groups:** Group the user is in and relates to what the user can see and"
+" do in the menus."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:21
+msgid "**Domain:**  Domain specific to the user."
+msgstr ""
+
+#: ../../source/home/account_settings.rst:22
+msgid "**Enabled:** Enable or disable the account."
+msgstr ""
+

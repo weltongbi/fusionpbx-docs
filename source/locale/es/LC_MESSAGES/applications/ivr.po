@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/ivr.rst:3
+msgid "IVR Menu"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:5
+msgid ""
+"Welcome to the adding IVR section.  Here you will find how to add and "
+"edit IVR's."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:13
+msgid "`Click here for the youtube video`_"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:14
+msgid "Click on **Apps** then **IVR Menu**"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:15
+msgid "Click the Plus icon on the right"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:21
+msgid "*Options in* **bold** *are mandatory.*"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:22
+msgid "**Name:** Enter a name for the IVR menu"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:23
+msgid ""
+"**Extension:** Enter the extension number (This must a new extension that"
+" isn't allready created)"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:24
+msgid "**Greet Long:** The long greeting when entering the menu."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:25
+msgid "Greet Short: The short greeting is played when returning to the menu."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:26
+msgid "Options: Define caller options for the IVR menu."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:27
+msgid ""
+"**Timeout:** The number of milliseconds to wait after playing the "
+"greeting or the confirm macro."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:28
+msgid "Exit Action: Select the exit action to be performed if the ivr exists."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:29
+msgid ""
+"**Direct Dial:** Define whether the callers can dial directly to "
+"registered extensions."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:30
+msgid ""
+"Ring Back: Defines what the caller will hear while the destination is "
+"being called."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:31
+msgid "Caller ID Name Prefix: Set a prefix on the caller ID name."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:32
+msgid "Enabled: set the status of the IVR Menu."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:40
+msgid ""
+"You can get very creative with IVR's and are almost limitless in "
+"possibilities. In the basic example below we;"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:42
+msgid "**Name** the IVR \"IVR Main\""
+msgstr ""
+
+#: ../../source/applications/ivr.rst:43
+msgid "**Extension** \"200\""
+msgstr ""
+
+#: ../../source/applications/ivr.rst:44
+msgid ""
+"**Greet Long** a phrase that was made from the **phrase section** under "
+"**apps**"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:45
+msgid ""
+"Number entry in **options**, choose an extension for **Destination** and "
+"**descriptions** *ie* sales, billing, tech support, and after hours. "
+"**timeout** 3000 milliseconds"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:46
+msgid "Exit Action to the extension 109 (after hours)"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:47
+msgid "**Direct Dial** to False and Ring back to Default."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:55
+msgid "You now have a list of IVR's to go back to and edit or delete as needed."
+msgstr ""
+
+#: ../../source/applications/ivr.rst:65
+msgid "`IVR Default Settings`_"
+msgstr ""
+
+#: ../../source/applications/ivr.rst:67
+msgid "Click the link above for IVR default settings."
+msgstr ""
+

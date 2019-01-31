@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/domains.rst:3
+msgid "Domains"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:5
+msgid ""
+"Welcome to the adding a domain section.  Here you will find how to add a "
+"domain so that you can reach the specific tenant from the multi-tenant "
+"domain side menu to configure and allow secure administration from the "
+"world wide web. `Click here for the youtube video`_"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:17
+msgid "Adding a domain"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:19
+msgid "Control the list of domains to manage."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:22
+msgid ""
+"There are several reasons to create a domain (tenant).  One reason would "
+"be to organize customers and so customers have a unique login *ie* "
+"superadmin@domain.tld or superadmin@subdomain.domain.tld as the username."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:24
+msgid "In this example we will create a domain."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:26
+msgid "Goto advanced then click Domains."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:31
+msgid "Then click the"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:36
+msgid "on the right."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:42
+msgid ""
+"This will bring you to enter domain info. (Be sure to create an \"A "
+"record\" from your domain hosting account)"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:47
+msgid "Click **save** once entry is complete."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:56
+msgid "Domain Selection"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:58
+msgid ""
+"Changing to a different domain click the stack of three dashes on the top"
+" right"
+msgstr ""
+
+#: ../../source/advanced/domains.rst:63
+msgid ""
+"A menu will pop open on the right of the screen.  Click on the domain "
+"that you want to manage.  You will always see the domain you are in by "
+"looking at the top right beside the three stacked dashes."
+msgstr ""
+
+#: ../../source/advanced/domains.rst:71
+msgid "`Domains Default Settings`_"
+msgstr ""
+

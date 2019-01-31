@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/accounts/providers.rst:3
+msgid "Providers"
+msgstr ""
+
+#: ../../source/accounts/providers.rst:5
+msgid ""
+"List of VoIP providers that support FusionPBX.  This feature provides a "
+"simple and fast way to add gateways, outbound routes and access control "
+"lists that will enable calls through the carrier to the public switched "
+"telephone network (PSTN)."
+msgstr ""
+
+#: ../../source/accounts/providers.rst:20
+msgid ""
+"If you would like your carrier to be included in this section, please "
+"reach out to support@fusionpbx.com to discuss how."
+msgstr ""
+

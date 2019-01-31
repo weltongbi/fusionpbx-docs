@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/tftp.rst:3
+msgid "TFTP"
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:5
+msgid ""
+"Several models of phone out there that still only use TFTP for "
+"provisioning.  Even though they have reached end of life, some of the "
+"popular ones are the Cisco 7960 and 7940. Also would need to add the TFTP"
+" port to the server firewall but this should be allowed only to specific "
+"IP addresses as TFTP has no security. Recommend to use TFTP only as a "
+"last resort for phones that don't support HTTPS."
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:7
+msgid "**Install TFTPD**"
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:14
+msgid "**Change the configuration**"
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:20
+msgid "**Enable TFTP in FusionPBX Gui**"
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:22
+msgid "Goto Advanced > Default Settings > Provision"
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:24
+msgid ""
+"Set Enabled to **True** and define the path to where the TFTP files will "
+"be."
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:30
+msgid "**Test TFTP**"
+msgstr ""
+
+#: ../../source/additional_information/tftp.rst:37
+msgid "**See the file getting requested for tftp**"
+msgstr ""
+

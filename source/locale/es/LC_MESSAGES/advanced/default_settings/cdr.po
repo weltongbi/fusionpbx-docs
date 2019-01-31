@@ -1,0 +1,220 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/cdr.rst:3
+msgid "CDR"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:5
+msgid ""
+"CDR Stat hour limit, call leg, format, limit, http_enabled, archive "
+"database, and storage type settings can be set here."
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:10
+msgid "stat_hours_limit"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:10
+#: ../../source/advanced/default_settings/cdr.rst:20
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:10
+msgid "24"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:10
+#: ../../source/advanced/default_settings/cdr.rst:12
+#: ../../source/advanced/default_settings/cdr.rst:14
+#: ../../source/advanced/default_settings/cdr.rst:16
+#: ../../source/advanced/default_settings/cdr.rst:24
+#: ../../source/advanced/default_settings/cdr.rst:26
+#: ../../source/advanced/default_settings/cdr.rst:28
+#: ../../source/advanced/default_settings/cdr.rst:30
+#: ../../source/advanced/default_settings/cdr.rst:32
+#: ../../source/advanced/default_settings/cdr.rst:36
+#: ../../source/advanced/default_settings/cdr.rst:38
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:12
+#: ../../source/advanced/default_settings/cdr.rst:14
+#: ../../source/advanced/default_settings/cdr.rst:16
+msgid "b_leg"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:12
+#: ../../source/advanced/default_settings/cdr.rst:14
+#: ../../source/advanced/default_settings/cdr.rst:16
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:12
+msgid "outbound"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:14
+msgid "inbound"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:16
+msgid "local"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:18
+msgid "format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:18
+#: ../../source/advanced/default_settings/cdr.rst:24
+#: ../../source/advanced/default_settings/cdr.rst:26
+#: ../../source/advanced/default_settings/cdr.rst:28
+#: ../../source/advanced/default_settings/cdr.rst:30
+#: ../../source/advanced/default_settings/cdr.rst:32
+#: ../../source/advanced/default_settings/cdr.rst:34
+#: ../../source/advanced/default_settings/cdr.rst:38
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:18
+msgid "json"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:18
+#: ../../source/advanced/default_settings/cdr.rst:20
+#: ../../source/advanced/default_settings/cdr.rst:22
+#: ../../source/advanced/default_settings/cdr.rst:34
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:20
+msgid "limit"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:20
+msgid "800"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:22
+msgid "http_enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:22
+#: ../../source/advanced/default_settings/cdr.rst:36
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:24
+msgid "archive_database_driver"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:24
+msgid "pgsql"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:24
+msgid "Archive Database Driver"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:26
+msgid "archive_database_host"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:26
+msgid "IP/Hostname of Archive Database"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:28
+msgid "archive_database_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:28
+msgid "Archive Database Password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:30
+msgid "archive_database_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:30
+msgid "5432"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:30
+msgid "Archive Database Port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:32
+msgid "archive_database_username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:32
+msgid "Archive Database Username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:34
+msgid "storage"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:34
+msgid "db"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:36
+msgid "archive_database"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:36
+msgid "Enable Dedicated CDR Database Access"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:38
+msgid "archive_database_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:38
+msgid "fusionpbx"
+msgstr ""
+
+#: ../../source/advanced/default_settings/cdr.rst:38
+msgid "Archive Database Name"
+msgstr ""
+

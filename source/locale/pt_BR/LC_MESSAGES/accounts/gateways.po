@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/accounts/gateways.rst:2
+msgid "Gateways"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:4
+msgid ""
+"Gateways define the location and settings for other VoIP servers or "
+"Providers. After defining the Gateways use the Outbound routes to direct "
+"calls through the gateways. Required items are in bold. Its a good idea "
+"to start with the required items test it and then make adjustments as "
+"needed."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:10
+msgid ""
+"Gateways provide access into other voice networks. These can be voice "
+"providers or other systems that require SIP registration.  `Check out the"
+" Youtube video <https://youtu.be/YKOTACDYQ3A>`_ ."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:18
+msgid ""
+"**In this example we will be using** `VoiceTel "
+"<http://tiny.cc/voicetel>`_ .  **Each Gateway provider has their own "
+"setings to use.**"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:23
+msgid "`Click to visit <http://tiny.cc/voicetel>`_"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:25
+msgid "Select **Accounts** from the drop-down list and click on **Gateways**."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:35
+msgid "Click the"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:40
+msgid ""
+"button on the right. Enter the gateway information below and Click on "
+"**Save** once complete."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:61
+msgid "Basic Settings"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:63
+msgid ""
+"**Gateway:**  The name of the Gateway. The company name or domain name of"
+" th VoIP provider is commonly used for the name."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:64
+msgid ""
+"**Username:** This is the username for SIP registration provided by the "
+"carrier."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:65
+msgid ""
+"**Password:** This is the password for SIP registrations it is provided "
+"by the carrier."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:66
+msgid "**From User:** Optional: Set a specific SIP From User"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:67
+msgid "**From Domain:** Optional: Sets a specific SIP From Domain."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:68
+msgid ""
+"**Proxy:** Required: Proxy server address used by the carrier. This will "
+"vary by carrier."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:69
+msgid "**Realm:** Optional: Required by some carriers"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:70
+msgid ""
+"**Expire Seconds:** Optional: The time until the registration with "
+"carrier expires."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:71
+msgid ""
+"**Register:** Required: Set to **true** if the carrier uses a username "
+"and password.  Set to **false** if the carrier uses IP authentication.  "
+"If false, you will need to specify all of the carrier IP's in the "
+"**Advanced > Access Controls.**"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:72
+msgid ""
+"**Context:** Required: Default is set to public and usually the correct "
+"value."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:73
+msgid ""
+"**Profile:** Required: The SIP profile used by default external is used."
+"  If you disable the external profile make sure to change the SIP profile"
+" to one that is enabled."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:74
+msgid ""
+"**Hostname:** This should usually be left empty. When the hostname is set"
+" the gateway will only start on the matching server with same hostname. "
+"If the hostname is left blank the gateway will start regardless of the "
+"server's hostname."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:75
+msgid "**Enabled:** Required: If the gateway is enabled or disabled."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:76
+msgid ""
+"**Description:** It is helpful to provide a good description for the "
+"gateway."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:80
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:82
+msgid ""
+"Most settings in the Advanced Gateway Settings can remain the same.  Some"
+" carriers will require slight changes in this section to help with "
+"outbound caller ID."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:84
+msgid "**Distinct To:**"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:85
+msgid "**Auth Username:**"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:86
+msgid ""
+"**Extension:** Usually used for testing and not for production. Hard "
+"codes a set number and all calls would be hard coded to that number for "
+"inbound calls from that gateway."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:87
+msgid "**Register Transport:** Tells the switch to use SIP with TCP, UDP or TLS."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:88
+msgid ""
+"**Register Proxy:** Enter the hostname or IP address of the register "
+"proxy. host[:port]."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:89
+msgid ""
+"**Outbound Proxy:** Enter the hostname or IP address of the outbound "
+"proxy. host[:port]."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:90
+msgid ""
+"**Caller ID In From:** If you caller ID isn't working setting this to "
+"true will often fix the problem."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:91
+msgid "**Supress CNG:** Set this value to true to disable comfort noise."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:92
+msgid "**Sip CID Type:** The SIP caller id type: none, pid, and rpid."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:93
+msgid ""
+"**Codec Preferences:** Enter the codec preferences as a list. Ex: "
+"PCMA,PCMU,G722,OPUS"
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:94
+msgid "**Extension In Contact:** Option to set the Extension In Contact."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:95
+msgid ""
+"**Ping:** If your server is behind NAT then the ping option can be used "
+"to keep the connection alive through the firewall. The ping interval is "
+"in seconds."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:96
+msgid ""
+"**Domain:** If the gateway will be used on a specific domain or global to"
+" all tenants."
+msgstr ""
+
+#: ../../source/accounts/gateways.rst:100
+msgid ""
+"To see which Gateway a call is using. Advanced > Command and in the "
+"switch command section type   show channels as xml   and then press the "
+"execute button. In the output that is returned, look for the string "
+"sofia/gateway/ and the gateway name. This is the gateway your call is "
+"using."
+msgstr ""
+

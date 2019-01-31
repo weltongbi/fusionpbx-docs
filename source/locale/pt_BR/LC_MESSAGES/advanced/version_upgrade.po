@@ -1,0 +1,804 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/version_upgrade.rst:3
+msgid "Version Upgrade"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:5
+msgid ""
+"Version Upgrade can take several steps to perform. Below will show how to"
+" upgrade from specific versions."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:10
+msgid "Version 4.2 to 4.4"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:12
+msgid "Switch branches"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:21
+msgid ""
+"Depending on when you installed the path /etc/fusionpbx might need "
+"created.  A good way to tell is once you move the fusionpbx folder in "
+"step one and the FusionPBX is on a page with flags."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:32
+msgid ""
+"Then go to Advanced -> Upgrade and update the Source Code, Schema, Menu "
+"Defaults and Permission Defaults."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:36
+msgid ""
+"config.lua needs to be read and write by the webserver in order for "
+"advanced > default settings to update config.lua with new path "
+"information. Make sure config.lua and config.php are in /etc/fuionpbx/ . "
+"Don't miss this step chown -R www-data:www-data /etc/fusionpbx/"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:38
+msgid "Update the following Dialplans."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:47
+msgid ""
+"Update these Dialplans by first selecting and deleting their entries from"
+" within the Dialplan Manager for all domains. Then, run Advanced -> "
+"Upgrade -> App Defaults to retrieve the new versions of the diaplans."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:49
+msgid "In the menu go to Status then SIP Status and press 'Flush Cache'."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:51
+msgid "Update old recordings set the record_name and record_path."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:59
+msgid ""
+"Resave all Call Center Queues to update each call center queue dialplan. "
+"Then restart mod call center or FreeSWITCH."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:61
+msgid "Advanced > Default Settings"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:63
+msgid "The email section in Advanced > Default settings, changes have been made."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:65
+msgid ""
+"You will find duplicates with a blank value.  The duplicates must be "
+"updated with the existing info from the originals. These duplicates are "
+"the new and correct settings.  You'll have to update these blank ones "
+"with the existing values (like smtp server info) to the new default ones."
+"  Then delete the original ones."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:67
+msgid ""
+"Don't delete the blank entries.  The code behind them are for version "
+"4.4+ and the original ones are not."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:71
+msgid ""
+"If you already deleted the blank ones, you'll have to delete the email "
+"section then run Advanced > Upgrade > App Defaults check box.  Then go "
+"back to Advanced > Default settings and set the email section back up."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:75
+msgid "Version 4.0 to 4.2"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:77
+msgid ""
+"1. Update the source code. From the web interface go to the Menu -> "
+"Advanced > Upgrade page. Check the source box and the press execute. If "
+"you see a red bar it indicates there was a git conflict and you will need"
+" to update from console instead. If you don't see the source box then you"
+" will need to update from the console."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:87
+msgid ""
+"If the page goes blank type in the url http://domain.com/logout.php  This"
+" should bring you back to the login screen."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:90
+msgid ""
+"3. Udate the Schema. Advanced -> Upgrade Check the Schema box and then "
+"then press execute. https://domain.com/core/upgrade/index.php"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:94
+msgid "Check the box for App Defaults and run execute."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:97
+msgid ""
+"Check the box for Menu Defaults and run execute. This will update the "
+"menu to the default menu. The menu should now look like this."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:104
+msgid ""
+"Check the box for Permission Defaults and run execute. Permissions are "
+"store in a session to get new permissions logout and back in."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:107
+msgid ""
+"Goto Dialplan > Dialplan Manager and delete \"local_extension\".  Then "
+"goto Advanced > Upgrade and only check box App Defaults and click "
+"execute. This will regenerate the new local_extension version."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:110
+msgid ""
+"Go to Applications > Conference profiles. Edit each profile and replace "
+"$${hold_music} with local_stream://default"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:113
+msgid ""
+"Goto Advanced > Variables hold_music. Make sure it's value is set as "
+"local_stream://default"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:127
+msgid "Remove .xml from the end of the following file names"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:145
+msgid ""
+"Edit autoload_configs/lua.conf.xml adding \"languages\". Restart of "
+"FreeSWITCH is required."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:152
+msgid "Update Time Conditions (Bug Fix)"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:161
+msgid "Next steps are for existing Time Conditions"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:171
+msgid ""
+"Many of the provisioning templates were updated.  If you use custom "
+"provisioning templates you should consider updating them with the new "
+"versions."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:175
+msgid "Version 3.8 to 4.0"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:178
+msgid ""
+"Remove the comments from the script-directory in "
+"**/usr/local/freeswitch/conf/autoload_configs/lua.conf.xml**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:180
+msgid ""
+"If using the FreesWITCH package then remove $${base_dir} and set the full"
+" path to the scripts directory."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:189
+msgid "Rebooting FreeSWITCH is required for this to take effect."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:193
+msgid "Version 3.6 to 3.8"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:196
+msgid ""
+"**Note: Upgrading can get very complex. If the production system is "
+"critical or you are intimidated from these upgrade instructions you may "
+"want FusionPBX paid support at http://www.fusionpbx.com/support.php**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:198
+msgid "A standard 'upgrade' procedure should always be followed:"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:199
+msgid ""
+"(1. Make a Backup!, 2. Advanced > Upgrade steps, 3. Update switch "
+"scripts, 4. Restart FreeSWITCH)."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:201
+msgid ""
+"Beyond the standard upgrade procedure just described, the following will "
+"also need to be performed:"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:209
+msgid "* Rebuild all time conditions."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:210
+msgid ""
+"* After you edit a particular time condition, click the Dialplan button "
+"on the top right to see what was there originally."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:211
+msgid ""
+"* Delete the following dialplans from each domain then run Advanced -> "
+"Upgrade -> App Defaults. If using XML handler for the dialplan flush "
+"memcache. If using dialplans XML on the file system resave one of the "
+"dialplans to have FusionPBX rewrite the XML files."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:212
+msgid "* user_exists - call_timeout variable was added"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:213
+msgid "* extension-intercom - It has been renamed to 'page-extension'"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:214
+msgid ""
+"* eavesdrop - Change '*'88[ext] to '*'33[ext] so that it doesn't conflict"
+" with page-extension at '*'8[ext]"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:215
+msgid "* user_status - Has been renamed to 'agent_status'"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:216
+msgid "* page - Dialplan has been simplified."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:217
+msgid "* valet_park_out - Changed regex variable from $1 to $2"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:218
+msgid ""
+"* local_extension - failure handler was added to support call forward on "
+"busy and no answer"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:219
+msgid ""
+"* If using call center feature code '*'22 edit each agent and add an "
+"agent id and password (pin number)"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:220
+msgid ""
+"* Delete any dialplan with the 'features' context. These have been moved "
+"into the dialplan domain contexts."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:221
+msgid ""
+"* If using App -> XMPP, Content Manager, or Schema they have been moved "
+"dev -> branches -> apps directory need to pull files from there if you "
+"want to use any of them."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:222
+msgid ""
+"* For single tenant systems 'default' context is no longer used by "
+"default."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:223
+msgid ""
+"* Easiest way to update your system is go to Advanced -> Domains and edit"
+" your domain."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:224
+msgid ""
+"* Copy your current domain name then change the name to default then save"
+" the change."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:225
+msgid ""
+"* Now edit the domain name again and paste your original domain name or "
+"IP address whatever the domain originally was and save the changes"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:226
+msgid ""
+"* Go to accounts extensions and save one extension. (not needed if using "
+"the XML handler)"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:227
+msgid ""
+"* Go to Dialplan Manager and save one of the dialplans. (not needed if "
+"using the XML handler)"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:228
+msgid ""
+"* FAX ( may require adjusting the paths and web server user account to "
+"match your server 'www-data' is used in this example)"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:229
+msgid "* Delete all previous FAX dialplans"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:230
+msgid "* Resave each fax server in the GUI."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:231
+msgid "* cd /var/www/fusionpbx/app/fax"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:232
+msgid ""
+"* wget https://github.com/fusionpbx/fusionpbx-"
+"scripts/tree/master/upgrade/fax_import.php"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:233
+msgid "* chown -R www-data:www-data fax_import.php"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:234
+msgid ""
+"* Login into the GUI and use this path in your browser http://<domain-or-"
+"ip>/app/fax/fax_import.php"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:235
+msgid "* rm /var/www/fusionpbx/app/fax/fax_import.php"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:236
+msgid "* Groups and Permissions"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:237
+msgid ""
+"If you go to Advanced Group Manager -> And you see what looks like "
+"duplicates of user, admin and superadmin groups then you need do the "
+"following instructions."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:241
+msgid ""
+"Remove permissions associated with all domain groups with names that "
+"match default global groups..."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:243
+msgid "Use the **Advanced -> SQL Query tool** to do the following."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:280
+msgid ""
+"For group users with a null group_uuid, insert the group_uuid of the "
+"global group that matches the group_name value..."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:281
+msgid "Run this code from **Advanced -> Command -> PHP Command.**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:318
+msgid "**Apps menu disappeared**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:320
+msgid ""
+"If your apps menu disappeared check that it wasn't set to protected in "
+"the menu manager."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:321
+msgid "**(advanced -> menu manager)**. If protected is true, it won't show up."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:325
+msgid "Version 3.5 to 3.6"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:328
+msgid "When running **Upgrade -> Schema**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:329
+msgid ""
+"If you see **ALTER TABLE v_xml_cdr ADD json json;** every time you run "
+"the upgrade schema then you likely have an old version of Postgres. To "
+"fix this either upgrade to the latest Postgres server or run the "
+"following **SQL statement from advanced -> sql query.**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:336
+msgid "See https://github.com/fusionpbx/fusionpbx/issues/655 for more details."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:339
+msgid ""
+"**Potential issue with call recording after upgrading/switch to latest "
+"3.6 stable.**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:341
+msgid ""
+"After upgrading to 3.6 stable from 3.5 dev I noticed that calls were no "
+"longer being recorded. This was due to the file extension being missing "
+"from the recording path. If this is happening to you it is an easy fix."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:343
+msgid ""
+"Go to Advanced -> variables -> category default and add the variable "
+"record_ext and set it to either wav or mp3. Choosing mp3 depends upon "
+"whether or not you have mod_shout installed and enabled."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:346
+msgid "Version 3.4 to 3.5"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:349
+msgid ""
+"Gateways now use the gateway_uuid as the name that is used when "
+"interacting with FreeSWITCH. This script is needed to help change the "
+"gateway names used in the outbound routes. You may need to remove the old"
+" gateway file names from the conf/sip_profiles/external directory."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:358
+msgid ""
+"* Go To **Advanced -> Default Settings -> Switch Category -> Sub category"
+" gateways change to sip_profiles**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:360
+msgid "**Permissions Issues** - (access denied errors)"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:361
+msgid ""
+"Due to changes which improve consistency throughout the product, some "
+"Users have had problem with superadmin receiving \"access denied\" errors"
+" after the upgrade."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:365
+msgid "* Go To **Advanced -> Group Manager**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:366
+msgid "* On **superadmin** click **Permissions** and then **Restore Default**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:370
+msgid "You may need to execute this operation for each group."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:372
+msgid "**Default Settings**'"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:373
+msgid "In the **switch category change gateways to sip_profiles**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:378
+msgid "Version 3.3 to 3.4"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:382
+msgid ""
+"Update the source as described on this page, menu manager **restore "
+"default**, group manager edit a group **restore default**, advanced -> "
+"upgrade schema."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:386
+msgid ""
+"FusionPBX 3.4 hunt groups have been deprecated. Use the following script "
+"run it only one time to move existing hunt groups to ring groups."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:397
+msgid ""
+"Ring groups were expanded to add ability to call external numbers and "
+"match other missing hunt group features. A new table was created to "
+"accomodate this."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:409
+msgid "Version 3.2 to 3.3"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:412
+msgid ""
+"FreeSWITCH changed the syntax to connect to the database so numerous LUA "
+"scripts had to be updated. If you customized any of the lua scripts make "
+"a backup of the FreeSWITCH scripts directory. Then remove the contents of"
+" the **freeswitch/scripts directory** and then run **advanced -> upgrade "
+"schema** (which will detect the missing scripts and replace them)."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:416
+msgid "Version 3.1.4 to 3.2"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:419
+msgid "Ubuntu/Debian"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:427
+msgid "**Menu**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:429
+msgid ""
+"If you cant see the menu after upgrading try the following in your "
+"browser replace x.x.x.x with your ip or domain name."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:437
+msgid "**Default settings**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:446
+msgid "**Email**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:448
+msgid "Migrating email to the new FusionPBX native voicemail."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:455
+msgid ""
+"Run from the browser it will take the voicemail data from the FreeSWITCH "
+"database and copy the information into the FusionPBX database."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:461
+msgid "Remove the export file"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:468
+msgid "**Call Forward / Follow Me**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:470
+msgid ""
+"No longer using hunt groups. So the backend has changed so keep in mind "
+"that you need to reset call forward and follow me settings. They are "
+"still listed in **app -> hunt groups**. After updating the info in call "
+"forward, follow me you should delete the hunt group."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:474
+msgid "Version 2 to 3.0"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:477
+msgid ""
+"LESS than or EQUAL to revision 1877, use the migration tool. "
+"https://github.com/fusionpbx/fusionpbx-scripts/tree/master/upgrade"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:478
+msgid "If greater than revision 1877, use latest."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:484
+msgid "**Changes to your dial plan or extensions don't take effect**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:485
+msgid "* Go to the **Advanced -> Default Settings** page"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:486
+msgid ""
+"* Remove **\"/default\"** from the end of your dialplan and extensions "
+"directories"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:490
+msgid "**Missing menus**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:491
+msgid "* Go to hxxps://yourdomain.com/core/menu/menu.php"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:492
+msgid "* Click the edit (e) button beside default"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:493
+msgid "* Click the Restore Default button"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:494
+msgid ""
+"* Check that all the entries in the list are accessible by the "
+"appropriate groups"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:496
+msgid "**Emails not being sent for voicemail or fax**"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:497
+msgid "* Double check the SMTP settings on the System -> Settings page"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:498
+msgid "* Save it, even if you haven't changed anything"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:500
+msgid "Release Revisions"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:502
+msgid "r0001 is 1.0 release - 6 Nov 2009"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:503
+msgid "r2523 is 3.0 release - 3 May 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:504
+msgid "r2585 is 3.0.4 release - 24 May 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:505
+msgid "r2757 is 3.1 release - 18 Aug 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:506
+msgid "r2777 is 3.1.1 release - 26 Aug 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:507
+msgid "r2827 is 3.1.2 release - 12 Sep 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:508
+msgid "r2897 is 3.1.3 release - 26 Sep 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:509
+msgid "r2907 is 3.1.4 release - 27 Sep 2012"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:510
+msgid "r3694 is 3.2 release - 19 Jan 2013"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:511
+msgid "r3978 is 3.3 release - 1 May 2013"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:512
+msgid "r4605 is 3.4 release - 28 Sep 2013"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:513
+msgid "r6747 is 3.6.1 release - 22 Aug 2014"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:514
+msgid "r8481 is 3.8.3 release - 11 May 2014"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:515
+msgid "r793d386 is 4.0 release - Aug 2015"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:516
+msgid "r4fdb6e9 is 4.1 release - Dec 2015"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:517
+msgid "rxxxxxxx is 4.2 release - xxx 2016"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:522
+msgid "SQLite"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:524
+msgid ""
+"SQLite is the FreeSWITCH default. Databases are located in the "
+"freeswitch/db directory."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:527
+msgid "ODBC"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:529
+msgid "http://wiki.freeswitch.org/wiki/ODBC"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:532
+msgid "Postgres"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:534
+msgid ""
+"Postgres native support will be in FreeSWITCH 1.2.4 but has been "
+"available in the Main GIT branch."
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:537
+msgid "Dependencies"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:539
+msgid "libpq and the associated dev packages are required"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:542
+msgid "Configure"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:544
+msgid ""
+"To enable PostgresSQL as a native client in FreeSWITCH you must enable it"
+" during the build when running configure. ** ./configure --enable-core-"
+"pgsql-support **"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:548
+msgid "switch.conf.xml"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:550
+msgid "Under the Settings area insert the following line"
+msgstr ""
+
+#: ../../source/advanced/version_upgrade.rst:552
+msgid ""
+"<param name=\"core-db-dsn\" value=\"pgsql;hostaddr=127.0.0.1 "
+"dbname=freeswitch user=freeswitch password='' options='-c "
+"client_min_messages=NOTICE' application_name='freeswitch'\" />"
+msgstr ""
+

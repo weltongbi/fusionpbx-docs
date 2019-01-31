@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/contributing/signing_the_cla.rst:3
+msgid "Signing the CLA"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:5
+msgid "https://github.com/fusionpbx/open-source"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:8
+msgid "Open Source at FusionPBX"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:10
+msgid ""
+"This repository serves as the umbrella project to represent the various "
+"open source efforts of Mark J. Crane(https://fusionpbx.com). Come here to"
+" get an overview of the various projects, to learn how to contribute to "
+"them, and to sign up as a contributor."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:16
+msgid "Table Of Contents"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:18
+msgid ""
+"[Sign the CLA](https://github.com/Fusionpbx/opensource/blob/master/sign-"
+"cla.md) - Step 1 [Required]"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:19
+msgid ""
+"[CLA Rationale](https://github.com/Fusionpbx/opensource/blob/master/cla-"
+"rationale.md) - [Optional if Curious]"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:20
+msgid ""
+"[Contributors](https://github.com/Fusionpbx/opensource/blob/master/contributors)"
+" - [List of Contributors]"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:21
+msgid ""
+"[Contributor License Agreement "
+"2.0](https://github.com/Fusionpbx/opensource/blob/master/cla-2.0.md) - "
+"[The Actual CLA]"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:26
+msgid "Note to External Contributors"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:28
+msgid "Hello, External Person!"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:30
+msgid "We at FusionPBX are eager to work with you."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:32
+msgid ""
+"In particular, in order for us to accept any patches from you, you will "
+"have to electronically sign a statement that indicates two things:"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:35
+msgid ""
+"You are willingly licensing your contributions under the terms of the "
+"open source license of the project that you’re contributing to."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:38
+msgid "You are legally able to license your contributions as stated."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:40
+msgid ""
+"The reason we do this is to ensure, to the extent possible, that we don’t"
+" “taint” the projects we manage with contributions that turn out to be "
+"improper. This protects everyone who wants to use the projects, including"
+" *you*! If you want a longer explanation, then you can check out the [CLA"
+" Rationale page](https://github.com/Fusionpbx/opensource/blob/master/cla-"
+"rationale.md)."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:45
+msgid ""
+"Once you sign the Contributor License Agreement (the “CLA”), we will then"
+" be able to merge your contributions with a clear conscience and with "
+"only the friction that results from the usual technical back-and-forth of"
+" a vibrant open source project."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:49
+msgid ""
+"To get started with this process, visit the [Sign the "
+"CLA](https://github.com/Fusionpbx/opensource/blob/master/sign-cla.md) "
+"page."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:54
+msgid "Thanks, FusionPBX!"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:57
+msgid "List of Projects"
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:59
+msgid ""
+"[FusionPBX](https://github.com/Fusionpbx/fusionpbx) The Official "
+"FusionPBX Repo."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:60
+msgid ""
+"[FusionPBX Apps](https://github.com/Fusionpbx/fusionpbx-apps) "
+"Applications for FusionPBX."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:61
+msgid ""
+"[FusionPBX Scripts](https://github.com/Fusionpbx/fusionpbx-install.sh) "
+"Install and Upgrade Scripts for FusionPBX."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:62
+msgid ""
+"[FusionPBX Documents](https://github.com/Fusionpbx/fusionpbx-docs) This "
+"site."
+msgstr ""
+
+#: ../../source/contributing/signing_the_cla.rst:63
+msgid ""
+"[Open Source Umbrella Project](https://github.com/Fusionpbx/opensource) "
+"Signed contributor licenses agreements."
+msgstr ""
+

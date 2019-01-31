@@ -1,0 +1,355 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/fax.rst:3
+msgid "Fax"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:5
+msgid "Specific default settings for fax server."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:10
+msgid "cover_logo"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:10
+#: ../../source/advanced/default_settings/fax.rst:18
+#: ../../source/advanced/default_settings/fax.rst:20
+#: ../../source/advanced/default_settings/fax.rst:22
+#: ../../source/advanced/default_settings/fax.rst:32
+#: ../../source/advanced/default_settings/fax.rst:46
+#: ../../source/advanced/default_settings/fax.rst:48
+#: ../../source/advanced/default_settings/fax.rst:50
+#: ../../source/advanced/default_settings/fax.rst:52
+#: ../../source/advanced/default_settings/fax.rst:54
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:10
+#: ../../source/advanced/default_settings/fax.rst:12
+#: ../../source/advanced/default_settings/fax.rst:14
+#: ../../source/advanced/default_settings/fax.rst:16
+#: ../../source/advanced/default_settings/fax.rst:20
+#: ../../source/advanced/default_settings/fax.rst:22
+#: ../../source/advanced/default_settings/fax.rst:24
+#: ../../source/advanced/default_settings/fax.rst:26
+#: ../../source/advanced/default_settings/fax.rst:28
+#: ../../source/advanced/default_settings/fax.rst:30
+#: ../../source/advanced/default_settings/fax.rst:34
+#: ../../source/advanced/default_settings/fax.rst:36
+#: ../../source/advanced/default_settings/fax.rst:38
+#: ../../source/advanced/default_settings/fax.rst:40
+#: ../../source/advanced/default_settings/fax.rst:42
+#: ../../source/advanced/default_settings/fax.rst:44
+#: ../../source/advanced/default_settings/fax.rst:48
+#: ../../source/advanced/default_settings/fax.rst:50
+#: ../../source/advanced/default_settings/fax.rst:54
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:10
+msgid "Path to image/logo file displayed in the header of the cover sheet."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:12
+#: ../../source/advanced/default_settings/fax.rst:14
+#: ../../source/advanced/default_settings/fax.rst:16
+msgid "allowed_extension"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:12
+#: ../../source/advanced/default_settings/fax.rst:14
+#: ../../source/advanced/default_settings/fax.rst:16
+#: ../../source/advanced/default_settings/fax.rst:24
+#: ../../source/advanced/default_settings/fax.rst:26
+#: ../../source/advanced/default_settings/fax.rst:28
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:12
+msgid ".pdf"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:12
+msgid "Allowed extension to send .pdf"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:14
+msgid ".tif"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:14
+msgid "Allowed extension to send .tif"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:16
+msgid ".tiff"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:16
+msgid "Allowed extension to send .tiff"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:18
+msgid "cover_header"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:18
+#: ../../source/advanced/default_settings/fax.rst:32
+#: ../../source/advanced/default_settings/fax.rst:46
+#: ../../source/advanced/default_settings/fax.rst:52
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:18
+msgid ""
+"Default information displayed beneath the logo in the header of the cover"
+" sheet."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:20
+msgid "page_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:20
+msgid "letter"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:20
+msgid "Set the default page size of new faxes."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:22
+msgid "resolution"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:22
+msgid "fine"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:22
+msgid "Set the default transmission quality of new faxes."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:24
+#: ../../source/advanced/default_settings/fax.rst:26
+#: ../../source/advanced/default_settings/fax.rst:28
+msgid "variable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:24
+msgid "fax_enable_t38=true"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:24
+msgid "Enable T.38."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:26
+msgid "fax_enable_t38_request=false"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:26
+msgid "Send a T38 reinvite when a fax tone is detected."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:28
+msgid "ignore_early_media=true"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:28
+msgid "Ignore ringing to improve fax success rate."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:30
+msgid "keep_local"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:30
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:30
+msgid "Keep the file after sending or receiving the fax."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:32
+msgid "send_mode"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:32
+msgid "queue"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:32
+msgid "Send mode. queue is default."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:34
+msgid "send_retry_limit"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:34
+#: ../../source/advanced/default_settings/fax.rst:36
+#: ../../source/advanced/default_settings/fax.rst:38
+#: ../../source/advanced/default_settings/fax.rst:40
+#: ../../source/advanced/default_settings/fax.rst:42
+#: ../../source/advanced/default_settings/fax.rst:44
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:34
+msgid "5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:34
+msgid "Number of attempts to send fax (count only calls with answer)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:36
+msgid "send_retry_interval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:36
+msgid "15"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:36
+msgid "Delay before we make next call after answered call."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:38
+msgid "send_no_answer_retry_limit"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:38
+#: ../../source/advanced/default_settings/fax.rst:42
+msgid "3"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:38
+msgid "Number of unanswered attempts in sequence."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:40
+msgid "send_no_answer_retry_interval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:40
+msgid "30"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:40
+msgid "Delay before we make next call after no answered call."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:42
+msgid "send_no_answer_limit"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:42
+msgid "Giveup reach the destination after this number of sequences."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:44
+msgid "send_no_answer_interval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:44
+msgid "300"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:44
+msgid "Delay before next call sequence."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:46
+msgid "storage_type"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:46
+msgid "base64"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:46
+msgid "Store FAX in base64."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:48
+msgid "smtp_from"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:48
+msgid "SMTP from address."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:50
+msgid "smtp_from_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:50
+msgid ""
+"SMTP from name. Depends on the server, can be full email or everything "
+"before the @ sign."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:52
+msgid "cover_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:52
+msgid "times"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:52
+msgid ""
+"Font used to generate cover page. Can be full path to .ttf file or font "
+"name alredy installed."
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:54
+msgid "cover_footer"
+msgstr ""
+
+#: ../../source/advanced/default_settings/fax.rst:54
+msgid "Notice displayed in the footer of the cover sheet."
+msgstr ""
+

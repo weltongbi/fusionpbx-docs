@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/group_manager.rst:3
+msgid "Group Manager"
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:5
+msgid ""
+"Permit access levels to different group of users.  The group permissions "
+"allow customizing permissions for existing groups or custom groups."
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:11
+msgid "**superadmin-** the global administrator"
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:12
+msgid "**admin-** the domain administrator"
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:13
+msgid "**users-** the group for regular users"
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:20
+msgid "User Manager"
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:22
+msgid "Create, edit, remove users."
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:24
+msgid ""
+"Goto Advanced > Group Manager and click **USERS** at the top right to "
+"create, edit or remove a user."
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:30
+msgid ""
+"Click the **plus** at the right to add a user or **pencil** to edit an "
+"existing user."
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:37
+msgid "Fill in the boxes with pertinent information."
+msgstr ""
+
+#: ../../source/advanced/group_manager.rst:39
+msgid ""
+"**Group-** assign the user to a group.  Be wise as to who has access to "
+"what."
+msgstr ""
+

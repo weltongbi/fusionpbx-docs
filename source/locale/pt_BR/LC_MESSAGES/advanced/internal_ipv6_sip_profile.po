@@ -1,0 +1,668 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:3
+msgid "Internal ipv6 Sip Profile"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:11
+msgid "**Hostname-** Should be left blank and is for advanced use."
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:18
+msgid "Name"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:18
+msgid "Value"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:18
+msgid "Enabled"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:18
+msgid "Description"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:20
+msgid "accept-blind-auth"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:20
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:22
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:46
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:48
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:52
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:54
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:56
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:62
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:64
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:66
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:70
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:84
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:90
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:92
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:96
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:102
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:116
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:122
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:124
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:132
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:140
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:154
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:168
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:178
+msgid "true"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:20
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:22
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:24
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:28
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:34
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:36
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:44
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:46
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:48
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:50
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:52
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:54
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:56
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:62
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:64
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:66
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:68
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:70
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:76
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:78
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:84
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:90
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:92
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:98
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:100
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:102
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:106
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:110
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:114
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:116
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:124
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:130
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:132
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:140
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:146
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:154
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:174
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:178
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:182
+msgid "False"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:22
+msgid "accept-blind-reg"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:24
+msgid "alias"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:24
+msgid "sip:10.0.1.251:5555"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:26
+msgid "apply-inbound-acl"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:26
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:28
+msgid "domains"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:26
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:30
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:32
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:38
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:40
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:42
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:58
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:60
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:72
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:74
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:80
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:82
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:86
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:88
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:94
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:96
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:104
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:108
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:112
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:120
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:122
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:126
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:134
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:136
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:138
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:142
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:144
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:148
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:150
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:152
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:156
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:158
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:160
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:162
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:164
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:166
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:168
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:170
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:172
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:176
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:180
+msgid "True"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:28
+msgid "apply-register-acl"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:30
+msgid "auth-all-packets"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:30
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:44
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:50
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:68
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:114
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:162
+msgid "false"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:32
+msgid "auth-calls"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:32
+msgid "$${internal_auth_calls}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:34
+msgid "bind-params"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:34
+msgid "transport=udp"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:36
+msgid "bitpacking"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:36
+msgid "aal2"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:38
+msgid "context"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:38
+msgid "public"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:40
+msgid "debug"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:40
+msgid "0"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:42
+msgid "dialplan"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:42
+msgid "XML"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:44
+msgid "disable-naptr"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:46
+msgid "disable-register"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:48
+msgid "disable-rtp-auto-adjust"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:50
+msgid "disable-srv"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:52
+msgid "disable-srv503"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:54
+msgid "disable-transcoding"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:56
+msgid "disable-transfer"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:58
+msgid "dtmf-duration"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:58
+msgid "2000"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:60
+msgid "dtmf-type"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:60
+msgid "rfc2833"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:62
+msgid "enable-100rel"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:64
+msgid "enable-3pcc"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:66
+msgid "enable-compact-headers"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:68
+msgid "enable-timer"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:70
+msgid "extended-info-parsing"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:72
+msgid "ext-rtp-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:72
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:74
+msgid "$${external_rtp_ip}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:74
+msgid "ext-sip-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:76
+msgid "force-register-db-domain"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:76
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:78
+msgid "$${domain}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:78
+msgid "force-register-domain"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:80
+msgid "forward-unsolicited-mwi-notify  false"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:82
+msgid "hold-music"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:82
+msgid "$${hold_music}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:84
+msgid "inbound-bypass-media"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:86
+msgid "inbound-codec-negotiation"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:86
+msgid "generous"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:88
+msgid "inbound-codec-prefs"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:88
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:112
+msgid "$${global_codec_prefs}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:90
+msgid "inbound-late-negotiation"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:92
+msgid "inbound-proxy-media"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:94
+msgid "inbound-reg-force-matching-username    true"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:96
+msgid "manage-presence"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:98
+msgid "max-proceeding"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:98
+msgid "1000"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:100
+msgid "multiple-registrations"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:100
+msgid "contact"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:100
+msgid "Enables registrations on multiple endpoints"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:102
+msgid "NDLB-broken-auth-hash"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:104
+msgid "NDLB-force-rport"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:104
+msgid "safe"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:104
+msgid "Enables rport"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:106
+msgid "NDLB-received-in-nat-reg-contact      true"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:108
+msgid "nonce-ttl"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:108
+msgid "60"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:110
+msgid "odbc-dsn"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:110
+msgid "$${dsn}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:112
+msgid "outbound-codec-prefs"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:114
+msgid "pass-callee-id"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:116
+msgid "pass-rfc2833"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:118
+msgid "presence-hosts"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:118
+msgid "$${domain},$${local_ip_v6}   False"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:120
+msgid "presence-privacy"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:120
+msgid "$${presence_privacy}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:122
+msgid "presence-probe-on-register"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:124
+msgid "presence-proto-lookup"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:126
+msgid "record-path"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:126
+msgid "$${recordings_dir}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:128
+#, python-format
+msgid ""
+"record-template "
+"${domain_name}/archive/${strftime(%Y)}/${strftime(%b)}/${strftime(%d)}/${uuid}.${record_ext}"
+"     True"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:130
+msgid "registration-thread-frequency        30"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:132
+msgid "renegotiate-codec-on-hold"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:134
+msgid "rfc2833-pt"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:134
+msgid "101"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:136
+msgid "rtp-hold-timeout-sec"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:136
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:146
+msgid "1800"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:138
+msgid "rtp-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:138
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:148
+msgid "$${local_ip_v6}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:140
+msgid "rtp-rewrite-timestamps"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:142
+msgid "rtp-timeout-sec"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:142
+msgid "300"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:144
+msgid "rtp-timer-name"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:144
+msgid "soft"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:146
+msgid "session-timeout"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:148
+msgid "sip-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:150
+msgid "sip-port"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:150
+msgid "$${internal_sip_port}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:152
+msgid "sip-trace"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:152
+msgid "no"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:154
+msgid "suppress-cng"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:156
+msgid "tls"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:156
+msgid "$${internal_ssl_enable}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:158
+msgid "tls-bind-params"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:158
+msgid "transport=tls"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:160
+msgid "tls-cert-dir"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:160
+msgid "$${internal_ssl_dir}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:162
+msgid "tls-only"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:164
+msgid "tls-passphrase"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:166
+msgid "tls-sip-port"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:166
+msgid "$${internal_tls_port}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:168
+msgid "tls-verify-date"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:170
+msgid "tls-verify-depth"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:170
+msgid "2"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:172
+msgid "tls-verify-in-subjects"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:174
+msgid "tls-verify-policy"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:174
+msgid "all|subjects_all"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:176
+msgid "tls-version"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:176
+msgid "$${sip_tls_version}"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:178
+msgid "unregister-on-options-fail"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:180
+msgid "user-agent-string"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:180
+msgid "FreeSWITCH"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:182
+msgid "vad"
+msgstr ""
+
+#: ../../source/advanced/internal_ipv6_sip_profile.rst:182
+msgid "out"
+msgstr ""
+

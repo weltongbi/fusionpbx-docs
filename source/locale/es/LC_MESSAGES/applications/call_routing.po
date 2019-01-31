@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/call_routing.rst:3
+msgid "Call Routing"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:5
+msgid "Directs incoming calls for the extension"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:10
+msgid ""
+"To access call routing goto Accounts > click the edit pencil icon on the "
+"right of the extension"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:15
+msgid "Click **CALL ROUTING** on the top right"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:19
+msgid "Call Forward and Do No Disturb"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:21
+msgid "This will allow phones to sync CFWD and DND over SIP."
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:23
+msgid ""
+"A few things need to be configured to enable this feature and restart "
+"freeswitch:"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:25
+msgid "Uncomment this line in lua.conf.xml."
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:31
+msgid "Add to Default Settings:"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:41
+msgid "Enable Feature Sync on the Device"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:43
+msgid "Yealink"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:45
+msgid ""
+"Web Interface -> Features -> General Information -> Feature Key "
+"Synchronization set to Enabled"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:46
+msgid "Config Files -> features.feature_key_sync.enable"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:47
+msgid ""
+"Might be addition settings needed for the latest firmware. I tested with "
+"81.0.110"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:49
+msgid "Polycom"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:51
+msgid "reg.{$row.line_number}.serverFeatureControl.cf=\"1\""
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:52
+msgid "reg.{$row.line_number}.serverFeatureControl.dnd=\"1\""
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:54
+msgid "Cisco SPA"
+msgstr ""
+
+#: ../../source/applications/call_routing.rst:56
+msgid ""
+"<Feature_Key_Sync_1_ "
+"group=\"Ext_1/Call_Feature_Settings\">Yes</Feature_Key_Sync_1_>"
+msgstr ""
+

@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/call_detail_record.rst:3
+msgid "Call Detail Records"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:5
+msgid ""
+"Call Detail Records (CDRs) are detailed information on the calls. Use the"
+" fields to filter the information for the specific call records that are "
+"desired. Records in the call list can be saved locally using the Export "
+"button."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:11
+msgid "**CID Name** Caller ID Name"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:12
+msgid "**Source** Where the call came from"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:13
+msgid "**Destination** Where the call went to"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:14
+msgid "**Recording** A link will appear if the call recorded"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:15
+msgid "**Start** Time the call entered the system"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:16
+msgid "**TTA** Time To Answer the call"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:17
+msgid "**Duration** How long the call was"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:18
+msgid "**PDD** Post Dial Delay"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:19
+msgid "**MOS** Mean Opinion Score is a measure of voice call quality"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:20
+msgid ""
+"**Hangup Cause** Details about the entire calls. Usually will be \"Normal"
+" Clearing\""
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:22
+msgid ""
+"**Call Detail Records** are detailed information on the calls. The "
+"information contains source, destination, duration, and other useful call"
+" details. Use the fields to filter the information for the specific call "
+"records that are desired. Then view the calls in the list or download "
+"them as comma seperated file by using the **CSV** button."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:28
+msgid "Note that this page makes use of XML CDR for reporting."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:31
+msgid "Post Dial Delay (PDD)"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:33
+msgid ""
+"Post Dial Delay (PDD) is experienced by the sender as the time from the "
+"sending of the final dialed digit to the point at which the sender hears "
+"ring tone or other in-band information. In other words, the PDD would be "
+"the time from when the sender sends the INVITE to receiving the first "
+"ringing response."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:39
+msgid ""
+"That said, PDD does not take into account the time it takes the receiver "
+"to hear the call coming in due to the various factors on how they are "
+"setup for inbound calls. For example, call forwarding may affect the time"
+" it takes the receiver to know that someone is calling because of call "
+"forwarding. The sender might hear a ring tone almost instantly from the "
+"time it dials the final digit because they sent out an INVITE, but the "
+"receiver of the call might have setup inbound calls to be forwarded to "
+"their cell phone, in which now the call must travel through their phone "
+"system, to their phone system's gateway carrier to deliver the sender's "
+"call to the receiver's cell phone carrier network in order for the cell "
+"phone carrier to deliver the sender's call to the receiver's cell phone."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:53
+msgid "Recordings"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:55
+msgid ""
+"Any calls which have the entry in the name column underlined (ie. the "
+"name is a link) have a recording available. Clicking on the name will "
+"playback the recording in a new window. In such cases the number entry "
+"will also be a link - clicking on this link will download the recording "
+"to your computer as a wav file."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:62
+msgid "Possible issues"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:65
+msgid "No records showing up under Apps-Call Detail Records"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:67
+msgid "Possible causes:"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:69
+msgid "**1. The module is disabled**"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:71
+msgid ""
+"Older installations of FusionPBX had the CDR CSV module enabled and the "
+"XML CDR module disabled."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:72
+msgid ""
+"If you reverse this situation you will then get call detail records.  You"
+" will also need to start the XML CDR module after you have done this."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:73
+msgid ""
+"If you want to see your old CDR CSV records after the change or you "
+"really want to continue using CDR CSV you can go to Menu Manager and "
+"unhide the CDR CSV menu."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:74
+msgid ""
+"Call recordings can be downloaded from the Call Detail Records page, but "
+"this capability is not currently provided in CDR CSV so if you need to "
+"use call recordings it would be better to use XML CDR."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:76
+msgid "**2. Wrong xml_cdr.conf.xml config**"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:78
+msgid ""
+"check <param name=\"url\" "
+"value=\"http://127.0.0.1/app/xml_cdr/v_xml_cdr_import.php\"/> and adapt "
+"it to your situation."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:81
+msgid ""
+"FusionPBX menu bar disappears under certain circumstances when viewing "
+"Call Detail Records"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:81
+msgid ""
+"If this happens to you it may be because you are using an old version of "
+"xml_cdr.conf.xml"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:83
+msgid ""
+"Compare your version (advanced-script editor-files-autoload_configs-"
+"xml_cdr.conf.xml) with the current default one that is included in "
+"FusionPBX (advanced-php editor-files-includes-templates-conf-"
+"autoload_configs-xml_cdr.conf.xml). If it is different copy the default "
+"one over yours."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:84
+msgid ""
+"Then edit the line <param name=\"url\" "
+"value=\"http://{v_domain}/mod/xml_cdr/v_xml_cdr_import.php\"/> and "
+"replace {v_domain} with the domain or IP address of your FusionPBX "
+"server."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:85
+msgid ""
+"Then edit the line <param name=\"cred\" value=\"{v_user}:{v_pass}\"/> and"
+" replace {v_user} with a complex name of upper and lowercase and numeric "
+"characters so it is really ugly and secure, and do the same for v_pass."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:86
+msgid "Make each of them completely unique."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:87
+msgid ""
+"Be aware that these don't have to match anything else on your server at "
+"all.  This is because FusionPBX does something very simple but clever "
+"here.  The xml_cdr module uses this account when it does an http post to "
+"FusionPBX of the new data.  FusionPBX looks at the same xml_cdr.conf.xml "
+"file that the module uses in order to check if the module is using a "
+"valid account and password.  Since they both look at the same config file"
+" they are using the same account and password and will happily talk to "
+"each other!"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:89
+msgid ""
+"Once you've made these changes you can save the file. You could restart "
+"your server, or you could reloadxml and then restart the xml_cdr module."
+"  Either is ok, it is up to you. Then your changes will have taken effect"
+" and you should no longer lose your menu bar when looking at CDR "
+"information."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:92
+msgid "XML CDR configuration"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:94
+msgid ""
+"For more detailed configuration go to the XML editor (Advanced menu) and "
+"in autoload configs look at xml_cdr.conf.xml"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:99
+msgid ""
+"By default only the a-leg of the call is logged therefore if you make a "
+"recording of the b-leg you won't be able to retrieve it using the Call "
+"Detail Records.  If you want the b-leg as well you need to change "
+"log-b-leg=true in this config."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:102
+msgid "Harddrive space usage"
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:106
+msgid ""
+"XML CDR data adds up fast, therefore you may need to clear this data at "
+"some point in the future.  By default freeswitch keeps this in (source "
+"install) /usr/local/freeswitch/log/cdr-csv or (package install) "
+"/var/log/freeswitch/xml_cdr and inside that by year, month and day.  "
+"Recordings also take up space and have to be manually deleted if you want"
+" the space back these are kept in (source install) "
+"/usr/local/freeswitch/recordings/{Domian_Name} or (package install) "
+"/etc/freeswitch/recordings/{Domain Name} and inside that by year, month "
+"and day."
+msgstr ""
+
+#: ../../source/applications/call_detail_record.rst:110
+msgid "`CDR Default Settings`_"
+msgstr ""
+

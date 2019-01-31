@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/gmail.rst:3
+msgid "Gmail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:6
+msgid ""
+"Goto Advanced > Default Settings and under the ``Email`` Section. Make "
+"sure these settings are enabled. Once these values are set press the "
+"**Reload** button at the top right of the page."
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:8
+msgid ""
+"There is a good chance you will have to do this via command line on your "
+"FusionPBX install https://accounts.google.com/b/0/DisplayUnlockCaptcha"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:9
+msgid ""
+"If you have a headless install(no desktop gui) then you will have to "
+"install lynx.  Lynx is a command line web browser.  For Debian you would "
+"type the example below.  Follow the prompts for email address and "
+"password."
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:17
+msgid ""
+"You may also have to enable less secure apps "
+"https://support.google.com/accounts/answer/6010255?hl=en"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:20
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:20
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:20
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:20
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:20
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:22
+msgid "smtp_host"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:22
+#: ../../source/advanced/default_settings/gmail.rst:24
+#: ../../source/advanced/default_settings/gmail.rst:28
+#: ../../source/advanced/default_settings/gmail.rst:30
+#: ../../source/advanced/default_settings/gmail.rst:32
+#: ../../source/advanced/default_settings/gmail.rst:34
+#: ../../source/advanced/default_settings/gmail.rst:36
+#: ../../source/advanced/default_settings/gmail.rst:40
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:22
+msgid "smtp.gmail.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:22
+msgid "False"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:22
+msgid "email providers server address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:24
+msgid "smtp_from"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:24
+#: ../../source/advanced/default_settings/gmail.rst:32
+msgid "emailaddress@gmail.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:24
+#: ../../source/advanced/default_settings/gmail.rst:26
+#: ../../source/advanced/default_settings/gmail.rst:28
+#: ../../source/advanced/default_settings/gmail.rst:30
+#: ../../source/advanced/default_settings/gmail.rst:32
+#: ../../source/advanced/default_settings/gmail.rst:34
+#: ../../source/advanced/default_settings/gmail.rst:36
+#: ../../source/advanced/default_settings/gmail.rst:38
+#: ../../source/advanced/default_settings/gmail.rst:40
+msgid "True"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:24
+msgid "smtp from emaill address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:26
+msgid "smtp_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:26
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:26
+msgid "587"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:26
+msgid "port number of the mail server provider"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:28
+msgid "smtp_from_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:28
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:28
+msgid "smtp from name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:30
+msgid "smtp_auth"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:30
+#: ../../source/advanced/default_settings/gmail.rst:38
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:30
+msgid "smtp auth is required"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:32
+msgid "smtp_username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:32
+msgid "Use the full email address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:34
+msgid "smtp_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:34
+msgid "typically the email password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:36
+msgid "smtp_secure"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:36
+msgid "tls"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:36
+msgid "tls or ssl depending on the provider."
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:38
+msgid "smtp_validate_certificate"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:38
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:38
+msgid ""
+"set to false to ignore SSL certificate warnings e.g. for self-signed "
+"certificates"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:40
+msgid "method"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:40
+msgid "smtp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:40
+msgid "smtp|sendmail|mail|qmail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:43
+msgid ""
+"To see if there are any failed email attempts goto Status > Emails.  Once"
+" the issue causing the emails to fail is found you can click to resent "
+"them."
+msgstr ""
+
+#: ../../source/advanced/default_settings/gmail.rst:46
+msgid "The log is stored in the /tmp directory."
+msgstr ""
+

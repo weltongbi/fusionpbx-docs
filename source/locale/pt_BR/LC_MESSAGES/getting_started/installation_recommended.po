@@ -1,0 +1,123 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/installation_recommended.rst:3
+msgid "Old Install"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:9
+msgid ""
+"CLICK HERE FOR THE NEW INSTALL "
+"http://docs.fusionpbx.com/en/latest/getting_started/installation_recommended_new.html"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:12
+msgid ""
+"Welcome to the FUSIONPBX getting started guide.  In this section we will "
+"show how to install FUSIONPBX.  FUSIONPBX can be used on multiple "
+"different operating systems, databases, and web servers.  In this guide "
+"we will show on Debian 8 (Jessie), Postgresql and NGINX.  **Please note "
+"to have a clean install.  The install script will install everthing but "
+"the Operating System**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:15
+msgid ""
+"**1.** Goto a console and follow the recomended steps from "
+"http://fusionpbx.com/download.php"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:27
+msgid ""
+"**2.** The install script will apt-get update/upgrade the system and ask "
+"you a few questions"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:39
+msgid "*It can take between 15-30 minutes to compile and install*"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:43
+msgid "**3.** Goto a web browser and enter the ip address ::"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:65
+msgid "**4.** Web browser Installation part"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst
+msgid "Select Language"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:62
+msgid "**Pick your language. Click next**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst
+msgid "Freeswitch Detect"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:69
+msgid "**Detecting folder paths used**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:75
+#: ../../source/getting_started/installation_recommended.rst:84
+msgid "**Don't change anything here**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst
+msgid "Database Configuration"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:79
+msgid "**Click Execute**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst
+msgid "Admin Login Configuration"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:88
+msgid "**Click Next**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:93
+msgid ""
+"This will create the superadmin login that will be used in your web "
+"browser."
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:98
+msgid "**5.** Goto Console and press enter ::"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst
+msgid "Install Finished"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:127
+msgid "**Login with the username and password you choose during the install**"
+msgstr ""
+
+#: ../../source/getting_started/installation_recommended.rst:136
+msgid "**Note**: To display the logo at the top and not in the menu"
+msgstr ""
+

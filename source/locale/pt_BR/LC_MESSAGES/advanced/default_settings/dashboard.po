@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/dashboard.rst:3
+msgid "Dashboard"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:5
+msgid ""
+"User level settings that control what is seen and not seen on the "
+"dashboard for each user access level."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:10
+#: ../../source/advanced/default_settings/dashboard.rst:12
+#: ../../source/advanced/default_settings/dashboard.rst:14
+#: ../../source/advanced/default_settings/dashboard.rst:16
+#: ../../source/advanced/default_settings/dashboard.rst:18
+#: ../../source/advanced/default_settings/dashboard.rst:20
+#: ../../source/advanced/default_settings/dashboard.rst:22
+#: ../../source/advanced/default_settings/dashboard.rst:52
+msgid "admin"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:10
+#: ../../source/advanced/default_settings/dashboard.rst:12
+#: ../../source/advanced/default_settings/dashboard.rst:14
+#: ../../source/advanced/default_settings/dashboard.rst:16
+#: ../../source/advanced/default_settings/dashboard.rst:18
+#: ../../source/advanced/default_settings/dashboard.rst:20
+#: ../../source/advanced/default_settings/dashboard.rst:22
+#: ../../source/advanced/default_settings/dashboard.rst:24
+#: ../../source/advanced/default_settings/dashboard.rst:26
+#: ../../source/advanced/default_settings/dashboard.rst:28
+#: ../../source/advanced/default_settings/dashboard.rst:30
+#: ../../source/advanced/default_settings/dashboard.rst:32
+#: ../../source/advanced/default_settings/dashboard.rst:34
+#: ../../source/advanced/default_settings/dashboard.rst:36
+#: ../../source/advanced/default_settings/dashboard.rst:38
+#: ../../source/advanced/default_settings/dashboard.rst:40
+#: ../../source/advanced/default_settings/dashboard.rst:42
+#: ../../source/advanced/default_settings/dashboard.rst:44
+#: ../../source/advanced/default_settings/dashboard.rst:46
+#: ../../source/advanced/default_settings/dashboard.rst:48
+#: ../../source/advanced/default_settings/dashboard.rst:50
+#: ../../source/advanced/default_settings/dashboard.rst:52
+#: ../../source/advanced/default_settings/dashboard.rst:54
+#: ../../source/advanced/default_settings/dashboard.rst:56
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:10
+#: ../../source/advanced/default_settings/dashboard.rst:24
+#: ../../source/advanced/default_settings/dashboard.rst:40
+msgid "voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:10
+#: ../../source/advanced/default_settings/dashboard.rst:12
+#: ../../source/advanced/default_settings/dashboard.rst:14
+#: ../../source/advanced/default_settings/dashboard.rst:18
+#: ../../source/advanced/default_settings/dashboard.rst:20
+#: ../../source/advanced/default_settings/dashboard.rst:24
+#: ../../source/advanced/default_settings/dashboard.rst:26
+#: ../../source/advanced/default_settings/dashboard.rst:28
+#: ../../source/advanced/default_settings/dashboard.rst:32
+#: ../../source/advanced/default_settings/dashboard.rst:34
+#: ../../source/advanced/default_settings/dashboard.rst:38
+#: ../../source/advanced/default_settings/dashboard.rst:40
+#: ../../source/advanced/default_settings/dashboard.rst:42
+#: ../../source/advanced/default_settings/dashboard.rst:44
+#: ../../source/advanced/default_settings/dashboard.rst:46
+#: ../../source/advanced/default_settings/dashboard.rst:48
+#: ../../source/advanced/default_settings/dashboard.rst:52
+#: ../../source/advanced/default_settings/dashboard.rst:54
+#: ../../source/advanced/default_settings/dashboard.rst:56
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:10
+msgid "Enable Dashboard Voicemail block for users in the admin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:12
+#: ../../source/advanced/default_settings/dashboard.rst:26
+#: ../../source/advanced/default_settings/dashboard.rst:42
+msgid "missed"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:12
+msgid "Enable Dashboard Missed Calls block for users in the admin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:14
+#: ../../source/advanced/default_settings/dashboard.rst:28
+#: ../../source/advanced/default_settings/dashboard.rst:44
+msgid "recent"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:14
+msgid "Enable Dashboard Recent Calls block for users in the admin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:16
+#: ../../source/advanced/default_settings/dashboard.rst:30
+msgid "limits"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:16
+#: ../../source/advanced/default_settings/dashboard.rst:22
+#: ../../source/advanced/default_settings/dashboard.rst:30
+#: ../../source/advanced/default_settings/dashboard.rst:36
+#: ../../source/advanced/default_settings/dashboard.rst:50
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:16
+msgid "Enable Dashboard Domain Limits block for users in the admin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:18
+#: ../../source/advanced/default_settings/dashboard.rst:32
+msgid "counts"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:18
+msgid "Enable Dashboard Domain Counts block for users in the admin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:20
+#: ../../source/advanced/default_settings/dashboard.rst:38
+#: ../../source/advanced/default_settings/dashboard.rst:48
+msgid "ring_groups"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:20
+msgid ""
+"Enable Dashboard Ring Group Forwarding controls for users in the admin "
+"group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:22
+#: ../../source/advanced/default_settings/dashboard.rst:36
+#: ../../source/advanced/default_settings/dashboard.rst:50
+msgid "caller_id"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:22
+#: ../../source/advanced/default_settings/dashboard.rst:36
+#: ../../source/advanced/default_settings/dashboard.rst:50
+msgid "Enable changing Caller ID name and number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:24
+#: ../../source/advanced/default_settings/dashboard.rst:26
+#: ../../source/advanced/default_settings/dashboard.rst:28
+#: ../../source/advanced/default_settings/dashboard.rst:30
+#: ../../source/advanced/default_settings/dashboard.rst:32
+#: ../../source/advanced/default_settings/dashboard.rst:34
+#: ../../source/advanced/default_settings/dashboard.rst:36
+#: ../../source/advanced/default_settings/dashboard.rst:38
+#: ../../source/advanced/default_settings/dashboard.rst:54
+msgid "superadmin"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:24
+msgid "Enable Dashboard Voicemail block for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:26
+msgid "Enable Dashboard Missed Calls block for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:28
+msgid "Enable Dashboard Recent Calls block for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:30
+msgid "Enable Dashboard Domain Limits block for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:32
+msgid "Enable Dashboard System Counts block for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:34
+#: ../../source/advanced/default_settings/dashboard.rst:46
+#: ../../source/advanced/default_settings/dashboard.rst:52
+msgid "call_routing"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:34
+msgid "Enable Dashboard Call Routing controls for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:38
+msgid ""
+"Enable Dashboard Ring Group Forwarding controls for users in the "
+"superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:40
+#: ../../source/advanced/default_settings/dashboard.rst:42
+#: ../../source/advanced/default_settings/dashboard.rst:44
+#: ../../source/advanced/default_settings/dashboard.rst:46
+#: ../../source/advanced/default_settings/dashboard.rst:48
+#: ../../source/advanced/default_settings/dashboard.rst:50
+msgid "user"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:40
+msgid "Enable Dashboard Voicemail block for users in the users group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:42
+msgid "Enable Dashboard Missed Calls block for users in the users group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:44
+msgid "Enable Dashboard Recent Calls block for users in the users group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:46
+msgid "Enable Dashboard Call Routing controls for users in the users group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:48
+msgid ""
+"Enable Dashboard Ring Group Forwarding controls for users in the users "
+"group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:52
+msgid "Enable Dashboard Call Routing controls for users in the admin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:54
+msgid "system"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:54
+msgid "Enable Dashboard System Status block for users in the superadmin group."
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:56
+msgid "agent"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:56
+msgid "call_center_agents"
+msgstr ""
+
+#: ../../source/advanced/default_settings/dashboard.rst:56
+msgid ""
+"Enable Dashboard Call Center Agent Status block for users in the agent "
+"group."
+msgstr ""
+

@@ -1,0 +1,169 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/phone_screen_capture.rst:2
+msgid "Phone Screen Capture"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:5
+msgid "Snom"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:7
+msgid ""
+"In order to show the content of the phone display on a computer you need "
+"to enter the following URL in a browser:"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:13
+msgid ""
+"This feature is working on all snom desktop phones. For snom 300 this "
+"feature is available in version 8.7.3.7 and later."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:16
+msgid "Cisco/Linksys SPA 50x and SPA 30x"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:18
+msgid "Direct your browser to: http://IP_address_of_phone/admin/screendump.bmp"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:20
+msgid "Use the browser to save the file as: anyname.bmp"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:28
+msgid "Polycom"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:30
+msgid ""
+"Since SIP 3.2.0 you can capture the current screen on a SoundPoint IP, "
+"SoundStation IP orVVX phone through the web interface to the phone."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:33
+msgid "In order to utilize this facility the Parameter"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:42
+msgid "Username: Polycom"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:44
+msgid "Password: 456"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:47
+msgid ""
+"This does not automatically allow a User to capture the Screen, the "
+"functionality needs to be activated by the Phone User."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:50
+msgid ""
+"Note: You need to re-enable the Screen Capture feature after every phone "
+"restart or reboot (repeat below)."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:53
+msgid "Press the Menu Key"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:55
+msgid "Select Settings"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:57
+msgid "Select Basic"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:59
+msgid "Select Preferences"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:61
+msgid "Scroll down and select Screen Capture"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:63
+msgid "Enable or disable the Functionality."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:65
+msgid "As the browser address, enter http://<phone’s IP address>/captureScreen ."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:67
+msgid ""
+"The current screen that is shown on the phone is shown in the browser "
+"window. The image can be saved as a file."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:69
+msgid "Please consult your Admin Guide matching your SIP / UC Software Version."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:72
+msgid "Yealink"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:74
+msgid "Yealink SIP phone with V73 or higher version"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:76
+msgid ""
+"Login on the WEB interface and fill the *Action URI allow IP List* (path:"
+" Features > Remote Control > Action URI allow IP List) with *any* or *IP "
+"address or your PC*, then click *Confirm*."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:78
+msgid "1.png"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:80
+msgid ""
+"In the Brower, fill *http://PhoneIP/screencapture* in the address bar "
+"(Phone IP is the IP address of your phone), then press *Enter* key."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:87
+msgid ""
+"In the first time, for security consideration, the phone will display a "
+"message *Allow remote control*. Please press *OK*. Then repeat step 3."
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:89
+msgid "You will get the screen capture of the phone as below:"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:99
+msgid "Product Models"
+msgstr ""
+
+#: ../../source/applications/provision/phone_screen_capture.rst:101
+msgid ""
+"SIP-T48G , SIP-T46G , SIP-T42G , SIP-T41P , SIP-T29G , SIP-T28P , SIP-"
+"T27P , SIP-T26P , SIP-T23G , SIP-T23P , SIP-T22P , SIP-T21P E2"
+msgstr ""
+

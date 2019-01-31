@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:3
+msgid "ZyXel"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:7
+msgid ""
+"This guide was created using V4.2/4.25 firmware on a ZyXEL USG60 series "
+"UTM router.  FusionPBX is in the cloud with a public IP, and the ZyXEL "
+"USG60 router is at the customer’s location with the extensions behind it."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:12
+msgid "How to setup Bandwidth Management “BWM” aka QoS"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:14
+msgid ""
+"There are more than one ways to apply the BWM rules.  They can be applied"
+" on a service level, or on an object level, or both.  In this example we "
+"will provide traffic priority to traffic between the LAN and the cloud "
+"PBX."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:18
+msgid "First, set up an Object for your Cloud PBX."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:20
+msgid "Log into the USG and go to Configuration-> Object-> Address/GeoIP"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:22
+msgid "Click the Add button"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:24
+msgid ""
+"Create a name, and enter the static public IP of your FusionPBX.  If you "
+"have more than one, such as a failover, add that as well and create a "
+"group."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:29
+msgid "Next, set up a Service Object for the VOIP traffic."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:31
+msgid "Go to Configuration-> Object-> Service"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:33
+msgid "Click the Add button."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:35
+msgid ""
+"Create a name, and set the ports for your traffic.  In this example we "
+"will add a Service rule for 5060TCP, 5060UDP, and 16384-32768 UDP."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:37
+msgid ""
+"If you’ve created more than one service object, click the Service Group "
+"tab and create a group.  Add the service objects that you’ve created to "
+"the group."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:42
+msgid "Now setup your BWM rules."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:44
+msgid "Go to Configuration-> BWM"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:46
+msgid "Check the Enable BWM box and hit apply."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:47
+msgid ""
+"I’m not sure what affect the “Enable Highest Bandwidth Priority for SIP "
+"Traffic” box does, but I leave it unchecked and it works for me!"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:49
+msgid "Click the Add button and create a Policy for incoming traffic."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:50
+msgid ""
+"Your settings will vary based on your environment.  Priority 1 is the "
+"highest priority (what we want) and priority 7 is the lowest priority."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:52
+msgid "Click the Add button and create a Policy for outgoing traffic."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:53
+msgid "Basically will just switch the Source and Destination."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:55
+msgid "Click the Apply button."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:63
+msgid "Zyxel Sip ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:66
+msgid ""
+"This guide was created using V4.2/4.25 firmware on a ZyXEL USG60 series "
+"UTM router."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:70
+msgid "How to Disable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:72
+msgid "Log into the router and navigate to Configuration -> Network -> ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:74
+msgid "Uncheck the following to disable SIP ALG:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:76
+msgid "Enable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:78
+msgid "Enable SIP Transformations"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:80
+msgid "Enable Configure SIP Inactivity Timeout"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:82
+msgid "Restrict Peer to Peer Signaling Connection"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:84
+msgid "Restrict Peer to Peer Media Connection"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/zyxel.rst:86
+msgid ""
+"Click the Apply button at the bottom of the page.  A reboot should not be"
+" necessary, but if you’re still experiencing issues then it is a good "
+"idea to try rebooting the router and testing again."
+msgstr ""
+

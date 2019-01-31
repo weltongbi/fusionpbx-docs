@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/postgresql.rst:3
+msgid "PostgreSQL"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:6
+msgid ""
+"PostgreSQL is a enterprise grade open source database. "
+"http://www.postgresql.org/"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:10
+msgid "Backup"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:12
+msgid ""
+"The following assumes the database username is fusionpbx and the database"
+" to backup is fusionpbx. Make sure you have the database password ready."
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:16
+#: ../../source/additional_information/postgresql.rst:29
+msgid "``su postgres``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:17
+msgid "``pg_dump -U fusionpbx fusionpbx -b -v -f /tmp/fusionpbx.sql``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:20
+msgid "Restore"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:22
+msgid "Assuming username fusionpbx and database fusionpbx"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:24
+msgid "``psql -U fusionpbx -d fusionpbx -f fusionpbx.sql``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:27
+msgid "Console"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:30
+msgid "``psql``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:32
+msgid "list the databases"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:34
+msgid "``\\l``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:36
+msgid "connect to the database"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:38
+msgid "``\\connect fusionpbx``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:40
+msgid "or"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:42
+msgid "``\\c fusionpbx``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:44
+msgid "list tables"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:46
+msgid "``\\d``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:48
+msgid "drop the database"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:50
+msgid "``DROP DATABASE fusionpbx;``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:52
+msgid "create the database"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:54
+msgid "``CREATE DATABASE fusionpbx;``"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:57
+msgid "Links"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:59
+msgid ""
+"http://www.mkyong.com/database/backup-restore-database-in-postgresql-"
+"pg_dumppg_restore/"
+msgstr ""
+
+#: ../../source/additional_information/postgresql.rst:61
+msgid "http://www.postgresql.org/docs/9.1/static/backup.html"
+msgstr ""
+

@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/manual/ext.rst:2
+msgid "Extension"
+msgstr ""
+
+#: ../../source/manual/ext.rst:6
+msgid ""
+"**Extension** What is used to register the phone (typically your "
+"extension number but can be any alphanumeric) used to register phone in "
+"the field user ID, username etc."
+msgstr ""
+
+#: ../../source/manual/ext.rst:8
+msgid ""
+"**Number Alias** The number you can dial to get this extension if the "
+"extension is non numerical."
+msgstr ""
+
+#: ../../source/manual/ext.rst:11
+msgid ""
+"**Range** used to setup one or more extensions. In other words this can "
+"be used to create extension in bulk from 1 to 1000 extensions."
+msgstr ""
+
+#: ../../source/manual/ext.rst:14
+msgid ""
+"If the checkbox for Auto-generate user with extension as login name is "
+"checked, User List is ignored, and a user is created and linked to the "
+"extension."
+msgstr ""
+
+#: ../../source/manual/ext.rst:16
+msgid ""
+"A printable List of usernames and randomly generated passwords is dumped "
+"to screen so can capture them for later."
+msgstr ""
+
+#: ../../source/manual/ext.rst:19
+msgid ""
+"**``Effective`` ``Caller`` ``ID`` ``Name:``**\\ `` is used when calling "
+"internal numbers. ( ``\\ **```effective_caller_id_name`` "
+"<http://wiki.freeswitch.org/wiki/Variable_effective_caller_id_name>`__**\\"
+" `` - FreeSWITCH variable )``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:21
+msgid ""
+"**``Effective`` ``Caller`` ``ID`` ``Number:``**\\ `` is used when when "
+"calling internal numbers. ( ``\\ **```effective_caller_id_number`` "
+"<http://wiki.freeswitch.org/wiki/Variable_effective_caller_id_number>`__**\\"
+" `` - FreeSWITCH variable )``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:22
+msgid ""
+"``The Effective Caller Name and Number are also used to populate the "
+"voicemail Subject line information.``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:25
+msgid ""
+"**``Outbound`` ``Caller`` ``ID`` ``Name:``**\\ `` is used when calling "
+"external numbers. ( ``\\ *```outbound_caller_id_name`` "
+"<http://lists.freeswitch.org/pipermail/freeswitch-"
+"users/2010-February/053648.html>`__*\\ `` - General variable )``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:27
+msgid ""
+"**``Outbound`` ``Caller`` ``ID`` ``Number:``**\\ `` is used when calling "
+"external numbers. ( ``\\ *```outbound_caller_id_number`` "
+"<http://lists.freeswitch.org/pipermail/freeswitch-"
+"users/2010-February/053648.html>`__*\\ `` - General variable )``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:29
+msgid "``Caller ID notes:``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:30
+msgid ""
+"``Effective caller id is the real caller id however people tend to like "
+"and internal caller id for extensions and an external caller id when "
+"calling ``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:31
+msgid ""
+"``out the gateways so when calling out a gateway if you were to look at "
+"the outbound route in the edit window as a superadmin users you would "
+"see``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:32
+msgid ""
+"``that when going out the gateway it sets the outbound caller id to the "
+"effective caller id the effect is this on the extension you set the "
+"effective``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:33
+msgid ""
+"``caller id to the internal caller id info the number as the extension "
+"number then you set the outbound caller id as the external caller id.  "
+"This is``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:34
+msgid ""
+"``used to set the outbound caller ID "
+"effective_caller_id_name=${outbound_caller_id_name}.  The Outbound caller"
+" ID variable doesn't exist in FreeSWITCH,``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:35
+msgid ""
+"``it is a feature of FusionPBX.  You can set the caller id either on an "
+"outbound route or on an extension.``"
+msgstr ""
+
+#: ../../source/manual/ext.rst:37
+msgid ""
+"**Account Code** - this is not used anywhere in the default dialplan but "
+"is provided in FreeSwitch and therefore is provided in FusionPBX for full"
+" compatibility. It sets a variable for the extension that could be used "
+"in a condition. See `Variable accountcode "
+"<http://wiki.freeswitch.org/wiki/Variable_accountcode>`__ for more "
+"information. Note that it can be used to affect the operation of CDR."
+msgstr ""
+
+#: ../../source/manual/ext.rst:46
+msgid ""
+"*' Directory Full Name*' This is the name that will be used for a \\*411 "
+"or Company Directory lookup as often used in IVR."
+msgstr ""
+

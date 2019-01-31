@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/conference_profiles.rst:3
+msgid "Conference Profiles"
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:5
+msgid "A group of conference parameters saved together as a profile."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:14
+msgid "Click the edit icon on the right to adjust the profile"
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:15
+msgid "Click the plus to create a new profile"
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:19
+msgid "Default Profile"
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:26
+msgid "cdr-log-dir: Set as auto.  Could be set manually and is enabled."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:27
+msgid "domain: enabled."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:28
+msgid "rate: The rate in kHz. 8000kHz and is enabled."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:29
+msgid "interval: 20 is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:30
+msgid "energy-level: 15 is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:31
+msgid "auto-gain-level: 0 is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:32
+msgid "caller-controls: default is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:33
+msgid "moderator-controls: moderator is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:34
+msgid "muted-sound: conference/conf-muted.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:35
+msgid "unmuted-sound: conference/conf-unmuted.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:36
+msgid "alone-sound: conference/conf-alone.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:37
+msgid "moh-sound: local_stream://default is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:38
+msgid "enter-sound: tone_stream://%(200,0,500,600,700) is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:39
+msgid "exit-sound: tone_stream://%(500,0,300,200,100,50,25) is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:40
+msgid "kicked-sound: conference/conf-kicked.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:41
+msgid "locked-sound: conference/conf-locked.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:42
+msgid "is-locked-sound: conference/conf-is-locked.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:43
+msgid "is-unlocked-sound: conference/conf-is-unlocked.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:44
+msgid "pin-sound: conference/conf-pin.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:45
+msgid "bad-pin-sound: conference/conf-bad-pin.wav is the default."
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:46
+msgid "caller-id-name:"
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:47
+msgid "caller-id-number:"
+msgstr ""
+
+#: ../../source/applications/conference_profiles.rst:48
+msgid "comfort-noise: true is the default."
+msgstr ""
+

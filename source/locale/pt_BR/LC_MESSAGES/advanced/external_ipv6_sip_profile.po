@@ -1,0 +1,421 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:3
+msgid "External ipv6 Sip Profile"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:11
+msgid "**Hostname-** Should be left blank and is for advanced use."
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:14
+msgid "SIP Profile Setting Name"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:14
+msgid "SIP Profile Setting Value"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:14
+msgid "SIP Profile Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:14
+msgid "SIP Profile Setting Description"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:16
+msgid "auth-calls"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:16
+#: ../../source/advanced/external_ipv6_sip_profile.rst:20
+#: ../../source/advanced/external_ipv6_sip_profile.rst:26
+#: ../../source/advanced/external_ipv6_sip_profile.rst:32
+#: ../../source/advanced/external_ipv6_sip_profile.rst:34
+#: ../../source/advanced/external_ipv6_sip_profile.rst:36
+#: ../../source/advanced/external_ipv6_sip_profile.rst:38
+#: ../../source/advanced/external_ipv6_sip_profile.rst:40
+#: ../../source/advanced/external_ipv6_sip_profile.rst:42
+#: ../../source/advanced/external_ipv6_sip_profile.rst:52
+#: ../../source/advanced/external_ipv6_sip_profile.rst:56
+#: ../../source/advanced/external_ipv6_sip_profile.rst:60
+#: ../../source/advanced/external_ipv6_sip_profile.rst:72
+#: ../../source/advanced/external_ipv6_sip_profile.rst:88
+#: ../../source/advanced/external_ipv6_sip_profile.rst:100
+#: ../../source/advanced/external_ipv6_sip_profile.rst:104
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:16
+#: ../../source/advanced/external_ipv6_sip_profile.rst:18
+#: ../../source/advanced/external_ipv6_sip_profile.rst:22
+#: ../../source/advanced/external_ipv6_sip_profile.rst:24
+#: ../../source/advanced/external_ipv6_sip_profile.rst:26
+#: ../../source/advanced/external_ipv6_sip_profile.rst:28
+#: ../../source/advanced/external_ipv6_sip_profile.rst:30
+#: ../../source/advanced/external_ipv6_sip_profile.rst:32
+#: ../../source/advanced/external_ipv6_sip_profile.rst:34
+#: ../../source/advanced/external_ipv6_sip_profile.rst:44
+#: ../../source/advanced/external_ipv6_sip_profile.rst:46
+#: ../../source/advanced/external_ipv6_sip_profile.rst:48
+#: ../../source/advanced/external_ipv6_sip_profile.rst:50
+#: ../../source/advanced/external_ipv6_sip_profile.rst:52
+#: ../../source/advanced/external_ipv6_sip_profile.rst:54
+#: ../../source/advanced/external_ipv6_sip_profile.rst:58
+#: ../../source/advanced/external_ipv6_sip_profile.rst:62
+#: ../../source/advanced/external_ipv6_sip_profile.rst:64
+#: ../../source/advanced/external_ipv6_sip_profile.rst:66
+#: ../../source/advanced/external_ipv6_sip_profile.rst:68
+#: ../../source/advanced/external_ipv6_sip_profile.rst:70
+#: ../../source/advanced/external_ipv6_sip_profile.rst:72
+#: ../../source/advanced/external_ipv6_sip_profile.rst:74
+#: ../../source/advanced/external_ipv6_sip_profile.rst:76
+#: ../../source/advanced/external_ipv6_sip_profile.rst:78
+#: ../../source/advanced/external_ipv6_sip_profile.rst:80
+#: ../../source/advanced/external_ipv6_sip_profile.rst:82
+#: ../../source/advanced/external_ipv6_sip_profile.rst:84
+#: ../../source/advanced/external_ipv6_sip_profile.rst:86
+#: ../../source/advanced/external_ipv6_sip_profile.rst:88
+#: ../../source/advanced/external_ipv6_sip_profile.rst:90
+#: ../../source/advanced/external_ipv6_sip_profile.rst:92
+#: ../../source/advanced/external_ipv6_sip_profile.rst:94
+#: ../../source/advanced/external_ipv6_sip_profile.rst:96
+#: ../../source/advanced/external_ipv6_sip_profile.rst:98
+#: ../../source/advanced/external_ipv6_sip_profile.rst:102
+#: ../../source/advanced/external_ipv6_sip_profile.rst:104
+#: ../../source/advanced/external_ipv6_sip_profile.rst:106
+#: ../../source/advanced/external_ipv6_sip_profile.rst:108
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:18
+msgid "context"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:18
+msgid "public"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:20
+msgid "dbname"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:20
+msgid "share_presence"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:22
+msgid "debug"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:22
+msgid "0"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:24
+msgid "dialplan"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:24
+msgid "XML"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:26
+msgid "disable-srv503"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:28
+msgid "dtmf-duration"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:28
+msgid "2000"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:30
+msgid "dtmf-type"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:30
+msgid "rfc2833"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:32
+msgid "enable-100rel"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:34
+msgid "enable-rfc-5626"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:36
+msgid "ext-rtp-ip"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:36
+msgid "$${external_rtp_ip}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:38
+msgid "ext-sip-ip"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:38
+msgid "$${external_sip_ip}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:40
+msgid "force-register-db-domain"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:40
+#: ../../source/advanced/external_ipv6_sip_profile.rst:42
+#: ../../source/advanced/external_ipv6_sip_profile.rst:60
+msgid "$${domain}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:42
+msgid "force-register-domain"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:44
+msgid "hold-music"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:44
+msgid "$${hold_music}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:46
+msgid "inbound-codec-negotiation"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:46
+msgid "generous"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:48
+msgid "inbound-codec-prefs"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:48
+msgid "$${global_codec_prefs}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:50
+msgid "local-network-acl"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:50
+msgid "localnet.auto"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:52
+msgid "manage-presence"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:54
+msgid "nonce-ttl"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:54
+msgid "60"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:56
+msgid "odbc-dsn"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:56
+msgid "$${dsn}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:58
+msgid "outbound-codec-prefs"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:58
+msgid "$${outbound_codec_prefs}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:60
+msgid "presence-hosts"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:62
+msgid "rfc2833-pt"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:62
+msgid "101"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:64
+msgid "rtp-hold-timeout-sec"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:64
+msgid "1800"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:66
+msgid "rtp-ip"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:66
+#: ../../source/advanced/external_ipv6_sip_profile.rst:76
+msgid "$${local_ip_v6}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:68
+msgid "rtp-timeout-sec"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:68
+msgid "300"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:70
+msgid "rtp-timer-name"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:70
+msgid "soft"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:72
+msgid "shutdown-on-fail"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:74
+msgid "sip-capture"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:74
+#: ../../source/advanced/external_ipv6_sip_profile.rst:80
+msgid "no"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:76
+msgid "sip-ip"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:78
+msgid "sip-port"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:78
+msgid "$${external_sip_port}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:80
+msgid "sip-trace"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:82
+msgid "tls"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:82
+msgid "$${external_ssl_enable}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:84
+msgid "tls-bind-params"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:84
+msgid "transport=tls"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:86
+msgid "tls-cert-dir"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:86
+msgid "$${external_ssl_dir}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:88
+msgid "tls-only"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:90
+msgid "tls-passphrase"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:92
+msgid "tls-sip-port"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:92
+msgid "$${external_tls_port}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:94
+msgid "tls-verify-date"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:96
+msgid "tls-verify-depth"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:96
+msgid "2"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:98
+msgid "tls-verify-in-subjects"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:100
+msgid "tls-verify-policy"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:100
+msgid "all|subjects_all"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:102
+msgid "tls-version"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:102
+msgid "$${sip_tls_version}"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:104
+msgid "track-calls"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:106
+msgid "user-agent-string"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:106
+msgid "FreeSWITCH"
+msgstr ""
+
+#: ../../source/advanced/external_ipv6_sip_profile.rst:108
+msgid "zrtp-passthru"
+msgstr ""
+

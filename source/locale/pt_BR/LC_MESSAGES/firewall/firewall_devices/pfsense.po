@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:3
+msgid "pfSense"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:7
+msgid "**Static Port**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:9
+msgid "Menu -> NAT -> Advanced Outbound NAT (enabled)"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:11
+msgid "set static port to yes"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:21
+msgid "**Firewall Optimization - Conservative**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:23
+msgid "System -> Advanced -> Firewall NAT -> Firewall Optimization"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:25
+msgid "select Conservative"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:34
+msgid "**Create Alias Ports in pfSense**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:39
+msgid ""
+"Configure pfSense to open the necessary ports for FusionPBX and "
+"Freeswitch."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:40
+msgid "In pfSense navigate to Firewall >> Aliases and click on the Ports TAB."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:50
+msgid "Then proceed to add the ports as follows."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:62
+msgid "After you are finished Click SAVE."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:65
+msgid "**Configure pfSense Port Forwarding**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:70
+msgid "Click on the '+' to ADD a new Entry."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:73
+msgid "Firewall >> NAT >> Port Forward: Add"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:94
+msgid "Click SAVE when done."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:97
+msgid "**Configure FusionPBX**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:99
+msgid "In FusionPBX"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:101
+msgid "**System >> Variables > IP Address Section**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:102
+msgid "If you have a static public IP you can replace XX.XX.XX.XX with that IP."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:109
+msgid ""
+"If you have a dynamic IP address you can get a Dynamic DNS from a company"
+" such as dyndns.org."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:116
+msgid "**Advanced >> SIP Profiles**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:118
+msgid "Edit the Internal Profile and add"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:126
+msgid ""
+"**Status >> SIP Status** Stop and Start the internal profile for the "
+"changes to take effect."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/pfsense.rst:132
+msgid ""
+"More information can be found at https://www.netgate.com/docs/pfsense/nat"
+"/configuring-nat-for-voip-phones.html"
+msgstr ""
+

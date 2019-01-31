@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/languages.rst:3
+msgid "Languages"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:5
+msgid ""
+"FusionPBX has multilingual capabilities.  This will allow for different "
+"languages to be used in your FusionPBX installation.  Languages can be "
+"set globally, per tenant and per user. In addition to your FusionPBX "
+"installation web interface, there are options to upload audio files for "
+"FreeSWITCH to use via command line."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:8
+msgid "Fusionpbx Settings"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:12
+msgid "Global"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:14
+msgid "**Advanced > Default Settings**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:16
+msgid ""
+"Setting the language from here will set the language for the entire "
+"FusionPBX installation."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:24
+msgid "Domain (Tenant)"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:26
+msgid ""
+"**Advanced > Domains** then click the plus at the bottom right and fill "
+"in the required fields."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:28
+msgid ""
+"Setting the language from here will set the language for the entire "
+"domain (tenant) in your FusionPBX installation. This can override the "
+"Global language settings."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:36
+msgid "User"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:38
+msgid "**Accounts > Users** then edit the user."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:40
+msgid ""
+"Setting the language from here will set the language for this specific "
+"user and will override Global and Domain language settings."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:48
+msgid "FreeSWITCH Sound Files"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:50
+msgid ""
+"FreeSWITCH sound files location are dependent on operating system and "
+"installation method."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:53
+msgid "**Package Install**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:55
+msgid ""
+"Most if not all recent installations of FusionPBX are using packages for "
+"FreeSWITCH."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:57
+#: ../../source/getting_started/languages.rst:68
+msgid "**File system location:**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:64
+msgid "**Source Install**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:66
+msgid ""
+"Older installs, custom installs, or personal preference are using source "
+"compiled versions."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:76
+msgid "**Where to get language sounds**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:79
+msgid ""
+"**Free:** https://freeswitch.org/stash/projects/FS/repos/freeswitch-"
+"sounds/browse"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:82
+msgid "app_languages.php"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:84
+msgid "**Guidelines** The words used in the text variable name"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:87
+msgid "separated with a dash."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:88
+msgid "begin with a prefix"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:89
+msgid "are lower case"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:91
+msgid "**Prefixes**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:93
+msgid "**title:** The title of the page"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:94
+msgid "**header:** The header of the page"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:95
+msgid "**description:** Information to describe the page or an item on the page"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:96
+msgid "**button:** The label for the buttons"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:97
+msgid "**confirm:** A message used to confirm and action like delete"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:98
+msgid "**message:** The response after an action is taken"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:99
+msgid "**label:** The label for items on the page"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:100
+msgid "**option:** The options in an html select box"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:102
+msgid "**Languages**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:104
+msgid ""
+"Each word, phrase, or sentence has the language declared with the 2 "
+"language code with s dash seperating the region. There is one difference "
+"the region is entirely in lower case. For additional information see the "
+"following."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:106
+msgid "http://www.w3.org/International/articles/language-tags/"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:108
+msgid "http://www.iana.org/assignments/language-subtag-registry"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:110
+msgid "en-us"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:111
+msgid "es-mx"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:112
+msgid "de-ch"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:113
+msgid "de-at"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:114
+msgid "fr-ca"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:115
+msgid "fr-ch"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:116
+msgid "pt-pt"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:117
+msgid "pt-br"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:119
+msgid "**Example File**"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:121
+msgid "An excerpt from the app_languages.php for Conference Center."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:168
+msgid ""
+"To use inside the code on each page that displays text. Place the "
+"following code at the top just after the permision_exists"
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:178
+msgid ""
+"To place a word, phrase or sentence it would be used in the code like the"
+" following example."
+msgstr ""
+
+#: ../../source/getting_started/languages.rst:184
+msgid "An additional example."
+msgstr ""
+

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/xmpp.rst:3
+msgid "XMPP Manager"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:6
+msgid ""
+"XMPP Manager is an optional menu item.  In order to have the option for "
+"XMPP Manager there are a few step to take to enble XMPP."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:11
+msgid "**XMPP Profile**"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:13
+msgid "FusionPBX menu."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:15
+msgid "Accounts -> XMPP manager."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:17
+msgid "Click the **plus** on the right to create a profile."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:22
+msgid "Google has since depricated xmpp service"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:28
+msgid ""
+"In this example we will setup Google Talk and by creating a profile "
+"called gtalk."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:42
+msgid "Two approaches can be used for the next part."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:44
+msgid "**Option 1.**"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:46
+msgid ""
+"Lets say my gmail number was 13051231234. This approach will send the "
+"inbound calls to the inbound routes with a destination number that is the"
+" default extension number that is set."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:54
+msgid "**Option 2.**"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:56
+msgid ""
+"On a single tenant system. This will send the call to extension 1001 in "
+"the default context."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:63
+msgid "**Option 3.**"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:65
+msgid ""
+"On a single tenant system. This will send the call to extension 1001 in "
+"the multi-tenant domain name."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:72
+msgid ""
+"Save the settings and restart the module. Restart the 'XMPP' module from "
+"Advanced -> Modules page. Go back to Accounts -> XMPP if the status says "
+"**'AUTHORIZED'** then you are ready to go."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:75
+msgid ""
+"**Note** If you are not getting AUTHORIZED you might need to goto the "
+"google account settings and choose \"Allow less secure apps: ON\" under "
+"the Sign-in & security section."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:80
+msgid "**Outbound Routes**"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:82
+msgid "For this example we will use 11 digit dialing."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:91
+msgid ""
+"If your XMPP profile is named something other than gtalk edit the "
+"outbound route you just created. Bridge statement should look like: "
+"dingaling/gtalk/+$1@voice.google.com replace gtalk with the profile name "
+"you chose and then save it."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:95
+msgid "Enable XMPP"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:97
+msgid ""
+"XMPP manager is used to configure client side XMPP profiles. It can be "
+"used as a client to register to make and receive call with Google Talk or"
+" other XMPP servers."
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:99
+msgid "**GIT Manually add XMPP**"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:101
+msgid "After version 3.8 XMPP is optional.  To add XMPP do the following"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:103
+msgid "Goto command line"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:116
+msgid "Goto Fusionpbx GUI"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:118
+msgid ""
+"Goto the GUI and click advanced > menu manager > edit icon > click "
+"\"Restore Defaults\" at top right"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:120
+msgid ""
+"Then goto Advanced > Upgrade click Schema, Data Types, and Permission "
+"Defaults then click execute"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:123
+msgid "Click status > sip status > Flush Memcache"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:126
+msgid "Log out then back in"
+msgstr ""
+
+#: ../../source/applications/xmpp.rst:129
+msgid "You should now have XMPP Manager under Accounts."
+msgstr ""
+

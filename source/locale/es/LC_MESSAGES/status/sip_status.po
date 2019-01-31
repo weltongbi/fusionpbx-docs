@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/status/sip_status.rst:3
+msgid "SIP Status"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:5
+msgid ""
+"This will show sofia status of internal, internal-ipv6, external, and "
+"external-ipv6 profiles."
+msgstr ""
+
+#: ../../source/status/sip_status.rst:7
+msgid "With profiles you can see"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:9
+msgid "REGISTRATIONS"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:10
+msgid "START/RESTART/RESCAN/FLUSH REGISTRATIONS"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:11
+msgid "You can also FLUSH CACHE"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:12
+msgid "RELOAD ACL"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:13
+msgid "RELOAD XML and REFRESH"
+msgstr ""
+
+#: ../../source/status/sip_status.rst:14
+msgid ""
+"View UP time, sessions since startup, max sessions, and current stack "
+"size/max."
+msgstr ""
+

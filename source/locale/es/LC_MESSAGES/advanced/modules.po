@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/modules.rst:3
+msgid "Modules"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:6
+msgid ""
+"Modules extend the features of the system. Use this page to enable or "
+"disable modules."
+msgstr ""
+
+#: ../../source/advanced/modules.rst:14
+msgid "Modules have several different categories."
+msgstr ""
+
+#: ../../source/advanced/modules.rst:18
+msgid "Applications"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:23
+msgid "Auto"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:26
+msgid "Dialplan Interfaces"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:31
+msgid "Endpoints"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:36
+msgid "Event Handlers"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:40
+msgid "File Format Interfaces"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:44
+msgid "Languages"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:49
+msgid "Loggers"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:54
+msgid "Say"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:59
+msgid "Speech Recognition/Text to Speech"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:65
+msgid "Streams/Files"
+msgstr ""
+
+#: ../../source/advanced/modules.rst:70
+msgid "XML Interfaces"
+msgstr ""
+

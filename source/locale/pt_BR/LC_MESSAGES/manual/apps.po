@@ -1,0 +1,200 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/manual/apps.rst:3
+msgid "Apps"
+msgstr ""
+
+#: ../../source/manual/apps.rst:6
+msgid "Call Block"
+msgstr ""
+
+#: ../../source/manual/apps.rst:8
+msgid "A list of numbers from which to block calls."
+msgstr ""
+
+#: ../../source/manual/apps.rst:11 ../../source/manual/apps.rst:13
+msgid "Call Broadcast"
+msgstr ""
+
+#: ../../source/manual/apps.rst:16
+msgid "Call Center"
+msgstr ""
+
+#: ../../source/manual/apps.rst:18
+msgid "List of queues for the call center."
+msgstr ""
+
+#: ../../source/manual/apps.rst:21
+msgid "Call Detail Records"
+msgstr ""
+
+#: ../../source/manual/apps.rst:23
+msgid ""
+"Call Detail Records (CDRs) are detailed information on the calls. Use the"
+" fields to filter the information for the specific call records that are "
+"desired. Then view the calls in the list or download them as comma "
+"seperated file by using the 'csv' button."
+msgstr ""
+
+#: ../../source/manual/apps.rst:26
+msgid "Call Flows"
+msgstr ""
+
+#: ../../source/manual/apps.rst:28
+msgid "Direct calls between two destinations by calling a feature code."
+msgstr ""
+
+#: ../../source/manual/apps.rst:31
+msgid "Conference Center"
+msgstr ""
+
+#: ../../source/manual/apps.rst:33
+msgid ""
+"Conference Centers are a group of conference rooms. They can be organized"
+" by cost center, geographically, or other criteria."
+msgstr ""
+
+#: ../../source/manual/apps.rst:36
+msgid "Contacts"
+msgstr ""
+
+#: ../../source/manual/apps.rst:38
+msgid "The contact is a list of individuals and organizations."
+msgstr ""
+
+#: ../../source/manual/apps.rst:41
+msgid "Fax Server"
+msgstr ""
+
+#: ../../source/manual/apps.rst:43
+msgid "To receive a FAX setup a fax extension and then direct the incoming to it."
+msgstr ""
+
+#: ../../source/manual/apps.rst:46
+msgid "Follow Me"
+msgstr ""
+
+#: ../../source/manual/apps.rst:48
+msgid ""
+"Use the links to configure call forward follow me, or do not disturb. The"
+" following list the extensions that have been assigned to this user "
+"account."
+msgstr ""
+
+#: ../../source/manual/apps.rst:51
+msgid "IVR Menu"
+msgstr ""
+
+#: ../../source/manual/apps.rst:53
+msgid "Welcome to the adding IVR section.  Here you will find how to add IVR's."
+msgstr ""
+
+#: ../../source/manual/apps.rst:57
+msgid "Click on **Apps** then **IVR Menu**"
+msgstr ""
+
+#: ../../source/manual/apps.rst:65
+msgid "Then click the"
+msgstr ""
+
+#: ../../source/manual/apps.rst:70
+msgid "on the right."
+msgstr ""
+
+#: ../../source/manual/apps.rst:100
+msgid "Music On Hold"
+msgstr ""
+
+#: ../../source/manual/apps.rst:102
+msgid ""
+"Music on hold can be in WAV or MP3 format. To play an MP3 file you must "
+"have mod_shout enabled on the 'Modules' tab. You can adjust the volume of"
+" the MP3 audio from the 'Settings' tab. For best performance upload 16 "
+"bit, 8/16/32/48 kHz mono WAV files."
+msgstr ""
+
+#: ../../source/manual/apps.rst:105
+msgid "Operator Panel"
+msgstr ""
+
+#: ../../source/manual/apps.rst:107
+msgid ""
+"Virtually control extensions AVAILABLE, ON BREAK, DO NOT DISTURB and "
+"LOGOUT state.  Drag and drop funcionality to transfer calls to Other "
+"Extensions."
+msgstr ""
+
+#: ../../source/manual/apps.rst:110
+msgid "Phrases"
+msgstr ""
+
+#: ../../source/manual/apps.rst:112
+msgid "Create phrases of audio files to be played in sequence."
+msgstr ""
+
+#: ../../source/manual/apps.rst:115
+msgid "Ring Groups"
+msgstr ""
+
+#: ../../source/manual/apps.rst:117
+msgid ""
+"A ring group is a set of destinations that can be called with a ring "
+"strategy."
+msgstr ""
+
+#: ../../source/manual/apps.rst:120
+msgid "Recordings"
+msgstr ""
+
+#: ../../source/manual/apps.rst:122
+msgid ""
+"Dial *732 to create a recording, or (for best results) upload a 16bit "
+"8khz/16khz mono WAV file."
+msgstr ""
+
+#: ../../source/manual/apps.rst:125
+msgid "Time Conditions"
+msgstr ""
+
+#: ../../source/manual/apps.rst:127
+msgid ""
+"Dynamically route calls to an IVR menu, external numbers, scripts, or "
+"other destinations based on time conditions."
+msgstr ""
+
+#: ../../source/manual/apps.rst:130
+msgid "Queues"
+msgstr ""
+
+#: ../../source/manual/apps.rst:132
+msgid ""
+"Queues are used to setup waiting lines for callers. Also known as FIFO "
+"Queues."
+msgstr ""
+
+#: ../../source/manual/apps.rst:135
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/manual/apps.rst:137
+msgid "Voicemail Settings"
+msgstr ""
+

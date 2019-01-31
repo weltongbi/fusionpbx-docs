@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:3
+msgid "Cisco"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:6
+msgid "To manually provision Cisco"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:8
+msgid "Login to the phone"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:9
+msgid "Goto the **Ext1** top left tab"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:10
+msgid ""
+"**Proxy and Registration** section put your servers *domain.tld* in the "
+"*proxy* field"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:11
+msgid ""
+"**Subscriber Information** section put the extension number for *Display "
+"Name* and *User ID*"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:12
+msgid "**Password** put the *extensions password*"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:13
+#: ../../source/applications/provision/provision_manual_cisco.rst:24
+msgid "Click **Submit All Changes** at the bottom"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:19
+msgid "Once you have that done, make sure the p-time is set to 0.020"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:21
+msgid "Click the **advanced** option at the top right"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:22
+msgid "Goto the **SIP** tab at the top"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:23
+msgid ""
+"Scroll down to the **RTP Parameters** section and make sure the *RTP "
+"Packet Size* field has *0.020*"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:31
+msgid "**HTTP Authentication**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:33
+msgid "Phone web interface -> Provision - > Profile Rule"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_cisco.rst:35
+msgid "[--uid myUser --pwd myPass]http://mydomain.com/app/provision/?mac=$MA"
+msgstr ""
+

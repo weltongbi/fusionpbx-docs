@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/contributing/coding_standards.rst:3
+msgid "Coding Standards"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:6
+msgid "**General**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:8
+msgid "class, method, function and variable names"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:10
+msgid "intuitive"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:11
+msgid "lower case"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:12
+msgid "words separated with an underscore"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:13
+msgid "do not abbreviate the words unless it makes the name excessively long."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:14
+msgid "indentation use tabs instead of spaces"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:15
+msgid ""
+"recommended to code with editor showing invisible characters to prevent "
+"trailing spaces and tabs."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:18
+msgid "**Applications**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:20
+msgid "Apps are stored in fusionpbx/app directory."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:22
+msgid "**root.php**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:24
+msgid ""
+"Ensures the document_root server variable is set and then sets the "
+"include path from the root of the website."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:26
+msgid "**app_config.php**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:28
+msgid "**application**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:30
+msgid "app_name"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:31
+msgid "app_uuid"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:32
+msgid "app_category"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:33
+msgid "app_subcategory"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:34
+msgid "app_description"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:36
+msgid "**Menu**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:38
+msgid "defines location in the menu."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:40
+msgid "**Permissions**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:42
+msgid ""
+"Defines the permissions the application uses and the default groups "
+"assigned to those permissions."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:44
+msgid "**Data Schema**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:46
+msgid "Define the structure of the field names, and types."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:48
+msgid "**app_defaults.php**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:50
+msgid "Is run during the install and when upgrade schema is called."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:52
+msgid "**app_languages.php**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:54
+msgid ""
+"Defines a php array of the words, phrases and sentences used in the "
+"project."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:56
+msgid "**Files**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:58
+msgid "Names"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:60
+msgid "Written in lower case."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:61
+msgid "Words are seperated by an underscore."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:62
+msgid "Use full words when possible."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:63
+msgid ""
+"Do not prefix with 'v_' files that are currently prefix in this way will "
+"be renamed to remove the 'v_'."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:64
+msgid "Program showing invisible spaces."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:65
+msgid "To eliminate tabs and spaces at the end of a line."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:66
+msgid "Line feed only."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:67
+msgid "No carriage return and line feed."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:69
+msgid "**Database**"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:71
+msgid "tables"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:73
+msgid "Prefixed with v_ this may be configurable in the future."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:74
+msgid "Tables names are plural unless the name is used is an Acronym."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:75
+msgid "Use full words not abbreviations."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:76
+msgid "uuids used for relational id instead of auto increment identifiers."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:78
+msgid "fields"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:80
+msgid "domain_uuid"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:81
+msgid "Primary key name is the non plural name of table without the v_ prefix."
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:83
+msgid "How to create the primary key name"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:84
+msgid ""
+"If the table name is v_users take remove the 'v_', make it non-plural and"
+" add '_uuid' to the end of the field name. In this example the primary "
+"key would be user_uuid"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:86
+msgid "Code Documentation"
+msgstr ""
+
+#: ../../source/contributing/coding_standards.rst:88
+msgid "http://www.phpdoc.org/"
+msgstr ""
+

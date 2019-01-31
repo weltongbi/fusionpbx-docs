@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/bridges.rst:3
+msgid "Bridges"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:5
+msgid ""
+"Bridge statements are used to send calls directly to other destinations "
+"like another PBX, Carrier or External SIP to TDM Gateway and more. The "
+"bridge statements are added to destination select list."
+msgstr ""
+
+#: ../../source/applications/bridges.rst:12
+msgid "Click the Plus icon to add a bridge"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:13
+msgid "Click the edit icon on the right to edit a bridge"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:14
+msgid "Click the X to delete a bridge"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:17
+msgid "Bridge Examples"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:20
+msgid ""
+"Bridges are how ring groups are made.  The code in FusionPBX simplifies "
+"that for you.  You can however manually do what ring groups do and with "
+"bridges."
+msgstr ""
+
+#: ../../source/applications/bridges.rst:22
+msgid "**Bridge Statement advanced options**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:24
+msgid ""
+"For multiple destinations. Multiple destinations are allowed as long as "
+"you use a  ,  |  or  :_:"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:31
+msgid "**Loopback to an external number**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:37
+msgid "**Loopback to multiple external numbers simultaneously**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:43
+msgid "**To another sip server, sip gateway, or another carrier**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:49
+msgid "**To a user**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:57
+msgid "**Using LCR**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:63
+msgid "**Using variables**"
+msgstr ""
+
+#: ../../source/applications/bridges.rst:69
+#: ../../source/applications/bridges.rst:76
+msgid "**Using variables in sequence with a sip server**"
+msgstr ""
+

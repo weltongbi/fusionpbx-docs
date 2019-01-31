@@ -1,0 +1,188 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:3
+msgid "SonicWall TZ-SOHO"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:8
+msgid ""
+"This guide was created using 6.5.0.1-14n firmware on a SonicWall TZ-SOHO "
+"series UTM router. FusionPBX is in the cloud with a public IP, and the "
+"SonicWall router is at the customer’s location with the extensions behind"
+" it."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:11
+msgid "How to setup Bandwidth Management"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:13
+msgid "**First, enable Global Bandwidth Management:**"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:15
+msgid ""
+"Log into the SonicWall and go to Security Configuration -> Firewall "
+"Settings -> Bandwidth Management"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:16
+msgid "For Bandwidth Management Type, click the Global radio button."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:17
+msgid "This will enable BWM for all traffic."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:18
+msgid ""
+"Enable your required Priority levels.  For voice traffic, we’ll enable "
+"the “0 Realtime” priority level."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:25
+msgid ""
+"The SonicWALL needs to be programmed with your available WAN interface "
+"bandwidth.  You can go to beta.speedtest.net or similar to find your "
+"speed."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:27
+msgid ""
+"Log into the SonicWall and go to Network -> Interfaces.  Edit your WAN "
+"Interface."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:28
+msgid ""
+"Click the Advanced tab, check both the Egress and Ingress boxes under "
+"Bandwidth Management."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:29
+msgid "Enter in your speed test values, and click OK"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:34
+msgid ""
+"Now create your VOIP services.  In this example we’ll use 5060TCP, "
+"5060UDP, and 16384-32768UDP for voice traffic."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:36
+msgid "Go to Policies -> Objects -> Service Objects, and click Add."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:37
+msgid ""
+"Add objects for your VOIP services.  On typical installs this would be "
+"5060TCP/UPD and 16384-32768UDP."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:38
+msgid ""
+"Click on the Service Groups tab and add all of the services you’ve "
+"created to a group."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:46
+msgid "Next, set up an Object for your Cloud PBX:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:48
+msgid "Go to Policies -> Objects -> Address Objects, and click Add"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:49
+msgid ""
+"Add your PBX to the WAN Zone assignment with your IP as the Host, or use "
+"FQDN if you prefer.  If using multiple servers, add each one and create a"
+" group."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:56
+msgid ""
+"Now that we have our Service and Object, we can create a firewall rule "
+"and apply prioritization."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:58
+msgid "Go to Policies -> Rules -> Access Rules, and click Add."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:59
+msgid ""
+"Create a rule from the WAN to the LAN, using the VOIP services that you "
+"created, and your PBX as the source.  Make sure the Enable SIP "
+"Transformation box is unchecked."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:60
+msgid ""
+"Click the BWM tab and check the Egress and Ingress boxes, with the "
+"desired priority level."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:68
+msgid "Save your settings and give it a try!"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:72
+msgid "SonicWall TZ-SOHO SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:75
+msgid ""
+"This guide was created for the SonicWall TZ-SOHO router with Firmware "
+"Version 6.5.0.1-14n. This has the newer GUI version and looks quite a bit"
+" different than the GUI that had been used in previous years.  FusionPBX "
+"is in the cloud with a public IP, and the TZ-SOHO router is at the "
+"customer’s location with the extensions behind it."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:79
+msgid "How to Disable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:81
+msgid "Log into the router"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:82
+msgid "Click the MANAGE tab at the top"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:83
+msgid "On the left menu, go to System Setup-> VOIP"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:84
+msgid "Check the “Enable consistent NAT” box"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:85
+msgid "Uncheck the “Enable SIP Transformations” box"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/sonicwall_tz_soho.rst:86
+msgid "Click ACCEPT"
+msgstr ""
+

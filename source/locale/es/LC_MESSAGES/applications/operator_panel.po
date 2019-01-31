@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/operator_panel.rst:3
+msgid "Operator Panel"
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:5
+msgid ""
+"Operator Panel is a simple and easy way to use the FusionPBX web "
+"interface to:"
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:7
+msgid "Make calls from."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:8
+msgid "See who is on a call."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:9
+msgid "Eavesdrop on a call."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:10
+msgid "Hangup your own call."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:11
+msgid "Drag and drop blind transfer an active call."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:12
+msgid "Drag and drop calling to other users."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:13
+msgid "Login and out of queues and call center."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:15
+msgid ""
+"You can see the status of other users also depending on what permissions "
+"are set to the user."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:26
+msgid ""
+"Make sure in Accounts > Extensions that the extension is assigned to the "
+"user.  This will enable Operator Panel for that user."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:30
+msgid "Operator Panel Status"
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:32
+msgid "**Available:** The user will receive a call."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:33
+msgid ""
+"**On Break:** The user won't receive a call but can still receive a call "
+"from other users that directly call."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:34
+msgid "**Do Not Disturb:** The user won't receive any calls."
+msgstr ""
+
+#: ../../source/applications/operator_panel.rst:35
+msgid "**Logged Out:** The user won't receive any calls as they are logged out."
+msgstr ""
+

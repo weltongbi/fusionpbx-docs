@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/iptables.rst:3
+msgid "Iptables"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:7
+msgid ""
+"After The install is complete please keep the login details from the "
+"install in a safe and secure place.  Just in case you need them later."
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:10
+msgid "iptables"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:13
+msgid "Basic Rules"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:15
+msgid "``iptables -A INPUT -i lo -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:16
+msgid "``iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:17
+msgid "``iptables -A INPUT -p tcp --dport 22 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:18
+msgid "``iptables -A INPUT -p tcp --dport 80 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:19
+msgid "``iptables -A INPUT -p tcp --dport 443 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:20
+msgid "``iptables -A INPUT -p tcp --dport 5060 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:21
+msgid "``iptables -A INPUT -p udp --dport 5060 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:22
+msgid "``iptables -A INPUT -p tcp --dport 5080 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:23
+msgid "``iptables -A INPUT -p udp --dport 5080 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:24
+msgid "``iptables -A INPUT -p udp --dport 16384:32768 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:25
+msgid "``iptables -P INPUT DROP``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:26
+msgid "``iptables -P FORWARD DROP``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:27
+msgid "``iptables -P OUTPUT ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:30
+msgid "Optional Rules"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:32
+msgid "OPENVPN: ``iptables -A INPUT -p udp --dport 1194 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:33
+msgid "ICMP: ``iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:36
+msgid "Friendly Scanner"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:38
+msgid "Rules to block not so friendly scanner"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:40
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5060 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:41
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5080 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:42
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5060 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:43
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5080 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:45
+msgid "*Optional*"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:48
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5060 -m string --string "
+"\"VaxSIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:49
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5060 -m string --string "
+"\"VaxIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:50
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5080 -m string --string "
+"\"VaxSIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:51
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5080 -m string --string "
+"\"VaxIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:55
+msgid "Show iptable rules"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:57
+msgid "``sudo iptables -L -v``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:60
+msgid "Show line numbers"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:62
+msgid "``iptables -L -n -v --line-numbers``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:65
+msgid "Delete a line"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:67
+msgid "Delete line 2"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:69
+msgid "``iptables -D INPUT 2``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:72
+msgid "Clear iptables rules"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:74
+msgid "``iptables -P INPUT ACCEPT``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:75
+msgid "``iptables -F``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:76
+msgid "``iptables -X``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:79
+msgid "Block IP address"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:81
+msgid "``iptables -I INPUT -s 62.210.245.132 -j DROP``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:84
+msgid "Save Changes"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:86
+#: ../../source/getting_started/iptables.rst:95
+msgid "Debian / Ubuntu"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:88
+msgid "``apt-get install iptables-persistent``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:89
+msgid "``service iptables-persistent save``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:90
+msgid "``dpkg-reconfigure iptables-persistent``"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:93
+msgid "Iptables Configuration"
+msgstr ""
+
+#: ../../source/getting_started/iptables.rst:97
+msgid "``cd /etc/iptables``"
+msgstr ""
+

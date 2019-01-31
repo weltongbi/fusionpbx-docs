@@ -1,0 +1,524 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/feature_codes.rst:3
+msgid "Feature Codes"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:6
+msgid ""
+"Below are the \"*\" codes used with FusionPBX.  You can also create more "
+"as needed.  If you do be sure to pick ones that are not currently in use."
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:11
+msgid "**Basic**"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:16
+#: ../../source/additional_information/feature_codes.rst:70
+#: ../../source/additional_information/feature_codes.rst:84
+#: ../../source/additional_information/feature_codes.rst:98
+#: ../../source/additional_information/feature_codes.rst:115
+msgid "Feature Code"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:16
+#: ../../source/additional_information/feature_codes.rst:70
+#: ../../source/additional_information/feature_codes.rst:84
+#: ../../source/additional_information/feature_codes.rst:98
+#: ../../source/additional_information/feature_codes.rst:115
+msgid "Name"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:16
+#: ../../source/additional_information/feature_codes.rst:70
+#: ../../source/additional_information/feature_codes.rst:84
+#: ../../source/additional_information/feature_codes.rst:98
+#: ../../source/additional_information/feature_codes.rst:115
+msgid "Detail"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:18
+msgid "\\*\\1"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:18
+msgid "Call Transfer"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:18
+msgid "Transfer a call to another extension"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:20
+msgid "\\*\\2"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:20
+msgid "Record Active Call"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:22
+msgid "\\*\\4"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:22
+msgid "Attended Call Transfer"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:22
+msgid ""
+"Attended call transfer to another extension. After extension number press"
+" #"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:24
+msgid "\\*\\411"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:24
+msgid "Directory"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:24
+msgid "*DIR to dial by name."
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:26
+msgid "\\*\\3472"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:26
+msgid "DISA"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:26
+msgid "*DISA followed by Administrative PIN to receive a dialtone and call out"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:28
+msgid "*67<phone number>"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:28
+msgid "Call Privacy"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:28
+msgid "Activate call privacy"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:30
+msgid "\\*\\69"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:30
+msgid "Call Return"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:30
+msgid "Call back the last incoming number"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:32
+msgid "\\*\\732"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:32
+msgid "Record"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:32
+msgid "*REC followed by Administrative PIN to record a message"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:34
+#: ../../source/additional_information/feature_codes.rst:86
+msgid "\\*\\8[ext]"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:34
+#: ../../source/additional_information/feature_codes.rst:86
+msgid "Extension Intercom"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:34
+msgid "Page a specific extension."
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:36
+msgid "\\*\\870"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:36
+msgid "Redial"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:36
+msgid "Redial a number"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:38
+msgid "\\*\\9171"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:38
+msgid "Talking Date"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:38
+msgid "Current server date"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:40
+msgid "\\*\\9170"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:40
+msgid "Talking Time"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:40
+msgid "Current server time"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:42
+msgid "\\*\\9172"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:42
+msgid "Talking Date & Time"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:42
+msgid "Current server data & time"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:44
+msgid "\\*\\925"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:44
+msgid "Wakeup Call"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:44
+msgid "Schedule a wakeup call"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:46
+msgid "\\*\\78"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:46
+msgid "Enable DND"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:46
+msgid "Enable Do Not Disturb"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:48
+msgid "\\*\\79"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:48
+msgid "Disable DND"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:48
+msgid "Disable Do Not Disturb"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:50
+msgid "\\*\\9888"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:50
+msgid "FreeSWITCH Conference"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:50
+msgid "Connects to Cluecon Weekly"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:52
+msgid "\\*\\0[ext]"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:52
+msgid "Speed Dial"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:52
+msgid "Speed dial an extension"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:54
+msgid "\\*\\21"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:54
+msgid "Follow Me"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:54
+msgid "Set the Follow Me number"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:56
+msgid "\\*\\72"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:56
+msgid "Enable Call Forward"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:56
+msgid "Enables Call Forward"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:58
+msgid "\\*\\73"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:58
+msgid "Disable Call Forward"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:58
+msgid "Disables Call Forward"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:60
+msgid "\\*\\74"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:60
+msgid "Call Forward"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:60
+msgid "Toggle Call Forward enable/disable"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:63
+msgid ""
+"**Administrative PIN** (Recordings pin) can be found here `Administrative"
+" PIN </en/latest/applications/recordings.html>`__ page"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:67
+msgid "**Call Parking**"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:72
+msgid "\\*\\5900"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:72
+msgid "Valet Park"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:72
+msgid "Attended Transfer (park). The park extension will be played back to you"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:74
+msgid "\\*\\5901-5999"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:74
+msgid "Valet Un-Park"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:74
+msgid "Retrieve a Valet Parked call"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:80
+msgid "**Advanced**"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:86
+msgid "Page a specific extension"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:88
+msgid "\\*\\33 <ext>"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:88
+msgid "Eavesdrop"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:88
+msgid ""
+"Listen to the call. Press **1** remote, **2** local, **3** full "
+"conversation, **0** mute"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:90
+msgid "** <ext>"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:90
+msgid "Intercept an extension"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:90
+msgid "Intercept a specific extension"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:94
+msgid "**Voicemail**"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:100
+msgid "\\*\\97"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:100
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:100
+msgid "The system detects the extension, and will prompt for your password"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:102
+msgid "\\*\\98"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:102
+#: ../../source/additional_information/feature_codes.rst:104
+msgid "Check any Voicemail box"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:102
+#: ../../source/additional_information/feature_codes.rst:104
+msgid "The system will prompt for both your id (extension number) and password"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:104
+msgid "\\*\\4000"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:106
+msgid "\\*\\99<extension>"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:106
+msgid "Send to Voicemail"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:106
+msgid "Send a call directly to voicemail"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:111
+msgid "**Miscellaneous**"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:117
+msgid "\\*\\9192"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:117
+msgid "Info"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:117
+msgid "Sends information to the console"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:119
+msgid "\\*\\9193"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:119
+msgid "Video Record"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:119
+msgid "Record Video"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:121
+msgid "\\*\\9194"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:121
+msgid "Video Playback"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:121
+msgid "Playback Video"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:123
+msgid "\\*\\9195"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:123
+msgid "Delay Echo"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:123
+msgid "Audio is played back after a slight delay"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:125
+msgid "\\*\\9196"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:125
+msgid "Echo Test"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:127
+msgid "\\*\\9197"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:127
+msgid "Milliwatt Tone"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:127
+msgid "Tone Playback"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:129
+msgid "\\*\\9664"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:129
+msgid "Test MoH"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:129
+msgid "Test Music on Hold"
+msgstr ""
+
+#: ../../source/additional_information/feature_codes.rst:133
+msgid "*You can also add extra feature codes"
+msgstr ""
+

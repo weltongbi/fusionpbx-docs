@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/fax_server.rst:3
+msgid "Fax Server"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:5
+msgid ""
+"To receive a FAX setup a fax extension and then direct the incoming to "
+"it. `Click here for the Youtube video <https://youtu.be/AJHcle2U3n4>`_"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:16
+msgid "New: Create a new fax to send."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:17
+msgid "Inbox: Faxes received."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:18
+msgid "Sent: Faxes sent."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:19
+msgid "Log: Sucessful and failed attempts for both incoming and outgoing."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:20
+msgid "Active: Shows the faxes in queue."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:23
+msgid "Fax Server Settings"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:25
+msgid ""
+"There are more settings for fax under Advanced > Default Settings then "
+"fax category."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:27
+msgid "To create a fax server goto App > Fax Server.  Click the + on the right."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:28
+msgid "**Leave the Destination Number blank** or faxing wont work."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:29
+msgid ""
+"Destination Number is used in the Fax Server Dial Plan and is set based "
+"on the fax server internal extension number."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:30
+msgid ""
+"Define the fields, the ones in **bold** are required.  It is a good idea "
+"to organize so define the name thoughtfully."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:31
+msgid "The extension you must use one that is not allready created."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:32
+msgid ""
+"Account Code should autofill.  Again, **leave the Destination Number "
+"blank**."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:33
+msgid "A prefix can be defined when sending a fax."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:34
+msgid ""
+"Email is for inbound faxes and will be on the server and sent to the "
+"defines email."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:35
+msgid "Define the Caller ID Name and Number."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:36
+msgid "Leave the Forward Number and Greeting blank for normal settings."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:37
+msgid ""
+"Number of channels define with a numerical value or keep blank for a "
+"default value."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:38
+msgid "Keep organized by adding a Description."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:48
+msgid "New"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:50
+msgid ""
+"To send a fax, the items in **bold** are required.  To send a proper fax "
+"it is best to fill out all fields and attach any documents.  Keep in mind"
+" that the upload max MB is limited by Nginx and PHP config files."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:57
+msgid "Inbox"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:59
+msgid ""
+"Click **PDF** to view the fax or right click on **PDF** and left click on"
+" **Save Link As**. If you defined and email address in the **email** "
+"field you will receive the fax also to that email address."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:69
+msgid "Sent"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:71
+msgid ""
+"Click **PDF** to view the fax or right click on **PDF** and left click on"
+" **Save Link As**."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:80
+msgid "Fax ATA"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:82
+msgid ""
+"To connect to a fax machine with an ATA you will most likely need to "
+"adjust settings in the ATA web interface and in FusionPBX."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:84
+msgid ""
+"Create an extension for the FAX machine. You can *optionally* set "
+"**bypass media to true** under advanced in the extension settings."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:88
+msgid "`FAX Default Settings`_"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:90
+msgid "Menu -> Advanced -> Default Settings then category Fax"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:92
+msgid ""
+"Variables are used as defaults for the dialplan for sending and receiving"
+" faxes"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:97
+msgid "*fax_enable_t38_request=false* (Can be true or false)"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:98
+msgid "*ignore_early_media=true* (Can be true or false)"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:99
+msgid ""
+"Some carriers it's better for fax_enable_t38_request=true and for some "
+"its better for it to be false."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:100
+msgid ""
+"It's best not to make an assumption and to do testing with different "
+"settings to get the best results for your particular carrier."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:101
+msgid ""
+"The variable *fax_enable_t38_request=false* will send a T38 reinvite when"
+" a fax tone is detected. In some cases the re-invite always fails for "
+"some carriers which is why it is default to false."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:107
+msgid "Troubleshooting Tips"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:109
+msgid ""
+"Faxing will fail at times. Fax Server should automatically try different "
+"methods for sending. There are different combinations like;"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:111
+msgid "With T-38 on/off"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:112
+msgid "ECC on/off"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:113
+msgid "Sending a wav file"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:114
+msgid ""
+"Send a fax to HP faxback.  This will test sending and receiving "
+"1-888-473-2963"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:115
+msgid ""
+"Test sending with Faxtoy.net This will display what is faxed on their "
+"website. 1-855-330-1239 or 1-213-294-2943"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:120
+msgid "Turn on verbose log in FreeSWITCH fax.conf.xml"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:117
+msgid ""
+"From your FusionPBX installation go to ADVANCED > XML Editor and a new "
+"window will open."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:118
+msgid "Choose autoload_configs folder from the list, then choose fax.conf.xml."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:119
+msgid ""
+"In fax.conf.xml there is an option that by default sets a variable called"
+" verbose = false. If you change this to true you get more logging details"
+" as the fax is actually received, such as the quality of the connection "
+"etc."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:120
+msgid ""
+"You can see these details when you run the freeswitch command line ie. "
+"**fs_cli**"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:123
+msgid "Command Line Fax Statistics"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:125
+msgid ""
+"Grep from ssh or console access your freeswitch.log files for "
+"FAX_RETRY_STATS to start keeping track of success/failure. Examples"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:128
+msgid "Here's how you can get some totals."
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:130
+msgid "**Total:**"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:136
+msgid "**Success:**"
+msgstr ""
+
+#: ../../source/applications/fax_server.rst:142
+msgid "**Failures:**"
+msgstr ""
+

@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/call_broadcast.rst:3
+msgid "Call Broadcast"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:5
+msgid "Broadcast calls (a light dialer) to a defined list of phone numbers."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:12
+msgid "To create a call broadcast click the **plus** on the right"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:14
+msgid "Fill in the following fields"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:16
+msgid "**Name-** Name for the Call Broadcast."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:18
+msgid "**Accountcode** Used by some billing systems."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:20
+msgid "**Timeout-**  Amount of time till hangup."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:22
+msgid ""
+"**Concurrent Limit-** Used to pace the calls calls if the timeout was 60 "
+"and the concurent"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:23
+msgid "limit is 100 then we would schedule 100 calls every 60 seconds."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:25
+msgid "**Caller ID Name-** Name that will be used on outbound caller id."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:27
+msgid "**Caller ID Number-** Number that will be used on outbound caller id."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:29
+msgid ""
+"**Destination Number-**  This is the internal number to call. Send the "
+"call to an IVR Menu or"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:30
+msgid ""
+"some other number. If sending to a conference room make sure the room has"
+" a pin number or something that requires user input you don't want to add"
+" voiemail messages into the conference room."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:39
+msgid ""
+"**Phone Number List-**  List of phone numbers to call in the call "
+"broadcast."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:40
+msgid ""
+"This is the external number to call. Set a list of phone numbers one per "
+"row in the following format: 123-123-1234|Last Name, First Name"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:43
+msgid "``5551231234|example 1``"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:44
+msgid "``5551231234|example 2``"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:45
+msgid "``5551231234|example 3``"
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:47
+msgid ""
+"**Voicemail Detection-** Set **True or false** to detect an answering "
+"machine."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:49
+msgid "**Description** Help organize and label what the call broadcast is for."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:57
+msgid ""
+"Once you have everything filled out click the **Call Broadcast name** you"
+" just created. On the top right click the **Send Broadcast** button to "
+"start the call broadcast.  To stop the call broadcast click **STOP "
+"BROADCAST** on the top right."
+msgstr ""
+
+#: ../../source/applications/call_broadcast.rst:59
+msgid ""
+"Uses `sched_api`_ to schedule an API call in the future. Is used to "
+"schedule calls to the provided number/extensions and send them to the "
+"extension an IVR Menu, Conference Room, or any other number. Could be "
+"used among other things to schedule a Conference."
+msgstr ""
+

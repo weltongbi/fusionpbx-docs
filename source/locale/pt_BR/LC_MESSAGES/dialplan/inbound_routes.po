@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/dialplan/inbound_routes.rst:3
+msgid "Inbound Routes"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:5
+msgid ""
+"Route incoming calls to destinations based on one or more conditions. It "
+"can send incoming calls to:"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:7
+msgid "IVR Menu"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:8
+msgid "Call Group"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:9
+msgid "Extension"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:10
+msgid "External Number"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:11
+msgid "Script"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:13
+msgid ""
+"Directs public inbound calls to an internal destination on the system. "
+"Note that the only difference between the inbound route dial plan and the"
+" normal dial plan is that the inbound route dial plan works on all calls "
+"that are in the public context whereas the normal dial plan works on the "
+"domain context."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:16
+msgid ""
+"Inbound Call Routing is used to route incoming calls to destinations "
+"based on one or more conditions and context. It can send incoming calls "
+"to an auto attendant, huntgroup, extension, external number, or a script."
+" Order is important when an anti-action is used or when there are "
+"multiple conditions that match."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:19
+msgid ""
+"**Inbound routes can be used for advanced reasons**.  `Dialplan > "
+"Destinations "
+"<http://docs.fusionpbx.com/en/latest/dialplan/destinations.html>`_ **will"
+" create and configure the Inbound Route for you.**"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:24
+#: ../../source/dialplan/inbound_routes.rst:38
+msgid "**Name:** The name of the Inbound Route."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:25
+#: ../../source/dialplan/inbound_routes.rst:39
+msgid "**Number:** The Number (DID) an outside caller will call."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:26
+#: ../../source/dialplan/inbound_routes.rst:40
+msgid "**Context:** Context of the Inbound Route. Usually will be public."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:27
+msgid "**Hostname:** Usually blank, otherwise for advanced use."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:28
+#: ../../source/dialplan/inbound_routes.rst:41
+msgid "**Order:** Order where the inbound route will be used in the dialplan."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:29
+#: ../../source/dialplan/inbound_routes.rst:44
+msgid "**Enabled:** If the Inbound Route is enabled or disabled."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:30
+#: ../../source/dialplan/inbound_routes.rst:45
+msgid "**Description:** A way to organize what the inbound route is used for."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:33
+msgid "Edit/Add Inbound Routes"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:42
+msgid "**Domain:** Can be global to all domains or specific to one domain."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:43
+msgid ""
+"**Continue:** If you want the call to continue through the order of the "
+"remaining dialplans. This is usually set as false."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:49
+msgid "XML example"
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:51
+msgid "Route based on CallerID Name or Number."
+msgstr ""
+
+#: ../../source/dialplan/inbound_routes.rst:53
+msgid "Example used to send unwanted callers. (telemarketers that won't stop)"
+msgstr ""
+

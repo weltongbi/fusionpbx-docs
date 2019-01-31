@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/dialplan/advanced_dialplans.rst:3
+msgid "Advanced Dialplans"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:5
+msgid ""
+"FusionPBX installs several default dialplans. FusionPBX also gives the "
+"option to make new dialplans. This gives you the power for more advanced "
+"functions, and produce the desired result."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:11
+msgid "Adding a Dialplan"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:13
+msgid "You can create a new dialplan or copy and modify an existing dialplan."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:15
+msgid "Go to Dialplan > Dialplan Manager"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:17
+msgid "Click the **Plus** icon at the top right."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:19
+msgid "Complete required fields and click save."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:26
+msgid "Edit a Dialplan"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:28
+msgid "Find the dialplan you want to edit and click the edit icon."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:33
+msgid ""
+"Once you enter data into the empty fields at the bottom and click save, "
+"more blank fileds will populate if needed."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:40
+msgid "Enable a Dialplan Destination"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:42
+msgid ""
+"Dialplans that have a value in the **Number** filed can be enabled and "
+"used in `Dialplan > Destinations <../dialplan/destinations.html>`_. "
+"Setting the **destination** field to **True** will enable the dialplan to"
+" be visable and used as an action in `Dialplan > Destinations "
+"<../dialplan/destinations.html>`_."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:48
+msgid "Dialplan example"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:50
+msgid ""
+"This example will be for calling an extension on another tenant.  This "
+"can be done several ways."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:52
+msgid "We can use the adding a dialplan example and modify it for this example."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:60
+msgid "Cross Tenant Calling"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:62
+msgid ""
+"This would require a prefix of 5 followed by 4 digit extensions. The "
+"prefix can be any number that you choose to use and the 4 digit extension"
+" must match the destination tenant. So if the destination extensions are "
+"3 digit then you would use 3 instead of 4."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Tag"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Type"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Data"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Break"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Inline"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Group"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:65
+msgid "Order"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:67
+msgid "condition"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:67
+msgid "${destination_number}"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:67
+msgid "^5(\\d{4})$"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:67
+msgid "5"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:69
+#: ../../source/dialplan/advanced_dialplans.rst:71
+#: ../../source/dialplan/advanced_dialplans.rst:73
+msgid "action"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:69
+#: ../../source/dialplan/advanced_dialplans.rst:71
+msgid "set"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:69
+msgid "domain_name=customer.domain.tld"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:69
+#: ../../source/dialplan/advanced_dialplans.rst:71
+msgid "True"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:69
+msgid "10"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:71
+msgid "domain_uuid=correct-uuid-for-the-domain"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:71
+msgid "15"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:73
+msgid "transfer"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:73
+msgid "$1 XML ${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:73
+msgid "20"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:76
+msgid "Be sure to set the **Continue dropdown box True**"
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:78
+msgid "Finally we have the desired dialplan to call from tenant A to tenant B."
+msgstr ""
+
+#: ../../source/dialplan/advanced_dialplans.rst:88
+msgid ""
+"A quick way to find a domains uuid is by going to Advanced > Domains.  "
+"Then click the edit icon on the domain you want to know the uuid of.  The"
+" uuid will be at the end of the url."
+msgstr ""
+

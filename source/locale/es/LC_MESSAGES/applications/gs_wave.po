@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/gs_wave.rst:3
+msgid "GS Wave"
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:5
+msgid ""
+"Grandstream Wave is a soft phone for smart phones or tablets. It can be "
+"configured easily with a QR code provided in your FusionPBX installation."
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:7
+msgid "To use it download and install Grandstream Wave for your mobile device."
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:8
+msgid "Start the Grandstream Wave application on your mobile device."
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:9
+msgid ""
+"Then go to the Grandstream Wave Account Settings and press the plus+ to "
+"add a new account."
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:10
+msgid ""
+"Press on UCM Account (Scan QR Code) and then select the extension and "
+"scan the QR code."
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:16
+msgid ""
+"You can choose any extension to provision the Grandstream Wave.  Even If "
+"the extension is assigned to a desk phone.  Just be sure to enable "
+"multiple registrations."
+msgstr ""
+
+#: ../../source/applications/gs_wave.rst:26
+msgid ""
+"Be sure to assign a user to an extension for this application to be fully"
+" functional. This is a new app starting with master branch version 4.5"
+msgstr ""
+

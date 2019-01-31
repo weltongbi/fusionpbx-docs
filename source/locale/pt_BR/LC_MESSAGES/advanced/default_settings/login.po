@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/login.rst:3
+msgid "Login"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:6
+msgid "Login specific default settings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:9
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:9
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:9
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:9
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:9
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:11
+msgid "password_reset_key"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:11
+#: ../../source/advanced/default_settings/login.rst:17
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:11
+msgid "9pG6sgerhuh5hetjnsrtjrjrdW"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:11
+#: ../../source/advanced/default_settings/login.rst:13
+#: ../../source/advanced/default_settings/login.rst:15
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:11
+msgid ""
+"Display a Reset Password link on the login box (requires smtp_host be "
+"defined)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:13
+msgid "domain_name_visible"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:13
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:13
+#: ../../source/advanced/default_settings/login.rst:17
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:13
+msgid ""
+"Displays a domain input or select box (if domain_name array defined) on "
+"the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:15
+msgid "domain_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:15
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:15
+msgid "pbx1.yourdomain.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:15
+msgid "Domain select option displayed on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:17
+msgid "message"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:17
+msgid "Welcome to FusionPBX!"
+msgstr ""
+
+#: ../../source/advanced/default_settings/login.rst:17
+msgid "Display a message at login."
+msgstr ""
+

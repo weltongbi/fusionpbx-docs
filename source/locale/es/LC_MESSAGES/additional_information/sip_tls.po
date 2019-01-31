@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/sip_tls.rst:3
+msgid "SSL/TLS Setup"
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:5
+msgid ""
+"On a new installation of FusionPBX, TLS for SIP is available to use once "
+"you run `letsencrypt.sh <../getting_started/lets_encrypt.html>`_ and make"
+" a few setting changes in FusionPBX."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:9
+msgid "Configure TLS"
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:11
+msgid "Configuration for SIP to use TLS can be achieved with the following steps."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:13
+msgid "First open an ssh terminal or console window."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:15
+msgid "cd /usr/src/fusionpbx-install.sh/debian/resources/"
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:17
+msgid "Execute `letsencrypt.sh <../getting_started/lets_encrypt.html>`_"
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:19
+msgid "Login to your FusionPBX installation."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:21
+msgid "Go to Advanced > Variables."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:23
+msgid ""
+"Scroll down to **SIP Profile:** Internal (This can be done on any SIP "
+"Profile)"
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:30
+msgid "Set **internal_ssl_enable** value to **true** in lowercase."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:32
+msgid "Go to Status > SIP Status."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:34
+msgid "Click **FLUSH CACHE** at the top right."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:41
+msgid "Click **Rescan** on the profile."
+msgstr ""
+
+#: ../../source/additional_information/sip_tls.rst:49
+msgid "You should now see at the right under **State** (RUNNING)(0)(TLS)"
+msgstr ""
+

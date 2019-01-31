@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/music_on_hold.rst:3
+msgid "Music on Hold"
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:7
+msgid ""
+"Music on hold can be in WAV or MP3 format. To play an MP3 file you must "
+"have mod_shout enabled on the 'Modules' tab. You can adjust the volume of"
+" the MP3 audio from the 'Settings' tab. For best performance upload 16 "
+"bit, 8/16/32/48 kHz mono WAV files."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:15
+msgid ""
+"Click the edit pencil on the right to customize music on hold options.  "
+"This can be done on each kHz group."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:21
+msgid ""
+"**Name:** Choose a name. (default is needed for the defauly Music on "
+"Hold.)"
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:22
+msgid "**Path:** Path to where the music is."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:23
+msgid ""
+"**Shuffle:** True or False (If true and multiple music files will shuffle"
+" the play order.)"
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:24
+msgid "**Sampling:** The rate the music is encoded in."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:25
+msgid "**Channels:** Mono or Stereo."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:26
+msgid "**Interval:** Silence between files playing in milliseconds."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:27
+msgid "**Timer Name:** Best to keep as soft."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:28
+msgid ""
+"**Chime File:** The file you want to \"chime in\" while Music on Hold is "
+"playing."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:29
+msgid "**Chime Frequency:** Seconds between each \"chime in\"."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:30
+msgid "**Chime Maximum:** Max number attempts to \"chime in\"."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:31
+msgid ""
+"**Domain:** Select Global for all domains or the specific domain for only"
+" that domain."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:34
+msgid "Music on Hold Tips"
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:36
+msgid ""
+"When a new music on hold category mod_local_stream will be restarted. If "
+"it is busy then it will not restart automatically. A manual restart of "
+"the module is required when it is not in use. The module can be restarted"
+" from the Menu -> Advanced -> Modules or from the console and fs_cli with"
+" following command."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:42
+msgid ""
+"Each music on hold category is given a name. If the domain is set to "
+"global the name will be the name in the example below the protocol that "
+"is used is local_stream and the music on hold category is default and "
+"domain is set to global."
+msgstr ""
+
+#: ../../source/applications/music_on_hold.rst:48
+msgid ""
+"It is possible that a domain or tenant can have its own category of "
+"music. In this example the name is 'custom' and the domain was assigned "
+"automatically to the current domain."
+msgstr ""
+

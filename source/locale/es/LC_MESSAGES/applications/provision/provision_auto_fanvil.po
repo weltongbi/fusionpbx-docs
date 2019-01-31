@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:3
+msgid "Fanvil"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:5
+msgid ""
+"Setting up a **Fanvil** SIP phone through the phone's local http "
+"management portal."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:7
+msgid ""
+"Factory reset the phone (physically on the phone) by pressing menu button"
+" > Settings > Advanced Settings (default password is 123) > Reset to "
+"Default > Press yes to continue."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:8
+msgid "Press Menu > Status to get the phones ip address"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:9
+msgid "Open a web browser and enter the phones ip address"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:10
+msgid "Default login name and password is **admin**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:11
+msgid "Top menu click **Auto Provision**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:14
+msgid "Common Settings"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:16
+#: ../../source/applications/provision/provision_auto_fanvil.rst:27
+msgid "Fill out the fields:"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:18
+#: ../../source/applications/provision/provision_auto_fanvil.rst:29
+msgid ""
+"Authentication Name: http user name that was set in FusionPBX default "
+"settings"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:19
+msgid ""
+"Authentication Password: http password that was set in FusionPBX default "
+"settings"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:20
+msgid "Save Auto Provision Information: Check the box"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:21
+msgid "Download CommonConfig enabled: Check the box"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:22
+msgid "Download DeviceConfig enabled: Check the box"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:25
+msgid "Static Provisioning Server"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:30
+msgid "Server Address: https://domain.tld/app/provision"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:31
+msgid "Protocol Type: HTTPS"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:32
+msgid "Update Mode: Update after Reboot"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:34
+#: ../../source/applications/provision/provision_auto_fanvil.rst:59
+msgid "Click Apply"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:42
+msgid "Left side menu click **System**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:43
+msgid "Top menu click **Tools**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:44
+msgid "Scroll to the bottom and click **Reboot**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:52
+msgid "Self Signed Certificates"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:54
+msgid ""
+"If you are going to use a self signed certificate you will need to adjust"
+" additional settings."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:56
+msgid "Left side menu click **Phone settings**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:57
+msgid "Top menu click **Trusted Certificates**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_fanvil.rst:58
+msgid "CA Certificates: Disabled"
+msgstr ""
+

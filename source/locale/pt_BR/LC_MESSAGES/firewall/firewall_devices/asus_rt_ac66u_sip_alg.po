@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:3
+msgid "ASUS RT-AC66U SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:6
+msgid ""
+"This guide was created for the ASUS RT-AC66U router with Firmware Version"
+" 3.0.0.4.380_8120.  FusionPBX is in the cloud with a public IP, and the "
+"ZyXEL USG60 router is at the customer’s location with the extensions "
+"behind it.  The RT-AC66U is a “prosumer” grade router.  It has good "
+"performance for the dollar and is a good choice for home offices."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:10
+msgid "How to Disable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:12
+msgid "Log into the router"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:13
+msgid "On the left nav menu, click “WAN”"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:14
+msgid "Click the “NAT Passthrough” tab at the top-right"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:15
+msgid "Set “SIP Passthrough” to Disable"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:16
+msgid "Click Apply"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:17
+msgid "Reboot the router."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/asus_rt_ac66u_sip_alg.rst:21
+msgid ""
+"This part is a little confusing.  It seems that ASUS has either reversed "
+"the meaning of SIP Passthrough or changed how it works over a few "
+"firmware releases.  At any rate, if you have difficulties with Audio or "
+"Registrations, you can try toggling this setting.  With these home-grade "
+"routers you should perform a full reboot in order to clear the tables "
+"before testing the phones."
+msgstr ""
+

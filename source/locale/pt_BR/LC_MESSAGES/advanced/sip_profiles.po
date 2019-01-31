@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/sip_profiles.rst:3
+msgid "Sip Profiles"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:5
+msgid "Advanced -> SIP Profiles"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:13
+msgid "`Internal </en/latest/advanced/internal_sip_profile.html>`_"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:15
+msgid ""
+"Internal sip profiles (port 5060/5061) require registration or `access "
+"controls "
+"<http://docs.fusionpbx.com/en/latest/advanced/access_controls.html>`_ "
+"cidr range to allow the IP address in without SIP authentication.  Once "
+"the access controls are setup correctly, the carrier will be allowed to "
+"send calls to the internal profile."
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:20
+msgid "`External </en/latest/advanced/external_sip_profile.html>`_"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:23
+msgid ""
+"External sip profiles (port 5080-5081) allow anonymous connection to "
+"FusionPBX and is optional.  External profile is optional when freewitch "
+"has a public ip address.  Can be useful when setting behind nat.  Being "
+"anonymous doesn't mean totally open due to the inbound routes call "
+"conditions.(call filtering)"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:27
+msgid "`Internal ipv6 </en/latest/advanced/internal_ipv6_sip_profile.html>`_"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:29
+msgid ""
+"Internal ipv6 sip profiles (port 5060/5061) require registration or "
+"`access controls "
+"<http://docs.fusionpbx.com/en/latest/advanced/access_controls.html>`_ "
+"cidr range to allow the IP address in without SIP authentication.  Once "
+"the access controls are setup correctly, the carrier will be allowed to "
+"send calls to the internal ipv6 profile."
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:31
+#: ../../source/advanced/sip_profiles.rst:40
+msgid "If you don't have ipv6 then the ipv6 profiles should be disabled."
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:32
+#: ../../source/advanced/sip_profiles.rst:41
+msgid ""
+"Be sure to stop the profile before disabling it.  To disable goto "
+"Advanced > SIP Profiles and click the pencil edit icon to the right of "
+"the profile you want to disable.  From the dropdown box select "
+"**enabled** to false."
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:35
+msgid "`External ipv6 </en/latest/advanced/external_ipv6_sip_profile.html>`_"
+msgstr ""
+
+#: ../../source/advanced/sip_profiles.rst:38
+msgid ""
+"External ipv6 sip profiles (port 5080-5081) allow anonymous connection to"
+" FusionPBX and is optional."
+msgstr ""
+

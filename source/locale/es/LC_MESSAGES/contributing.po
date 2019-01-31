@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/contributing.rst:3
+msgid "Contributing"
+msgstr ""
+
+#: ../../source/contributing.rst:5
+msgid "There are many ways to help the FusionPBX project."
+msgstr ""
+
+#: ../../source/contributing.rst:7
+msgid "What We Need:"
+msgstr ""
+
+#: ../../source/contributing.rst:9
+msgid "Developers"
+msgstr ""
+
+#: ../../source/contributing.rst:10
+msgid "Technical Writers"
+msgstr ""
+
+#: ../../source/contributing.rst:11
+msgid "Translators"
+msgstr ""
+
+#: ../../source/contributing.rst:12
+msgid "Quality Assurance Testers"
+msgstr ""
+
+#: ../../source/contributing.rst:13
+msgid "Documentors"
+msgstr ""
+
+#: ../../source/contributing.rst:17
+msgid ""
+"If you are planning to contribute to any of our github repos we require "
+"that you sign the FusionPBX Contributor License Agreement. This mainly "
+"protects FusionPBX and our users **read: you** from code that could be "
+"inserted that might pose a legal problem. It does this by verifying that "
+"the code you are contributing is yours to give and the you give it freely"
+" and irrevocably to the project."
+msgstr ""
+
+#: ../../source/contributing.rst:21
+msgid "How to Get Started:"
+msgstr ""
+
+#: ../../source/contributing.rst:23
+msgid ""
+"Watch the \"FusionPBX Pull Requests with Github\" Youtube Video  "
+"https://youtu.be/SPUe7S4Z6ms"
+msgstr ""
+
+#: ../../source/contributing.rst:31
+msgid ""
+"If you have a good handle on PHP, Lua or SQL Development Might be the "
+"thing for you head over to the Development Manual"
+msgstr ""
+
+#: ../../source/contributing.rst:32
+msgid ""
+"Are you a FusionPBX power user and do you possible love to write? Check "
+"out the Documentation Guide or the Testing Guide"
+msgstr ""
+
+#: ../../source/contributing.rst:33
+msgid ""
+"Would you like to see FusionPBX in your native language and have the time"
+" to commit to staying on top of translations for releases? Check out the "
+"translation section to learn how to use our translation server."
+msgstr ""
+
+#: ../../source/contributing.rst:37
+msgid ""
+"Contributing Code or Documentation requires knowledge of Git, Github and "
+"how to create pull requests on Github. This is not as bad as it sounds "
+"and if you are willing to learn we will help you through it."
+msgstr ""
+

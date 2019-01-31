@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/backup.rst:3
+msgid "Backup"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:7
+msgid ""
+"It's always good to have a backup method in place.  Here are the steps to"
+" a basic backup method with FusionPBX."
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:10
+msgid "Command Line"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:12
+msgid ""
+"Be sure to change the password by replacing the zzzzzzzz in "
+"PGPASSWORD=\"zzzzzzzz\" with your database password. You can get the "
+"password from /etc/fusionpbx/config.php."
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:33
+msgid "To save the file press ctrl + x then y to save it."
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:36
+msgid ""
+"You should have the script ready to execute. (Default the script will use"
+" FreeSWITCH package paths.  If you have an older install using source be "
+"sure to change this by commenting the package line #22 and uncomment the "
+"source line #25.)"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:39
+msgid "Crontab"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:41
+msgid "Setting crontab -e"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:53
+msgid ""
+"Once this is complete you will have the backup ready to execute by "
+"./fusionpbx-backup.sh or from the daily cron job."
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:56
+msgid "Web Interface (optional)"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:58
+#: ../../source/getting_started/backup.rst:108
+msgid "**FreeSWITCH Package install paths.**"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:63
+msgid "**Goto Advanced > Default Settings.**"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:78
+#: ../../source/getting_started/backup.rst:102
+msgid "**FreeSWITCH Source install paths.**"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:98
+msgid "Download Backups"
+msgstr ""
+
+#: ../../source/getting_started/backup.rst:100
+msgid ""
+"From Advanced > Backup you can download the backup from the web interface"
+" this is optional. You would need to make sure that PHP doesn't timeout "
+"while compressing your backup and that it has enough access to RAM to do "
+"the work."
+msgstr ""
+

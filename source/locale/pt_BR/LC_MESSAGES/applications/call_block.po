@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/call_block.rst:3
+msgid "Call block"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:5
+msgid "A list of numbers from which to block calls."
+msgstr ""
+
+#: ../../source/applications/call_block.rst:12
+msgid "To block a call click on the **plus** icon on the right"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:13
+msgid "Fill out the fields with pertinent information"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:14
+msgid "Action:"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:15
+msgid "**Reject-** Will reject the call"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:16
+msgid "**Busy-** Will send a busy signal"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:17
+msgid "**Hold-** Will put the call on hold"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:18
+msgid "**Voicemail-** Will send the call to the specified voicemail box"
+msgstr ""
+
+#: ../../source/applications/call_block.rst:25
+msgid ""
+"**Enhanced call-blocking introduced in Master branch 2.5.0:** Call-"
+"blocking does an exact match on the inbound caller-id number by default. "
+"This behaviour can be changed to use SQL \"like\" comparison or regex "
+"based comparison by adding the following variable to the Default "
+"Settings:"
+msgstr ""
+

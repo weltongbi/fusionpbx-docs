@@ -1,0 +1,232 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/manual/advanced.rst:3
+msgid "Advanced"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:6
+msgid "Access Controls"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:8
+msgid "Access control list can allow or deny ranges of IP addresses."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:11
+msgid "Adminer"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:13
+msgid "GUI to view and edit databases."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:16
+msgid "App Manager"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:18
+msgid "Manage the applications that are installed."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:21
+msgid "Backup"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:23
+msgid ""
+"To create a backup of the Source Paths below (defined in Default "
+"Settings), select the desired File Format and Target Type."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:26
+msgid "Command"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:28
+msgid "Provides a conventient way to execute system, PHP, and switch commands."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:31
+msgid "Databases"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:33
+msgid "Database information."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:36
+msgid "Default Settings"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:38
+msgid "Settings used for all domains."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:41
+msgid "Domains"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:42
+msgid "Control the list of domains to manage."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:45
+msgid "Grammar Editor"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:47
+msgid "Edit Grammar"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:50
+msgid "Group Manager"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:52
+msgid ""
+"Create users, set users permission levels and set options to make fields "
+"visible for edit or entry."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:55
+msgid "Menu Manager"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:57
+msgid "Used to customize one or more menus."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:60
+msgid "Modules"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:62
+msgid ""
+"Modules extend the features of the system. Use this page to enable or "
+"disable modules."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:65
+msgid "Notifications"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:67
+msgid ""
+"Set notification preferences for FusionPBX project-related communication "
+"and other local system alerts."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:70
+msgid "PHP Editor"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:72
+msgid "GUI editor to edit PHP files."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:75
+msgid "Provision Editor"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:77
+msgid "GUI editor to edit phone config files."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:80
+msgid "Script Editor"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:82
+msgid "GUI editor to edit scripts."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:85
+msgid "Settings"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:87
+msgid "Advanced settings"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:90
+msgid "SIP Profiles"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:92
+msgid "Manage settings for SIP profiles."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:95
+msgid "SQL Query"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:97
+msgid "Make SQL queries."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:100
+msgid "Upgrade"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:102
+msgid "Select the actions below you wish to perform."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:104
+msgid "**Source Code:** Updates FusionPBX source files from the respository."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:105
+msgid "**Schema:** Checks to ensure table and field integrity in the database."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:106
+msgid "**Data Types:** Detects and updates incorrect field data types."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:107
+msgid "**App Defaults:** Executes the default settings for each application."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:108
+msgid "**Menu Defaults:** Restores the default items in the selected menu."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:109
+msgid "**Permission Defaults:** Restores default group permissions."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:112
+msgid "Variables"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:114
+msgid "Define preprocessor variables here."
+msgstr ""
+
+#: ../../source/manual/advanced.rst:117
+msgid "XML Editor"
+msgstr ""
+
+#: ../../source/manual/advanced.rst:119
+msgid "GUI to edit XML files"
+msgstr ""
+

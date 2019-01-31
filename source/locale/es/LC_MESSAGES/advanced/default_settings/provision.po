@@ -1,0 +1,2098 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/provision.rst:3
+msgid "Provision"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:5
+msgid ""
+"In the Provisioning section, there are a few key options that have to be "
+"set in order to turn auto provisioning on."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:7
+msgid ""
+"**enabled:** Must be enabled and set to **value true** and **enabled "
+"True**.  It is disabled by default."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:8
+msgid ""
+"**http_auth_username:** Must be enabled and set to **value true** and "
+"**enabled True**.  It is disabled by default. Be sure to use a strong "
+"username."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:9
+msgid ""
+"**http_auth_password:** Must be enabled and set to **value true** and "
+"**enabled True**.  It is disabled by default. Be sure to use a strong "
+"password."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:12
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:12
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:12
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:12
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:12
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:14
+msgid "fanvil_time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:14
+#: ../../source/advanced/default_settings/provision.rst:16
+#: ../../source/advanced/default_settings/provision.rst:20
+#: ../../source/advanced/default_settings/provision.rst:22
+#: ../../source/advanced/default_settings/provision.rst:32
+#: ../../source/advanced/default_settings/provision.rst:36
+#: ../../source/advanced/default_settings/provision.rst:38
+#: ../../source/advanced/default_settings/provision.rst:40
+#: ../../source/advanced/default_settings/provision.rst:42
+#: ../../source/advanced/default_settings/provision.rst:44
+#: ../../source/advanced/default_settings/provision.rst:46
+#: ../../source/advanced/default_settings/provision.rst:48
+#: ../../source/advanced/default_settings/provision.rst:50
+#: ../../source/advanced/default_settings/provision.rst:52
+#: ../../source/advanced/default_settings/provision.rst:54
+#: ../../source/advanced/default_settings/provision.rst:56
+#: ../../source/advanced/default_settings/provision.rst:58
+#: ../../source/advanced/default_settings/provision.rst:60
+#: ../../source/advanced/default_settings/provision.rst:62
+#: ../../source/advanced/default_settings/provision.rst:64
+#: ../../source/advanced/default_settings/provision.rst:66
+#: ../../source/advanced/default_settings/provision.rst:68
+#: ../../source/advanced/default_settings/provision.rst:70
+#: ../../source/advanced/default_settings/provision.rst:72
+#: ../../source/advanced/default_settings/provision.rst:74
+#: ../../source/advanced/default_settings/provision.rst:76
+#: ../../source/advanced/default_settings/provision.rst:78
+#: ../../source/advanced/default_settings/provision.rst:80
+#: ../../source/advanced/default_settings/provision.rst:82
+#: ../../source/advanced/default_settings/provision.rst:84
+#: ../../source/advanced/default_settings/provision.rst:86
+#: ../../source/advanced/default_settings/provision.rst:88
+#: ../../source/advanced/default_settings/provision.rst:90
+#: ../../source/advanced/default_settings/provision.rst:92
+#: ../../source/advanced/default_settings/provision.rst:94
+#: ../../source/advanced/default_settings/provision.rst:96
+#: ../../source/advanced/default_settings/provision.rst:98
+#: ../../source/advanced/default_settings/provision.rst:100
+#: ../../source/advanced/default_settings/provision.rst:102
+#: ../../source/advanced/default_settings/provision.rst:104
+#: ../../source/advanced/default_settings/provision.rst:106
+#: ../../source/advanced/default_settings/provision.rst:108
+#: ../../source/advanced/default_settings/provision.rst:110
+#: ../../source/advanced/default_settings/provision.rst:112
+#: ../../source/advanced/default_settings/provision.rst:120
+#: ../../source/advanced/default_settings/provision.rst:122
+#: ../../source/advanced/default_settings/provision.rst:126
+#: ../../source/advanced/default_settings/provision.rst:128
+#: ../../source/advanced/default_settings/provision.rst:130
+#: ../../source/advanced/default_settings/provision.rst:138
+#: ../../source/advanced/default_settings/provision.rst:140
+#: ../../source/advanced/default_settings/provision.rst:142
+#: ../../source/advanced/default_settings/provision.rst:144
+#: ../../source/advanced/default_settings/provision.rst:146
+#: ../../source/advanced/default_settings/provision.rst:150
+#: ../../source/advanced/default_settings/provision.rst:154
+#: ../../source/advanced/default_settings/provision.rst:156
+#: ../../source/advanced/default_settings/provision.rst:158
+#: ../../source/advanced/default_settings/provision.rst:160
+#: ../../source/advanced/default_settings/provision.rst:162
+#: ../../source/advanced/default_settings/provision.rst:170
+#: ../../source/advanced/default_settings/provision.rst:172
+#: ../../source/advanced/default_settings/provision.rst:174
+#: ../../source/advanced/default_settings/provision.rst:176
+#: ../../source/advanced/default_settings/provision.rst:178
+#: ../../source/advanced/default_settings/provision.rst:180
+#: ../../source/advanced/default_settings/provision.rst:182
+#: ../../source/advanced/default_settings/provision.rst:184
+#: ../../source/advanced/default_settings/provision.rst:186
+#: ../../source/advanced/default_settings/provision.rst:188
+#: ../../source/advanced/default_settings/provision.rst:190
+#: ../../source/advanced/default_settings/provision.rst:192
+#: ../../source/advanced/default_settings/provision.rst:194
+#: ../../source/advanced/default_settings/provision.rst:196
+#: ../../source/advanced/default_settings/provision.rst:198
+#: ../../source/advanced/default_settings/provision.rst:200
+#: ../../source/advanced/default_settings/provision.rst:202
+#: ../../source/advanced/default_settings/provision.rst:204
+#: ../../source/advanced/default_settings/provision.rst:206
+#: ../../source/advanced/default_settings/provision.rst:216
+#: ../../source/advanced/default_settings/provision.rst:218
+#: ../../source/advanced/default_settings/provision.rst:220
+#: ../../source/advanced/default_settings/provision.rst:230
+#: ../../source/advanced/default_settings/provision.rst:252
+#: ../../source/advanced/default_settings/provision.rst:254
+#: ../../source/advanced/default_settings/provision.rst:256
+#: ../../source/advanced/default_settings/provision.rst:258
+#: ../../source/advanced/default_settings/provision.rst:260
+#: ../../source/advanced/default_settings/provision.rst:262
+#: ../../source/advanced/default_settings/provision.rst:264
+#: ../../source/advanced/default_settings/provision.rst:266
+#: ../../source/advanced/default_settings/provision.rst:268
+#: ../../source/advanced/default_settings/provision.rst:270
+#: ../../source/advanced/default_settings/provision.rst:272
+#: ../../source/advanced/default_settings/provision.rst:274
+#: ../../source/advanced/default_settings/provision.rst:276
+#: ../../source/advanced/default_settings/provision.rst:278
+#: ../../source/advanced/default_settings/provision.rst:280
+#: ../../source/advanced/default_settings/provision.rst:282
+#: ../../source/advanced/default_settings/provision.rst:284
+#: ../../source/advanced/default_settings/provision.rst:286
+#: ../../source/advanced/default_settings/provision.rst:288
+#: ../../source/advanced/default_settings/provision.rst:290
+#: ../../source/advanced/default_settings/provision.rst:308
+#: ../../source/advanced/default_settings/provision.rst:310
+#: ../../source/advanced/default_settings/provision.rst:312
+#: ../../source/advanced/default_settings/provision.rst:314
+#: ../../source/advanced/default_settings/provision.rst:316
+#: ../../source/advanced/default_settings/provision.rst:320
+#: ../../source/advanced/default_settings/provision.rst:322
+#: ../../source/advanced/default_settings/provision.rst:324
+#: ../../source/advanced/default_settings/provision.rst:326
+#: ../../source/advanced/default_settings/provision.rst:328
+#: ../../source/advanced/default_settings/provision.rst:330
+#: ../../source/advanced/default_settings/provision.rst:334
+#: ../../source/advanced/default_settings/provision.rst:340
+#: ../../source/advanced/default_settings/provision.rst:342
+#: ../../source/advanced/default_settings/provision.rst:344
+#: ../../source/advanced/default_settings/provision.rst:346
+#: ../../source/advanced/default_settings/provision.rst:352
+#: ../../source/advanced/default_settings/provision.rst:354
+#: ../../source/advanced/default_settings/provision.rst:356
+#: ../../source/advanced/default_settings/provision.rst:358
+#: ../../source/advanced/default_settings/provision.rst:360
+#: ../../source/advanced/default_settings/provision.rst:362
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:14
+msgid "-20"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:14
+#: ../../source/advanced/default_settings/provision.rst:16
+#: ../../source/advanced/default_settings/provision.rst:18
+#: ../../source/advanced/default_settings/provision.rst:22
+#: ../../source/advanced/default_settings/provision.rst:24
+#: ../../source/advanced/default_settings/provision.rst:26
+#: ../../source/advanced/default_settings/provision.rst:28
+#: ../../source/advanced/default_settings/provision.rst:30
+#: ../../source/advanced/default_settings/provision.rst:32
+#: ../../source/advanced/default_settings/provision.rst:34
+#: ../../source/advanced/default_settings/provision.rst:36
+#: ../../source/advanced/default_settings/provision.rst:38
+#: ../../source/advanced/default_settings/provision.rst:42
+#: ../../source/advanced/default_settings/provision.rst:72
+#: ../../source/advanced/default_settings/provision.rst:78
+#: ../../source/advanced/default_settings/provision.rst:80
+#: ../../source/advanced/default_settings/provision.rst:82
+#: ../../source/advanced/default_settings/provision.rst:90
+#: ../../source/advanced/default_settings/provision.rst:98
+#: ../../source/advanced/default_settings/provision.rst:100
+#: ../../source/advanced/default_settings/provision.rst:102
+#: ../../source/advanced/default_settings/provision.rst:104
+#: ../../source/advanced/default_settings/provision.rst:110
+#: ../../source/advanced/default_settings/provision.rst:112
+#: ../../source/advanced/default_settings/provision.rst:114
+#: ../../source/advanced/default_settings/provision.rst:116
+#: ../../source/advanced/default_settings/provision.rst:118
+#: ../../source/advanced/default_settings/provision.rst:122
+#: ../../source/advanced/default_settings/provision.rst:126
+#: ../../source/advanced/default_settings/provision.rst:128
+#: ../../source/advanced/default_settings/provision.rst:130
+#: ../../source/advanced/default_settings/provision.rst:134
+#: ../../source/advanced/default_settings/provision.rst:148
+#: ../../source/advanced/default_settings/provision.rst:150
+#: ../../source/advanced/default_settings/provision.rst:152
+#: ../../source/advanced/default_settings/provision.rst:154
+#: ../../source/advanced/default_settings/provision.rst:156
+#: ../../source/advanced/default_settings/provision.rst:158
+#: ../../source/advanced/default_settings/provision.rst:160
+#: ../../source/advanced/default_settings/provision.rst:162
+#: ../../source/advanced/default_settings/provision.rst:164
+#: ../../source/advanced/default_settings/provision.rst:166
+#: ../../source/advanced/default_settings/provision.rst:168
+#: ../../source/advanced/default_settings/provision.rst:170
+#: ../../source/advanced/default_settings/provision.rst:172
+#: ../../source/advanced/default_settings/provision.rst:174
+#: ../../source/advanced/default_settings/provision.rst:176
+#: ../../source/advanced/default_settings/provision.rst:178
+#: ../../source/advanced/default_settings/provision.rst:180
+#: ../../source/advanced/default_settings/provision.rst:182
+#: ../../source/advanced/default_settings/provision.rst:184
+#: ../../source/advanced/default_settings/provision.rst:186
+#: ../../source/advanced/default_settings/provision.rst:188
+#: ../../source/advanced/default_settings/provision.rst:190
+#: ../../source/advanced/default_settings/provision.rst:192
+#: ../../source/advanced/default_settings/provision.rst:194
+#: ../../source/advanced/default_settings/provision.rst:196
+#: ../../source/advanced/default_settings/provision.rst:198
+#: ../../source/advanced/default_settings/provision.rst:210
+#: ../../source/advanced/default_settings/provision.rst:212
+#: ../../source/advanced/default_settings/provision.rst:214
+#: ../../source/advanced/default_settings/provision.rst:222
+#: ../../source/advanced/default_settings/provision.rst:224
+#: ../../source/advanced/default_settings/provision.rst:226
+#: ../../source/advanced/default_settings/provision.rst:228
+#: ../../source/advanced/default_settings/provision.rst:230
+#: ../../source/advanced/default_settings/provision.rst:236
+#: ../../source/advanced/default_settings/provision.rst:246
+#: ../../source/advanced/default_settings/provision.rst:248
+#: ../../source/advanced/default_settings/provision.rst:252
+#: ../../source/advanced/default_settings/provision.rst:254
+#: ../../source/advanced/default_settings/provision.rst:256
+#: ../../source/advanced/default_settings/provision.rst:258
+#: ../../source/advanced/default_settings/provision.rst:260
+#: ../../source/advanced/default_settings/provision.rst:262
+#: ../../source/advanced/default_settings/provision.rst:264
+#: ../../source/advanced/default_settings/provision.rst:266
+#: ../../source/advanced/default_settings/provision.rst:268
+#: ../../source/advanced/default_settings/provision.rst:270
+#: ../../source/advanced/default_settings/provision.rst:272
+#: ../../source/advanced/default_settings/provision.rst:274
+#: ../../source/advanced/default_settings/provision.rst:276
+#: ../../source/advanced/default_settings/provision.rst:278
+#: ../../source/advanced/default_settings/provision.rst:280
+#: ../../source/advanced/default_settings/provision.rst:282
+#: ../../source/advanced/default_settings/provision.rst:284
+#: ../../source/advanced/default_settings/provision.rst:286
+#: ../../source/advanced/default_settings/provision.rst:288
+#: ../../source/advanced/default_settings/provision.rst:290
+#: ../../source/advanced/default_settings/provision.rst:300
+#: ../../source/advanced/default_settings/provision.rst:302
+#: ../../source/advanced/default_settings/provision.rst:304
+#: ../../source/advanced/default_settings/provision.rst:306
+#: ../../source/advanced/default_settings/provision.rst:312
+#: ../../source/advanced/default_settings/provision.rst:314
+#: ../../source/advanced/default_settings/provision.rst:316
+#: ../../source/advanced/default_settings/provision.rst:318
+#: ../../source/advanced/default_settings/provision.rst:326
+#: ../../source/advanced/default_settings/provision.rst:328
+#: ../../source/advanced/default_settings/provision.rst:332
+#: ../../source/advanced/default_settings/provision.rst:334
+#: ../../source/advanced/default_settings/provision.rst:336
+#: ../../source/advanced/default_settings/provision.rst:338
+#: ../../source/advanced/default_settings/provision.rst:340
+#: ../../source/advanced/default_settings/provision.rst:342
+#: ../../source/advanced/default_settings/provision.rst:352
+#: ../../source/advanced/default_settings/provision.rst:354
+#: ../../source/advanced/default_settings/provision.rst:360
+#: ../../source/advanced/default_settings/provision.rst:362
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:14
+msgid "Time zone ranges"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:16
+msgid "fanvil_time_zone_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:16
+msgid "UTC-5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:16
+msgid "Time zone name example United States-Eastern Time"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:18
+msgid "fanvil_location"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:18
+#: ../../source/advanced/default_settings/provision.rst:24
+#: ../../source/advanced/default_settings/provision.rst:26
+#: ../../source/advanced/default_settings/provision.rst:28
+#: ../../source/advanced/default_settings/provision.rst:30
+#: ../../source/advanced/default_settings/provision.rst:114
+#: ../../source/advanced/default_settings/provision.rst:116
+#: ../../source/advanced/default_settings/provision.rst:118
+#: ../../source/advanced/default_settings/provision.rst:148
+#: ../../source/advanced/default_settings/provision.rst:208
+#: ../../source/advanced/default_settings/provision.rst:210
+#: ../../source/advanced/default_settings/provision.rst:212
+#: ../../source/advanced/default_settings/provision.rst:214
+#: ../../source/advanced/default_settings/provision.rst:232
+#: ../../source/advanced/default_settings/provision.rst:234
+#: ../../source/advanced/default_settings/provision.rst:236
+#: ../../source/advanced/default_settings/provision.rst:238
+#: ../../source/advanced/default_settings/provision.rst:240
+#: ../../source/advanced/default_settings/provision.rst:242
+#: ../../source/advanced/default_settings/provision.rst:244
+#: ../../source/advanced/default_settings/provision.rst:246
+#: ../../source/advanced/default_settings/provision.rst:248
+#: ../../source/advanced/default_settings/provision.rst:250
+#: ../../source/advanced/default_settings/provision.rst:294
+#: ../../source/advanced/default_settings/provision.rst:302
+#: ../../source/advanced/default_settings/provision.rst:304
+#: ../../source/advanced/default_settings/provision.rst:332
+#: ../../source/advanced/default_settings/provision.rst:336
+#: ../../source/advanced/default_settings/provision.rst:348
+#: ../../source/advanced/default_settings/provision.rst:350
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:18
+#: ../../source/advanced/default_settings/provision.rst:316
+msgid "4"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:18
+msgid "Used with time zone and time zone name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:20
+msgid "fanvil_realm"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:20
+msgid "enter a value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:20
+#: ../../source/advanced/default_settings/provision.rst:34
+#: ../../source/advanced/default_settings/provision.rst:40
+#: ../../source/advanced/default_settings/provision.rst:44
+#: ../../source/advanced/default_settings/provision.rst:46
+#: ../../source/advanced/default_settings/provision.rst:48
+#: ../../source/advanced/default_settings/provision.rst:50
+#: ../../source/advanced/default_settings/provision.rst:52
+#: ../../source/advanced/default_settings/provision.rst:54
+#: ../../source/advanced/default_settings/provision.rst:56
+#: ../../source/advanced/default_settings/provision.rst:58
+#: ../../source/advanced/default_settings/provision.rst:60
+#: ../../source/advanced/default_settings/provision.rst:62
+#: ../../source/advanced/default_settings/provision.rst:64
+#: ../../source/advanced/default_settings/provision.rst:66
+#: ../../source/advanced/default_settings/provision.rst:68
+#: ../../source/advanced/default_settings/provision.rst:70
+#: ../../source/advanced/default_settings/provision.rst:74
+#: ../../source/advanced/default_settings/provision.rst:76
+#: ../../source/advanced/default_settings/provision.rst:84
+#: ../../source/advanced/default_settings/provision.rst:86
+#: ../../source/advanced/default_settings/provision.rst:88
+#: ../../source/advanced/default_settings/provision.rst:92
+#: ../../source/advanced/default_settings/provision.rst:94
+#: ../../source/advanced/default_settings/provision.rst:96
+#: ../../source/advanced/default_settings/provision.rst:106
+#: ../../source/advanced/default_settings/provision.rst:108
+#: ../../source/advanced/default_settings/provision.rst:120
+#: ../../source/advanced/default_settings/provision.rst:124
+#: ../../source/advanced/default_settings/provision.rst:132
+#: ../../source/advanced/default_settings/provision.rst:134
+#: ../../source/advanced/default_settings/provision.rst:136
+#: ../../source/advanced/default_settings/provision.rst:138
+#: ../../source/advanced/default_settings/provision.rst:140
+#: ../../source/advanced/default_settings/provision.rst:142
+#: ../../source/advanced/default_settings/provision.rst:144
+#: ../../source/advanced/default_settings/provision.rst:146
+#: ../../source/advanced/default_settings/provision.rst:166
+#: ../../source/advanced/default_settings/provision.rst:168
+#: ../../source/advanced/default_settings/provision.rst:198
+#: ../../source/advanced/default_settings/provision.rst:200
+#: ../../source/advanced/default_settings/provision.rst:202
+#: ../../source/advanced/default_settings/provision.rst:204
+#: ../../source/advanced/default_settings/provision.rst:206
+#: ../../source/advanced/default_settings/provision.rst:208
+#: ../../source/advanced/default_settings/provision.rst:216
+#: ../../source/advanced/default_settings/provision.rst:218
+#: ../../source/advanced/default_settings/provision.rst:220
+#: ../../source/advanced/default_settings/provision.rst:232
+#: ../../source/advanced/default_settings/provision.rst:234
+#: ../../source/advanced/default_settings/provision.rst:238
+#: ../../source/advanced/default_settings/provision.rst:240
+#: ../../source/advanced/default_settings/provision.rst:242
+#: ../../source/advanced/default_settings/provision.rst:244
+#: ../../source/advanced/default_settings/provision.rst:250
+#: ../../source/advanced/default_settings/provision.rst:292
+#: ../../source/advanced/default_settings/provision.rst:294
+#: ../../source/advanced/default_settings/provision.rst:296
+#: ../../source/advanced/default_settings/provision.rst:298
+#: ../../source/advanced/default_settings/provision.rst:308
+#: ../../source/advanced/default_settings/provision.rst:310
+#: ../../source/advanced/default_settings/provision.rst:320
+#: ../../source/advanced/default_settings/provision.rst:322
+#: ../../source/advanced/default_settings/provision.rst:324
+#: ../../source/advanced/default_settings/provision.rst:330
+#: ../../source/advanced/default_settings/provision.rst:338
+#: ../../source/advanced/default_settings/provision.rst:344
+#: ../../source/advanced/default_settings/provision.rst:346
+#: ../../source/advanced/default_settings/provision.rst:348
+#: ../../source/advanced/default_settings/provision.rst:350
+#: ../../source/advanced/default_settings/provision.rst:356
+#: ../../source/advanced/default_settings/provision.rst:358
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:22
+msgid "fanvil_greeting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:22
+msgid "FusionPBX"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:22
+msgid "Name at top left of screen 0~12 characters"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:24
+msgid "fanvil_date_display"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:24
+#: ../../source/advanced/default_settings/provision.rst:76
+#: ../../source/advanced/default_settings/provision.rst:154
+#: ../../source/advanced/default_settings/provision.rst:346
+msgid "3"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:24
+msgid "value 0-13 Date Format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:26
+msgid "fanvil_time_display"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:26
+#: ../../source/advanced/default_settings/provision.rst:38
+#: ../../source/advanced/default_settings/provision.rst:44
+#: ../../source/advanced/default_settings/provision.rst:46
+#: ../../source/advanced/default_settings/provision.rst:78
+#: ../../source/advanced/default_settings/provision.rst:82
+#: ../../source/advanced/default_settings/provision.rst:86
+#: ../../source/advanced/default_settings/provision.rst:88
+#: ../../source/advanced/default_settings/provision.rst:90
+#: ../../source/advanced/default_settings/provision.rst:98
+#: ../../source/advanced/default_settings/provision.rst:102
+#: ../../source/advanced/default_settings/provision.rst:114
+#: ../../source/advanced/default_settings/provision.rst:116
+#: ../../source/advanced/default_settings/provision.rst:118
+#: ../../source/advanced/default_settings/provision.rst:122
+#: ../../source/advanced/default_settings/provision.rst:202
+#: ../../source/advanced/default_settings/provision.rst:220
+#: ../../source/advanced/default_settings/provision.rst:222
+#: ../../source/advanced/default_settings/provision.rst:228
+#: ../../source/advanced/default_settings/provision.rst:236
+#: ../../source/advanced/default_settings/provision.rst:248
+#: ../../source/advanced/default_settings/provision.rst:292
+#: ../../source/advanced/default_settings/provision.rst:322
+msgid "1"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:26
+#: ../../source/advanced/default_settings/provision.rst:118
+msgid "1=12hr 0=24hr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:28
+msgid "fanvil_wifi_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:28
+#: ../../source/advanced/default_settings/provision.rst:32
+#: ../../source/advanced/default_settings/provision.rst:94
+#: ../../source/advanced/default_settings/provision.rst:96
+#: ../../source/advanced/default_settings/provision.rst:100
+#: ../../source/advanced/default_settings/provision.rst:108
+#: ../../source/advanced/default_settings/provision.rst:110
+#: ../../source/advanced/default_settings/provision.rst:200
+#: ../../source/advanced/default_settings/provision.rst:204
+#: ../../source/advanced/default_settings/provision.rst:210
+#: ../../source/advanced/default_settings/provision.rst:212
+#: ../../source/advanced/default_settings/provision.rst:214
+#: ../../source/advanced/default_settings/provision.rst:224
+#: ../../source/advanced/default_settings/provision.rst:226
+#: ../../source/advanced/default_settings/provision.rst:230
+#: ../../source/advanced/default_settings/provision.rst:232
+#: ../../source/advanced/default_settings/provision.rst:234
+#: ../../source/advanced/default_settings/provision.rst:238
+#: ../../source/advanced/default_settings/provision.rst:240
+#: ../../source/advanced/default_settings/provision.rst:242
+#: ../../source/advanced/default_settings/provision.rst:244
+#: ../../source/advanced/default_settings/provision.rst:246
+#: ../../source/advanced/default_settings/provision.rst:294
+#: ../../source/advanced/default_settings/provision.rst:296
+#: ../../source/advanced/default_settings/provision.rst:298
+#: ../../source/advanced/default_settings/provision.rst:300
+#: ../../source/advanced/default_settings/provision.rst:302
+#: ../../source/advanced/default_settings/provision.rst:304
+#: ../../source/advanced/default_settings/provision.rst:306
+#: ../../source/advanced/default_settings/provision.rst:326
+#: ../../source/advanced/default_settings/provision.rst:332
+#: ../../source/advanced/default_settings/provision.rst:350
+#: ../../source/advanced/default_settings/provision.rst:360
+msgid "0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:28
+msgid "1=on 0=off"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:30
+msgid "fanvil_stun_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:30
+#: ../../source/advanced/default_settings/provision.rst:208
+msgid "3478"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:30
+msgid "enter a stun port number"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:32
+msgid "grandstream_call_waiting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:32
+msgid "Call Waiting 0=enabled 1=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:34
+msgid "contact_grandstream"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:34
+#: ../../source/advanced/default_settings/provision.rst:134
+#: ../../source/advanced/default_settings/provision.rst:136
+#: ../../source/advanced/default_settings/provision.rst:152
+#: ../../source/advanced/default_settings/provision.rst:164
+#: ../../source/advanced/default_settings/provision.rst:166
+#: ../../source/advanced/default_settings/provision.rst:168
+#: ../../source/advanced/default_settings/provision.rst:222
+#: ../../source/advanced/default_settings/provision.rst:224
+#: ../../source/advanced/default_settings/provision.rst:226
+#: ../../source/advanced/default_settings/provision.rst:228
+#: ../../source/advanced/default_settings/provision.rst:292
+#: ../../source/advanced/default_settings/provision.rst:296
+#: ../../source/advanced/default_settings/provision.rst:298
+#: ../../source/advanced/default_settings/provision.rst:300
+#: ../../source/advanced/default_settings/provision.rst:306
+#: ../../source/advanced/default_settings/provision.rst:338
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:34
+msgid ""
+"Enable Address Book for Grandstream based on users and groups assigned to"
+" contact."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:36
+msgid "grandstream_gxp_time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:36
+msgid "auto"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:36
+msgid "See provision profile for codes."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:38
+msgid "grandstream_check_sip_user_id"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:38
+#: ../../source/advanced/default_settings/provision.rst:78
+#: ../../source/advanced/default_settings/provision.rst:82
+msgid "GXV Android phones - fix auto-ring bug."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:40
+msgid "grandstream_config_server_path"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:40
+msgid "none"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:40
+msgid ""
+"mydomain.com/app/provision to Fusionpbx provisioning. Phones will use "
+"firmware url if this is set to: none"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:42
+msgid "grandstream_firmware_path"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:42
+msgid "mydomain.com/app/provision"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:42
+msgid "Grandstream firmware and provision."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:44
+msgid "grandstream_lan_port_vlan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:44
+msgid "Default VLAN for phone LAN port."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:46
+msgid "grandstream_pc_port_vlan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:46
+msgid "Default VLAN for phone PC port."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:48
+msgid "grandstream_ldap_base_dn"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:48
+msgid "dc=mydomain,dc=com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:48
+msgid "Base DN"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:50
+msgid "grandstream_ldap_display_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:50
+msgid "givenName sn title"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:50
+msgid ""
+"Which named attributes to display on device.  Must be pulled in through "
+"grandstream_ldap_name_attr."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:52
+msgid "grandstream_ldap_mail_attr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:52
+msgid "mail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:52
+msgid "Mail attribute returned to phone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:54
+msgid "grandstream_ldap_mail_filter"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:54
+msgid "(mail=%)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:54
+msgid "Search filter for mail lookups"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:56
+msgid "grandstream_ldap_name_attr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:56
+msgid "givenName sn title mail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:56
+msgid "The NAME attributes returned in the LDAP search result available to device"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:58
+msgid "grandstream_ldap_name_filter"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:58
+msgid "(cn=%)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:58
+msgid "Search filter for name lookups"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:60
+msgid "grandstream_ldap_number_attr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:60
+msgid "telephoneNumber mobile homePhone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:60
+msgid "Number attributes returned to the phone."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:62
+msgid "grandstream_ldap_number_filter"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:62
+msgid "(|(telephoneNumber=%)(homePhone=%)(moblie=%))"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:62
+msgid "Search filter for number lookups."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:64
+msgid "grandstream_ldap_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:64
+msgid "super-secret"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:64
+msgid "Ldap bind user password."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:66
+msgid "grandstream_ldap_server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:66
+#: ../../source/advanced/default_settings/provision.rst:80
+msgid "mydomain.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:66
+msgid "Ldap server host name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:68
+msgid "grandstream_ldap_user_base"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:68
+msgid "ou=users,dc=mydomain,dc=com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:68
+msgid "Ldap base for users."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:70
+msgid "grandstream_ldap_username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:70
+msgid "cn=pbxadmin,dc=mydomain,dc=com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:70
+msgid "Ldap server bind username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:72
+msgid "grandstream_phonebook_download_interval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:72
+msgid "720"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:72
+msgid "0=disabled, 5-720 minutes"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:74
+msgid "grandstream_qos_rtp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:74
+#: ../../source/advanced/default_settings/provision.rst:104
+msgid "5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:74
+msgid "Layer 2 QoS 802.1p Priority Value for RTP media"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:76
+msgid "grandstream_qos_sip"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:76
+msgid "Layer 2 QoS 802.1p Priority Value for SIP signaling"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:78
+msgid "grandstream_sip_only_known_servers"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:80
+msgid "grandstream_stun_server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:80
+msgid "Bug in Grandstream where null stun_server defaults to sip server/port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:82
+msgid "grandstream_validate_incoming_sip"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:84
+msgid "grandstream_wallpaper_url"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:84
+msgid "https://mydomain.com/files/wallpaper.jpg"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:84
+msgid "Wallpaper Image JPEG 480x272 16-bit depth dithered"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:86
+msgid "grandstream_bluetooth_power"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:86
+msgid "Bluetooth Power - 0 - Off, 1 - On, 2 - Off & Hide Menu From LCD"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:88
+msgid "grandstream_bluetooth_handsfree"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:88
+msgid "Bluetooth Handsfree - 0 - Off, 1 - On"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:90
+msgid "grandstream_auto_attended_transfer"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:90
+msgid "Attended Transfer Mode. 0 - Static, 1 - Dynamic. Default is 0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:92
+msgid "grandstream_syslog_server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:92
+msgid "Syslog Server (name of the server, max length is 64 characters)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:94
+msgid "grandstream_syslog_level"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:94
+msgid ""
+"Syslog Level. 0 - NONE, 1 - DEBUG, 2 - INFO, 3 - WARNING, 4 - ERROR. "
+"Default is 0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:96
+msgid "grandstream_send_sip_log"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:96
+msgid ""
+"Send SIP Log. 0 - Do not send SIP log in Syslog, 1 - Send SIP log in "
+"Syslog if configured and set to DEBUG level. Default is 0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:98
+msgid "grandstream_screensaver"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:98
+msgid "Screensaver. 0 - No, 1 - Yes, 2 - On if no VPK is active. Default is 1"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:100
+msgid "grandstream_screensaver_source"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:100
+msgid ""
+"Screensaver Source. 0 - Default, 1 - USB, 2 - Download. Default is 0. "
+"--for GXP2140/2160/2170 only"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:102
+msgid "grandstream_screensaver_show_date_time"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:102
+msgid "Show Date and Time. 0 - No, 1 - Yes. Default is 1"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:104
+msgid "grandstream_screensaver_timeout"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:104
+msgid "Screensaver Timeout. Minutes 3-60"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:106
+msgid "grandstream_screensaver_server_path"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:106
+msgid "Screensaver Server Path"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:108
+msgid "grandstream_screensaver_xml_download_interval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:108
+msgid ""
+"Screensaver XML Download Interval Number: 5 - 720. Default is 0 (disable "
+"auto downloading)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:110
+msgid "grandstream_srtp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:110
+msgid ""
+"SRTP Mode. 0 - Disabled, 1 - Enabled but not forced, 2 - Enabled and "
+"forced, 3 - Optional. Default is 0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:112
+msgid "htek_time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:112
+msgid "18"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:112
+msgid "Time zone 18=EST 14=CST 6=PST 9,10=MST"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:114
+msgid "htek_dst"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:114
+msgid "DST off=0 on=1 auto=2"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:116
+msgid "htek_date_display_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:116
+msgid "Year-Month-Day=0  Month-Day-Year=1  Day-Month-Year=2"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:118
+msgid "htek_time_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:120
+msgid "polycom_digitmap"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:120
+msgid "[*]xxxx|[2-9]11|0T|011xxx.T|[0-1][2-9]xxxxxxxxx|[2-9]xxxxxxxxx|[1-9]xxT|**x.T"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:122
+msgid "polycom_call_waiting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:122
+#: ../../source/advanced/default_settings/provision.rst:360
+msgid "Call Waiting 1=enabled 0=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:124
+#: ../../source/advanced/default_settings/provision.rst:132
+msgid "cidr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:124
+#: ../../source/advanced/default_settings/provision.rst:132
+#: ../../source/advanced/default_settings/provision.rst:318
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:124
+msgid "209.210.17.193/32"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:126
+msgid "http_auth_username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:126
+msgid "admin"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:128
+msgid "http_auth_type"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:128
+msgid "digest"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:130
+msgid "enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:132
+msgid "209.210.16.196/32"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:134
+msgid "auto_insert_enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:136
+msgid "http_auth_disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:138
+msgid "admin_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:140
+msgid "admin_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:142
+msgid "path"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:144
+msgid "outbound_proxy_primary"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:146
+msgid "outbound_proxy_secondary"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:148
+msgid "line_sip_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:148
+#: ../../source/advanced/default_settings/provision.rst:250
+msgid "5060"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:150
+msgid "line_sip_transport"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:150
+msgid "tcp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:152
+msgid "daylight_savings_enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:154
+msgid "daylight_savings_start_month"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:156
+msgid "daylight_savings_start_weekday"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:156
+#: ../../source/advanced/default_settings/provision.rst:160
+msgid "7"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:158
+msgid "daylight_savings_start_time"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:158
+#: ../../source/advanced/default_settings/provision.rst:162
+msgid "2"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:160
+msgid "daylight_savings_stop_weekday"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:162
+msgid "daylight_savings_stop_time"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:164
+msgid "http_domain_filter"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:166
+msgid "contact_users"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:168
+msgid "contact_groups"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:170
+msgid "number_as_presence_id"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:172
+msgid "ntp_server_primary"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:172
+msgid "pool.ntp.org"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:174
+msgid "ntp_server_secondary"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:174
+msgid "2.us.pool.ntp.org"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:176
+msgid "spa_time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:176
+msgid "GMT-07:00"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:178
+msgid "spa_time_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:178
+msgid "12hr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:178
+msgid "12hr,24hr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:180
+msgid "spa_date_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:180
+msgid "day/month"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:182
+msgid "spa_back_light_timer"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:182
+msgid "30 s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:184
+msgid "spa_handle_via_rport"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:184
+#: ../../source/advanced/default_settings/provision.rst:186
+#: ../../source/advanced/default_settings/provision.rst:188
+msgid "Yes"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:186
+msgid "spa_insert_via_rport"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:188
+msgid "spa_call_waiting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:188
+msgid "Call Waiting Yes=enabled No=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:190
+msgid "spa_feature_key_sync"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:190
+#: ../../source/advanced/default_settings/provision.rst:192
+#: ../../source/advanced/default_settings/provision.rst:194
+#: ../../source/advanced/default_settings/provision.rst:342
+msgid "No"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:190
+msgid "Feature Key Sync Yes=enabled No=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:192
+msgid "spa_dual_registration"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:192
+msgid "Dual Registration Yes=enabled No=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:194
+msgid "spa_register_when_failover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:194
+msgid "Auto register when failover Yes=enabled No=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:196
+msgid "snom_call_waiting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:196
+msgid "on"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:196
+msgid "Call Waiting on=enabled off=disable visual only and ringer"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:198
+msgid "nway_conference"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:198
+msgid "N-Way conferencing for devices supporting network conference uri"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:200
+msgid "vtech_vlan_wan_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:200
+msgid "Enable vlan=1"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:202
+msgid "vtech_vlan_wan_id"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:202
+msgid "VLAN ID"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:204
+msgid "vtech_vlan_wan_priority"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:204
+msgid "VLAN Priority"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:206
+msgid "stun_server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:206
+msgid "STUN server address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:208
+msgid "stun_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:208
+msgid "STUN server port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:210
+msgid "aastra_gmt_offset"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:210
+msgid ""
+"Aastra timezone offset in minutes (e.g. 300 = GMT-5 = Eastern Standard "
+"Time)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:212
+msgid "aastra_time_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:212
+msgid "Aastra clock format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:214
+msgid "aastra_date_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:214
+msgid "Aastra date format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:216
+msgid "yealink_time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:216
+msgid "-5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:216
+msgid "Time zone ranges from -11 to +12"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:218
+msgid "yealink_time_zone_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:218
+msgid "United States-Eastern Time"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:218
+msgid "Time zone name example United States-Mountain Time"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:220
+msgid "yealink_time_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:220
+msgid "0-12 Hour, 1-24 Hour"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:222
+msgid "yealink_rport"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:222
+msgid "Send the response back to the source it came from."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:224
+msgid "yealink_session_timer"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:224
+msgid "SIP Session Timers"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:226
+msgid "yealink_retransmission"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:226
+msgid "Retransmission"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:228
+msgid "yealink_subscribe_mwi_to_vm"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:228
+msgid "subscribe to the voicemail MWI 0-Disabled (default), 1-Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:230
+msgid "yealink_srtp_encryption"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:232
+msgid "yealink_rfc2543_hold"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:232
+msgid "Default 0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:234
+msgid "yealink_blf_led_mode"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:234
+msgid "The value is 0(default) or 1."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:236
+msgid "yealink_trust_ctrl"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:236
+#: ../../source/advanced/default_settings/provision.rst:238
+#: ../../source/advanced/default_settings/provision.rst:240
+#: ../../source/advanced/default_settings/provision.rst:292
+msgid "(0-Disabled;1-Enabled)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:238
+msgid "yealink_direct_ip_call_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:240
+msgid "yealink_hide_feature_access_codes_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:242
+msgid "yealink_voice_mail_popup_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:242
+msgid "Display Voice Mail Popup"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:244
+msgid "yealink_missed_call_popup_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:244
+msgid "Display Missed Call Popup"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:246
+msgid "yealink_cid_source"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:246
+msgid ""
+"The type of SIP header(s) to carry the caller ID; 0-FROM (default), 1-PAI"
+" 2-PAI-FROM, 3-PRID-PAI-FROM, 4-PAI-RPID-FROM, 5-RPID-FROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:248
+msgid "yealink_dtmf_hide"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:248
+msgid "0-Disabled 1-Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:250
+msgid "yealink_sip_listen_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:250
+msgid "5060 default"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:252
+msgid "yealink_firmware_url"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:252
+msgid "https://server.yourdomain.com/app/yealink/resources/firmware"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:252
+msgid "Base URL for Yealink Firmware.  Download from http://support.yealink.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:254
+msgid "yealink_firmware_cp860"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:254
+msgid "cp860-37.81.0.10.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:254
+msgid "Filename of the CP860 firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:256
+msgid "yealink_firmware_cp960"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:256
+msgid "cp960-73.80.0.25.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:256
+msgid "Filename of the CP960 firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:258
+msgid "yealink_firmware_t29g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:258
+msgid "t29g-46.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:258
+msgid "Filename of the T29G firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:260
+msgid "yealink_firmware_t38g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:260
+msgid "t38g-38.70.0.185.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:260
+msgid "Filename of the T38G firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:262
+msgid "yealink_firmware_t40g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:262
+msgid "t40g-76.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:262
+msgid "Filename of the T40G firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:264
+msgid "yealink_firmware_t40p"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:264
+msgid "t40p-54.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:264
+msgid "Filename of the T40P firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:266
+msgid "yealink_firmware_t41s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:266
+msgid "t41s-66.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:266
+msgid "Filename of the T41S firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:268
+msgid "yealink_firmware_t42g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:268
+msgid "t42g-29.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:268
+msgid "Filename of the T42G firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:270
+msgid "yealink_firmware_t42s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:270
+msgid "t42s-66.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:270
+msgid "Filename of the T42S firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:272
+msgid "yealink_firmware_t46g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:272
+msgid "t46g-28.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:272
+msgid "Filename of the T46G firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:274
+msgid "yealink_firmware_t46s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:274
+msgid "t46s-66.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:274
+msgid "Filename of the T46S firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:276
+msgid "yealink_firmware_t48g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:276
+msgid "t48g-35.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:276
+msgid "Filename of the T48G firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:278
+msgid "yealink_firmware_t48s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:278
+msgid "t48s-66.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:278
+msgid "Filename of the T48S firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:280
+msgid "yealink_firmware_t49g"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:280
+msgid "t49g-51.80.0.100.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:280
+msgid "Filename of the T49Gfirmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:282
+msgid "yealink_firmware_t54s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:282
+msgid "T54S(T52S)-70.82.0.20.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:282
+msgid "Firmware tested 2017-11-26"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:284
+msgid "yealink_firmware_t56a"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:284
+msgid "t56a-58.80.0.25.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:284
+msgid "Filename of the T56A firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:286
+msgid "yealink_firmware_t58a"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:286
+msgid "t58a-58.80.0.25.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:286
+msgid "Filename of the T58A firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:288
+msgid "yealink_firmware_t58v"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:288
+msgid "t58v-58.80.0.25.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:288
+msgid "Filename of the T58V firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:290
+msgid "yealink_firmware_vp530"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:290
+msgid "vp530-23.70.0.40.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:290
+msgid "Filename of the VP530 firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:292
+msgid "yealink_network_vpn_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:294
+msgid "yealink_ip_address_mode"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:294
+msgid "IP Address mode 0-ipv4, 1-ipv6, 2-ipv4&ipv6"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:296
+msgid "yealink_lldp_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:296
+msgid "LLDP 0-Disabled, 1-Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:298
+msgid "yealink_cdp_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:298
+msgid "CDP 0-Disabled, 1-Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:300
+msgid "yealink_overwrite_mode"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:300
+msgid "Overwrite Mode 0-Disabled, 1-Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:302
+msgid "yealink_dsskey_length"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:302
+msgid "DSS Key Label Length Default-0 Extended-1 Mid Range-2"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:304
+msgid "yealink_feature_key_sync"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:304
+msgid ""
+"Enable or disable the feature key synchronization; 0-Disabled (default) "
+"1-Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:306
+msgid "yealink_predial_autodial"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:306
+msgid "Auto dial after digit timeout 0-Disabled (default), 1-Enabled;"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:308
+msgid "yealink_ring_type"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:308
+#: ../../source/advanced/default_settings/provision.rst:358
+msgid "custom.wav"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:308
+msgid "custom ring tone (Busy.wav);"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:310
+msgid "yealink_ringtone_delete"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:310
+msgid "http://localhost/all,delete"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:310
+msgid "http://localhost/all,delete all the customized ring tones"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:312
+msgid "daylight_savings_start_day"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:312
+#: ../../source/advanced/default_settings/provision.rst:314
+msgid "11"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:314
+msgid "daylight_savings_stop_month"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:316
+msgid "daylight_savings_stop_day"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:318
+msgid "http_auth_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:318
+msgid "555"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:320
+msgid "fanvil_stun_server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:320
+msgid "example.domain.tld"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:320
+msgid "enter a server name or ip"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:322
+msgid "grandstream_dns_mode"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:322
+msgid "DNS Mode 0=A; 1=SRV; 2=NAPTR/SRV;"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:324
+msgid "grandstream_global_contact_groups"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:324
+msgid "contacts_elementary,contacts_facilities,contacts_other,contacts_secondary"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:324
+msgid ""
+"List of contact groups that every phone will have access to.  Namely "
+"building sites."
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:326
+msgid "grandstream_nat_traversal"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:326
+msgid ""
+"NAT Traversal. 0 - No, 1 - STUN, 2 - keep alive, 3 - UPnP, 4 - Auto, 5 - "
+"VPN"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:328
+msgid "grandstream_phonebook_xml_server_path"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:328
+msgid "mydomain.com/app/provision/pb/"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:328
+msgid ""
+"Grandstream Phonebook Server Path - NOTE template adds MAC on the end of "
+"this if contact_grandstream is enabled.  This also requires nginx rewrite"
+" rules for phonebook.xml"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:330
+msgid "polycom_gmt_offset"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:330
+msgid "3600 * GMT offset"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:332
+msgid "polycom_feature_key_sync"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:332
+msgid "Feature Key Sync 1=enabled 0=disable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:334
+msgid "voicemail_number"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:334
+msgid "*97"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:336
+msgid "line_register_expires"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:336
+msgid "120"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:338
+msgid "contact_extensions"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:338
+msgid "allow extensions to be provisioned as contacts as  in provision templates"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:340
+msgid "spa_dial_plan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:340
+msgid "(*xxxxxxx|*xxxxxx|*xxxxx|*xxxx|*xxx|*xx*|*x|**xxxxx|**xxxx|**xxx|**xx|[3469]11|0|00|[2-9]xxxxxx|1xxx[2-9]xxxxxxS0|xxxxxxxxxxxx.)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:342
+msgid "spa_secure_call_setting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:342
+msgid "spa secure call No or Yes"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:344
+msgid "snom_time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:344
+msgid "USA-7"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:344
+msgid "http://wiki.snom.com/Settings/timezone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:346
+msgid "yealink_date_format"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:346
+msgid ""
+"0-WWW MMM DD (default), 1-DD-MMM-YY, 2-YYYY-MM-DD, 3-DD/MM/YYYY, "
+"4-MM/DD/YY, 5-DD MMM YYYY, 6-WWW DD MMM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:348
+msgid "yealink_outbound_proxy_fallback_interval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:348
+msgid "3600"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:348
+msgid "Integer from 0 to 65535"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:350
+msgid "yealink_missed_call_power_led_flash_enable"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:350
+msgid ""
+"(0-Disabled:power indicator LED is off;1-Enabled:power indicator LED is "
+"solid red)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:352
+msgid "yealink_firmware_t41p"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:352
+msgid "t41p-36.81.0.110.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:352
+msgid "Filename of the T41P firmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:354
+msgid "yealink_firmware_t52s"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:354
+msgid "t52s-70.81.0.10.rom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:354
+msgid "Filename of the T52Sfirmware ROM"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:356
+msgid "yealink_openvpn_url"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:356
+msgid "hxxps://replace-this.url/openvpn.tar"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:356
+msgid "(URL within 511 characters)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:358
+msgid "yealink_ringtone_url"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:358
+msgid ""
+"Before using this parameter, you should store the desired ring tone "
+"(custom.wav) to the provisioning server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:360
+msgid "yealink_call_waiting"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:362
+msgid "grandstream_dial_plan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:362
+msgid "{x+|*x+|*++|\\p\\a\\r\\k\\+*x+|\\f\\l\\o\\w\\+*x+}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/provision.rst:362
+msgid "Define the digits that are allowed to be called."
+msgstr ""
+

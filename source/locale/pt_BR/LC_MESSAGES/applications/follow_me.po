@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/follow_me.rst:3
+msgid "Follow Me"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:5
+msgid "Define alternate inbound call handling for the following extensions."
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:12
+msgid "**Call Forward-** (Disabled or Enabled) Input the destination number"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:13
+msgid ""
+"**On Busy-** (Disabled or Enabled) If enabled, it overrides the value of "
+"voicemail enabling in extension"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:14
+msgid ""
+"**No Answer-** (Disabled or Enabled) If enabled, it overrides the value "
+"of voicemail enabling in extension"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:15
+msgid ""
+"**Not Registered-** (Disabled or Enabled) If endpoint is not reachable, "
+"forward to this destination before going to voicemail"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:17
+msgid "**Follow Me-** (Disabled or Enabled)"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:18
+msgid "**Destinations-** Can set Delay, Timeout and Prompt to accept the call."
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:19
+msgid "**Ignore Busy-** (Disabled or Enabled)"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:20
+msgid "**Do Not Disturbe-** (Disabled or Enabled)"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:23
+msgid ""
+"This example has both the extension 1301 itself and and external number "
+"to call.  If you don't put the extension itself the extension wont ring "
+"when in Follow Me.  This is due to the flexible nature of FusionPBX where"
+" if you didn't want that extension to ring like if you were out of the "
+"office on a business trip."
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:31
+msgid "`Follow Me Default Settings`_"
+msgstr ""
+
+#: ../../source/applications/follow_me.rst:33
+msgid "Click the link above for Follow Me default settings."
+msgstr ""
+

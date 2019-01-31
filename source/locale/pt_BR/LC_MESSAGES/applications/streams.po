@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/streams.rst:3
+msgid "Streams"
+msgstr ""
+
+#: ../../source/applications/streams.rst:5
+msgid "Define details for streaming audio."
+msgstr ""
+
+#: ../../source/applications/streams.rst:10
+msgid "Make sure mod_shout is installed and is started."
+msgstr ""
+
+#: ../../source/applications/streams.rst:11
+msgid "Have a shoutcast url ready to use. (shout://domain.tld/path/to/)"
+msgstr ""
+
+#: ../../source/applications/streams.rst:12
+msgid "To add a stream click the plus icon on the right"
+msgstr ""
+
+#: ../../source/applications/streams.rst:19
+msgid "Edit the fields:"
+msgstr ""
+
+#: ../../source/applications/streams.rst:14
+msgid "Name: Can be anything"
+msgstr ""
+
+#: ../../source/applications/streams.rst:15
+msgid "Location: Must start with shout://"
+msgstr ""
+
+#: ../../source/applications/streams.rst:16
+msgid "Enabled: If you want the stream enabled"
+msgstr ""
+
+#: ../../source/applications/streams.rst:17
+msgid ""
+"Domain: Choose a domain that will only have the stream. Choose Global for"
+" all domains"
+msgstr ""
+
+#: ../../source/applications/streams.rst:18
+msgid "Description: To help organize ;-)"
+msgstr ""
+
+#: ../../source/applications/streams.rst:27
+msgid ""
+"Editing a stream path will result in having to update anything that is "
+"using the stream.  For example, if you have extension 500 using stream "
+"\"Local Weather\" and you edit the shout:// path then you will have to go"
+" back to extension 500 and reset the music on hold for extension 500.  "
+"This is by design."
+msgstr ""
+
+#: ../../source/applications/streams.rst:32
+msgid ""
+"Please be aware of your countries copyright laws for streaming the "
+"content you are going to stream."
+msgstr ""
+

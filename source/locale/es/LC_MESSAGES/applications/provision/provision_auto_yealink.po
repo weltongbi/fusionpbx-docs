@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:2
+msgid "Yealink"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:5
+msgid "To auto provision Yealink"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:7
+msgid "Login to the phone"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:8
+msgid "Goto the Security tab at the top right"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:9
+msgid "On the left vertical menu click **Trusted Certificates**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:10
+msgid ""
+"On the dropdown box near the bottom choose **Disabled** for \"Only Accept"
+" Trusted Certificates\".  If you have a Certificate that is not self-"
+"signed and Approved by Yealink and installed on your FusionPBX server, "
+"you can keep this enabled"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:11
+msgid "Click **Confirm**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:17
+msgid "Once you have that done"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:19
+msgid "Click the **Settings** tab at the top"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:20
+msgid "On the left vertical menu click  **Auto Provision**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:21
+msgid ""
+"Fill in the **Server URL** field.  This will be "
+"https://domain.tld/app/provision  Replace domain.tld with your actual "
+"domain name"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:22
+msgid "Click **Confirm** at the bottom"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_yealink.rst:23
+msgid "Click **Auto Provision Now** at the bottom"
+msgstr ""
+

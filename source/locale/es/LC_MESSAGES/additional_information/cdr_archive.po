@@ -1,0 +1,227 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/cdr_archive.rst:3
+msgid "CDR Archive Server"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:5
+msgid "Note: This feature is on version 4.5+"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:6
+msgid ""
+"Fusionpbx has the ability to access CDR records on a seperate archive "
+"database. This is helpful for longterm CDR storage while keeping your "
+"active database small. When the feature is enabled you will see an "
+"\"ARCHIVE\" button in CDR page that accesses records on your archive "
+"database."
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:8
+msgid ""
+"The first step is to install an archive database. This can be done by "
+"standing up another fusionpbx server or by setting up a postgres server. "
+"If postgres is installed by itself you will need to manage the indexes, "
+"tables names and column names manually on the archive server. They need "
+"to match the values on the live database."
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:10
+msgid ""
+"Once you get your archive database setup and can access both databases in"
+" both directions (live <-> archive), you will need a mechanism to move "
+"the CDR Records from the live database to the archive database. In this "
+"example I have a complete fusionpbx install on the archive server. That "
+"way I can use the fusionpbx web gui to explore the records and use the "
+"Upgrade feature to keep the table & column names in sync."
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:15
+msgid "**Move the Records**"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:17
+msgid "Create a shell script to copy the records."
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:19
+msgid "``touch /etc/cron.daily/db_copy.sh``"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:20
+msgid "``chmod +x /etc/cron.daily/db_copy.sh``"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:21
+msgid "``nano /etc/cron.daily/db_copy.sh``"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:78
+msgid "Add to cron"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:80
+msgid "``crontab -e``"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:86
+msgid ""
+"Note: In this example I remove the json data from the records. You will "
+"need to comment out the \"SET json = NULL\" line if you want to keep the "
+"call variables."
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:89
+msgid "`CDR <default_settings/cdr.html>`_"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:91
+msgid "FusionPBX menu `Apps > CDR <../applications/call_detail_record.html>`_"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:93
+msgid "Setup your live server to connect to the archive database."
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:96
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:96
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:96
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:96
+msgid "Setting Enabled"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:96
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:98
+msgid "archive_database_driver"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:98
+#: ../../source/additional_information/cdr_archive.rst:100
+#: ../../source/additional_information/cdr_archive.rst:102
+#: ../../source/additional_information/cdr_archive.rst:104
+#: ../../source/additional_information/cdr_archive.rst:106
+#: ../../source/additional_information/cdr_archive.rst:110
+msgid "text"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:98
+msgid "pgsql"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:98
+#: ../../source/additional_information/cdr_archive.rst:100
+#: ../../source/additional_information/cdr_archive.rst:102
+#: ../../source/additional_information/cdr_archive.rst:104
+#: ../../source/additional_information/cdr_archive.rst:106
+#: ../../source/additional_information/cdr_archive.rst:108
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:98
+msgid "Archive Database Driver"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:100
+msgid "archive_database_host"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:100
+msgid "x.x.x.x"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:100
+msgid "IP/Hostname of Archive Database"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:102
+msgid "archive_database_password"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:102
+msgid "somethingSecret"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:102
+msgid "Archive Database Password"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:104
+msgid "archive_database_port"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:104
+msgid "5432"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:104
+msgid "Archive Database Port"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:106
+msgid "archive_database_username"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:106
+#: ../../source/additional_information/cdr_archive.rst:110
+msgid "fusionpbx"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:106
+msgid "Archive Database Username"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:108
+msgid "archive_database"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:108
+msgid "boolean"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:108
+#: ../../source/additional_information/cdr_archive.rst:110
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:108
+msgid "Enable Dedicated CDR Database Access"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:110
+msgid "archive_database_name"
+msgstr ""
+
+#: ../../source/additional_information/cdr_archive.rst:110
+msgid "Archive Database Name"
+msgstr ""
+

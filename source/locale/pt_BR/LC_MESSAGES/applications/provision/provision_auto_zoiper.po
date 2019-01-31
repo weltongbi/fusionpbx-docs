@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:2
+msgid "Zoiper"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:4
+msgid "QR and app provisioning with Zoiper"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:6
+msgid ""
+"This menu add-on will enable the abliity to do QR provisioning from IOS "
+"or android Zoiper app.  Zoiper has designed the process in a way that is "
+"cross platform.  Fusionpbx has the ability to click the extension you "
+"want to provision and a link wil open to either download the app on "
+"multiple platforms or if you have the app installed on a mobile device "
+"you can use the QR code scanner to scan a QR image and the mobile is "
+"ready to use."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:8
+msgid "We will walk through the process"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:12
+msgid "Zoiper.com account setup"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:14
+msgid ""
+"There are two parts to make this function. http://oem.zoiper.com and "
+"Fusionpbx menu add-on."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:16
+msgid ""
+"This all adds a one-click install for both the Desktop and Mobile Zoiper "
+"APPs in the User Portal. The page is accessible by end users."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:18
+msgid ""
+"This can be done with the FREE Zoiper OEM account or can use the paid "
+"versions for more customization like branding."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:20
+msgid "1. Go to: https://oem.zoiper.com/"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:21
+msgid "2. Sign up for Login"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:22
+msgid "3. Configure your Desktop and Mobile Apps with the information you want."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:23
+msgid "4. Then click \"CONFIGURE\" Under Desktop."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:24
+msgid "5. This will give you a LINK with a PAGE ID:(32 character)"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:25
+msgid "6. https://www.zoiper.com/en/page/MYPAGEID?u=&h=&p=&o=&t=&x=&a=&tr=\""
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:26
+msgid "7. Copy the page ID"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:31
+msgid "Zoiper menu add-on for Fusionpbx"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:33
+msgid "On your server"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:41
+msgid "1. Log into the FusionPBX webpage"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:42
+msgid "2. Advanced -> Upgrade"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:43
+msgid "3. Menu Defaults and Permission Defaults."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:44
+msgid "4. Log out and back in"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:46
+msgid "Advanced -> Default Settings"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:48
+msgid ""
+"**Note** **MYPAGEID** and **provider_id** are two different sets of "
+"characters.  You can also find these by going into the oem.zoiper.com "
+"login and click \"view\" on the moblie section."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:54
+msgid "**provider_id**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:64
+msgid "**MYPAGEID**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:95
+msgid "Goto Apps -> Zoiper"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:96
+msgid "Superadmin will see a list of ALL USER EXTENSIONS"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:97
+msgid "Users will only see the extensions assigned to them."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_zoiper.rst:99
+msgid ""
+"Click on a link and it will take you to the Zoiper Site. Follow "
+"instructions there to download and install."
+msgstr ""
+

@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/sngrep.rst:2
+msgid "Using SNGREP"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:6
+msgid "Main Screen"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:9
+msgid "**Idx:** Line number column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:11
+msgid "**Method:** Type of SIP message column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:13
+msgid "**SIP From:** SIP message From column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:15
+msgid "**SIP To:** SIP message To column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:17
+msgid "**Msgs:** Numerical amount of messages column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:19
+msgid "**Source:** Source IP and port number column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:21
+msgid "**Destination:** Destination IP and port number column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:23
+msgid "**Call State:** Call identifier column."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:30
+msgid "**ESC Quit:** escape and quit sngrep."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:32
+msgid "**Enter:** Show more information about the highlighted line item."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:34
+msgid ""
+"**Space:** After pressing the spacebar, the line is selected.  With this "
+"you can select multiple lines and can be used with the F2 save option."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:36
+msgid "**F1 Help:** Gives a help menu."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:38
+msgid ""
+"**F2 Save:** Option to save the current capture session dialogs to a "
+".pcap or .txt to a specific path and file name."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:40
+msgid ""
+"**F3 Search:** Gives the option to search in a more specific and granular"
+" way."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:42
+msgid "**F4 Extended:** Gives an extended view."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:44
+msgid "**F5 Clear:** Clear the screen."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:46
+msgid "**F7 Filter:** Like search but with more options to filter the end result."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:48
+msgid ""
+"**F8 Settings:** Adjust SNGREP settings interface, capture options, call "
+"flow options,  and EEP/HEP Homer options."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:50
+msgid "**F10:** Adjust what columns are displayed on the open sngrep window."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:53
+msgid "SPAM"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:59
+msgid ""
+"**User-Agent:** Most spam attempts will show an unwanted User-Agent like "
+"what is shown in this example."
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:65
+msgid "Registration"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:75
+msgid "Registration Expanded"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:89
+msgid "Call Setup"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:98
+msgid "**Invite**"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:104
+msgid "**200 OK**"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:110
+msgid "**Call Completed**"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:123
+msgid "F3 Search"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:130
+msgid "F7 Filter"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:138
+msgid "F8 Settings"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:141
+msgid "**Interface**"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:148
+msgid "**EEP/HEP HOMER**"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:155
+msgid "**Call Flow**"
+msgstr ""
+
+#: ../../source/additional_information/sngrep.rst:161
+msgid "**Capture**"
+msgstr ""
+

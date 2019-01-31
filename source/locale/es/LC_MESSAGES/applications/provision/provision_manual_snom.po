@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_manual_snom.rst:3
+msgid "SNOM"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:8
+msgid "From your FusionPBX Install"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:11
+msgid ""
+"From the Accounts menu, select extensions and select an extension to be "
+"provisioned. If no extension exists, create one."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:13
+msgid ""
+"Click the triangle beside **Device Provisioning** field then enter the "
+"mac address of the phone device into **MAC Address** field."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:15
+msgid ""
+"A barcode scanner can be used or type in the mac address 00041326B92B "
+"manually."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:17
+msgid ""
+"From the template dropdown list, select the proper make and model of the "
+"phone."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:19
+msgid "Click the Save button."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:21
+msgid ""
+"The mac address should be a clickable link now. Click that then continue "
+"to set up line keys or adjust any other phone settings."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:25
+msgid ""
+"The provisioning template can be tested by opening up a web browser and "
+"entering the provisioning url. The provisioning url is:"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:27
+msgid "hxxp://voice.example.com/fusionpbx/app/provision/index.php?mac=00041326B92B"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:29
+msgid "Replace the mac address and domain with your own."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:33
+msgid "From your SNOM phone"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:35
+msgid ""
+"Snom like most IP phone has a web admin interface to configure and "
+"monitor the phone. Usually, it's best to be up-to-date with firmware.  If"
+" you have issues with provisioning check that the device is up-to-date.  "
+"Sometimes 1 or 2 versions back are needed also depending on firmware "
+"bugs."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:37
+msgid ""
+"To find the IP address of the phone, press the menu button on the phone "
+"(on the 7XX or 8XX series, or the settings button on the 3xx series) and "
+"press \"4\" for network then \"1\" for IP Settings and at the DHCP "
+"screen, press \"X\" for no. The IP address will appear on the screen."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:39
+msgid ""
+"Type the IP address into your web browser and select \"Setup > Advanced\""
+" from the left menu and select the \"Update\" tab from the top."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:41
+msgid "Under \"Update Policy\", select \"Update Automatically\""
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:43
+msgid "Under \"Setting URL\" add in the setting URL as:"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:45
+msgid ""
+"hxxp://www.example.com/app/provision/index.php?mac={mac}  (Be sure to "
+"replace hxxp:// with http://)"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:47
+#: ../../source/applications/provision/provision_manual_snom.rst:74
+msgid ""
+"The hostname should be replaced with your FusionPBX domain name. Note "
+"that we have replaced the domain name with {mac}. This is a special Snom "
+"variable to put the phones Mac address in without having to specify it."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:49
+msgid ""
+"Select the \"Apply\" button and then the \"Reboot\" button and confirm to"
+" reboot the phone."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:51
+msgid ""
+"When the phone reboots, it will be provisioned with your appropriate "
+"settings"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:56
+msgid "Using DHCP Option 66 to Deploy the Phone"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:58
+msgid ""
+"DHCP is an excellent option for phones deployed in a local office. Your "
+"Snom phone can be removed from its box and simply plugged into the "
+"network. All the setting will be retrieved from the server. Be careful to"
+" not open up your FusionPBX to the internet though. Someone who knows "
+"your url and a MAC address of a phone can easily retrieve your phone "
+"settings including its password."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:60
+msgid ""
+"Each DHCP Server is different. At Helia we use Cradlepoint MBR 1400 and "
+"Cradlepoint MBR 95. Each of these allow you to setup DHCP option 66. "
+"Setting up DHCP directly on the voice server is also an option."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:62
+msgid ""
+"On the Cradlepoint MBR 1400 router, select \"Network Settings\" and \" "
+"WiFi / Local Networks\"."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:64
+msgid ""
+"Select the appropriate \"Local IP Networks\", and select the \"Edit\" "
+"button."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:66
+msgid "On the \"Local Network Editor\" window, select the \"DHCP Server\" tab"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:68
+msgid ""
+"Ensure the \"DHCP Enable\" checkbox is checked and click the \"Add\" "
+"button to add an option."
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:70
+msgid ""
+"For \"option\" select \"66 Server Name\" and for the value, add the "
+"provisioning URL:"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:72
+msgid ""
+"hxxp://www.example.com/app/provision/index.php?mac={mac} (Be sure to "
+"replace hxxp:// with http://)"
+msgstr ""
+
+#: ../../source/applications/provision/provision_manual_snom.rst:76
+msgid ""
+"With the DHCP information added, the provisioning template will be "
+"applied to the phone next time it fetches a new IP address - usually on "
+"its next reboot."
+msgstr ""
+

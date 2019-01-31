@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/conference_center.rst:3
+msgid "Conference Center"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:5
+msgid ""
+"Conference Centers are a group of conference rooms. They can be organized"
+" by cost center, geographically, or other criteria."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:14
+msgid "To Acess Conference Center goto Apps > Conference Center"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:15
+msgid "To view rooms click the **ROOMS** at the top right."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:17
+msgid "For basic conferencing use Apps -> Conferences"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:21
+msgid "Conference Center Options"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:28
+msgid "**Name:** Name of the Conference Center."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:29
+msgid ""
+"**Extension:** Extension of the Conference Center. (Be sure to not use an"
+" extension already in use)"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:30
+msgid "**Greeting:** Choose a greeting to play."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:31
+msgid ""
+"**PIN Length:** Add a layer of security for entering the Conference "
+"Center."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:32
+msgid "**Enabled:** Enable or disable the Conference Center."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:33
+msgid "**Description:** A way to organize what the Conference Center is for."
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:37
+msgid "Conference Center Rooms"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:39
+msgid ""
+"Apps > Conference Center > Click **Rooms** at the top right.  This will "
+"take you to the Conference Center Rooms.  From here you can"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:41
+msgid "Create a Room"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:42
+msgid "Edit a Room"
+msgstr ""
+
+#: ../../source/applications/conference_center.rst:50
+msgid "Conference Center Rooms Settings"
+msgstr ""
+

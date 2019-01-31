@@ -1,0 +1,669 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/dialplan/dialplan_manager.rst:3
+msgid "Dialplan Manager"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:7
+msgid ""
+"The dialplan is used to setup call destinations based on conditions and "
+"context. You can use the dialplan to send calls to gateways, auto "
+"attendants, external numbers, to scripts, or any destination."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:11
+msgid "Dialplan Name"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:11
+msgid "Dialplan Number"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:13
+msgid "`caller-details`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:15
+msgid "*Details about the caller.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:17
+msgid "**not-found:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:19
+msgid "*Used to help trigger fail2ban from bogus calls.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:21
+msgid "**call-limit:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:23
+msgid "*Limit calls based on number of calls and more.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:25
+msgid "**speed_dial:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:25
+msgid "*0[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:27
+msgid "*Uses LUA for extension speed dial.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:29
+msgid "**agent_status:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:29
+msgid "*22"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:31
+msgid "*Agent login to call center.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:33
+msgid "**page-extension:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:33
+msgid "*8[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:35
+msgid "*Password protected paging of an extension.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:37
+msgid "**eavesdrop:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:37
+msgid "*33[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:39
+msgid "*Password protected evesdropping on extensions.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:41
+msgid "**send_to_voicemail:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:41
+msgid "*99[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:43
+msgid "*Sending an active call to an extensions voicemail.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:45
+msgid "**cf:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:45
+msgid "cf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:49
+msgid "**echo:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:49
+msgid "*9196"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:51
+msgid "*Real time echo test.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:53
+msgid "**milliwatt:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:53
+msgid "*9197"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:55
+msgid "*Plays a milliwatt test tone.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:57
+msgid "**recordings:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:57
+msgid "*732"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:59
+msgid "*Password protected way to record audio that can be used in*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:60
+msgid "*other applications like IVR.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:62
+msgid "**directory:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:62
+msgid "*411"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:64
+msgid "*Directory of users.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:66
+msgid "**user_exists:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:68
+msgid "*Determines if a user exists on the switch.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:70
+msgid "**caller-details:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:72
+msgid "*Logic to decifer caller details.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:74
+msgid "**call-direction:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:76
+msgid "*Determines the direction of the call.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:78
+msgid "**variables:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:80
+msgid "*Set variables on a domain level.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:82
+msgid "**is_local:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:84
+msgid "*Can be used to evaluate calls as local.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:86
+msgid "**call_block:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:88
+msgid "*Block calls from reaching endpoints.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:90
+msgid "**user_record:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:92
+msgid "*Used to record calls.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:94
+msgid "**redial:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:94
+msgid "*870"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:96
+msgid "*Dial the last number that was dialed.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:98
+msgid "**default_caller_id:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:100
+msgid "*Caller ID that can be set per domain.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:102
+msgid "**agent_status_id:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:102
+msgid "*23"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:104
+msgid "*Status of the agent.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:106
+msgid "**provision:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:106
+msgid "*11,*12"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:108
+msgid "*Used with devices.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:110
+msgid "**clear_sip_auto_answer:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:114
+msgid "**nway_conference**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:114
+msgid "nway"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:118
+msgid "**cidlookup:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:122
+msgid "**group-intercept:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:122
+msgid "*8"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:124
+msgid "*Intercepts a call from a defined group.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:126
+msgid "**page:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:126
+msgid "*724"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:128
+msgid "*Password protected paging defined set of extensions.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:130
+msgid "**conf-xfer:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:134
+msgid "**call_privacy:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:134
+msgid "*67[d+]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:136
+msgid "*Send a privacy header to the carrier to hide caller id.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:138
+msgid "**call_return:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:138
+msgid "*69"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:140
+msgid "*Call the last number that called the endpoint.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:142
+msgid "**extension_queue:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:142
+msgid "*800[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:146
+msgid "**intercept-ext:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:146
+msgid "**[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:148
+msgid "*Password protected intercept of an extension.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:150
+msgid "**dx:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:150
+msgid "dx"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:152
+msgid "*Direct transfer.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:154
+msgid "**att_xfer:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:154
+msgid "att_xfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:156
+msgid "*Attended transfer.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:158
+msgid "**extension-to-voicemail:**"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:158
+#: ../../source/dialplan/dialplan_manager.rst:254
+#: ../../source/dialplan/dialplan_manager.rst:260
+#: ../../source/dialplan/dialplan_manager.rst:264
+msgid "[ext]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:160
+msgid "*Used for extension to voicemail.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:162
+msgid "vmain"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:162
+msgid "*98"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:164
+msgid "*Main menu to access any voicemail using a pin number.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:166
+msgid "xfer_vm"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:168
+msgid "*Transfer to voicemail.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:170
+msgid "is_transfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:172
+msgid "*Used for call transfering.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:174
+msgid "`vmain_user`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:174
+msgid "*97"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:176
+msgid "*Endpoint's voicemail using a pin number.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:178
+msgid "delay_echo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:178
+msgid "*9195"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:180
+msgid "*Play back an echo with a 5 second delay.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:182
+msgid "please_hold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:184
+msgid "*Plays an audio file when on hold.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:186
+msgid "is_zrtp_secure"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:190
+msgid "is_secure"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:194
+msgid "tone_stream"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:194
+msgid "*9198"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:196
+msgid "*tones that stream and sound like Tetris music.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:198
+msgid "hold_music"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:198
+msgid "*9664"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:200
+msgid "*Play music on hold. Good for testing on an endpoint.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:202
+msgid "freeswitch_conference"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:202
+msgid "*9888"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:204
+msgid "*An easy way to join the Cluecon Weekly call.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:206
+msgid "disa"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:206
+msgid "*3472"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:208
+msgid "*Call in to a phone number and provide a pin to dial out.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:210
+msgid "wake-up"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:210
+msgid "*925"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:212
+msgid "*Schedule date and time for an automated call.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:214
+msgid "extension_queue"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:218
+msgid "valet_park"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:218
+#: ../../source/dialplan/dialplan_manager.rst:226
+msgid "park+*5901-*5999"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:220
+msgid "*Default range to valet park calls.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:222
+msgid "valet_park_in"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:222
+msgid "park+*5900"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:224
+msgid "*Default number to send valet calls to.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:226
+msgid "valet_park_out"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:228
+msgid "*Default range to retreive valet parked calls.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:230
+msgid "`operator`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:230
+msgid "0"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:232
+msgid "*Configurable option for an operator.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:234
+msgid "`operator-forward`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:234
+msgid "*000"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:236
+msgid "*Uses dial_string.lua.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:238
+msgid "`do-not-disturb`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:238
+msgid "*77,*78,*79"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:240
+msgid "*Turn on, toggle, turn off do not disturb.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:242
+msgid "`call-forward`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:242
+msgid "*72,*73,*74"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:244
+msgid "*Turn on, toggle on/off and turn off call forwarding.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:246
+msgid "`follow-me`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:246
+msgid "*21"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:248
+msgid "*Forwards call to defined list of phone numbers or extensions.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:250
+msgid "`bind_digit_action`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:254
+msgid "`call_screen`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:256
+msgid "*Play an audio file and give options to the caller to record a*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:257
+msgid ""
+"*short message for the call recipient. Call recipient can then* *accept "
+"or reject the call.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:260
+msgid "`local_extension`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:262
+msgid "*Examines to see if the extension is local.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:264
+msgid "`voicemail`_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_manager.rst:266
+msgid "*Voicemail for extensions.*"
+msgstr ""
+

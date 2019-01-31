@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/features/dial_by_name.rst:3
+msgid "Dial By Name"
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:6
+msgid ""
+"Dial by name is a way to dial someone that is defined in your FusionPBX "
+"installations virtual directory."
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:10
+msgid "Using \\*\\411"
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:12
+msgid "First dial \\*\\411."
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:13
+msgid "Listen to the voice options."
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:14
+msgid ""
+"Press the buttons on the phone that corresponds to the letters in the "
+"name you wish to call."
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:15
+msgid "To select this entry, press 1.  For the next entry press 6."
+msgstr ""
+
+#: ../../source/features/dial_by_name.rst:19
+msgid ""
+"Go to Accounts > Extensions > click the edit icon on an extension. Scroll"
+" down to the \"Directory Full Name\" field and fill in the field.  "
+"Directory Full Name is what \\*\\411 uses to search by."
+msgstr ""
+

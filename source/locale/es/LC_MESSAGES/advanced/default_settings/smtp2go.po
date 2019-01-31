@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/smtp2go.rst:3
+msgid "SMTP2GO"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:6
+msgid ""
+"SMTP2GO is a paid email service for sending email.  They do however have "
+"1,000 free messages a month and paid plans that are reasonable."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:8
+msgid "Sign up for the service"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:15
+msgid ""
+"After you confirm your email, sign in. You can create an smtp user at "
+"this screen or in the next step."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:21
+msgid "Go to Settings > Users and create an smtp user or additional smtp users."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:26
+msgid ""
+"You can set authentication by ip address. It's a good idea to set the "
+"limit here also from Unlimited to match which plan you choose."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:31
+msgid ""
+"Set the domain to your domain to make delivery seem as it came right from"
+" your own mail server.  This can help sending to strict email domains."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:37
+msgid ""
+"From your FusionPBX server install go to Advanced > Default Settings > "
+"Email section."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:40
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:40
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:40
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:40
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:40
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:42
+msgid "smtp_host"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:42
+#: ../../source/advanced/default_settings/smtp2go.rst:44
+#: ../../source/advanced/default_settings/smtp2go.rst:48
+#: ../../source/advanced/default_settings/smtp2go.rst:50
+#: ../../source/advanced/default_settings/smtp2go.rst:52
+#: ../../source/advanced/default_settings/smtp2go.rst:54
+#: ../../source/advanced/default_settings/smtp2go.rst:56
+#: ../../source/advanced/default_settings/smtp2go.rst:60
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:42
+msgid "mail.smtp2go.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:42
+#: ../../source/advanced/default_settings/smtp2go.rst:44
+#: ../../source/advanced/default_settings/smtp2go.rst:46
+#: ../../source/advanced/default_settings/smtp2go.rst:48
+#: ../../source/advanced/default_settings/smtp2go.rst:50
+#: ../../source/advanced/default_settings/smtp2go.rst:52
+#: ../../source/advanced/default_settings/smtp2go.rst:54
+#: ../../source/advanced/default_settings/smtp2go.rst:56
+#: ../../source/advanced/default_settings/smtp2go.rst:58
+msgid "True"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:42
+msgid "email providers server address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:44
+msgid "smtp_from"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:44
+#: ../../source/advanced/default_settings/smtp2go.rst:52
+msgid "emailaddress@gmail.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:44
+msgid "smtp from emaill address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:46
+msgid "smtp_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:46
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:46
+msgid "587"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:46
+msgid "port number of the mail server provider"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:48
+msgid "smtp_from_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:48
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:48
+msgid "smtp from name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:50
+msgid "smtp_auth"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:50
+#: ../../source/advanced/default_settings/smtp2go.rst:58
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:50
+msgid "smtp auth is required"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:52
+msgid "smtp_username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:52
+msgid "Use the full email address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:54
+msgid "smtp_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:54
+msgid "typically the email password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:56
+msgid "smtp_secure"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:56
+msgid "tls"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:56
+msgid "tls or ssl depending on the provider."
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:58
+msgid "smtp_validate_certificate"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:58
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:58
+msgid ""
+"set to false to ignore SSL certificate warnings e.g. for self-signed "
+"certificates"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:60
+msgid "method"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:60
+msgid "sendmail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:60
+msgid "False"
+msgstr ""
+
+#: ../../source/advanced/default_settings/smtp2go.rst:60
+msgid "smtp|sendmail|mail|qmail"
+msgstr ""
+

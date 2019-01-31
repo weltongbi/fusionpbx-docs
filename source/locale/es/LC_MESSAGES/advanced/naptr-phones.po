@@ -1,0 +1,109 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/naptr-phones.rst:3
+msgid "Phones tested with NAPTR and  Fusionpbx"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:6
+msgid "Working with NAPTR"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:8
+#: ../../source/advanced/naptr-phones.rst:25
+msgid "Vendor"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:8
+#: ../../source/advanced/naptr-phones.rst:25
+msgid "Model"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:8
+#: ../../source/advanced/naptr-phones.rst:25
+msgid "Firmware"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:8
+#: ../../source/advanced/naptr-phones.rst:25
+msgid "Notes"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:10
+#: ../../source/advanced/naptr-phones.rst:12
+msgid "SNOM"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:10
+msgid "D715"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:10
+msgid "8.7.5.35, 8.9.3.60"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:12
+msgid "D725"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:12
+msgid "8.9.3.60"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:14
+msgid "Yealink"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:14
+msgid "T22P"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:16
+msgid "Gigaset"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:16
+msgid "N510"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:16
+msgid "42.242"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:18
+msgid "Bria"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:18
+msgid "iOS App"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:22
+msgid "Not working with NAPTR"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:27
+msgid "Media5Fone iOS"
+msgstr ""
+
+#: ../../source/advanced/naptr-phones.rst:29
+msgid "Blink for MacOS"
+msgstr ""
+

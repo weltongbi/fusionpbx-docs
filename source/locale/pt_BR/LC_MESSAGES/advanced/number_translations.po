@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/number_translations.rst:3
+msgid "Number Translations"
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:6
+msgid ""
+"Use this to translate numbers from the original number to a new number "
+"using regular expressions."
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:15
+msgid "Activating mod-translate:"
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:13
+msgid ""
+"Install the package \"freeswitch-mod-translate\". If using Debian Package"
+" then use the following command \"apt install freeswitch-mod-translate\""
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:14
+msgid ""
+"Configure the module to your likes via the GUI: Advanced -> Number "
+"Translations."
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:15
+msgid ""
+"Activate the module in FusionPBX Advanced -> Modules in the Applications "
+"section"
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:17
+msgid ""
+"The documentation for mod-translate can be found under "
+"https://freeswitch.org/confluence/display/FREESWITCH/mod_translate"
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:23
+msgid ""
+"To use mod-translate to modify inbound calls before they hit the dialplan"
+" the following setting for the SIP-profile must be modified:"
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:20
+msgid "dialplan \"XML\" -> dialplan \"Translate,XML\""
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:22
+msgid ""
+"With FreeSwitch 1.8.x it is now possible to specify the translation "
+"profile to be used: dialplan \"XML\" -> dialplan "
+"\"Translate:my_profile1,XML\""
+msgstr ""
+
+#: ../../source/advanced/number_translations.rst:25
+msgid ""
+"To activate this setting, the SIP-profile needs to be restarted and the "
+"cache flushed."
+msgstr ""
+

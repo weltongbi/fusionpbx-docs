@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/testimonials.rst:3
+msgid "Testimonials"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:12
+msgid ""
+"Businesses of all sizes use FusionPBX daily.  We love to see folks happy "
+"saving money using FusionPBX.  Here are some of the testimonials we "
+"received."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:16
+msgid ""
+"*I've been a longtime VoIP enthusiast for years, since 2005, and I have "
+"tried several different hosted/self-hosted PBX systems. Honestly, "
+"FusionPBX wins hands down. What makes it even more amazing is the passion"
+" that the FusionPBX developers and contributors have in their software. I"
+" honestly couldn't be happier with a turn-key PBX system.*"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:18
+msgid "**-Digital Crisis**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:22
+msgid ""
+"*Just want to give a thankful shout out to everyone at FusionPBX that "
+"have helped in education, contribution and support. The FusionPBX team "
+"have developed a leading product. Its been a joy from day one joining "
+"this community and I look forward to the road ahead.*"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:24
+msgid "**-Kissvoice**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:29
+msgid ""
+"*We have been using FusionPBX for many of our clients and just want to "
+"express our gratitude to Mark and the team for not only providing a great"
+" product, but being extremely helpful in bringing out new features and "
+"helping us maintain the service. Every new release amazes us with the "
+"work  and development put into it.*"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:33
+msgid "**-Kloudphone**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:39
+msgid "`SureVoIP <https://www.surevoip.co.uk>`_"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:41
+msgid ""
+"Have been using FusionPBX since 2010. SureVoIP sponsored the first "
+"versions of multi-tenant domains and hot desking. SureVoIP sponsors and "
+"contributes fixes and features when possible."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:43
+msgid ""
+"*Because of FusionPBX's highly configurable nature, responsive support "
+"team and sane design, SureVoIP have been able to win many large customers"
+" because proprietry systems are so rigid and slow to innovate. We have "
+"been proud to support and deploy FusionPBX for 7 years.*"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:46
+msgid "**-SureVoIP**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:48
+msgid ""
+"*Winner of the Best Business ITSP (Medium Enterprise) 2016!* "
+"http://www.surevoip.co.uk/2016-best-provider"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:54
+msgid ""
+"I would like to tell everyone there that I have been trying to get an "
+"open source PBX to work for me for over three months now and since I am "
+"not a linux guy, I haven’t been able to get any of them working the way I"
+" wanted. FusionPBX installation script installed ALL required packages "
+"and libraries in one go and it was up and running in 10 mins. Once I "
+"followed the `youtube videos <https://www.youtube.com/fusionpbx>`_ it "
+"took me no time to setup and migrate my clients to FusionPBX. One of the "
+"best features I love in FusionPBX is the automatic dialplan expression as"
+" I have always struggled with remembering the expression syntax. The user"
+" interface and the way all the features are grouped is awesome."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:56
+msgid "*Again, Thanks for the effort*"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:59
+msgid "**-BareVOIP Limited**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:64
+msgid "FusionPBX Will Be My Default Choice From Now On."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:66
+msgid ""
+"I just did my first install of FusionPBX a few days ago. All my prior "
+"background has been in the Asterisk/FreePBX community. But my "
+"introduction to the freeSWITCH/FusionPBX community has been a very "
+"pleasant one. The change does include a small learning curve, but the "
+"advantages far out way the effort required to learn the new platform. "
+"Suddenly a lot of prior headaches and work arounds are gone. The install "
+"is painless and simple compared to FreePBX. And after it is installed it "
+"works! This is especially note worthy if you are used to trying to get "
+"everything working with FreePBX on a VPS. This worked perfect on a VPS."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:68
+msgid ""
+"Now for the more practical end of things. I found the features and "
+"functionality of FusionPBX to be very comprehensive. The monitoring and "
+"control you have over active calls is second to none. And unlike most "
+"GUI's you do not need to sacrifice functionality for the use of a GUI. "
+"With the dial plan manager you can easily add almost any custom dial plan"
+" that you could by editing the xml directly. And as if that is not "
+"enough, there is a built in editor for all the xml and config files."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:70
+msgid ""
+"The support for this project is also noteworthy and it is quite easy to "
+"get direct access to the lead developer himself."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:72
+msgid "Hope that helps. And I highly encourage you to give FusionPBX a try."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:74
+msgid "Regards,"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:76
+msgid "**-ThinkerIV**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:81
+msgid ""
+"Amazingly fast to get up and running, but equipped with very powerful "
+"functionality as well."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:83
+msgid ""
+"I came from a Trixbox background. I had experienced limitations with the "
+"Trixbox solution and was looking for an alternative when I found "
+"FusionPBX. The first thing that amazed me was how simple and speedy it "
+"was to get a working phone system up and running with FusionPBX - far "
+"simpler than Trixbox. But then I started to discover how much advanced "
+"functionality was also available, and how extensible the design is - in "
+"my opinion it is far easier to script for FusionPBX than to script for "
+"Trixbox if you want to add additional functionality of your own. "
+"FusionPBX is clearly a well thought through design, built on a very solid"
+" underlying soft switch (FreeSWITCH) - for me that makes it the system of"
+" choice."
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:85
+msgid "**-Stephen**"
+msgstr ""
+
+#: ../../source/additional_information/testimonials.rst:95
+msgid ""
+"We would love to hear from you!  Please reach out to us at "
+"http://fusionpbx.com/support.php if you would like to be featured on this"
+" page."
+msgstr ""
+

@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/gateway/gateway.rst:2
+msgid "Inbound Destinations"
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:4
+msgid ""
+"Inbound destinations are the DID/DDI, DNIS or Alias for inbound calls. "
+"`Click here for the youtube video`_"
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:13
+msgid ""
+"Configure Inbound Destinations: (This will auto-configure an Inbound "
+"Route also)"
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:15
+msgid ""
+"*Select* **Dialplan** from the drop-down list and then *click* "
+"**Destinations**."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:20
+msgid "Click on the"
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:25
+msgid "button on the right."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:30
+msgid "*Enter* the route information below and *Click* **Save** once complete."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:56
+msgid "Outbound Routes"
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:58
+msgid ""
+"Route outbound calls to gateways, tdm, enum and more. When a call matches"
+" the conditions the call to outbound routes. `Check out the youtube video"
+" <https://youtu.be/rhyfCKLBI-Y>`_ ."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:62
+msgid "Configure Outbound Route."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:65
+msgid ""
+"Select **Dialplan** from the drop-down list and then click **Outbound "
+"Routes** ."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:70
+msgid "Click the"
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:77
+msgid ""
+"button on the right. Enter the route information below and Click **Save**"
+" once entry is complete."
+msgstr ""
+
+#: ../../source/gateway/gateway.rst:108
+msgid ""
+"**By using** `VoiceTel <http://tiny.cc/voicetel>`_ **you help support "
+"FusionPBX.  Thank you for your support!**"
+msgstr ""
+

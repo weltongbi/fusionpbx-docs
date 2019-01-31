@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/conference.rst:3
+msgid "Conference"
+msgstr ""
+
+#: ../../source/applications/conference.rst:5
+msgid ""
+"Conferences is used to setup conference rooms with a name, description, "
+"and optional pin number."
+msgstr ""
+
+#: ../../source/applications/conference.rst:7
+msgid "For advanced conferencing use Apps -> Conference Center"
+msgstr ""
+
+#: ../../source/applications/conference.rst:15
+msgid "Conference Settings"
+msgstr ""
+
+#: ../../source/applications/conference.rst:21
+msgid "**Name:** Name for the conference."
+msgstr ""
+
+#: ../../source/applications/conference.rst:22
+msgid ""
+"**Extension:** The number for the extension the user will dial.(Be sure "
+"it doesn't exist before creating it.)"
+msgstr ""
+
+#: ../../source/applications/conference.rst:23
+msgid ""
+"**Pin Number:** If you want to add a layer of security to enter the "
+"conference."
+msgstr ""
+
+#: ../../source/applications/conference.rst:30
+msgid "**Profile:**"
+msgstr ""
+
+#: ../../source/applications/conference.rst:25
+msgid "Default- The default audio quality rate and video."
+msgstr ""
+
+#: ../../source/applications/conference.rst:26
+msgid "wait-mod- Wait Mod setting."
+msgstr ""
+
+#: ../../source/applications/conference.rst:27
+msgid "wideband- Wideband audio quality rate and video."
+msgstr ""
+
+#: ../../source/applications/conference.rst:28
+msgid "ultra-wideband- Ultra wideband quality rate and video."
+msgstr ""
+
+#: ../../source/applications/conference.rst:29
+msgid "cdquality- CD Quality rate and video."
+msgstr ""
+
+#: ../../source/applications/conference.rst:30
+msgid "page- Page setting."
+msgstr ""
+
+#: ../../source/applications/conference.rst:32
+msgid "**Flags:** mute|deaf|waste|moderator (Other values are available also)"
+msgstr ""
+
+#: ../../source/applications/conference.rst:33
+msgid "**Order:** The order of the conference."
+msgstr ""
+
+#: ../../source/applications/conference.rst:34
+msgid "**Enabled:** If the conference is enabled."
+msgstr ""
+
+#: ../../source/applications/conference.rst:35
+msgid "**Description:** A way to organize what the conference purpose is."
+msgstr ""
+
+#: ../../source/applications/conference.rst:40
+msgid "Enable Conferences"
+msgstr ""
+
+#: ../../source/applications/conference.rst:42
+msgid "By default Conferences use to be hidden from the menu."
+msgstr ""
+
+#: ../../source/applications/conference.rst:44
+msgid ""
+"To add Conferences to the menu goto **Advanced > Menu Manager** and click"
+" the pencil edit icon on the right"
+msgstr ""
+
+#: ../../source/applications/conference.rst:45
+msgid "Then click the pencil edit icon on the right of **Conferences**"
+msgstr ""
+
+#: ../../source/applications/conference.rst:50
+msgid ""
+"Select from the **Groups** dropdown list superadmin and click **add** "
+"then **save**"
+msgstr ""
+

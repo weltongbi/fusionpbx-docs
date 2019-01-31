@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/status/active_conferences.rst:3
+msgid "Active Conferences"
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:5
+msgid ""
+"List all the conferences that are currently active with one or more "
+"members."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:10
+msgid "Click view to view the active conference."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:16
+msgid "**Red ball icon:** If illuminated the conference is being recorded."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:17
+msgid "**Lock:** Can lock the conference from anyone else joining."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:18
+msgid "**Unmute All:** Unmute all the members."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:19
+msgid "**End Conference:** End the conference."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:21
+msgid "**CID Name:** Caller ID Name"
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:22
+msgid "**CID Number:** Caller ID Number"
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:23
+msgid ""
+"**Capabilities:** Icons show what capabilities each member have like "
+"hear/mute, talking, and video."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:24
+msgid "**Joined:** How long ago the member joined."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:25
+msgid "**Quiet:** How long since the member was talking last."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:26
+msgid "**Has Floor:**  Who is currently talking."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:28
+msgid "**Mute:** Mute a member."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:29
+msgid ""
+"**Dead:** Make it so the member can't hear what is being said in the "
+"conference."
+msgstr ""
+
+#: ../../source/status/active_conferences.rst:30
+msgid "**Kick:** Kick the member from the conference."
+msgstr ""
+

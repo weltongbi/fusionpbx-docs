@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/restore.rst:3
+msgid "Restore"
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:7
+msgid ""
+"It's always good to have a restore method of a backup in place.  Here are"
+" the steps to a basic restore method with FusionPBX."
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:9
+msgid ""
+"It is important to know if your installation is from package or source as"
+" the paths are different for FreeSWITCH.  Always test the backups and "
+"restore methods on test machines first."
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:11
+msgid "To create the script use an editor such as vi or nano."
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:12
+msgid ""
+"Copy/Paste from the code block below and save the file as fusionpbx-"
+"restore.sh"
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:13
+msgid "Replace zzz with your database password"
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:14
+msgid ""
+"chmod + x fusionpbx-restore.sh and then run the script ./fusionpbx-"
+"restore.sh"
+msgstr ""
+
+#: ../../source/getting_started/restore.rst:15
+msgid ""
+"edit the script as needed and run this script from the server you are "
+"restoring on."
+msgstr ""
+

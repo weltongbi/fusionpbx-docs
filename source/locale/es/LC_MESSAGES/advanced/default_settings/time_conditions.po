@@ -1,0 +1,290 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/time_conditions.rst:3
+msgid "Time Conditions"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:5
+msgid "Time Conditions specific default settings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:10
+msgid "region"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:10
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:10
+msgid "usa"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:10
+#: ../../source/advanced/default_settings/time_conditions.rst:12
+#: ../../source/advanced/default_settings/time_conditions.rst:14
+#: ../../source/advanced/default_settings/time_conditions.rst:16
+#: ../../source/advanced/default_settings/time_conditions.rst:18
+#: ../../source/advanced/default_settings/time_conditions.rst:20
+#: ../../source/advanced/default_settings/time_conditions.rst:22
+#: ../../source/advanced/default_settings/time_conditions.rst:24
+#: ../../source/advanced/default_settings/time_conditions.rst:26
+#: ../../source/advanced/default_settings/time_conditions.rst:28
+#: ../../source/advanced/default_settings/time_conditions.rst:30
+#: ../../source/advanced/default_settings/time_conditions.rst:32
+#: ../../source/advanced/default_settings/time_conditions.rst:34
+#: ../../source/advanced/default_settings/time_conditions.rst:36
+#: ../../source/advanced/default_settings/time_conditions.rst:38
+#: ../../source/advanced/default_settings/time_conditions.rst:40
+#: ../../source/advanced/default_settings/time_conditions.rst:42
+#: ../../source/advanced/default_settings/time_conditions.rst:44
+#: ../../source/advanced/default_settings/time_conditions.rst:46
+#: ../../source/advanced/default_settings/time_conditions.rst:48
+#: ../../source/advanced/default_settings/time_conditions.rst:50
+#: ../../source/advanced/default_settings/time_conditions.rst:52
+#: ../../source/advanced/default_settings/time_conditions.rst:54
+#: ../../source/advanced/default_settings/time_conditions.rst:56
+#: ../../source/advanced/default_settings/time_conditions.rst:58
+#: ../../source/advanced/default_settings/time_conditions.rst:60
+#: ../../source/advanced/default_settings/time_conditions.rst:62
+#: ../../source/advanced/default_settings/time_conditions.rst:64
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:10
+msgid "What region to use by default when choosing Time Conditions"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:12
+#: ../../source/advanced/default_settings/time_conditions.rst:14
+#: ../../source/advanced/default_settings/time_conditions.rst:16
+#: ../../source/advanced/default_settings/time_conditions.rst:18
+#: ../../source/advanced/default_settings/time_conditions.rst:20
+#: ../../source/advanced/default_settings/time_conditions.rst:58
+msgid "preset_england"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:12
+#: ../../source/advanced/default_settings/time_conditions.rst:14
+#: ../../source/advanced/default_settings/time_conditions.rst:16
+#: ../../source/advanced/default_settings/time_conditions.rst:18
+#: ../../source/advanced/default_settings/time_conditions.rst:20
+#: ../../source/advanced/default_settings/time_conditions.rst:22
+#: ../../source/advanced/default_settings/time_conditions.rst:24
+#: ../../source/advanced/default_settings/time_conditions.rst:26
+#: ../../source/advanced/default_settings/time_conditions.rst:28
+#: ../../source/advanced/default_settings/time_conditions.rst:30
+#: ../../source/advanced/default_settings/time_conditions.rst:32
+#: ../../source/advanced/default_settings/time_conditions.rst:34
+#: ../../source/advanced/default_settings/time_conditions.rst:36
+#: ../../source/advanced/default_settings/time_conditions.rst:38
+#: ../../source/advanced/default_settings/time_conditions.rst:40
+#: ../../source/advanced/default_settings/time_conditions.rst:42
+#: ../../source/advanced/default_settings/time_conditions.rst:44
+#: ../../source/advanced/default_settings/time_conditions.rst:46
+#: ../../source/advanced/default_settings/time_conditions.rst:48
+#: ../../source/advanced/default_settings/time_conditions.rst:50
+#: ../../source/advanced/default_settings/time_conditions.rst:52
+#: ../../source/advanced/default_settings/time_conditions.rst:54
+#: ../../source/advanced/default_settings/time_conditions.rst:56
+#: ../../source/advanced/default_settings/time_conditions.rst:58
+#: ../../source/advanced/default_settings/time_conditions.rst:60
+#: ../../source/advanced/default_settings/time_conditions.rst:62
+#: ../../source/advanced/default_settings/time_conditions.rst:64
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:12
+#: ../../source/advanced/default_settings/time_conditions.rst:22
+#: ../../source/advanced/default_settings/time_conditions.rst:40
+msgid "{\"new_years_day\":{\"mday\":\"1\",\"mon\":\"1\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:12
+#: ../../source/advanced/default_settings/time_conditions.rst:14
+#: ../../source/advanced/default_settings/time_conditions.rst:16
+#: ../../source/advanced/default_settings/time_conditions.rst:18
+#: ../../source/advanced/default_settings/time_conditions.rst:20
+#: ../../source/advanced/default_settings/time_conditions.rst:58
+msgid "England Holiday"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:14
+msgid "{\"may_day\":{\"mon\":\"5\",\"mday\":\"1-7\",\"wday\":\"2\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:16
+msgid "{\"august_bank_holiday\":{\"mon\":\"8\",\"mday\":\"25-31\",\"wday\":\"2\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:18
+#: ../../source/advanced/default_settings/time_conditions.rst:38
+#: ../../source/advanced/default_settings/time_conditions.rst:52
+msgid "{\"christmas_day\":{\"mday\":\"25\",\"mon\":\"12\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:20
+#: ../../source/advanced/default_settings/time_conditions.rst:54
+msgid "{\"boxing_day\":{\"mday\":\"26\",\"mon\":\"12\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:22
+#: ../../source/advanced/default_settings/time_conditions.rst:24
+#: ../../source/advanced/default_settings/time_conditions.rst:26
+#: ../../source/advanced/default_settings/time_conditions.rst:28
+#: ../../source/advanced/default_settings/time_conditions.rst:30
+#: ../../source/advanced/default_settings/time_conditions.rst:32
+#: ../../source/advanced/default_settings/time_conditions.rst:34
+#: ../../source/advanced/default_settings/time_conditions.rst:36
+#: ../../source/advanced/default_settings/time_conditions.rst:38
+#: ../../source/advanced/default_settings/time_conditions.rst:60
+#: ../../source/advanced/default_settings/time_conditions.rst:62
+msgid "preset_usa"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:22
+#: ../../source/advanced/default_settings/time_conditions.rst:24
+#: ../../source/advanced/default_settings/time_conditions.rst:26
+#: ../../source/advanced/default_settings/time_conditions.rst:28
+#: ../../source/advanced/default_settings/time_conditions.rst:30
+#: ../../source/advanced/default_settings/time_conditions.rst:32
+#: ../../source/advanced/default_settings/time_conditions.rst:34
+#: ../../source/advanced/default_settings/time_conditions.rst:36
+#: ../../source/advanced/default_settings/time_conditions.rst:38
+#: ../../source/advanced/default_settings/time_conditions.rst:60
+#: ../../source/advanced/default_settings/time_conditions.rst:62
+msgid "USA Holiday"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:24
+msgid "{\"presidents_day\":{\"wday\":\"2\",\"mon\":\"2\",\"mday\":\"15-21\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:26
+msgid "{\"memorial_day\":{\"mday\":\"25-31\",\"wday\":\"2\",\"mon\":\"5\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:28
+msgid "{\"independence_day\":{\"mday\":\"4\",\"mon\":\"7\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:30
+msgid "{\"labor_day\":{\"wday\":\"2\",\"mon\":\"9\",\"mday\":\"1-7\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:32
+msgid "{\"columbus_day\":{\"wday\":\"2\",\"mon\":\"10\",\"mday\":\"8-14\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:34
+msgid "{\"veterans_day\":{\"mday\":\"11\",\"mon\":\"11\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:36
+msgid "{\"black_friday\":{\"wday\":\"6\",\"mon\":\"11\",\"mday\":\"23-29\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:40
+#: ../../source/advanced/default_settings/time_conditions.rst:42
+#: ../../source/advanced/default_settings/time_conditions.rst:44
+#: ../../source/advanced/default_settings/time_conditions.rst:46
+#: ../../source/advanced/default_settings/time_conditions.rst:48
+#: ../../source/advanced/default_settings/time_conditions.rst:50
+#: ../../source/advanced/default_settings/time_conditions.rst:52
+#: ../../source/advanced/default_settings/time_conditions.rst:54
+#: ../../source/advanced/default_settings/time_conditions.rst:56
+#: ../../source/advanced/default_settings/time_conditions.rst:64
+msgid "preset_canada"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:40
+#: ../../source/advanced/default_settings/time_conditions.rst:42
+#: ../../source/advanced/default_settings/time_conditions.rst:44
+#: ../../source/advanced/default_settings/time_conditions.rst:46
+#: ../../source/advanced/default_settings/time_conditions.rst:48
+#: ../../source/advanced/default_settings/time_conditions.rst:50
+#: ../../source/advanced/default_settings/time_conditions.rst:52
+#: ../../source/advanced/default_settings/time_conditions.rst:54
+#: ../../source/advanced/default_settings/time_conditions.rst:56
+#: ../../source/advanced/default_settings/time_conditions.rst:64
+msgid "Canada Holiday"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:42
+msgid "{\"family_day\":{\"wday\":\"2\",\"mon\":\"2\",\"mday\":\"8-14\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:44
+msgid "{\"victoria_day\":{\"wday\":\"2\",\"mon\":\"5\",\"mday\":\"18-24\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:46
+msgid "{\"canada_day\":{\"mday\":\"1\",\"mon\":\"7\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:48
+msgid "{\"bc_day\":{\"wday\":\"2\",\"mon\":\"8\",\"mday\":\"1-7\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:50
+msgid "{\"remembrance_day\":{\"mday\":\"11\",\"mon\":\"11\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:56
+msgid "{\"labour_day\":{\"wday\":\"2\",\"mon\":\"9\",\"mday\":\"1-7\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:58
+msgid "{\"spring_bank_holiday\":{\"mon\":\"5\",\"mday\":\"25-31\",\"wday\":\"2\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:60
+msgid "{\"martin_luther_king_jr_day\":{\"wday\":\"2\",\"mon\":\"1\",\"mday\":\"15-21\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:62
+msgid "{\"thanksgiving_day\":{\"wday\":\"5\",\"mon\":\"11\",\"mday\":\"22-28\"}}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/time_conditions.rst:64
+msgid "{\"thanksgiving_day\":{\"wday\":\"2\",\"mon\":\"10\",\"mday\":\"8-14\"}}"
+msgstr ""
+

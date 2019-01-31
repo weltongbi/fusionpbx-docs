@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/freeswitch.rst:3
+msgid "Freeswitch install"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:7
+msgid "**Upgrade Move Source**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:13
+msgid "**Git Release**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:22
+#: ../../source/additional_information/freeswitch.rst:33
+#: ../../source/additional_information/freeswitch.rst:405
+#: ../../source/additional_information/freeswitch.rst:422
+msgid "or"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:24
+msgid "**Git Head**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:35
+msgid "**files.freeswitch.org**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:51
+msgid "**Ubuntu Dependencies**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:57
+msgid "**Debian Dependencies**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:63
+msgid "**CentOS**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:69
+msgid "Configure services to auto start"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:76
+msgid "**modules.conf**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:78
+msgid "uncomment the FreeSWITCH modules that are needed."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:89
+msgid "Used for MP3 support"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:95
+msgid "**Postgres driver**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:101
+msgid "**Run Make**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:107
+msgid "**Remove FreeSWITCH files**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:109
+msgid "This step is only needed for a FreeSWITCH upgrade."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:110
+msgid ""
+"Once it has been confirmed that the compile was successful then remove "
+"files from previous version of FreeSWITCH"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:117
+msgid "**Install**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:123
+msgid "**File Permissions**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:125
+msgid ""
+"Set the file permissions instructions may vary based on the OS and "
+"install directory."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:128
+msgid "Debian and Ubuntu"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:137
+msgid "CentOS or Other Unix operating systems"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:138
+msgid ""
+"(need make sure that the web server has access to IVR recordings, Fax, "
+"and Voicemail)"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:147
+msgid "**Install Sound Files**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:149
+msgid "Run this on new installs."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:158
+msgid "**Startup Script**"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:160
+msgid ""
+"Run on new install only. Create the file '/etc/init.d/freeswitch' with "
+"the following code:"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:349
+msgid "Make the script executable and make it auto start on system boot:"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:360
+msgid "Monit"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:362
+msgid "Used to monitor processes on UNIX systems."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:364
+msgid "http://mmonit.com/monit/"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:368
+msgid "Install"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:374
+msgid ""
+"Edit Monit /etc/default/monit and set the \"startup\" variable to 1 in "
+"order to allow monit to start."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:377
+msgid "Configure"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:380
+msgid "Fail2Ban"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:388
+msgid "Add the following to the file and save it."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:399
+msgid "FreeSWITCH"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:414
+msgid "Add the following"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:432
+msgid "Additional Options"
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:442
+msgid "Monit Daemon Add to the main monit config file."
+msgstr ""
+
+#: ../../source/additional_information/freeswitch.rst:452
+msgid "Monit Commands"
+msgstr ""
+

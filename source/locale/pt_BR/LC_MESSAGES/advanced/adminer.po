@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/adminer.rst:3
+msgid "Adminer"
+msgstr ""
+
+#: ../../source/advanced/adminer.rst:5
+msgid "Adminer provides a way to access FusionPBX database."
+msgstr ""
+
+#: ../../source/advanced/adminer.rst:8
+msgid ""
+"To enable auto login goto Advanced > Default Settings and change False to"
+" True."
+msgstr ""
+
+#: ../../source/advanced/adminer.rst:14
+msgid "To access Adminer goto advanced > adminer."
+msgstr ""
+
+#: ../../source/advanced/adminer.rst:18
+msgid ""
+"After you enable the Adminer auto login click the 'Reload' button > edit "
+"autoload > click 'Save' for it to update the Adminer menu."
+msgstr ""
+

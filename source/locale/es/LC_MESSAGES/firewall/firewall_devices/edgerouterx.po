@@ -1,0 +1,238 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:3
+msgid "Ubiquiti EdgerouterX"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:6
+msgid "Ubiquiti EdgerouterX Advanced Gigabit Ethernet Router."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:13
+msgid "Port Forwarding"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:15
+msgid ""
+"Go to top first menu item Firewall/NAT then second top menu item Port "
+"Forwarding."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:21
+msgid "Optional: SSH port 22 is optional."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:22
+msgid "Required: Sip port range 5060-5090 is recomended."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:23
+msgid ""
+"Required: HTTPS port 443 is required in order to access your FusionPBX "
+"installation and phone provisioning."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:24
+msgid ""
+"Optional: HTTP port 80 is used by some phone manufactures for "
+"provisioning."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:25
+msgid "Required: RTP port range 16384-32768."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:28
+msgid ""
+"In order to Port Forward and still have access to the EdgerouterX GUI you"
+" must change the port number for the EdgerouterX GUI."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:34
+msgid "Access from another LAN Subnet"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:36
+msgid ""
+"If you are behind NAT and are going to use the EdgerouterX subnet in "
+"addition to an existing subnet (behind another router) also some setting "
+"changes are required. These settings are only recommended in this "
+"scenerio."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:38
+msgid "Go to First top menu Firewall/NAT tab."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:39
+msgid "Go to Second top menu Firewall Policies."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:40
+msgid "Edit WAN_LOCAL at the right menu item Actions > Edit RuleSet"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:48
+msgid ""
+"From the Configuration tab, Change the radio button to \"Accept\" and "
+"click \"Save Ruleset\"."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:56
+msgid ""
+"Be sure you want to do this and that you are behind either a firewall "
+"appliance or another router."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:60
+msgid "Add Static Route (Double NAT)"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:62
+msgid ""
+"This will look different depending on the other router that you might "
+"have and what IP range you use."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:64
+msgid ""
+"A static route is needed on the other router in order for traffic to "
+"reach your FusionPBX installation and is only needed if the EdgerouterX "
+"is the double NAT."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:66
+msgid ""
+"Scenerio: Router A is the primary router that has a public IP address and"
+" a LAN subnet of 10.10.2.1. From this pool of IP addresses, the "
+"EdgerouterX gets IP 10.10.2.209. *Be sure that router A has DHCP "
+"reservation or the ability to make 10.10.2.209 a static IP*."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:68
+msgid "**Router A Router name:** This is a label for organizing."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:69
+msgid ""
+"**Router A Destination IP address:** 192.168.1.38 This is the IP that the"
+" EdgerouterX gave to your FusionPBX install."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:70
+msgid ""
+"**Router A Subnet mask:** 255.255.255.0 is the subnet mask used in this "
+"example."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:71
+msgid ""
+"**Gateway:** 10.10.2.209 is the IP Router A gave to the EdgerouterX WAN "
+"eth0."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:72
+msgid ""
+"**Interface:** LAN is a label on Router A to show it's a local area "
+"network address."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:81
+msgid "Ubiquiti EdgerouterX SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:83
+msgid "In some scenerios you may have to turn off SIP ALG."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:89
+msgid "Check if SIP ALG is running"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:91
+msgid "**Command:** lsmod | grep sip"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:106
+msgid "This shows that SIP ALG is running in the example above."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:110
+msgid "Disable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:112
+msgid "To disable SIP ALG:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:114
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:140
+msgid ""
+"Either click on the CLI button from the Ubiquiti EdgerouterX GUI or via "
+"you favorite SSH client to the EdgerouterX."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:115
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:141
+msgid "**Then type:** configure"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:116
+msgid "**Then type:** set system conntrack modules sip disable"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:117
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:144
+msgid "**Then type:** commit"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:118
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:145
+msgid "**Then type:** save"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:119
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:146
+msgid "**Then type:** exit"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:136
+msgid "Enable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:138
+msgid "To enable SIP ALG:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:142
+msgid "**Then type:** set system conntrack modules sip enable-indirect-media"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:143
+msgid "**Then type:** set system conntrack modules sip enable-indirect-signalling"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx.rst:166
+msgid ""
+"set system conntrack modules sip port <1-65535> will change the sip port "
+"number"
+msgstr ""
+

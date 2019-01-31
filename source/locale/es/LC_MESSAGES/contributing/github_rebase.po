@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/contributing/github_rebase.rst:3
+msgid "Rebasing a branch with GitHub"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:5
+msgid "Welcome to the rebasing a branch with GitHub guide."
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:8
+msgid ""
+"**1.** Open the GitHub client application and make sure you are on the "
+"branch you want to rebase"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:12
+msgid "Select the setting icon and choose Open on Git Shell"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:16
+msgid "You will be presented with a new shell"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:20
+msgid "**2.** Next execute the following two commands and notepad will appear"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:29
+msgid ""
+"change the first commit to reword and the following commit(s) to fixup "
+"(similar to screenshot below)"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:33
+msgid ""
+"Close and save the text, next it will pop up another notepad for the "
+"commit message. Enter the commit title on the first line, leave a line "
+"blank and enter the commit message (similar to screenshot below)"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:38
+msgid "Close and save the text again."
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:40
+msgid ""
+"**3.** Switch back to the github client and switch between "
+"history/changes to make it update and check it has done what you want."
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:44
+msgid ""
+"**4.** If the changes are correct switch back to the git shell and "
+"execute this to push the changes"
+msgstr ""
+
+#: ../../source/contributing/github_rebase.rst:53
+msgid "All done!"
+msgstr ""
+

@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/contacts.rst:3
+msgid "Contacts"
+msgstr ""
+
+#: ../../source/applications/contacts.rst:6
+msgid "Contacts is a list of individuals and organizations."
+msgstr ""
+
+#: ../../source/applications/contacts.rst:13
+msgid ""
+"To create a contact click the **plus** and to edit a contact click the "
+"**pencil** icon on the right."
+msgstr ""
+
+#: ../../source/applications/contacts.rst:14
+msgid "Fill out the fields with pertinent information and click save."
+msgstr ""
+
+#: ../../source/applications/contacts.rst:15
+msgid "**Users-** Select the users that are allowed to view the contact"
+msgstr ""
+
+#: ../../source/applications/contacts.rst:16
+msgid "**Groups-** Select the group that are allowed access to the contact."
+msgstr ""
+
+#: ../../source/applications/contacts.rst:26
+msgid ""
+"Go back into the contact to fill out more information that wasn't "
+"available when you first created the contact."
+msgstr ""
+
+#: ../../source/applications/contacts.rst:35
+msgid "To generate a QR code click the **QR CODE** button at the top right"
+msgstr ""
+

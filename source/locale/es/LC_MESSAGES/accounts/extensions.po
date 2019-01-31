@@ -1,0 +1,410 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 23:11-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/accounts/extensions.rst:3
+msgid "Extensions"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:5
+msgid ""
+"**Extensions** define the information needed for an endpoint such as a "
+"hard phone, soft phone or some other device to connect to the SIP server."
+" The extension is the SIP username and the password is the secret used "
+"for authentication. The domain name servers (DNS) to purposes it, locates"
+" the server to register to and is the realm that determines which domain "
+"the endpoint is registering to."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:13
+msgid "Basic Settings"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:15
+msgid "Extension"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:16
+msgid ""
+"Enter the alphanumeric extension. The default configuration allows 2 - 7 "
+"digit extensions."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:17
+msgid "Number Alias"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:18
+msgid ""
+"If the extension is numeric then number alias is optional. The primary "
+"purpose of this field is when the extension is not a number then the "
+"number alias is required. Note a numeric extension and number alias does "
+"not currently work."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:19
+msgid "Range"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:20
+msgid "Enter the number of extensions to create. Increments each extension by 1."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:21
+msgid "Voicemail Password"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:22
+msgid "Enter the numeric voicemail password here."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:23
+msgid "Account Code"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:24
+msgid ""
+"Used with billing systems if you don't have a billing system then its "
+"optional."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:25
+msgid "Effective caller ID Name"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:26
+msgid "Internal Caller ID name"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:27
+msgid "Effective Caller ID Number"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:28
+msgid "Internal caller ID number usually set to the extension number."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:29
+msgid "Outbound Caller ID Name"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:30
+msgid ""
+"Used by the outbound route for external caller ID name. Business or "
+"Organization typically is set here."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:31
+msgid "Outbound Caller ID Number"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:32
+msgid ""
+"Used by the outbound route for external caller ID number here. Business "
+"or Organization number goes here."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:33
+msgid "Emergency Caller ID Name"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:34
+#: ../../source/accounts/extensions.rst:36
+msgid "This is used when calling out to an emergency service like 911."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:35
+msgid "Emergency Caller ID Number"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:37
+msgid "Directory Full Name"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:38
+msgid ""
+"The first and last name used in the directory. You can call that "
+"directory with 411."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:39
+msgid "Directory Visible"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:40
+msgid "Select whether to hide the name from the directory."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:41
+msgid "Directory Extension Visible"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:42
+msgid "Select whether announce the extension when calling the directory."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:43
+msgid "Limit Max"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:44
+msgid "Set max number of outgoing calls for this user."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:45
+msgid "Limit Destination"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:46
+msgid ""
+"Set the destination to send the calls when the max number of outgoing "
+"calls has been reached."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:47
+msgid "Voicemail Enabled"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:48
+msgid "Enable or disable voicemail for this extension."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:49
+msgid "Voicemail Mail To"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:50
+msgid "The email address for sending voicemail to email."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:51
+msgid "Voicemail File"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:52
+msgid ""
+"Select whether to send the voicemail as an attachment or as a link in the"
+" email."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:53
+msgid "Voicemail Keep Local"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:54
+msgid ""
+"Choose whether to keep the voicemail in the system after sending the "
+"email notification."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:55
+msgid "Missed Call"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:56
+msgid ""
+"Set the missed call to true and set the email address if you want to "
+"receive an email for missed calls that were routed through the dialplan "
+"to and was not answered by the extension."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:57
+msgid "Toll Allow"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:58
+msgid ""
+"Enter the toll allow value here. (Examples: domestic,international,local)"
+" This can be set to any name you want it sets a variable that can be a "
+"condition on the outbound routes."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:59
+msgid "Call Timeout"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:60
+msgid "Set the timeout for the call ringing."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:61
+msgid "Call Group"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:62
+msgid ""
+"You can define any call group you want the following groups are examples:"
+" sales, support, billing. These are used for group intercept or calls can"
+" be sent to the call group."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:63
+msgid "Call Screen"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:64
+msgid ""
+"Call screen if set will ask the caller to identify themselves their "
+"response will be recorded and offered to the person reciving the call."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:65
+msgid "Record"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:66
+msgid ""
+"Whether to record local, inbound, outbound, or all calls that were sent "
+"directly to this extension."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:67
+msgid "Hold Music"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:68
+msgid ""
+"Select music or ring tones that will be used for music on hold for this "
+"extension."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:70
+msgid "Context"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:70
+msgid ""
+"The context is set by default to match the domain name or IP addres. It "
+"is usually correct by default and doesn't need to be changed in most "
+"cases."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:72
+msgid "Enabled"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:73
+msgid "Extension enabled or disabled."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:76
+msgid "Description"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:75
+msgid "A description for the extension."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:79
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:81
+msgid ""
+"Advanced settings in extensions. Be sure to know what and why you are "
+"changing these settings or you will risk causing issues for the "
+"extention."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:86
+msgid "Auth ACL"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:87
+msgid "Advanced auth acl uses."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:88
+msgid "CIDR"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:89
+msgid "Advanced cidr uses."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:90
+msgid "SIP Force Contact"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:91
+msgid ""
+"Choose whether to rewrite the contact port, or rewrite both the contact "
+"IP and port."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:92
+msgid "SIP Force Expires"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:93
+msgid ""
+"To prevent stale registrations SIP Force expires can override the client "
+"expire."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:94
+msgid "MWI Account"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:95
+msgid "MWI Account with user@domain of the voicemail to monitor."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:96
+msgid "SIP Bypass Media"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:97
+msgid ""
+"Choose whether to send the media stream point to point or in transparent "
+"proxy mode."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:98
+msgid "Absolute Codec String"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:99
+msgid "Absolute Codec String for the extension."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:100
+msgid "Force ping"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:101
+msgid "Use OPTIONS to detect if extension is reacheable."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:102
+msgid "Domain"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:103
+msgid "The domain the extension is currently saved on."
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:107
+msgid "Dial String"
+msgstr ""
+
+#: ../../source/accounts/extensions.rst:105
+msgid "Location of the endpoint."
+msgstr ""
+

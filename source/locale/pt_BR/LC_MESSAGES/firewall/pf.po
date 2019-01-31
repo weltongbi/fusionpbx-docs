@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/pf.rst:3
+msgid "PF"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:5
+msgid "Packet Filter is used in the FreeBSD setup script."
+msgstr ""
+
+#: ../../source/firewall/pf.rst:8
+msgid "Basic Rules"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:10
+msgid "``set skip on lo0``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:11
+msgid "``scrub in all``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:13
+msgid "``antispoof for lo0``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:14
+msgid "``table <fail2ban> persist``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:16
+msgid "``pass out quick all``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:17
+msgid "``pass quick on lo0 all``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:19
+msgid "``block in all``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:20
+msgid "``block in quick from <fail2ban>``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:21
+msgid "``pass in quick inet proto icmp all``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:22
+msgid "``pass in quick inet6 proto icmp6 all``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:24
+msgid "``pass in quick inet proto tcp from any to any port 22 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:25
+msgid "``pass in quick inet proto tcp from any to any port 80 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:26
+msgid "``pass in quick inet proto tcp from any to any port 443 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:27
+msgid "``pass in quick inet proto tcp from any to any port 5060 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:28
+msgid "``pass in quick inet proto udp from any to any port 5060 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:29
+msgid "``pass in quick inet proto tcp from any to any port 5080 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:30
+msgid "``pass in quick inet proto udp from any to any port 5080 keep state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:31
+msgid ""
+"``pass in quick inet proto udp from any to any port 16384:32768 keep "
+"state``"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:35
+msgid "Disable"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:36
+msgid "pfctl -d"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:39
+msgid "Enable"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:40
+msgid "pfctl -e"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:43
+msgid "Show Rules"
+msgstr ""
+
+#: ../../source/firewall/pf.rst:44
+msgid "pfctl -s rules"
+msgstr ""
+

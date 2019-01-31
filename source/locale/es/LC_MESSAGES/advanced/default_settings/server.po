@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/server.rst:3
+msgid "Server"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:5
+msgid "Server specific default settings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:10
+msgid "temp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:10
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:10
+msgid "/tmp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:10
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/server.rst:10
+msgid "Set the temp directory."
+msgstr ""
+

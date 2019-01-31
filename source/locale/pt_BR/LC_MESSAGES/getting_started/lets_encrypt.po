@@ -1,0 +1,335 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/lets_encrypt.rst:3
+msgid "Let's Encrypt"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:5
+msgid ""
+"Let's Encrypt is one of the most recent and widely used form of free SSL "
+"security and supports wildcard DNS.  You can use Let's Encrypt with your "
+"FusionPBX install and WebRTC like `Verto Communicator`_."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:9
+msgid "Dehydrated (Recommended)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:11
+msgid ""
+"FusionPBX has an option to easliy and quickly install SSL with Let's "
+"Encrypt using **letsencrypt.sh**  With this script you can choose either "
+"to request an SSL certificate with wildcard (*.domain.tld) or hostnames "
+"(domain.tld)."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:13
+msgid "The letsencrypt.sh will do the following:"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:15
+msgid "Download `dehydrated <https://github.com/lukas2511/dehydrated>`_."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:16
+msgid ""
+"Request an SSL certificate from `Let's Encrypt "
+"<https://letsencrypt.com>`_."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:17
+msgid "Configure NGINX to use the SSL certificate."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:18
+msgid ""
+"Combine and place SSL certificate in the proper `FreeSWITCH "
+"<https://freeswitch.org/confluence/display/FREESWITCH/FreeSWITCH+Explained>`_"
+" directory for using TLS."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:19
+msgid "Test and make sure the SSL cert works and outputs if sucessful."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:22
+msgid "Using letsencrypt.sh"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:24
+msgid ""
+"With letsencrypt.sh you have the choice of creating an SSL certificate "
+"for a single domain (domain.tld), multiple sub domains(sub.domain.tld, "
+"sub1.domain.tld, etc.domain.tld) or wildcard (*.domain.tld).  The easy "
+"way however is using the hostname method."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:27
+msgid "Hostname"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:29
+msgid "To create a hostname or multiple hostname SSL certificate go to:"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:35
+#: ../../source/getting_started/lets_encrypt.rst:97
+msgid "Then execute the script."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:42
+msgid "You should then see and follow the prompts."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:49
+msgid "After that, you should see the following output."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:88
+msgid "Wildcard"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:90
+msgid "To create a wildcard SSL certificate go to:"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:103
+msgid "You should then see and follow the prompts:"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:140
+msgid ""
+"When you define the txt record with your domain registrar be sure to use "
+"the output of the script you are running and not what is in this example."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:180
+msgid ""
+"Use the dig command to check that the txt record is correct.  dig -t txt "
+"_acme-challenge.domain.tld"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:182
+msgid "Output should show:"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:184
+msgid ""
+";; ANSWER SECTION: _acme-challenge.domain.tld. 1799 IN TXT  "
+"\"PY7ttk6no_5eG7WtAbO6qs5-NzA-Kigko375omKc0nw\""
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:194
+msgid "Certbot (Alternative Option)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:196
+msgid ""
+"Certbot is optional and is more of a manual way of using Let's Encrypt "
+"SSL.  Some still use this process but most use the recommended way with "
+"the Dehydrated script."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:198
+msgid ""
+"More info on NGINX with Let's Encrypt https://www.nginx.com/blog/free-"
+"certificates-lets-encrypt-and-nginx"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:201
+msgid "**Clone Let's Encrypt**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:208
+msgid "**Execute certbot-auto**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:219
+msgid ""
+"**Copy code example from** `link`_ **in step #2 section and edit domains,"
+" key size, email then put into: "
+"/etc/letsencrypt/configs/domain.tld.conf** (Edit domain.tld to reflect "
+"your domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:226
+msgid "**Edit /etc/nginx/sites-available/fusionpbx**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:243
+msgid ""
+"**Execute Let's Encrypt script**  (Edit domain.tld to reflect your "
+"domain) You can make up to 100 subdomain requests with using -d "
+"sub.domain.tld -d sub1.domain.tld"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:255
+msgid "**Edit sites-available**  (Edit domain.tld to reflect your domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:266
+msgid "Systemctl restart nginx"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:268
+msgid "Now check the padlock and see if it's green!"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:271
+msgid "Auto Renew certificate"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:275
+msgid "This will work with certbot"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:280
+msgid "Renew with Crontab"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:282
+msgid "Crontab can be used to renew let's encrypt."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:291
+msgid ""
+"This executes daily at 3:02 AM (local time).  Certbot will check your "
+"existing certificate.  If it has less than 30 days' validity remaining, "
+"it will attempt to renew the certificate.  It runs daily in case a "
+"renewal attempt fails, it will just try again the next day."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:294
+msgid "**List crontabs**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:305
+msgid ""
+"Before setting up multiple domains, make sure you have SSL working on "
+"your main domain using the instructions above."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:307
+msgid "**Create shared nginx host file for all domains**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:309
+msgid "``vim /etc/nginx/includes/fusionpbx-default-config``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:311
+msgid "Paste the code below into the file"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:395
+msgid "**Create a file to contain config for additional domains**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:397
+msgid "``touch /etc/nginx/includes/fusionpbx-domains``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:400
+msgid "**make default file read configs for additional domains**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:402
+msgid "``vim /etc/nginx/sites-available/fusionpbx``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:405
+msgid "Add the line below at the very end of the file after the trailing \"}\""
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:407
+msgid "``include /etc/nginx/includes/fusionpbx-domains;``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:410
+msgid ""
+"By now you are all set to start using SSL on multiple domains for your "
+"FusionPBX installation."
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:413
+msgid "**Follow the steps below everytime your add a new domain**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:415
+msgid ""
+"Create a conf file for the new domain (repalce example.com with your own "
+"domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:417
+msgid "``vim /etc/letsencrypt/configs/example.com.conf``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:420
+msgid ""
+"Paste this into the .conf file (don't forget to change the defaults, "
+"especially the domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:448
+msgid ""
+"Obtain the cert from Let's Encrypt (again, replce example.com with your "
+"domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:456
+msgid "**Set cert to auto renew with other domains**"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:464
+msgid ""
+"Add the line below right below where it says \"cd /opt/letsencrypt/\" "
+"(again replace example.com with your domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:466
+msgid ""
+"``./certbot-auto --config /etc/letsencrypt/configs/example.com.conf "
+"certonly --non-interactive --keep-until-expiring --agree-tos --quiet``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:469
+msgid "Finally add your new domain to be loaded"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:471
+msgid "``vim /etc/nginx/includes/fusionpbx-domains``"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:474
+msgid ""
+"Paste the below at the very end of the file (again replace example.com "
+"with your domain)"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:489
+msgid "You're all set! Restart nginx for changes to take effect"
+msgstr ""
+
+#: ../../source/getting_started/lets_encrypt.rst:491
+msgid "``service nginx restart``"
+msgstr ""
+

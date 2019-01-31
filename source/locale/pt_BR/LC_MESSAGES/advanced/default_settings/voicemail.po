@@ -1,0 +1,239 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/voicemail.rst:3
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:6
+msgid "Voicemail specific default settings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:9
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:9
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:9
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:9
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:9
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:11
+msgid "voicemail_file"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:11
+#: ../../source/advanced/default_settings/voicemail.rst:15
+#: ../../source/advanced/default_settings/voicemail.rst:25
+#: ../../source/advanced/default_settings/voicemail.rst:31
+#: ../../source/advanced/default_settings/voicemail.rst:33
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:11
+msgid "attach"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:11
+#: ../../source/advanced/default_settings/voicemail.rst:13
+#: ../../source/advanced/default_settings/voicemail.rst:17
+#: ../../source/advanced/default_settings/voicemail.rst:19
+#: ../../source/advanced/default_settings/voicemail.rst:21
+#: ../../source/advanced/default_settings/voicemail.rst:23
+#: ../../source/advanced/default_settings/voicemail.rst:25
+#: ../../source/advanced/default_settings/voicemail.rst:27
+#: ../../source/advanced/default_settings/voicemail.rst:31
+#: ../../source/advanced/default_settings/voicemail.rst:33
+#: ../../source/advanced/default_settings/voicemail.rst:35
+#: ../../source/advanced/default_settings/voicemail.rst:37
+msgid "true"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:11
+msgid ""
+"Define whether to attach voicemail files to email notifications, or only "
+"include a link."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:13
+msgid "keep_local"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:13
+#: ../../source/advanced/default_settings/voicemail.rst:21
+#: ../../source/advanced/default_settings/voicemail.rst:23
+#: ../../source/advanced/default_settings/voicemail.rst:27
+#: ../../source/advanced/default_settings/voicemail.rst:35
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:13
+msgid ""
+"Define whether to keep voicemail files on the local system after sending "
+"attached via email."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:15
+msgid "storage_type"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:15
+msgid "base64"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:15
+#: ../../source/advanced/default_settings/voicemail.rst:21
+#: ../../source/advanced/default_settings/voicemail.rst:23
+#: ../../source/advanced/default_settings/voicemail.rst:27
+#: ../../source/advanced/default_settings/voicemail.rst:29
+#: ../../source/advanced/default_settings/voicemail.rst:35
+msgid "false"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:15
+msgid "Define which storage type (base_64 stores in the database)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:17
+msgid "message_max_length"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:17
+#: ../../source/advanced/default_settings/voicemail.rst:19
+#: ../../source/advanced/default_settings/voicemail.rst:29
+#: ../../source/advanced/default_settings/voicemail.rst:37
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:17
+msgid "300"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:17
+msgid "Maximum length of a voicemail (in seconds)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:19
+msgid "password_length"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:19
+msgid "8"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:19
+msgid "The default length of characters in a voicemail password."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:21
+msgid "display_domain_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:21
+msgid "Enable display of @domain_name after voicemail_id when rendering emails."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:23
+msgid "remote_access"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:23
+msgid "Allow access to the voicemail menu with the correct voicemail password."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:25
+msgid "message_order"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:25
+msgid "asc"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:25
+msgid "Set the message order to asc or desc."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:27
+msgid "password_complexity"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:27
+msgid "Enforce voicemail password complexity."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:29
+msgid "password_min_length"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:29
+msgid "4"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:29
+msgid "Minimum voicemail password length."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:31
+msgid "smtp_from"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:31
+msgid "SMTP From: specific to Voicemail."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:33
+msgid "smtp_from_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:33
+msgid "SMTP From: Name specific to Voicemail."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:35
+msgid "not_found_message"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:35
+msgid "Default for not found message."
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:37
+msgid "greeting_max_length"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:37
+msgid "90"
+msgstr ""
+
+#: ../../source/advanced/default_settings/voicemail.rst:37
+msgid "Maximum length of a voicemail greeting (in seconds)."
+msgstr ""
+

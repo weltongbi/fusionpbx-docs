@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/home/dashboard.rst:3
+msgid "Dashboard"
+msgstr ""
+
+#: ../../source/home/dashboard.rst:5
+msgid ""
+"Quickly access information and tools related to your account.  Depending "
+"on the user permissions, the user may see less options on this screen."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:11
+msgid ""
+"**Voicemail:** New and total voicemails related to the users voicemail "
+"box.  A user can be assigned to more than 1 voicemail box."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:12
+msgid "**Missed Calls:** Missed calls for the user."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:13
+msgid "**Recent Calls:** Number of calls in the last 24 hours."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:14
+msgid ""
+"**System Status:** Disk usage in percentage, FusionPBX version, "
+"FreeSWITCH version, FreeSWITCH uptime, OS Uptime, CPU Usage, DB "
+"Connections, Channels and Registrations."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:15
+msgid ""
+"**Call Routing:**  See if call forward, follow me, do not disturb is set "
+"and a quick wat to edit those options if needed."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:16
+msgid ""
+"**Ring Group Forward:** See the name, extension number, if forwarding is "
+"enabled and what number it is forwarded to."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:17
+msgid ""
+"**System Counts:** Number of Domains, Devices, Extensions, Gateways, "
+"Users, Destinations, CC Queues, IVR Menus, Ring Groups, Voicemail and if "
+"they are disabled."
+msgstr ""
+
+#: ../../source/home/dashboard.rst:20
+msgid "`Dashboard Default Settings`_"
+msgstr ""
+

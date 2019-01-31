@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/accounts/gateway1.rst:2
+msgid "Gateway"
+msgstr ""
+
+#: ../../source/accounts/gateway1.rst:8
+msgid ""
+"Gateways provide access into other voice networks. These can be voice "
+"providers or other systems that require SIP registration.  `Check out the"
+" Youtube video <https://youtu.be/YKOTACDYQ3A>`_ ."
+msgstr ""
+
+#: ../../source/accounts/gateway1.rst:16
+msgid ""
+"**In this example we will be using** `VoiceTel "
+"<http://tiny.cc/voicetel>`_ .  **Each Gateway provider has their own "
+"setings to use.**"
+msgstr ""
+
+#: ../../source/accounts/gateway1.rst:21
+msgid "`Click to visit <http://tiny.cc/voicetel>`_"
+msgstr ""
+
+#: ../../source/accounts/gateway1.rst:23
+msgid "Select **Accounts** from the drop-down list and click on **Gateways**."
+msgstr ""
+
+#: ../../source/accounts/gateway1.rst:33
+msgid "Click the"
+msgstr ""
+
+#: ../../source/accounts/gateway1.rst:38
+msgid ""
+"button on the right. Enter the gateway information below and Click on "
+"**Save** once complete."
+msgstr ""
+

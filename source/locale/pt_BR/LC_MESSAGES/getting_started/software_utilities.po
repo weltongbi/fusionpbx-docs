@@ -1,0 +1,120 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/software_utilities.rst:3
+msgid "Software Utilities"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:5
+msgid ""
+"There are several software utilities one can use to troubleshoot voip "
+"issues and guage quality.  Below are a list of some of the common ones."
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:8
+msgid "Packet Capture"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:11
+msgid "`tcpdump <https://www.tcpdump.org/>`_"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:14
+msgid "Install"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:20
+#: ../../source/getting_started/software_utilities.rst:49
+msgid "**Command**"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:28
+msgid ""
+"you can change the command to suite the proper ethernet device eth0 with "
+"what is on your system.  Port 5060 can be changed also if you are using a"
+" different port."
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:31
+msgid "`sngrep <../additional_information/sngrep.html>`_"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:33
+msgid ""
+"Since March 2017 Sngrep is installed on all systems by default.  This is "
+"a very useful tool to help troubleshoot all types of sip related issues."
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:35
+msgid ""
+"If you installed FusionPBX prior to March 2017 you can still manually "
+"install sngrep."
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:38
+msgid "Manual Install"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:40
+msgid "From your FusionPBX install SSH window or console window"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:56
+msgid "**sngrep:** https://github.com/irontec/sngrep"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:62
+msgid "Call Quality and Monitoring"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:64
+msgid ""
+"Call quality can be a nucense in the voip world.  Having a way to track "
+"and make reports are a very needed tool."
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:67
+msgid "`Homer <https://github.com/sipcapture/homer/wiki/Examples%3A-FreeSwitch>`_"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:69
+msgid ""
+"Homer is well known to help track and graph quality issues with SIP like "
+"utilizing QoS Reports."
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:71
+msgid "Quote:"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:73
+msgid ""
+"*HOMER is a robust, carrier-grade, scalable SIP Capture system and VoiP "
+"Monitoring Application offering HEP/EEP, IP Proto4 (IPIP) encapsulation &"
+" port mirroring/monitoring support right out of the box, ready to process"
+" & store insane amounts of signaling, logs and statistics with instant "
+"search, end-to-end analysis and drill-down capabilities for ITSPs, VoIP "
+"Providers and Trunk Suppliers using SIP signaling protocol.*"
+msgstr ""
+
+#: ../../source/getting_started/software_utilities.rst:76
+msgid "To install and configure Homer visit https://github.com/sipcapture/homer"
+msgstr ""
+

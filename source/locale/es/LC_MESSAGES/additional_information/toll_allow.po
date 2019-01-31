@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/toll_allow.rst:3
+msgid "Toll Allow"
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:5
+msgid ""
+"Toll Allow is a variable that can be set per extension. It allows you to "
+"limit who can make what type of calls. Note that although the variable is"
+" provided in the extension configuration, the default dialplan DOES NOT "
+"make use of it. Therefore if you want to use it you need to add "
+"statements to the dialplan to enable it."
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:7
+msgid "An example for the contents of the toll_allow variable would be:"
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:10
+msgid ""
+"You can then add information to your dialplan to process this variable.  "
+"In the example XML below, if the valid allow value isn't present then an "
+"extension shouldn't be able to dial out.  However extension -> extension "
+"should still work."
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:12
+msgid ""
+"The following code are example XML for standard outbound routes "
+"(Dialplan->OutboundRoutes).  Effectively you are applying an additional "
+"condition to EACH outbound route that you want to limit.  So in the "
+"FusionPBX GUI select an outbound route and add"
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:19
+msgid ""
+"You'll need to do that for all of your outbound routes, tag them local, "
+"domestic, or international depending on what they are. On some "
+"installations this example file will be present in "
+"/usr/local/freeswitch/conf/dialplan/default/01_example.com.xml:"
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:23
+msgid "PERMIT TOLL CALLS"
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:25
+msgid ""
+"This example assumes all calls are bad (except internal) unless they are "
+"flagged as good by the value of the toll_allow variable."
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:61
+msgid "PREVENT TOLL CALLS"
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:64
+msgid ""
+"This example takes the opposite approach and is how to PREVENT toll "
+"calls. The below example takes the opposite approach. It assumes that all"
+" calls are good unless they are flagged as bad."
+msgstr ""
+
+#: ../../source/additional_information/toll_allow.rst:67
+msgid ""
+"Put this in your advanced dialplan. In the toll allow of whatever "
+"extension you wanted to restrict put the value 'local'.  This example "
+"**restricts from calling 10 or 11 digit numbers.**"
+msgstr ""
+

@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/features/features.rst:3
+msgid "Features"
+msgstr ""
+
+#: ../../source/features/features.rst:6
+msgid "`Adminer`_"
+msgstr ""
+
+#: ../../source/features/features.rst:8
+msgid ""
+"Integrated for an administrator in the superadmin group to enable easy "
+"database access."
+msgstr ""
+
+#: ../../source/features/features.rst:11
+msgid "Announcements"
+msgstr ""
+
+#: ../../source/features/features.rst:13
+msgid ""
+"Setup a recording for the auto attendant that provides announcement to "
+"callers. (See `IVR Menus`_ )"
+msgstr ""
+
+#: ../../source/features/features.rst:16
+msgid "Authentication"
+msgstr ""
+
+#: ../../source/features/features.rst:18
+msgid ""
+"Extendable with plugin support. Web interface authentication by default "
+"authenticates against the FusionPBX Database. LDAP is one and has also "
+"been tested with Microsoft Active Directory an OpenLDAP."
+msgstr ""
+
+#: ../../source/features/features.rst:21
+msgid "`Call Barge / Eavesdrop / Intercept`_"
+msgstr ""
+
+#: ../../source/features/features.rst:23
+msgid "Listen into an active call from another extension."
+msgstr ""
+
+#: ../../source/features/features.rst:26
+msgid "`Call Block`_"
+msgstr ""
+
+#: ../../source/features/features.rst:28
+msgid "Block inbound calls by the caller id."
+msgstr ""
+
+#: ../../source/features/features.rst:31
+msgid "`Call Broadcast`_"
+msgstr ""
+
+#: ../../source/features/features.rst:33
+msgid ""
+"Create a recording and select one or more groups to have the system call "
+"and play the recording."
+msgstr ""
+
+#: ../../source/features/features.rst:36
+msgid "`Call Center`_"
+msgstr ""
+
+#: ../../source/features/features.rst:38
+msgid "Creates a robust call center environment with agent tiers."
+msgstr ""
+
+#: ../../source/features/features.rst:41
+msgid "`Call Detail Records`_"
+msgstr ""
+
+#: ../../source/features/features.rst:43
+msgid ""
+"Various reporting capabilities to see who called, when, call length, "
+"export to a csv file, and call detail statistics."
+msgstr ""
+
+#: ../../source/features/features.rst:46
+msgid "`Call Flows (Day Night Mode)`_"
+msgstr ""
+
+#: ../../source/features/features.rst:48
+msgid ""
+"Typically used with day night mode. To direct calls between two "
+"destinations. Can work with BLF on phone to show which direction call "
+"will be directed to."
+msgstr ""
+
+#: ../../source/features/features.rst:51
+msgid "`Call Forward`_"
+msgstr ""
+
+#: ../../source/features/features.rst:53
+msgid "Forward to another extension or to any phone number."
+msgstr ""
+
+#: ../../source/features/features.rst:56
+msgid "Call Monitoring"
+msgstr ""
+
+#: ../../source/features/features.rst:58
+msgid "View which extensions are currently in a call. (see `Active Extensions`_)"
+msgstr ""
+
+#: ../../source/features/features.rst:61
+msgid "Call Pickup"
+msgstr ""
+
+#: ../../source/features/features.rst:63
+msgid "For a particular extension or any extension that is currently ringing."
+msgstr ""
+
+#: ../../source/features/features.rst:66
+msgid "`Queues`_"
+msgstr ""
+
+#: ../../source/features/features.rst:68
+msgid ""
+"Load calls into queues so they can be answered in the order they came "
+"into the queue."
+msgstr ""
+
+#: ../../source/features/features.rst:71
+msgid "`Call Recordings`_"
+msgstr ""
+
+#: ../../source/features/features.rst:73
+msgid "Record all or some calls or parts of the call."
+msgstr ""
+
+#: ../../source/features/features.rst:76
+msgid "`Call Routing`_"
+msgstr ""
+
+#: ../../source/features/features.rst:78
+msgid ""
+"Send the call different directions or perform actions based on reading "
+"the caller id info or other call information. (see `Dialplan Manager`_)"
+msgstr ""
+
+#: ../../source/features/features.rst:81
+msgid "Call Announced Transfer"
+msgstr ""
+
+#: ../../source/features/features.rst:83
+msgid ""
+"Transfer the active call to another internal or external call.  Also "
+"known as a warm transfer."
+msgstr ""
+
+#: ../../source/features/features.rst:86
+msgid "`Call Blind Transfer`_"
+msgstr ""
+
+#: ../../source/features/features.rst:88
+msgid "Transfer a call like the call was going into a call queue or from an ivr."
+msgstr ""
+
+#: ../../source/features/features.rst:91
+msgid "`Call Transfer`_"
+msgstr ""
+
+#: ../../source/features/features.rst:93
+msgid "Transfer a call."
+msgstr ""
+
+#: ../../source/features/features.rst:96
+msgid "`Call Waiting`_"
+msgstr ""
+
+#: ../../source/features/features.rst:98
+msgid "A beep while on a call and to toggle between two different calls."
+msgstr ""
+
+#: ../../source/features/features.rst:101
+msgid "Caller ID"
+msgstr ""
+
+#: ../../source/features/features.rst:103
+msgid "Support for customization and supporting providers."
+msgstr ""
+
+#: ../../source/features/features.rst:106
+msgid "`Conference`_"
+msgstr ""
+
+#: ../../source/features/features.rst:108
+msgid ""
+"Set up voice and video conference calls, is optionally secure with a PIN "
+"number, and can transfer current calls to a conference.  Interactive "
+"conference control provides ability to see the list of callers in the "
+"conference and manage the volume, see who is talking, kick, mute, unmute,"
+" deaf, undeaf, profiles and controls. (See `Conference`_)"
+msgstr ""
+
+#: ../../source/features/features.rst:111
+msgid "`Conference Center`_"
+msgstr ""
+
+#: ../../source/features/features.rst:113
+msgid ""
+"Unlimited conference rooms with moderator and paticipants, pin numbers, "
+"call recording, mute all, caller announce and more..."
+msgstr ""
+
+#: ../../source/features/features.rst:116
+msgid "Configuration"
+msgstr ""
+
+#: ../../source/features/features.rst:118
+msgid ""
+"While the admin configures the system in the web interface. The data is "
+"saved to the database and can optionally be deliverd to FreeSWITCH via "
+"XML files, or on demand from the database."
+msgstr ""
+
+#: ../../source/features/features.rst:121
+msgid "`Contacts`_"
+msgstr ""
+
+#: ../../source/features/features.rst:123
+msgid ""
+"Manage your contacts. Import contacts from Outlook CSV files. Export "
+"contacts to your cell phone with QR Codes. It is also possible to add "
+"additional features like time cards and invoices that can be related to "
+"the contacts."
+msgstr ""
+
+#: ../../source/features/features.rst:126
+msgid "`Command`_"
+msgstr ""
+
+#: ../../source/features/features.rst:128
+msgid ""
+"Area to execute commands from the gui. Merged with SQL Query tool with a "
+"clip library."
+msgstr ""
+
+#: ../../source/features/features.rst:131
+msgid "`Dialplan Manager`_"
+msgstr ""
+
+#: ../../source/features/features.rst:133
+msgid ""
+"The dialplan is used to setup call destinations based on conditions and "
+"context. You can use the dialplan to send calls to gateways, auto "
+"attendants, external numbers, to scripts, or any destination."
+msgstr ""
+
+#: ../../source/features/features.rst:136
+msgid "`Dial by Name`_ (\\*\\411)"
+msgstr ""
+
+#: ../../source/features/features.rst:138
+msgid "Search by first name or last name to find extension numbers on the system."
+msgstr ""
+
+#: ../../source/features/features.rst:141
+msgid "`Direct Inward System Access`_ (DISA)"
+msgstr ""
+
+#: ../../source/features/features.rst:143
+msgid ""
+"Gives ability to call into the system, put in a pin code, and then call "
+"back outbound."
+msgstr ""
+
+#: ../../source/features/features.rst:146
+msgid "`Device Provisioning`_"
+msgstr ""
+
+#: ../../source/features/features.rst:148
+msgid ""
+"From Advanced > Default Settings you can enable provisioning for devices."
+" Contacts used as Directory for the phones, vendor list and functions can"
+" be enabled or disabled. Support for memory, expansion (side cars), and "
+"programmable keys. Configure SIP endpoints for Yealink, Polycom, Cisco, "
+"Aastra and several other brands."
+msgstr ""
+
+#: ../../source/features/features.rst:151
+msgid "`Do Not Disturb (DND)`_"
+msgstr ""
+
+#: ../../source/features/features.rst:153
+msgid ""
+"Direct calls to voicemail by default however there is an option when "
+"using do not disturb to send the call to an alternative destination."
+msgstr ""
+
+#: ../../source/features/features.rst:156
+msgid "`Extensions`_"
+msgstr ""
+
+#: ../../source/features/features.rst:158
+msgid ""
+"Create extensions for phones to register to and an option to receive "
+"emails on missed calls."
+msgstr ""
+
+#: ../../source/features/features.rst:161
+msgid "`Extension Summary`_"
+msgstr ""
+
+#: ../../source/features/features.rst:163
+msgid ""
+"Summary of extension activity per domain such as misssed calls, answered "
+"calls, no answer, inbound duration, outbound duration, number of outboud "
+"calls, number of inbound calls and Average length of Conversation (ALOC)."
+" The summarized information can be downloaded as a CSV file."
+msgstr ""
+
+#: ../../source/features/features.rst:166
+msgid "`Editor`_"
+msgstr ""
+
+#: ../../source/features/features.rst:168
+msgid "File editor for PHP, XML, and Provisioning files."
+msgstr ""
+
+#: ../../source/features/features.rst:171
+msgid "`Fax Server`_"
+msgstr ""
+
+#: ../../source/features/features.rst:173
+msgid ""
+"A virtual fax machine that can send and receive faxes with advanced "
+"features."
+msgstr ""
+
+#: ../../source/features/features.rst:176
+msgid "`Follow Me`_"
+msgstr ""
+
+#: ../../source/features/features.rst:178
+msgid "Allows calling multiple extensions or external numbers."
+msgstr ""
+
+#: ../../source/features/features.rst:181
+msgid "`Gateways`_"
+msgstr ""
+
+#: ../../source/features/features.rst:183
+msgid ""
+"Gateways provide access into other voice networks. These can be voice "
+"providers or other systems that require SIP registration.  `Check out the"
+" Youtube video <https://youtu.be/YKOTACDYQ3A>`_."
+msgstr ""
+
+#: ../../source/features/features.rst:186
+msgid "Hot Desking"
+msgstr ""
+
+#: ../../source/features/features.rst:188
+msgid ""
+"A way to login to another phone device and temporarily or permanently "
+"become another extension. This is sometimes known as 'hoteling' and "
+"'extension mobility'"
+msgstr ""
+
+#: ../../source/features/features.rst:191
+msgid "`Inbound and Outbound Call Routing`_"
+msgstr ""
+
+#: ../../source/features/features.rst:193
+msgid "Routes used to receive or send calls in or out of FusionPBX."
+msgstr ""
+
+#: ../../source/features/features.rst:196
+msgid "`IVR Menus`_ (Auto Attendant)"
+msgstr ""
+
+#: ../../source/features/features.rst:198
+msgid ""
+"Create a structured interactive voice prompt for callers to use. Uses "
+"FreeSWITCH IVR and delivered from Database on Demand. Cached to memcache "
+"with IVR Menu Options all editable at once. Also works with Text to "
+"Speech."
+msgstr ""
+
+#: ../../source/features/features.rst:201
+msgid "`Music on Hold`_"
+msgstr ""
+
+#: ../../source/features/features.rst:203
+msgid ""
+"Allows multiple categories of music on hold that can be set globally or "
+"per domain. Can inject additional audio on intervals such as 'Your call "
+"is very important to us please stand by'."
+msgstr ""
+
+#: ../../source/features/features.rst:206
+msgid "`Multi-Tenant`_"
+msgstr ""
+
+#: ../../source/features/features.rst:208
+msgid ""
+"Domain based multi-tenant using subdomains such as red.pbxhosting.tld "
+"green.pbxhosting.tld blue.pbxhosting.tld"
+msgstr ""
+
+#: ../../source/features/features.rst:211
+msgid "`Operator Panel`_"
+msgstr ""
+
+#: ../../source/features/features.rst:213
+msgid ""
+"A virtual panel that agents can drag and drop transfer calls. Adjust call"
+" state from available, on break, do not disturb and logged out."
+msgstr ""
+
+#: ../../source/features/features.rst:216
+msgid "`Paging`_"
+msgstr ""
+
+#: ../../source/features/features.rst:218
+msgid "Page another extension with or without password"
+msgstr ""
+
+#: ../../source/features/features.rst:221
+msgid "`Parking`_"
+msgstr ""
+
+#: ../../source/features/features.rst:223
+msgid ""
+"Send a call to an unused \"park\" extension.  The caller listens to music"
+" on hold until another extension connects to the call."
+msgstr ""
+
+#: ../../source/features/features.rst:226
+msgid "`Phrases`_"
+msgstr ""
+
+#: ../../source/features/features.rst:228
+msgid ""
+"Using xml handler and xml from file system you can string together "
+"multiple voice files."
+msgstr ""
+
+#: ../../source/features/features.rst:231
+msgid "`Provider Setup`_"
+msgstr ""
+
+#: ../../source/features/features.rst:234
+msgid "`Re-branding and Customize`_"
+msgstr ""
+
+#: ../../source/features/features.rst:236
+msgid ""
+"FusionPBX has unprecedented customizability which can be used to meet "
+"your needs or the needs of your customers. Customizable themes, menu, "
+"dialplan, and Hundreds of Default Settings to control the theme."
+msgstr ""
+
+#: ../../source/features/features.rst:239
+msgid "`Recordings`_"
+msgstr ""
+
+#: ../../source/features/features.rst:241
+msgid "Create and manage personalized recordings."
+msgstr ""
+
+#: ../../source/features/features.rst:244
+msgid "`Ring Groups`_"
+msgstr ""
+
+#: ../../source/features/features.rst:246
+msgid ""
+"Make one extension ring several extensions and an option to receive "
+"emails on missed calls."
+msgstr ""
+
+#: ../../source/features/features.rst:249
+msgid "`Scalable and Redundant`_"
+msgstr ""
+
+#: ../../source/features/features.rst:251
+msgid ""
+"Can be configured for multi-master database replication, file "
+"replication. FusionPBX, Database, and FreeSWITCH can be distributed "
+"across multiple servers for large enterprise scale systems."
+msgstr ""
+
+#: ../../source/features/features.rst:254
+msgid "`Time Conditions`_"
+msgstr ""
+
+#: ../../source/features/features.rst:256
+msgid ""
+"A extension that can be timed to route calls based on domain select, "
+"global option, move to other domains, and holiday presets."
+msgstr ""
+
+#: ../../source/features/features.rst:259
+msgid "`User and Group Management`_"
+msgstr ""
+
+#: ../../source/features/features.rst:261
+msgid "Edit, change or add users of all permission levels."
+msgstr ""
+
+#: ../../source/features/features.rst:264
+msgid "`Voicemail`_"
+msgstr ""
+
+#: ../../source/features/features.rst:266
+msgid ""
+"Has ability to copy voicemails for other voicemail boxes when receiving a"
+" voicemail. Additional features include voicemail to email and voicemail "
+"IVR. Forward add intro, check box for multi-delete."
+msgstr ""
+
+#: ../../source/features/features.rst:270
+msgid "`Voicemail to Email`_"
+msgstr ""
+
+#: ../../source/features/features.rst:272
+msgid "Have voicemails sent to email."
+msgstr ""
+
+#: ../../source/features/features.rst:275
+msgid "`Voicemail Transcription`_"
+msgstr ""
+
+#: ../../source/features/features.rst:277
+msgid "Converts voicemails to text."
+msgstr ""
+
+#: ../../source/features/features.rst:281
+msgid "`WebRTC`_"
+msgstr ""
+
+#: ../../source/features/features.rst:283
+msgid "Make and receive video calls with a web browser."
+msgstr ""
+
+#: ../../source/features/features.rst:287
+msgid "Additional Features"
+msgstr ""
+
+#: ../../source/features/features.rst:289
+msgid ""
+"This is not a comprehensive set of features. A complete list would be "
+"many times larger. More will be added as time permits."
+msgstr ""
+

@@ -1,0 +1,1875 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/dialplan/dialplan_application.rst:3
+msgid "Dialplan Application"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:6
+msgid ""
+"Dialplan Application uses FreeSWITCH **show application** to build the "
+"dropdown lists that are found in FusionPBX dialplans. This is a list from"
+" a default install and the list can change depending on how many "
+"FreeSWITCH modules are installed."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:11
+msgid "name"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:11
+msgid "description"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:11
+msgid "syntax"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:11
+msgid "ikey"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:13
+msgid "answer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:13
+msgid "Answer the call"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:13
+#: ../../source/dialplan/dialplan_application.rst:15
+#: ../../source/dialplan/dialplan_application.rst:17
+#: ../../source/dialplan/dialplan_application.rst:19
+#: ../../source/dialplan/dialplan_application.rst:21
+#: ../../source/dialplan/dialplan_application.rst:23
+#: ../../source/dialplan/dialplan_application.rst:25
+#: ../../source/dialplan/dialplan_application.rst:27
+#: ../../source/dialplan/dialplan_application.rst:29
+#: ../../source/dialplan/dialplan_application.rst:33
+#: ../../source/dialplan/dialplan_application.rst:35
+#: ../../source/dialplan/dialplan_application.rst:37
+#: ../../source/dialplan/dialplan_application.rst:39
+#: ../../source/dialplan/dialplan_application.rst:41
+#: ../../source/dialplan/dialplan_application.rst:51
+#: ../../source/dialplan/dialplan_application.rst:53
+#: ../../source/dialplan/dialplan_application.rst:55
+#: ../../source/dialplan/dialplan_application.rst:57
+#: ../../source/dialplan/dialplan_application.rst:59
+#: ../../source/dialplan/dialplan_application.rst:61
+#: ../../source/dialplan/dialplan_application.rst:65
+#: ../../source/dialplan/dialplan_application.rst:67
+#: ../../source/dialplan/dialplan_application.rst:69
+#: ../../source/dialplan/dialplan_application.rst:71
+#: ../../source/dialplan/dialplan_application.rst:73
+#: ../../source/dialplan/dialplan_application.rst:75
+#: ../../source/dialplan/dialplan_application.rst:77
+#: ../../source/dialplan/dialplan_application.rst:79
+#: ../../source/dialplan/dialplan_application.rst:83
+#: ../../source/dialplan/dialplan_application.rst:85
+#: ../../source/dialplan/dialplan_application.rst:87
+#: ../../source/dialplan/dialplan_application.rst:89
+#: ../../source/dialplan/dialplan_application.rst:91
+#: ../../source/dialplan/dialplan_application.rst:99
+#: ../../source/dialplan/dialplan_application.rst:101
+#: ../../source/dialplan/dialplan_application.rst:105
+#: ../../source/dialplan/dialplan_application.rst:109
+#: ../../source/dialplan/dialplan_application.rst:113
+#: ../../source/dialplan/dialplan_application.rst:115
+#: ../../source/dialplan/dialplan_application.rst:117
+#: ../../source/dialplan/dialplan_application.rst:119
+#: ../../source/dialplan/dialplan_application.rst:121
+#: ../../source/dialplan/dialplan_application.rst:123
+#: ../../source/dialplan/dialplan_application.rst:125
+#: ../../source/dialplan/dialplan_application.rst:127
+#: ../../source/dialplan/dialplan_application.rst:129
+#: ../../source/dialplan/dialplan_application.rst:131
+#: ../../source/dialplan/dialplan_application.rst:133
+#: ../../source/dialplan/dialplan_application.rst:135
+#: ../../source/dialplan/dialplan_application.rst:137
+#: ../../source/dialplan/dialplan_application.rst:139
+#: ../../source/dialplan/dialplan_application.rst:141
+#: ../../source/dialplan/dialplan_application.rst:143
+#: ../../source/dialplan/dialplan_application.rst:145
+#: ../../source/dialplan/dialplan_application.rst:147
+#: ../../source/dialplan/dialplan_application.rst:149
+#: ../../source/dialplan/dialplan_application.rst:151
+#: ../../source/dialplan/dialplan_application.rst:153
+#: ../../source/dialplan/dialplan_application.rst:155
+#: ../../source/dialplan/dialplan_application.rst:161
+#: ../../source/dialplan/dialplan_application.rst:163
+#: ../../source/dialplan/dialplan_application.rst:165
+#: ../../source/dialplan/dialplan_application.rst:167
+#: ../../source/dialplan/dialplan_application.rst:169
+#: ../../source/dialplan/dialplan_application.rst:171
+#: ../../source/dialplan/dialplan_application.rst:173
+#: ../../source/dialplan/dialplan_application.rst:175
+#: ../../source/dialplan/dialplan_application.rst:177
+#: ../../source/dialplan/dialplan_application.rst:181
+#: ../../source/dialplan/dialplan_application.rst:183
+#: ../../source/dialplan/dialplan_application.rst:185
+#: ../../source/dialplan/dialplan_application.rst:187
+#: ../../source/dialplan/dialplan_application.rst:189
+#: ../../source/dialplan/dialplan_application.rst:191
+#: ../../source/dialplan/dialplan_application.rst:193
+#: ../../source/dialplan/dialplan_application.rst:197
+#: ../../source/dialplan/dialplan_application.rst:199
+#: ../../source/dialplan/dialplan_application.rst:203
+#: ../../source/dialplan/dialplan_application.rst:205
+#: ../../source/dialplan/dialplan_application.rst:207
+#: ../../source/dialplan/dialplan_application.rst:209
+#: ../../source/dialplan/dialplan_application.rst:211
+#: ../../source/dialplan/dialplan_application.rst:213
+#: ../../source/dialplan/dialplan_application.rst:217
+#: ../../source/dialplan/dialplan_application.rst:219
+#: ../../source/dialplan/dialplan_application.rst:221
+#: ../../source/dialplan/dialplan_application.rst:223
+#: ../../source/dialplan/dialplan_application.rst:227
+#: ../../source/dialplan/dialplan_application.rst:229
+#: ../../source/dialplan/dialplan_application.rst:231
+#: ../../source/dialplan/dialplan_application.rst:233
+#: ../../source/dialplan/dialplan_application.rst:235
+#: ../../source/dialplan/dialplan_application.rst:237
+#: ../../source/dialplan/dialplan_application.rst:239
+#: ../../source/dialplan/dialplan_application.rst:241
+#: ../../source/dialplan/dialplan_application.rst:243
+#: ../../source/dialplan/dialplan_application.rst:245
+#: ../../source/dialplan/dialplan_application.rst:251
+#: ../../source/dialplan/dialplan_application.rst:253
+#: ../../source/dialplan/dialplan_application.rst:277
+#: ../../source/dialplan/dialplan_application.rst:279
+#: ../../source/dialplan/dialplan_application.rst:281
+#: ../../source/dialplan/dialplan_application.rst:285
+#: ../../source/dialplan/dialplan_application.rst:287
+#: ../../source/dialplan/dialplan_application.rst:289
+#: ../../source/dialplan/dialplan_application.rst:291
+#: ../../source/dialplan/dialplan_application.rst:293
+#: ../../source/dialplan/dialplan_application.rst:295
+#: ../../source/dialplan/dialplan_application.rst:297
+#: ../../source/dialplan/dialplan_application.rst:301
+#: ../../source/dialplan/dialplan_application.rst:305
+#: ../../source/dialplan/dialplan_application.rst:309
+#: ../../source/dialplan/dialplan_application.rst:311
+#: ../../source/dialplan/dialplan_application.rst:313
+#: ../../source/dialplan/dialplan_application.rst:315
+#: ../../source/dialplan/dialplan_application.rst:319
+#: ../../source/dialplan/dialplan_application.rst:321
+#: ../../source/dialplan/dialplan_application.rst:323
+#: ../../source/dialplan/dialplan_application.rst:329
+#: ../../source/dialplan/dialplan_application.rst:331
+#: ../../source/dialplan/dialplan_application.rst:335
+#: ../../source/dialplan/dialplan_application.rst:337
+#: ../../source/dialplan/dialplan_application.rst:339
+#: ../../source/dialplan/dialplan_application.rst:341
+#: ../../source/dialplan/dialplan_application.rst:343
+#: ../../source/dialplan/dialplan_application.rst:345
+msgid "mod_dptools"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:15
+msgid "att_xfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:15
+msgid "Attended Transfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:15
+#: ../../source/dialplan/dialplan_application.rst:27
+msgid "<channel_url>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:17
+msgid "bgsystem"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:17
+msgid "Execute a system command in the background"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:17
+#: ../../source/dialplan/dialplan_application.rst:305
+msgid "<command>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:19
+msgid "bind_digit_action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:19
+msgid "bind a key sequence or regex to an action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:19
+msgid ""
+"<realm>,<digits|~regex>,<string>[,<value>][,<dtmf target leg>][,<event "
+"target leg>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:21
+msgid "bind_meta_app"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:21
+msgid "Bind a key to an application"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:21
+msgid "<key> [a|b|ab] [a|b|o|s|i|1] <app>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:23
+msgid "block_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:23
+msgid "Block DTMF"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:25
+msgid "break"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:25
+msgid "Break"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:27
+msgid "bridge"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:27
+msgid "Bridge Audio"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:29
+msgid "bridge_export"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:29
+#: ../../source/dialplan/dialplan_application.rst:89
+msgid "Export a channel variable across a bridge"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:29
+#: ../../source/dialplan/dialplan_application.rst:89
+#: ../../source/dialplan/dialplan_application.rst:171
+#: ../../source/dialplan/dialplan_application.rst:227
+#: ../../source/dialplan/dialplan_application.rst:231
+#: ../../source/dialplan/dialplan_application.rst:239
+#: ../../source/dialplan/dialplan_application.rst:331
+msgid "<varname>=<value>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:31
+msgid "callcenter"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:31
+msgid "CallCenter"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:31
+msgid "queue_name"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:31
+msgid "mod_callcenter"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:33
+msgid "capture"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:33
+msgid "capture data into a var"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:33
+msgid "<varname>|<data>|<regex>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:35
+msgid "check_acl"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:35
+msgid "Check an ip against an ACL list"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:35
+msgid "<ip> <acl | cidr> [<hangup_cause>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:37
+msgid "clear_digit_action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:37
+msgid "clear all digit bindings"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:37
+msgid "<realm>|all[,target]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:39
+msgid "clear_speech_cache"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:39
+msgid "Clear Speech Handle Cache"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:41
+msgid "cng_plc"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:41
+msgid "Do PLC on CNG frames"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:43
+msgid "conference"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:43
+#: ../../source/dialplan/dialplan_application.rst:45
+msgid "mod_conference"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:45
+msgid "conference_set_auto_outcall"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:47
+msgid "db"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:47
+msgid "Insert to the db"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:47
+msgid "[insert|delete]/<realm>/<key>/<val>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:47
+#: ../../source/dialplan/dialplan_application.rst:103
+msgid "mod_db"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:49
+msgid "decode_video"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:49
+msgid "decode picture"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:49
+msgid "[max_pictures]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:49
+#: ../../source/dialplan/dialplan_application.rst:157
+#: ../../source/dialplan/dialplan_application.rst:159
+#: ../../source/dialplan/dialplan_application.rst:179
+msgid "mod_fsv"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:51
+msgid "deduplicate_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:51
+msgid "Prevent duplicate inband + 2833 dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:51
+msgid "[only_rtp]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:53
+msgid "deflect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:53
+msgid "Send call deflect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:53
+msgid "<deflect_data>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:55
+msgid "delay_echo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:55
+msgid "echo audio at a specified delay"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:55
+msgid "<delay ms>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:57
+msgid "detect_audio"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:57
+msgid "<threshold> <audio_hits> <timeout_ms> [<file>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:59
+msgid "detect_silence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:59
+msgid "<threshold> <silence_hits> <timeout_ms> [<file>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:61
+msgid "detect_speech"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:61
+msgid "Detect speech"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:61
+msgid ""
+"<mod_name> <gram_name> <gram_path> [<addr>] OR grammar <gram_name> "
+"[<path>] OR nogrammar <gram_name> OR grammaron/grammaroff <gram_name> OR "
+"grammarsalloff"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:63
+msgid "OR pause OR resume OR start_input_timers OR stop OR param <name> <value>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:65
+msgid "digit_action_set_realm"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:65
+msgid "change binding realm"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:65
+msgid "<realm>[,<target>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:67
+msgid "displace_session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:67
+msgid "Displace File"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:67
+msgid "<path> [<flags>] [+time_limit_ms]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:69
+msgid "early_hangup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:69
+msgid "Enable early hangup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:71
+msgid "eavesdrop"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:71
+msgid "eavesdrop on a uuid"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:71
+msgid "[all | <uuid>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:73
+msgid "echo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:73
+msgid "Echo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:75
+msgid "enable_heartbeat"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:75
+msgid "Enable Media Heartbeat"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:75
+#: ../../source/dialplan/dialplan_application.rst:77
+#: ../../source/dialplan/dialplan_application.rst:211
+msgid "[0|<seconds>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:77
+msgid "enable_keepalive"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:77
+msgid "Enable Keepalive"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:79
+msgid "endless_playback"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:79
+msgid "Playback File Endlessly"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:79
+#: ../../source/dialplan/dialplan_application.rst:135
+#: ../../source/dialplan/dialplan_application.rst:161
+#: ../../source/dialplan/dialplan_application.rst:183
+#: ../../source/dialplan/dialplan_application.rst:185
+#: ../../source/dialplan/dialplan_application.rst:287
+#: ../../source/dialplan/dialplan_application.rst:293
+#: ../../source/dialplan/dialplan_application.rst:297
+msgid "<path>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:81
+msgid "enum"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:81
+msgid "Perform an ENUM lookup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:81
+msgid "[reload | <number> [<root>]]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:81
+msgid "mod_enum"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:83
+msgid "eval"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:83
+#: ../../source/dialplan/dialplan_application.rst:285
+msgid "Do Nothing"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:85
+msgid "event"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:85
+msgid "Fire an event"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:87
+msgid "execute_extension"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:87
+msgid "Execute an extension"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:87
+msgid "<extension> <dialplan> <context>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:89
+msgid "export"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:91
+msgid "fax_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:91
+msgid "Detect faxes"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:93
+msgid "fifo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:93
+msgid "Park with FIFO"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:93
+msgid ""
+"<fifo name>[!<importance_number>] [in [<announce file>|undef] [<music "
+"file>|undef] | out [wait|nowait] [<announce file>|undef] [<music "
+"file>|undef]]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:93
+#: ../../source/dialplan/dialplan_application.rst:95
+msgid "mod_fifo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:95
+msgid "fifo_track_call"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:95
+msgid "Count a call as a fifo call in the manual_calls queue"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:95
+msgid "<fifo_outbound_uuid>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:97
+msgid "fire"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:97
+msgid "fire the message"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:97
+#: ../../source/dialplan/dialplan_application.rst:111
+#: ../../source/dialplan/dialplan_application.rst:195
+#: ../../source/dialplan/dialplan_application.rst:215
+#: ../../source/dialplan/dialplan_application.rst:225
+#: ../../source/dialplan/dialplan_application.rst:283
+#: ../../source/dialplan/dialplan_application.rst:303
+#: ../../source/dialplan/dialplan_application.rst:327
+msgid "mod_sms"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:99
+msgid "flush_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:99
+msgid "flush any queued dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:101
+msgid "gentones"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:101
+msgid "Generate Tones"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:101
+msgid "<tgml_script>[|<loops>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:103
+msgid "group"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:103
+msgid "Manage a group"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:103
+msgid "[insert|delete]:<group name>:<val>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:105
+msgid "hangup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:105
+msgid "Hangup the call"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:105
+msgid "[<cause>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:107
+msgid "hash"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:107
+msgid "Insert into the hashtable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:107
+msgid "[insert|insert_ifempty|delete|delete_ifmatch]/<realm>/<key>/<val>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:107
+msgid "mod_hash"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:109
+msgid "hold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:109
+msgid "Send a hold message"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:109
+msgid "[<display message>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:111
+#: ../../source/dialplan/dialplan_application.rst:113
+msgid "info"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:111
+#: ../../source/dialplan/dialplan_application.rst:113
+msgid "Display Call Info"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:115
+msgid "intercept"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:115
+msgid "[-bleg] <uuid>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:117
+msgid "ivr"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:117
+msgid "Run an ivr menu"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:119
+msgid "jitterbuffer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:119
+msgid "Send session jitterbuffer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:119
+msgid "<jitterbuffer_data>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:121
+msgid "limit"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:121
+#: ../../source/dialplan/dialplan_application.rst:123
+#: ../../source/dialplan/dialplan_application.rst:125
+#: ../../source/dialplan/dialplan_application.rst:127
+msgid "Limit"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:121
+msgid "<backend> <realm> <id> [<max>[/interval]] [number [dialplan [context]]]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:123
+msgid "limit_execute"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:123
+msgid ""
+"<backend> <realm> <id> <max>[/interval] <application> [application "
+"arguments]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:125
+msgid "limit_hash"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:125
+msgid "<realm> <id> [<max>[/interval]] [number [dialplan [context]]]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:127
+msgid "limit_hash_execute"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:127
+msgid "<realm> <id> <max>[/interval] <application> [application arguments]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:129
+msgid "log"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:129
+msgid "Logs to the logger"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:129
+msgid "<log_level> <log_string>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:131
+msgid "loop_playback"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:131
+msgid "Playback File looply"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:131
+msgid "[+loops] <path>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:133
+msgid "media_reset"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:133
+msgid "Reset all bypass/proxy media flags"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:135
+msgid "mkdir"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:135
+msgid "Create a directory"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:137
+msgid "multiset"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:137
+msgid "Set many channel variables"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:137
+msgid "[^^<delim>]<varname>=<value> <var2>=<val2>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:139
+msgid "multiunset"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:139
+msgid "Unset many channel variables"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:139
+msgid "[^^<delim>]<varname> <var2> <var3>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:141
+msgid "mutex"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:141
+msgid "block on a call flow only allowing one at a time"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:141
+msgid "<keyname>[ on|off]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:143
+msgid "novideo"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:143
+msgid "Refuse Inbound Video"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:145
+msgid "park"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:145
+msgid "Park"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:147
+msgid "park_state"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:147
+msgid "Park State"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:149
+msgid "phrase"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:149
+msgid "Say a Phrase"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:149
+msgid "<macro_name>,<data>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:151
+msgid "pickup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:151
+msgid "Pickup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:151
+#: ../../source/dialplan/dialplan_application.rst:319
+msgid "[<key>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:153
+msgid "play_and_detect_speech"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:153
+msgid "Play and do speech recognition"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:153
+msgid "<file> detect:<engine> {param1=val1,param2=val2}<grammar>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:155
+msgid "play_and_get_digits"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:155
+msgid "Play and get Digits"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:155
+msgid ""
+"<min> <max> <tries> <timeout> <terminators> <file> <invalid_file> "
+"<var_name> <regexp> [<digit_timeout>] ['<failure_ext> [failure_dp "
+"[failure_context]]']"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:157
+msgid "play_fsv"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:157
+msgid "play a fsv file"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:157
+#: ../../source/dialplan/dialplan_application.rst:179
+msgid "<file>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:159
+msgid "play_yuv"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:159
+msgid "play a yvv file"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:159
+msgid "<file> [width] [height]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:161
+msgid "playback"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:161
+msgid "Playback File"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:163
+msgid "pre_answer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:163
+msgid "Pre-Answer the call"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:165
+msgid "preprocess"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:165
+msgid "pre-process"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:167
+msgid "presence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:167
+msgid "Send Presence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:167
+msgid "<rpid> <status> [<id>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:169
+msgid "privacy"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:169
+msgid "Set privacy on calls"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:169
+msgid "off|on|name|full|number"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:171
+msgid "push"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:171
+#: ../../source/dialplan/dialplan_application.rst:227
+#: ../../source/dialplan/dialplan_application.rst:331
+msgid "Set a channel variable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:173
+msgid "queue_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:173
+msgid "Queue dtmf to be sent"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:173
+#: ../../source/dialplan/dialplan_application.rst:219
+msgid "<dtmf_data>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:175
+msgid "read"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:175
+msgid "Read Digits"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:175
+msgid "<min> <max> <file> <var_name> <timeout> <terminators> <digit_timeout>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:177
+msgid "record"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:177
+msgid "Record File"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:177
+msgid "<path> [<time_limit_secs>] [<silence_thresh>] [<silence_hits>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:179
+msgid "record_fsv"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:179
+msgid "record an fsv file"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:181
+msgid "record_session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:181
+msgid "Record Session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:181
+msgid "<path> [+<timeout>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:183
+msgid "record_session_mask"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:183
+msgid "Mask audio in recording"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:185
+msgid "record_session_unmask"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:185
+msgid "Resume recording"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:187
+msgid "recovery_refresh"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:187
+msgid "Send call recovery_refresh"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:189
+msgid "redirect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:189
+msgid "Send session redirect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:189
+msgid "<redirect_data>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:191
+msgid "remove_bugs"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:191
+msgid "Remove media bugs"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:191
+msgid "[<function>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:193
+msgid "rename"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:193
+msgid "Rename file"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:193
+msgid "<from_path> <to_path>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:195
+msgid "reply"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:195
+msgid "reply to a message"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:197
+msgid "respond"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:197
+msgid "Send session respond"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:197
+msgid "<respond_data>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:199
+msgid "ring_ready"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:199
+msgid "Indicate Ring_Ready"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:201
+msgid "rxfax"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:201
+msgid "FAX Receive Application"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:201
+#: ../../source/dialplan/dialplan_application.rst:317
+msgid "<filename>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:201
+#: ../../source/dialplan/dialplan_application.rst:255
+#: ../../source/dialplan/dialplan_application.rst:257
+#: ../../source/dialplan/dialplan_application.rst:259
+#: ../../source/dialplan/dialplan_application.rst:261
+#: ../../source/dialplan/dialplan_application.rst:263
+#: ../../source/dialplan/dialplan_application.rst:265
+#: ../../source/dialplan/dialplan_application.rst:267
+#: ../../source/dialplan/dialplan_application.rst:269
+#: ../../source/dialplan/dialplan_application.rst:271
+#: ../../source/dialplan/dialplan_application.rst:273
+#: ../../source/dialplan/dialplan_application.rst:275
+#: ../../source/dialplan/dialplan_application.rst:299
+#: ../../source/dialplan/dialplan_application.rst:307
+#: ../../source/dialplan/dialplan_application.rst:317
+msgid "mod_spandsp"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:203
+msgid "say"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:203
+msgid "<module_name>[:<lang>] <say_type> <say_method> [<say_gender>] <text>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:205
+msgid "sched_broadcast"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:205
+msgid "Schedule a broadcast in the future"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:205
+msgid "[+]<time> <path> [aleg|bleg|both]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:207
+msgid "sched_cancel"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:207
+msgid "cancel scheduled tasks"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:207
+msgid "[group]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:209
+msgid "sched_hangup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:209
+msgid "Schedule a hangup in the future"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:209
+msgid "[+]<time> [<cause>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:211
+msgid "sched_heartbeat"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:211
+msgid "Enable Scheduled Heartbeat"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:213
+msgid "sched_transfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:213
+msgid "Schedule a transfer in the future"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:213
+msgid "[+]<time> <extension> <dialplan> <context>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:215
+msgid "send"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:215
+msgid "send the message as-is"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:217
+msgid "send_display"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:217
+msgid "Send session a new display"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:217
+msgid "<text>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:219
+msgid "send_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:219
+msgid "Send dtmf to be sent"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:221
+msgid "send_info"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:221
+msgid "Send info"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:221
+msgid "<info>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:223
+msgid "session_loglevel"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:223
+msgid "<level>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:225
+#: ../../source/dialplan/dialplan_application.rst:227
+msgid "set"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:225
+msgid "set a variable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:229
+msgid "set_audio_level"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:229
+msgid "set volume"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:231
+msgid "set_global"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:231
+msgid "Set a global variable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:233
+msgid "set_media_stats"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:233
+msgid "Set Media Stats"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:235
+msgid "set_mute"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:235
+msgid "set mute"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:237
+msgid "set_name"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:237
+msgid "Name the channel"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:237
+#: ../../source/dialplan/dialplan_application.rst:265
+msgid "<name>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:239
+msgid "set_profile_var"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:239
+msgid "Set a caller profile variable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:241
+msgid "set_user"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:241
+msgid "Set a User"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:241
+msgid "<user>@<domain> [prefix]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:243
+msgid "set_zombie_exec"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:243
+msgid "Enable Zombie Execution"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:245
+msgid "sleep"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:245
+msgid "Pause a channel"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:245
+msgid "<pausemilliseconds>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:247
+msgid "socket"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:247
+msgid "Connect to a socket"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:247
+msgid "<ip>[:<port>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:247
+msgid "mod_event_socket"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:249
+msgid "sofia_sla"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:249
+msgid "private sofia sla function"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:249
+#: ../../source/dialplan/dialplan_application.rst:309
+msgid "<uuid>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:249
+msgid "mod_sofia"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:251
+msgid "soft_hold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:251
+msgid "Put a bridged channel on hold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:251
+msgid "<unhold key> [<moh_a>] [<moh_b>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:253
+msgid "sound_test"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:253
+msgid "Analyze Audio"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:255
+msgid "spandsp_detect_tdd"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:255
+msgid "Detect TDD data"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:257
+msgid "spandsp_inject_tdd"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:257
+#: ../../source/dialplan/dialplan_application.rst:259
+msgid "Send TDD data"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:259
+msgid "spandsp_send_tdd"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:261
+msgid "spandsp_start_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:261
+#: ../../source/dialplan/dialplan_application.rst:279
+msgid "Detect dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:263
+msgid "spandsp_start_fax_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:263
+msgid "start fax detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:263
+msgid "<app>[ <arg>][ <timeout>][ <tone_type>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:265
+msgid "spandsp_start_tone_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:265
+msgid "Start background tone detection with cadence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:267
+msgid "spandsp_stop_detect_tdd"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:267
+#: ../../source/dialplan/dialplan_application.rst:273
+msgid "stop sending tdd"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:269
+msgid "spandsp_stop_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:269
+#: ../../source/dialplan/dialplan_application.rst:289
+msgid "stop inband dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:271
+msgid "spandsp_stop_fax_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:271
+msgid "stop fax detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:273
+msgid "spandsp_stop_inject_tdd"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:275
+msgid "spandsp_stop_tone_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:275
+msgid "Stop background tone detection with cadence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:277
+msgid "speak"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:277
+msgid "Speak text"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:277
+msgid "<engine>|<voice>|<text>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:279
+msgid "start_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:281
+msgid "start_dtmf_generate"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:281
+msgid "Generate dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:283
+#: ../../source/dialplan/dialplan_application.rst:285
+msgid "stop"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:283
+msgid "stop execution"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:287
+msgid "stop_displace_session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:287
+msgid "Stop Displace File"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:289
+msgid "stop_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:291
+msgid "stop_dtmf_generate"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:291
+msgid "stop inband dtmf generation"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:291
+msgid "[write]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:293
+msgid "stop_record_session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:293
+msgid "Stop Record Session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:295
+msgid "stop_tone_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:295
+msgid "stop detecting tones"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:297
+msgid "stop_video_write_overlay"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:297
+msgid "Stop video write overlay"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:299
+msgid "stopfax"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:299
+msgid "Stop FAX Application"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:301
+msgid "strftime"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:301
+msgid "[<epoch>|]<format string>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:303
+#: ../../source/dialplan/dialplan_application.rst:305
+msgid "system"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:303
+msgid "execute a system command"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:305
+msgid "Execute a system command"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:307
+msgid "t38_gateway"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:307
+msgid "Convert to T38 Gateway if tones are heard"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:309
+msgid "three_way"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:309
+msgid "three way call with a uuid"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:311
+msgid "tone_detect"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:311
+msgid "Detect tones"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:313
+msgid "transfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:313
+msgid "Transfer a channel"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:313
+msgid "<exten> [<dialplan> <context>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:315
+msgid "transfer_vars"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:315
+msgid "Transfer variables"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:315
+msgid "<~variable_prefix|variable>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:317
+msgid "txfax"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:317
+msgid "FAX Transmit Application"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:319
+msgid "unbind_meta_app"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:319
+msgid "Unbind a key from an application"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:321
+msgid "unblock_dtmf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:321
+msgid "Stop blocking DTMF"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:323
+msgid "unhold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:323
+msgid "Send a un-hold message"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:325
+msgid "unloop"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:325
+msgid "Tell loopback to unfold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:325
+msgid "mod_loopback"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:327
+#: ../../source/dialplan/dialplan_application.rst:329
+msgid "unset"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:327
+msgid "unset a variable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:329
+msgid "Unset a channel variable"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:329
+msgid "<varname>"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:331
+msgid "unshift"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:333
+msgid "valet_park"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:333
+msgid ""
+"<lotname> <extension>|[ask [<min>] [<max>] [<to>] [<prompt>]|auto "
+"[in|out] [min] [max]]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:333
+msgid "mod_valet_parking"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:335
+msgid "verbose_events"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:335
+msgid "Make ALL Events verbose."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:337
+msgid "video_decode"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:337
+msgid "Set video decode."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:337
+msgid "[[on|wait]|off]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:339
+msgid "video_refresh"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:339
+msgid "Send video refresh."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:339
+msgid "[manual|auto]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:341
+msgid "video_write_overlay"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:341
+msgid "Video write overlay"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:341
+msgid "<path> [<pos>] [<alpha>]"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:343
+msgid "wait_for_answer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:343
+msgid "Wait for call to be answered"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:345
+msgid "wait_for_silence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_application.rst:345
+msgid "<silence_thresh> <silence_hits> <listen_hits> <timeout_ms> [<file>]"
+msgstr ""
+

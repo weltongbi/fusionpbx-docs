@@ -1,0 +1,3506 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/dialplan/dialplan_details.rst:3
+msgid "Dialplan Details"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:7
+msgid "Global"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:9
+msgid ""
+"Global specific dialplans are global to all tennants(domains). These can "
+"be changed, however the changes apply to all tennants."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:15
+msgid "Not Found"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:959
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Tag"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:959
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Type"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Data"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:959
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Break"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:959
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Inline"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:959
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Group"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:19
+#: ../../source/dialplan/dialplan_details.rst:33
+#: ../../source/dialplan/dialplan_details.rst:47
+#: ../../source/dialplan/dialplan_details.rst:61
+#: ../../source/dialplan/dialplan_details.rst:80
+#: ../../source/dialplan/dialplan_details.rst:99
+#: ../../source/dialplan/dialplan_details.rst:135
+#: ../../source/dialplan/dialplan_details.rst:166
+#: ../../source/dialplan/dialplan_details.rst:194
+#: ../../source/dialplan/dialplan_details.rst:209
+#: ../../source/dialplan/dialplan_details.rst:223
+#: ../../source/dialplan/dialplan_details.rst:242
+#: ../../source/dialplan/dialplan_details.rst:267
+#: ../../source/dialplan/dialplan_details.rst:308
+#: ../../source/dialplan/dialplan_details.rst:320
+#: ../../source/dialplan/dialplan_details.rst:354
+#: ../../source/dialplan/dialplan_details.rst:375
+#: ../../source/dialplan/dialplan_details.rst:411
+#: ../../source/dialplan/dialplan_details.rst:424
+#: ../../source/dialplan/dialplan_details.rst:438
+#: ../../source/dialplan/dialplan_details.rst:458
+#: ../../source/dialplan/dialplan_details.rst:475
+#: ../../source/dialplan/dialplan_details.rst:501
+#: ../../source/dialplan/dialplan_details.rst:513
+#: ../../source/dialplan/dialplan_details.rst:527
+#: ../../source/dialplan/dialplan_details.rst:566
+#: ../../source/dialplan/dialplan_details.rst:611
+#: ../../source/dialplan/dialplan_details.rst:628
+#: ../../source/dialplan/dialplan_details.rst:640
+#: ../../source/dialplan/dialplan_details.rst:654
+#: ../../source/dialplan/dialplan_details.rst:667
+#: ../../source/dialplan/dialplan_details.rst:680
+#: ../../source/dialplan/dialplan_details.rst:772
+#: ../../source/dialplan/dialplan_details.rst:788
+#: ../../source/dialplan/dialplan_details.rst:801
+#: ../../source/dialplan/dialplan_details.rst:821
+#: ../../source/dialplan/dialplan_details.rst:840
+#: ../../source/dialplan/dialplan_details.rst:922
+#: ../../source/dialplan/dialplan_details.rst:942
+#: ../../source/dialplan/dialplan_details.rst:959
+#: ../../source/dialplan/dialplan_details.rst:973
+#: ../../source/dialplan/dialplan_details.rst:1000
+#: ../../source/dialplan/dialplan_details.rst:1019
+#: ../../source/dialplan/dialplan_details.rst:1036
+#: ../../source/dialplan/dialplan_details.rst:1051
+#: ../../source/dialplan/dialplan_details.rst:1067
+#: ../../source/dialplan/dialplan_details.rst:1085
+#: ../../source/dialplan/dialplan_details.rst:1099
+#: ../../source/dialplan/dialplan_details.rst:1125
+msgid "Dialplan Detail Order"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:21
+#: ../../source/dialplan/dialplan_details.rst:35
+#: ../../source/dialplan/dialplan_details.rst:37
+#: ../../source/dialplan/dialplan_details.rst:49
+#: ../../source/dialplan/dialplan_details.rst:63
+#: ../../source/dialplan/dialplan_details.rst:82
+#: ../../source/dialplan/dialplan_details.rst:101
+#: ../../source/dialplan/dialplan_details.rst:103
+#: ../../source/dialplan/dialplan_details.rst:137
+#: ../../source/dialplan/dialplan_details.rst:168
+#: ../../source/dialplan/dialplan_details.rst:170
+#: ../../source/dialplan/dialplan_details.rst:196
+#: ../../source/dialplan/dialplan_details.rst:211
+#: ../../source/dialplan/dialplan_details.rst:225
+#: ../../source/dialplan/dialplan_details.rst:244
+#: ../../source/dialplan/dialplan_details.rst:252
+#: ../../source/dialplan/dialplan_details.rst:269
+#: ../../source/dialplan/dialplan_details.rst:277
+#: ../../source/dialplan/dialplan_details.rst:285
+#: ../../source/dialplan/dialplan_details.rst:293
+#: ../../source/dialplan/dialplan_details.rst:310
+#: ../../source/dialplan/dialplan_details.rst:322
+#: ../../source/dialplan/dialplan_details.rst:328
+#: ../../source/dialplan/dialplan_details.rst:334
+#: ../../source/dialplan/dialplan_details.rst:340
+#: ../../source/dialplan/dialplan_details.rst:356
+#: ../../source/dialplan/dialplan_details.rst:377
+#: ../../source/dialplan/dialplan_details.rst:389
+#: ../../source/dialplan/dialplan_details.rst:413
+#: ../../source/dialplan/dialplan_details.rst:426
+#: ../../source/dialplan/dialplan_details.rst:440
+#: ../../source/dialplan/dialplan_details.rst:460
+#: ../../source/dialplan/dialplan_details.rst:477
+#: ../../source/dialplan/dialplan_details.rst:503
+#: ../../source/dialplan/dialplan_details.rst:515
+#: ../../source/dialplan/dialplan_details.rst:529
+#: ../../source/dialplan/dialplan_details.rst:531
+#: ../../source/dialplan/dialplan_details.rst:535
+#: ../../source/dialplan/dialplan_details.rst:541
+#: ../../source/dialplan/dialplan_details.rst:543
+#: ../../source/dialplan/dialplan_details.rst:547
+#: ../../source/dialplan/dialplan_details.rst:568
+#: ../../source/dialplan/dialplan_details.rst:572
+#: ../../source/dialplan/dialplan_details.rst:613
+#: ../../source/dialplan/dialplan_details.rst:630
+#: ../../source/dialplan/dialplan_details.rst:642
+#: ../../source/dialplan/dialplan_details.rst:656
+#: ../../source/dialplan/dialplan_details.rst:669
+#: ../../source/dialplan/dialplan_details.rst:682
+#: ../../source/dialplan/dialplan_details.rst:688
+#: ../../source/dialplan/dialplan_details.rst:690
+#: ../../source/dialplan/dialplan_details.rst:694
+#: ../../source/dialplan/dialplan_details.rst:696
+#: ../../source/dialplan/dialplan_details.rst:698
+#: ../../source/dialplan/dialplan_details.rst:702
+#: ../../source/dialplan/dialplan_details.rst:704
+#: ../../source/dialplan/dialplan_details.rst:706
+#: ../../source/dialplan/dialplan_details.rst:710
+#: ../../source/dialplan/dialplan_details.rst:712
+#: ../../source/dialplan/dialplan_details.rst:714
+#: ../../source/dialplan/dialplan_details.rst:718
+#: ../../source/dialplan/dialplan_details.rst:722
+#: ../../source/dialplan/dialplan_details.rst:724
+#: ../../source/dialplan/dialplan_details.rst:728
+#: ../../source/dialplan/dialplan_details.rst:730
+#: ../../source/dialplan/dialplan_details.rst:732
+#: ../../source/dialplan/dialplan_details.rst:736
+#: ../../source/dialplan/dialplan_details.rst:738
+#: ../../source/dialplan/dialplan_details.rst:740
+#: ../../source/dialplan/dialplan_details.rst:744
+#: ../../source/dialplan/dialplan_details.rst:746
+#: ../../source/dialplan/dialplan_details.rst:748
+#: ../../source/dialplan/dialplan_details.rst:752
+#: ../../source/dialplan/dialplan_details.rst:774
+#: ../../source/dialplan/dialplan_details.rst:778
+#: ../../source/dialplan/dialplan_details.rst:790
+#: ../../source/dialplan/dialplan_details.rst:803
+#: ../../source/dialplan/dialplan_details.rst:809
+#: ../../source/dialplan/dialplan_details.rst:823
+#: ../../source/dialplan/dialplan_details.rst:825
+#: ../../source/dialplan/dialplan_details.rst:829
+#: ../../source/dialplan/dialplan_details.rst:842
+#: ../../source/dialplan/dialplan_details.rst:860
+#: ../../source/dialplan/dialplan_details.rst:868
+#: ../../source/dialplan/dialplan_details.rst:876
+#: ../../source/dialplan/dialplan_details.rst:880
+#: ../../source/dialplan/dialplan_details.rst:884
+#: ../../source/dialplan/dialplan_details.rst:892
+#: ../../source/dialplan/dialplan_details.rst:898
+#: ../../source/dialplan/dialplan_details.rst:912
+#: ../../source/dialplan/dialplan_details.rst:924
+#: ../../source/dialplan/dialplan_details.rst:944
+#: ../../source/dialplan/dialplan_details.rst:961
+#: ../../source/dialplan/dialplan_details.rst:975
+#: ../../source/dialplan/dialplan_details.rst:1002
+#: ../../source/dialplan/dialplan_details.rst:1021
+#: ../../source/dialplan/dialplan_details.rst:1038
+#: ../../source/dialplan/dialplan_details.rst:1053
+#: ../../source/dialplan/dialplan_details.rst:1069
+#: ../../source/dialplan/dialplan_details.rst:1087
+#: ../../source/dialplan/dialplan_details.rst:1101
+#: ../../source/dialplan/dialplan_details.rst:1107
+#: ../../source/dialplan/dialplan_details.rst:1127
+msgid "condition"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:21
+#: ../../source/dialplan/dialplan_details.rst:23
+#: ../../source/dialplan/dialplan_details.rst:25
+#: ../../source/dialplan/dialplan_details.rst:35
+#: ../../source/dialplan/dialplan_details.rst:37
+#: ../../source/dialplan/dialplan_details.rst:39
+#: ../../source/dialplan/dialplan_details.rst:49
+#: ../../source/dialplan/dialplan_details.rst:51
+#: ../../source/dialplan/dialplan_details.rst:53
+#: ../../source/dialplan/dialplan_details.rst:63
+#: ../../source/dialplan/dialplan_details.rst:65
+#: ../../source/dialplan/dialplan_details.rst:67
+#: ../../source/dialplan/dialplan_details.rst:69
+#: ../../source/dialplan/dialplan_details.rst:71
+#: ../../source/dialplan/dialplan_details.rst:82
+#: ../../source/dialplan/dialplan_details.rst:84
+#: ../../source/dialplan/dialplan_details.rst:86
+#: ../../source/dialplan/dialplan_details.rst:88
+#: ../../source/dialplan/dialplan_details.rst:90
+#: ../../source/dialplan/dialplan_details.rst:101
+#: ../../source/dialplan/dialplan_details.rst:103
+#: ../../source/dialplan/dialplan_details.rst:105
+#: ../../source/dialplan/dialplan_details.rst:107
+#: ../../source/dialplan/dialplan_details.rst:109
+#: ../../source/dialplan/dialplan_details.rst:111
+#: ../../source/dialplan/dialplan_details.rst:113
+#: ../../source/dialplan/dialplan_details.rst:115
+#: ../../source/dialplan/dialplan_details.rst:117
+#: ../../source/dialplan/dialplan_details.rst:119
+#: ../../source/dialplan/dialplan_details.rst:121
+#: ../../source/dialplan/dialplan_details.rst:123
+#: ../../source/dialplan/dialplan_details.rst:125
+#: ../../source/dialplan/dialplan_details.rst:127
+#: ../../source/dialplan/dialplan_details.rst:137
+#: ../../source/dialplan/dialplan_details.rst:139
+#: ../../source/dialplan/dialplan_details.rst:141
+#: ../../source/dialplan/dialplan_details.rst:143
+#: ../../source/dialplan/dialplan_details.rst:145
+#: ../../source/dialplan/dialplan_details.rst:168
+#: ../../source/dialplan/dialplan_details.rst:170
+#: ../../source/dialplan/dialplan_details.rst:172
+#: ../../source/dialplan/dialplan_details.rst:174
+#: ../../source/dialplan/dialplan_details.rst:176
+#: ../../source/dialplan/dialplan_details.rst:178
+#: ../../source/dialplan/dialplan_details.rst:180
+#: ../../source/dialplan/dialplan_details.rst:182
+#: ../../source/dialplan/dialplan_details.rst:184
+#: ../../source/dialplan/dialplan_details.rst:186
+#: ../../source/dialplan/dialplan_details.rst:196
+#: ../../source/dialplan/dialplan_details.rst:198
+#: ../../source/dialplan/dialplan_details.rst:200
+#: ../../source/dialplan/dialplan_details.rst:211
+#: ../../source/dialplan/dialplan_details.rst:213
+#: ../../source/dialplan/dialplan_details.rst:215
+#: ../../source/dialplan/dialplan_details.rst:225
+#: ../../source/dialplan/dialplan_details.rst:227
+#: ../../source/dialplan/dialplan_details.rst:229
+#: ../../source/dialplan/dialplan_details.rst:231
+#: ../../source/dialplan/dialplan_details.rst:233
+#: ../../source/dialplan/dialplan_details.rst:244
+#: ../../source/dialplan/dialplan_details.rst:246
+#: ../../source/dialplan/dialplan_details.rst:248
+#: ../../source/dialplan/dialplan_details.rst:250
+#: ../../source/dialplan/dialplan_details.rst:269
+#: ../../source/dialplan/dialplan_details.rst:271
+#: ../../source/dialplan/dialplan_details.rst:273
+#: ../../source/dialplan/dialplan_details.rst:275
+#: ../../source/dialplan/dialplan_details.rst:310
+#: ../../source/dialplan/dialplan_details.rst:312
+#: ../../source/dialplan/dialplan_details.rst:322
+#: ../../source/dialplan/dialplan_details.rst:324
+#: ../../source/dialplan/dialplan_details.rst:326
+#: ../../source/dialplan/dialplan_details.rst:356
+#: ../../source/dialplan/dialplan_details.rst:358
+#: ../../source/dialplan/dialplan_details.rst:360
+#: ../../source/dialplan/dialplan_details.rst:362
+#: ../../source/dialplan/dialplan_details.rst:364
+#: ../../source/dialplan/dialplan_details.rst:366
+#: ../../source/dialplan/dialplan_details.rst:368
+#: ../../source/dialplan/dialplan_details.rst:377
+#: ../../source/dialplan/dialplan_details.rst:379
+#: ../../source/dialplan/dialplan_details.rst:381
+#: ../../source/dialplan/dialplan_details.rst:383
+#: ../../source/dialplan/dialplan_details.rst:385
+#: ../../source/dialplan/dialplan_details.rst:387
+#: ../../source/dialplan/dialplan_details.rst:413
+#: ../../source/dialplan/dialplan_details.rst:415
+#: ../../source/dialplan/dialplan_details.rst:426
+#: ../../source/dialplan/dialplan_details.rst:428
+#: ../../source/dialplan/dialplan_details.rst:430
+#: ../../source/dialplan/dialplan_details.rst:440
+#: ../../source/dialplan/dialplan_details.rst:442
+#: ../../source/dialplan/dialplan_details.rst:444
+#: ../../source/dialplan/dialplan_details.rst:446
+#: ../../source/dialplan/dialplan_details.rst:448
+#: ../../source/dialplan/dialplan_details.rst:450
+#: ../../source/dialplan/dialplan_details.rst:460
+#: ../../source/dialplan/dialplan_details.rst:462
+#: ../../source/dialplan/dialplan_details.rst:464
+#: ../../source/dialplan/dialplan_details.rst:466
+#: ../../source/dialplan/dialplan_details.rst:468
+#: ../../source/dialplan/dialplan_details.rst:477
+#: ../../source/dialplan/dialplan_details.rst:479
+#: ../../source/dialplan/dialplan_details.rst:481
+#: ../../source/dialplan/dialplan_details.rst:483
+#: ../../source/dialplan/dialplan_details.rst:485
+#: ../../source/dialplan/dialplan_details.rst:487
+#: ../../source/dialplan/dialplan_details.rst:489
+#: ../../source/dialplan/dialplan_details.rst:491
+#: ../../source/dialplan/dialplan_details.rst:493
+#: ../../source/dialplan/dialplan_details.rst:503
+#: ../../source/dialplan/dialplan_details.rst:505
+#: ../../source/dialplan/dialplan_details.rst:515
+#: ../../source/dialplan/dialplan_details.rst:517
+#: ../../source/dialplan/dialplan_details.rst:519
+#: ../../source/dialplan/dialplan_details.rst:529
+#: ../../source/dialplan/dialplan_details.rst:531
+#: ../../source/dialplan/dialplan_details.rst:533
+#: ../../source/dialplan/dialplan_details.rst:568
+#: ../../source/dialplan/dialplan_details.rst:570
+#: ../../source/dialplan/dialplan_details.rst:613
+#: ../../source/dialplan/dialplan_details.rst:615
+#: ../../source/dialplan/dialplan_details.rst:617
+#: ../../source/dialplan/dialplan_details.rst:619
+#: ../../source/dialplan/dialplan_details.rst:630
+#: ../../source/dialplan/dialplan_details.rst:632
+#: ../../source/dialplan/dialplan_details.rst:642
+#: ../../source/dialplan/dialplan_details.rst:644
+#: ../../source/dialplan/dialplan_details.rst:646
+#: ../../source/dialplan/dialplan_details.rst:656
+#: ../../source/dialplan/dialplan_details.rst:658
+#: ../../source/dialplan/dialplan_details.rst:669
+#: ../../source/dialplan/dialplan_details.rst:671
+#: ../../source/dialplan/dialplan_details.rst:682
+#: ../../source/dialplan/dialplan_details.rst:684
+#: ../../source/dialplan/dialplan_details.rst:686
+#: ../../source/dialplan/dialplan_details.rst:774
+#: ../../source/dialplan/dialplan_details.rst:776
+#: ../../source/dialplan/dialplan_details.rst:790
+#: ../../source/dialplan/dialplan_details.rst:792
+#: ../../source/dialplan/dialplan_details.rst:803
+#: ../../source/dialplan/dialplan_details.rst:805
+#: ../../source/dialplan/dialplan_details.rst:807
+#: ../../source/dialplan/dialplan_details.rst:823
+#: ../../source/dialplan/dialplan_details.rst:825
+#: ../../source/dialplan/dialplan_details.rst:827
+#: ../../source/dialplan/dialplan_details.rst:842
+#: ../../source/dialplan/dialplan_details.rst:844
+#: ../../source/dialplan/dialplan_details.rst:846
+#: ../../source/dialplan/dialplan_details.rst:848
+#: ../../source/dialplan/dialplan_details.rst:850
+#: ../../source/dialplan/dialplan_details.rst:852
+#: ../../source/dialplan/dialplan_details.rst:854
+#: ../../source/dialplan/dialplan_details.rst:856
+#: ../../source/dialplan/dialplan_details.rst:858
+#: ../../source/dialplan/dialplan_details.rst:924
+#: ../../source/dialplan/dialplan_details.rst:926
+#: ../../source/dialplan/dialplan_details.rst:928
+#: ../../source/dialplan/dialplan_details.rst:930
+#: ../../source/dialplan/dialplan_details.rst:932
+#: ../../source/dialplan/dialplan_details.rst:934
+#: ../../source/dialplan/dialplan_details.rst:944
+#: ../../source/dialplan/dialplan_details.rst:946
+#: ../../source/dialplan/dialplan_details.rst:948
+#: ../../source/dialplan/dialplan_details.rst:950
+#: ../../source/dialplan/dialplan_details.rst:961
+#: ../../source/dialplan/dialplan_details.rst:963
+#: ../../source/dialplan/dialplan_details.rst:975
+#: ../../source/dialplan/dialplan_details.rst:977
+#: ../../source/dialplan/dialplan_details.rst:979
+#: ../../source/dialplan/dialplan_details.rst:981
+#: ../../source/dialplan/dialplan_details.rst:983
+#: ../../source/dialplan/dialplan_details.rst:985
+#: ../../source/dialplan/dialplan_details.rst:987
+#: ../../source/dialplan/dialplan_details.rst:989
+#: ../../source/dialplan/dialplan_details.rst:991
+#: ../../source/dialplan/dialplan_details.rst:1002
+#: ../../source/dialplan/dialplan_details.rst:1004
+#: ../../source/dialplan/dialplan_details.rst:1006
+#: ../../source/dialplan/dialplan_details.rst:1008
+#: ../../source/dialplan/dialplan_details.rst:1010
+#: ../../source/dialplan/dialplan_details.rst:1021
+#: ../../source/dialplan/dialplan_details.rst:1023
+#: ../../source/dialplan/dialplan_details.rst:1025
+#: ../../source/dialplan/dialplan_details.rst:1027
+#: ../../source/dialplan/dialplan_details.rst:1038
+#: ../../source/dialplan/dialplan_details.rst:1040
+#: ../../source/dialplan/dialplan_details.rst:1042
+#: ../../source/dialplan/dialplan_details.rst:1044
+#: ../../source/dialplan/dialplan_details.rst:1053
+#: ../../source/dialplan/dialplan_details.rst:1055
+#: ../../source/dialplan/dialplan_details.rst:1057
+#: ../../source/dialplan/dialplan_details.rst:1059
+#: ../../source/dialplan/dialplan_details.rst:1069
+#: ../../source/dialplan/dialplan_details.rst:1071
+#: ../../source/dialplan/dialplan_details.rst:1073
+#: ../../source/dialplan/dialplan_details.rst:1075
+#: ../../source/dialplan/dialplan_details.rst:1077
+#: ../../source/dialplan/dialplan_details.rst:1087
+#: ../../source/dialplan/dialplan_details.rst:1089
+#: ../../source/dialplan/dialplan_details.rst:1091
+#: ../../source/dialplan/dialplan_details.rst:1101
+#: ../../source/dialplan/dialplan_details.rst:1103
+#: ../../source/dialplan/dialplan_details.rst:1105
+#: ../../source/dialplan/dialplan_details.rst:1127
+#: ../../source/dialplan/dialplan_details.rst:1129
+#: ../../source/dialplan/dialplan_details.rst:1131
+msgid "0"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:21
+#: ../../source/dialplan/dialplan_details.rst:35
+#: ../../source/dialplan/dialplan_details.rst:49
+#: ../../source/dialplan/dialplan_details.rst:63
+#: ../../source/dialplan/dialplan_details.rst:82
+#: ../../source/dialplan/dialplan_details.rst:137
+#: ../../source/dialplan/dialplan_details.rst:168
+#: ../../source/dialplan/dialplan_details.rst:196
+#: ../../source/dialplan/dialplan_details.rst:211
+#: ../../source/dialplan/dialplan_details.rst:225
+#: ../../source/dialplan/dialplan_details.rst:244
+#: ../../source/dialplan/dialplan_details.rst:269
+#: ../../source/dialplan/dialplan_details.rst:310
+#: ../../source/dialplan/dialplan_details.rst:322
+#: ../../source/dialplan/dialplan_details.rst:356
+#: ../../source/dialplan/dialplan_details.rst:377
+#: ../../source/dialplan/dialplan_details.rst:413
+#: ../../source/dialplan/dialplan_details.rst:426
+#: ../../source/dialplan/dialplan_details.rst:440
+#: ../../source/dialplan/dialplan_details.rst:460
+#: ../../source/dialplan/dialplan_details.rst:477
+#: ../../source/dialplan/dialplan_details.rst:503
+#: ../../source/dialplan/dialplan_details.rst:515
+#: ../../source/dialplan/dialplan_details.rst:529
+#: ../../source/dialplan/dialplan_details.rst:568
+#: ../../source/dialplan/dialplan_details.rst:613
+#: ../../source/dialplan/dialplan_details.rst:630
+#: ../../source/dialplan/dialplan_details.rst:642
+#: ../../source/dialplan/dialplan_details.rst:656
+#: ../../source/dialplan/dialplan_details.rst:669
+#: ../../source/dialplan/dialplan_details.rst:682
+#: ../../source/dialplan/dialplan_details.rst:718
+#: ../../source/dialplan/dialplan_details.rst:720
+#: ../../source/dialplan/dialplan_details.rst:774
+#: ../../source/dialplan/dialplan_details.rst:790
+#: ../../source/dialplan/dialplan_details.rst:803
+#: ../../source/dialplan/dialplan_details.rst:823
+#: ../../source/dialplan/dialplan_details.rst:842
+#: ../../source/dialplan/dialplan_details.rst:884
+#: ../../source/dialplan/dialplan_details.rst:886
+#: ../../source/dialplan/dialplan_details.rst:888
+#: ../../source/dialplan/dialplan_details.rst:890
+#: ../../source/dialplan/dialplan_details.rst:924
+#: ../../source/dialplan/dialplan_details.rst:944
+#: ../../source/dialplan/dialplan_details.rst:961
+#: ../../source/dialplan/dialplan_details.rst:975
+#: ../../source/dialplan/dialplan_details.rst:1002
+#: ../../source/dialplan/dialplan_details.rst:1021
+#: ../../source/dialplan/dialplan_details.rst:1038
+#: ../../source/dialplan/dialplan_details.rst:1053
+#: ../../source/dialplan/dialplan_details.rst:1069
+#: ../../source/dialplan/dialplan_details.rst:1087
+#: ../../source/dialplan/dialplan_details.rst:1101
+#: ../../source/dialplan/dialplan_details.rst:1127
+msgid "5"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:23
+#: ../../source/dialplan/dialplan_details.rst:25
+#: ../../source/dialplan/dialplan_details.rst:39
+#: ../../source/dialplan/dialplan_details.rst:51
+#: ../../source/dialplan/dialplan_details.rst:53
+#: ../../source/dialplan/dialplan_details.rst:65
+#: ../../source/dialplan/dialplan_details.rst:67
+#: ../../source/dialplan/dialplan_details.rst:69
+#: ../../source/dialplan/dialplan_details.rst:71
+#: ../../source/dialplan/dialplan_details.rst:84
+#: ../../source/dialplan/dialplan_details.rst:86
+#: ../../source/dialplan/dialplan_details.rst:88
+#: ../../source/dialplan/dialplan_details.rst:90
+#: ../../source/dialplan/dialplan_details.rst:105
+#: ../../source/dialplan/dialplan_details.rst:107
+#: ../../source/dialplan/dialplan_details.rst:109
+#: ../../source/dialplan/dialplan_details.rst:111
+#: ../../source/dialplan/dialplan_details.rst:113
+#: ../../source/dialplan/dialplan_details.rst:115
+#: ../../source/dialplan/dialplan_details.rst:117
+#: ../../source/dialplan/dialplan_details.rst:119
+#: ../../source/dialplan/dialplan_details.rst:121
+#: ../../source/dialplan/dialplan_details.rst:123
+#: ../../source/dialplan/dialplan_details.rst:125
+#: ../../source/dialplan/dialplan_details.rst:127
+#: ../../source/dialplan/dialplan_details.rst:139
+#: ../../source/dialplan/dialplan_details.rst:141
+#: ../../source/dialplan/dialplan_details.rst:143
+#: ../../source/dialplan/dialplan_details.rst:145
+#: ../../source/dialplan/dialplan_details.rst:172
+#: ../../source/dialplan/dialplan_details.rst:174
+#: ../../source/dialplan/dialplan_details.rst:176
+#: ../../source/dialplan/dialplan_details.rst:198
+#: ../../source/dialplan/dialplan_details.rst:200
+#: ../../source/dialplan/dialplan_details.rst:213
+#: ../../source/dialplan/dialplan_details.rst:215
+#: ../../source/dialplan/dialplan_details.rst:227
+#: ../../source/dialplan/dialplan_details.rst:229
+#: ../../source/dialplan/dialplan_details.rst:231
+#: ../../source/dialplan/dialplan_details.rst:233
+#: ../../source/dialplan/dialplan_details.rst:246
+#: ../../source/dialplan/dialplan_details.rst:248
+#: ../../source/dialplan/dialplan_details.rst:250
+#: ../../source/dialplan/dialplan_details.rst:254
+#: ../../source/dialplan/dialplan_details.rst:256
+#: ../../source/dialplan/dialplan_details.rst:258
+#: ../../source/dialplan/dialplan_details.rst:271
+#: ../../source/dialplan/dialplan_details.rst:273
+#: ../../source/dialplan/dialplan_details.rst:275
+#: ../../source/dialplan/dialplan_details.rst:279
+#: ../../source/dialplan/dialplan_details.rst:281
+#: ../../source/dialplan/dialplan_details.rst:283
+#: ../../source/dialplan/dialplan_details.rst:287
+#: ../../source/dialplan/dialplan_details.rst:289
+#: ../../source/dialplan/dialplan_details.rst:291
+#: ../../source/dialplan/dialplan_details.rst:295
+#: ../../source/dialplan/dialplan_details.rst:297
+#: ../../source/dialplan/dialplan_details.rst:299
+#: ../../source/dialplan/dialplan_details.rst:312
+#: ../../source/dialplan/dialplan_details.rst:324
+#: ../../source/dialplan/dialplan_details.rst:326
+#: ../../source/dialplan/dialplan_details.rst:330
+#: ../../source/dialplan/dialplan_details.rst:332
+#: ../../source/dialplan/dialplan_details.rst:336
+#: ../../source/dialplan/dialplan_details.rst:338
+#: ../../source/dialplan/dialplan_details.rst:342
+#: ../../source/dialplan/dialplan_details.rst:344
+#: ../../source/dialplan/dialplan_details.rst:358
+#: ../../source/dialplan/dialplan_details.rst:360
+#: ../../source/dialplan/dialplan_details.rst:362
+#: ../../source/dialplan/dialplan_details.rst:364
+#: ../../source/dialplan/dialplan_details.rst:366
+#: ../../source/dialplan/dialplan_details.rst:368
+#: ../../source/dialplan/dialplan_details.rst:379
+#: ../../source/dialplan/dialplan_details.rst:381
+#: ../../source/dialplan/dialplan_details.rst:383
+#: ../../source/dialplan/dialplan_details.rst:385
+#: ../../source/dialplan/dialplan_details.rst:387
+#: ../../source/dialplan/dialplan_details.rst:391
+#: ../../source/dialplan/dialplan_details.rst:393
+#: ../../source/dialplan/dialplan_details.rst:395
+#: ../../source/dialplan/dialplan_details.rst:397
+#: ../../source/dialplan/dialplan_details.rst:399
+#: ../../source/dialplan/dialplan_details.rst:401
+#: ../../source/dialplan/dialplan_details.rst:403
+#: ../../source/dialplan/dialplan_details.rst:415
+#: ../../source/dialplan/dialplan_details.rst:428
+#: ../../source/dialplan/dialplan_details.rst:430
+#: ../../source/dialplan/dialplan_details.rst:442
+#: ../../source/dialplan/dialplan_details.rst:444
+#: ../../source/dialplan/dialplan_details.rst:446
+#: ../../source/dialplan/dialplan_details.rst:448
+#: ../../source/dialplan/dialplan_details.rst:450
+#: ../../source/dialplan/dialplan_details.rst:462
+#: ../../source/dialplan/dialplan_details.rst:464
+#: ../../source/dialplan/dialplan_details.rst:466
+#: ../../source/dialplan/dialplan_details.rst:468
+#: ../../source/dialplan/dialplan_details.rst:479
+#: ../../source/dialplan/dialplan_details.rst:481
+#: ../../source/dialplan/dialplan_details.rst:483
+#: ../../source/dialplan/dialplan_details.rst:485
+#: ../../source/dialplan/dialplan_details.rst:487
+#: ../../source/dialplan/dialplan_details.rst:489
+#: ../../source/dialplan/dialplan_details.rst:491
+#: ../../source/dialplan/dialplan_details.rst:493
+#: ../../source/dialplan/dialplan_details.rst:505
+#: ../../source/dialplan/dialplan_details.rst:517
+#: ../../source/dialplan/dialplan_details.rst:519
+#: ../../source/dialplan/dialplan_details.rst:533
+#: ../../source/dialplan/dialplan_details.rst:537
+#: ../../source/dialplan/dialplan_details.rst:539
+#: ../../source/dialplan/dialplan_details.rst:545
+#: ../../source/dialplan/dialplan_details.rst:549
+#: ../../source/dialplan/dialplan_details.rst:570
+#: ../../source/dialplan/dialplan_details.rst:574
+#: ../../source/dialplan/dialplan_details.rst:576
+#: ../../source/dialplan/dialplan_details.rst:578
+#: ../../source/dialplan/dialplan_details.rst:580
+#: ../../source/dialplan/dialplan_details.rst:582
+#: ../../source/dialplan/dialplan_details.rst:584
+#: ../../source/dialplan/dialplan_details.rst:586
+#: ../../source/dialplan/dialplan_details.rst:588
+#: ../../source/dialplan/dialplan_details.rst:590
+#: ../../source/dialplan/dialplan_details.rst:592
+#: ../../source/dialplan/dialplan_details.rst:594
+#: ../../source/dialplan/dialplan_details.rst:596
+#: ../../source/dialplan/dialplan_details.rst:598
+#: ../../source/dialplan/dialplan_details.rst:600
+#: ../../source/dialplan/dialplan_details.rst:602
+#: ../../source/dialplan/dialplan_details.rst:604
+#: ../../source/dialplan/dialplan_details.rst:615
+#: ../../source/dialplan/dialplan_details.rst:617
+#: ../../source/dialplan/dialplan_details.rst:619
+#: ../../source/dialplan/dialplan_details.rst:644
+#: ../../source/dialplan/dialplan_details.rst:646
+#: ../../source/dialplan/dialplan_details.rst:658
+#: ../../source/dialplan/dialplan_details.rst:671
+#: ../../source/dialplan/dialplan_details.rst:684
+#: ../../source/dialplan/dialplan_details.rst:686
+#: ../../source/dialplan/dialplan_details.rst:692
+#: ../../source/dialplan/dialplan_details.rst:700
+#: ../../source/dialplan/dialplan_details.rst:708
+#: ../../source/dialplan/dialplan_details.rst:716
+#: ../../source/dialplan/dialplan_details.rst:720
+#: ../../source/dialplan/dialplan_details.rst:726
+#: ../../source/dialplan/dialplan_details.rst:734
+#: ../../source/dialplan/dialplan_details.rst:742
+#: ../../source/dialplan/dialplan_details.rst:750
+#: ../../source/dialplan/dialplan_details.rst:754
+#: ../../source/dialplan/dialplan_details.rst:756
+#: ../../source/dialplan/dialplan_details.rst:758
+#: ../../source/dialplan/dialplan_details.rst:760
+#: ../../source/dialplan/dialplan_details.rst:762
+#: ../../source/dialplan/dialplan_details.rst:764
+#: ../../source/dialplan/dialplan_details.rst:776
+#: ../../source/dialplan/dialplan_details.rst:780
+#: ../../source/dialplan/dialplan_details.rst:792
+#: ../../source/dialplan/dialplan_details.rst:805
+#: ../../source/dialplan/dialplan_details.rst:807
+#: ../../source/dialplan/dialplan_details.rst:811
+#: ../../source/dialplan/dialplan_details.rst:813
+#: ../../source/dialplan/dialplan_details.rst:827
+#: ../../source/dialplan/dialplan_details.rst:831
+#: ../../source/dialplan/dialplan_details.rst:833
+#: ../../source/dialplan/dialplan_details.rst:844
+#: ../../source/dialplan/dialplan_details.rst:846
+#: ../../source/dialplan/dialplan_details.rst:848
+#: ../../source/dialplan/dialplan_details.rst:850
+#: ../../source/dialplan/dialplan_details.rst:852
+#: ../../source/dialplan/dialplan_details.rst:854
+#: ../../source/dialplan/dialplan_details.rst:856
+#: ../../source/dialplan/dialplan_details.rst:858
+#: ../../source/dialplan/dialplan_details.rst:862
+#: ../../source/dialplan/dialplan_details.rst:864
+#: ../../source/dialplan/dialplan_details.rst:866
+#: ../../source/dialplan/dialplan_details.rst:870
+#: ../../source/dialplan/dialplan_details.rst:872
+#: ../../source/dialplan/dialplan_details.rst:874
+#: ../../source/dialplan/dialplan_details.rst:878
+#: ../../source/dialplan/dialplan_details.rst:882
+#: ../../source/dialplan/dialplan_details.rst:886
+#: ../../source/dialplan/dialplan_details.rst:888
+#: ../../source/dialplan/dialplan_details.rst:890
+#: ../../source/dialplan/dialplan_details.rst:894
+#: ../../source/dialplan/dialplan_details.rst:896
+#: ../../source/dialplan/dialplan_details.rst:900
+#: ../../source/dialplan/dialplan_details.rst:902
+#: ../../source/dialplan/dialplan_details.rst:904
+#: ../../source/dialplan/dialplan_details.rst:906
+#: ../../source/dialplan/dialplan_details.rst:908
+#: ../../source/dialplan/dialplan_details.rst:910
+#: ../../source/dialplan/dialplan_details.rst:914
+#: ../../source/dialplan/dialplan_details.rst:926
+#: ../../source/dialplan/dialplan_details.rst:928
+#: ../../source/dialplan/dialplan_details.rst:930
+#: ../../source/dialplan/dialplan_details.rst:932
+#: ../../source/dialplan/dialplan_details.rst:934
+#: ../../source/dialplan/dialplan_details.rst:946
+#: ../../source/dialplan/dialplan_details.rst:948
+#: ../../source/dialplan/dialplan_details.rst:950
+#: ../../source/dialplan/dialplan_details.rst:963
+#: ../../source/dialplan/dialplan_details.rst:977
+#: ../../source/dialplan/dialplan_details.rst:979
+#: ../../source/dialplan/dialplan_details.rst:981
+#: ../../source/dialplan/dialplan_details.rst:983
+#: ../../source/dialplan/dialplan_details.rst:985
+#: ../../source/dialplan/dialplan_details.rst:987
+#: ../../source/dialplan/dialplan_details.rst:989
+#: ../../source/dialplan/dialplan_details.rst:991
+#: ../../source/dialplan/dialplan_details.rst:1004
+#: ../../source/dialplan/dialplan_details.rst:1006
+#: ../../source/dialplan/dialplan_details.rst:1008
+#: ../../source/dialplan/dialplan_details.rst:1010
+#: ../../source/dialplan/dialplan_details.rst:1023
+#: ../../source/dialplan/dialplan_details.rst:1025
+#: ../../source/dialplan/dialplan_details.rst:1027
+#: ../../source/dialplan/dialplan_details.rst:1040
+#: ../../source/dialplan/dialplan_details.rst:1042
+#: ../../source/dialplan/dialplan_details.rst:1044
+#: ../../source/dialplan/dialplan_details.rst:1055
+#: ../../source/dialplan/dialplan_details.rst:1057
+#: ../../source/dialplan/dialplan_details.rst:1059
+#: ../../source/dialplan/dialplan_details.rst:1071
+#: ../../source/dialplan/dialplan_details.rst:1073
+#: ../../source/dialplan/dialplan_details.rst:1075
+#: ../../source/dialplan/dialplan_details.rst:1077
+#: ../../source/dialplan/dialplan_details.rst:1089
+#: ../../source/dialplan/dialplan_details.rst:1091
+#: ../../source/dialplan/dialplan_details.rst:1103
+#: ../../source/dialplan/dialplan_details.rst:1109
+#: ../../source/dialplan/dialplan_details.rst:1111
+#: ../../source/dialplan/dialplan_details.rst:1113
+#: ../../source/dialplan/dialplan_details.rst:1115
+#: ../../source/dialplan/dialplan_details.rst:1117
+#: ../../source/dialplan/dialplan_details.rst:1129
+#: ../../source/dialplan/dialplan_details.rst:1131
+msgid "action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:23
+#: ../../source/dialplan/dialplan_details.rst:105
+#: ../../source/dialplan/dialplan_details.rst:111
+#: ../../source/dialplan/dialplan_details.rst:113
+#: ../../source/dialplan/dialplan_details.rst:115
+#: ../../source/dialplan/dialplan_details.rst:117
+#: ../../source/dialplan/dialplan_details.rst:119
+#: ../../source/dialplan/dialplan_details.rst:121
+#: ../../source/dialplan/dialplan_details.rst:123
+#: ../../source/dialplan/dialplan_details.rst:178
+#: ../../source/dialplan/dialplan_details.rst:198
+#: ../../source/dialplan/dialplan_details.rst:213
+#: ../../source/dialplan/dialplan_details.rst:229
+#: ../../source/dialplan/dialplan_details.rst:231
+#: ../../source/dialplan/dialplan_details.rst:246
+#: ../../source/dialplan/dialplan_details.rst:248
+#: ../../source/dialplan/dialplan_details.rst:254
+#: ../../source/dialplan/dialplan_details.rst:256
+#: ../../source/dialplan/dialplan_details.rst:271
+#: ../../source/dialplan/dialplan_details.rst:273
+#: ../../source/dialplan/dialplan_details.rst:279
+#: ../../source/dialplan/dialplan_details.rst:281
+#: ../../source/dialplan/dialplan_details.rst:287
+#: ../../source/dialplan/dialplan_details.rst:289
+#: ../../source/dialplan/dialplan_details.rst:295
+#: ../../source/dialplan/dialplan_details.rst:297
+#: ../../source/dialplan/dialplan_details.rst:324
+#: ../../source/dialplan/dialplan_details.rst:330
+#: ../../source/dialplan/dialplan_details.rst:336
+#: ../../source/dialplan/dialplan_details.rst:342
+#: ../../source/dialplan/dialplan_details.rst:362
+#: ../../source/dialplan/dialplan_details.rst:364
+#: ../../source/dialplan/dialplan_details.rst:366
+#: ../../source/dialplan/dialplan_details.rst:383
+#: ../../source/dialplan/dialplan_details.rst:385
+#: ../../source/dialplan/dialplan_details.rst:395
+#: ../../source/dialplan/dialplan_details.rst:397
+#: ../../source/dialplan/dialplan_details.rst:399
+#: ../../source/dialplan/dialplan_details.rst:401
+#: ../../source/dialplan/dialplan_details.rst:444
+#: ../../source/dialplan/dialplan_details.rst:446
+#: ../../source/dialplan/dialplan_details.rst:448
+#: ../../source/dialplan/dialplan_details.rst:464
+#: ../../source/dialplan/dialplan_details.rst:466
+#: ../../source/dialplan/dialplan_details.rst:479
+#: ../../source/dialplan/dialplan_details.rst:481
+#: ../../source/dialplan/dialplan_details.rst:483
+#: ../../source/dialplan/dialplan_details.rst:485
+#: ../../source/dialplan/dialplan_details.rst:487
+#: ../../source/dialplan/dialplan_details.rst:489
+#: ../../source/dialplan/dialplan_details.rst:491
+#: ../../source/dialplan/dialplan_details.rst:533
+#: ../../source/dialplan/dialplan_details.rst:537
+#: ../../source/dialplan/dialplan_details.rst:539
+#: ../../source/dialplan/dialplan_details.rst:545
+#: ../../source/dialplan/dialplan_details.rst:551
+#: ../../source/dialplan/dialplan_details.rst:553
+#: ../../source/dialplan/dialplan_details.rst:555
+#: ../../source/dialplan/dialplan_details.rst:570
+#: ../../source/dialplan/dialplan_details.rst:574
+#: ../../source/dialplan/dialplan_details.rst:576
+#: ../../source/dialplan/dialplan_details.rst:578
+#: ../../source/dialplan/dialplan_details.rst:580
+#: ../../source/dialplan/dialplan_details.rst:582
+#: ../../source/dialplan/dialplan_details.rst:584
+#: ../../source/dialplan/dialplan_details.rst:586
+#: ../../source/dialplan/dialplan_details.rst:588
+#: ../../source/dialplan/dialplan_details.rst:590
+#: ../../source/dialplan/dialplan_details.rst:592
+#: ../../source/dialplan/dialplan_details.rst:594
+#: ../../source/dialplan/dialplan_details.rst:596
+#: ../../source/dialplan/dialplan_details.rst:598
+#: ../../source/dialplan/dialplan_details.rst:600
+#: ../../source/dialplan/dialplan_details.rst:602
+#: ../../source/dialplan/dialplan_details.rst:604
+#: ../../source/dialplan/dialplan_details.rst:615
+#: ../../source/dialplan/dialplan_details.rst:617
+#: ../../source/dialplan/dialplan_details.rst:619
+#: ../../source/dialplan/dialplan_details.rst:646
+#: ../../source/dialplan/dialplan_details.rst:684
+#: ../../source/dialplan/dialplan_details.rst:686
+#: ../../source/dialplan/dialplan_details.rst:692
+#: ../../source/dialplan/dialplan_details.rst:700
+#: ../../source/dialplan/dialplan_details.rst:708
+#: ../../source/dialplan/dialplan_details.rst:716
+#: ../../source/dialplan/dialplan_details.rst:720
+#: ../../source/dialplan/dialplan_details.rst:726
+#: ../../source/dialplan/dialplan_details.rst:734
+#: ../../source/dialplan/dialplan_details.rst:742
+#: ../../source/dialplan/dialplan_details.rst:750
+#: ../../source/dialplan/dialplan_details.rst:754
+#: ../../source/dialplan/dialplan_details.rst:756
+#: ../../source/dialplan/dialplan_details.rst:758
+#: ../../source/dialplan/dialplan_details.rst:760
+#: ../../source/dialplan/dialplan_details.rst:762
+#: ../../source/dialplan/dialplan_details.rst:805
+#: ../../source/dialplan/dialplan_details.rst:807
+#: ../../source/dialplan/dialplan_details.rst:811
+#: ../../source/dialplan/dialplan_details.rst:813
+#: ../../source/dialplan/dialplan_details.rst:844
+#: ../../source/dialplan/dialplan_details.rst:856
+#: ../../source/dialplan/dialplan_details.rst:864
+#: ../../source/dialplan/dialplan_details.rst:926
+#: ../../source/dialplan/dialplan_details.rst:928
+#: ../../source/dialplan/dialplan_details.rst:930
+#: ../../source/dialplan/dialplan_details.rst:932
+#: ../../source/dialplan/dialplan_details.rst:948
+#: ../../source/dialplan/dialplan_details.rst:977
+#: ../../source/dialplan/dialplan_details.rst:979
+#: ../../source/dialplan/dialplan_details.rst:981
+#: ../../source/dialplan/dialplan_details.rst:983
+#: ../../source/dialplan/dialplan_details.rst:985
+#: ../../source/dialplan/dialplan_details.rst:987
+#: ../../source/dialplan/dialplan_details.rst:989
+#: ../../source/dialplan/dialplan_details.rst:1006
+#: ../../source/dialplan/dialplan_details.rst:1008
+#: ../../source/dialplan/dialplan_details.rst:1042
+#: ../../source/dialplan/dialplan_details.rst:1057
+#: ../../source/dialplan/dialplan_details.rst:1071
+#: ../../source/dialplan/dialplan_details.rst:1103
+#: ../../source/dialplan/dialplan_details.rst:1105
+msgid "set"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:23
+msgid "call_direction=inbound"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:23
+#: ../../source/dialplan/dialplan_details.rst:25
+#: ../../source/dialplan/dialplan_details.rst:35
+#: ../../source/dialplan/dialplan_details.rst:37
+#: ../../source/dialplan/dialplan_details.rst:537
+#: ../../source/dialplan/dialplan_details.rst:539
+#: ../../source/dialplan/dialplan_details.rst:543
+#: ../../source/dialplan/dialplan_details.rst:545
+#: ../../source/dialplan/dialplan_details.rst:547
+#: ../../source/dialplan/dialplan_details.rst:570
+#: ../../source/dialplan/dialplan_details.rst:574
+#: ../../source/dialplan/dialplan_details.rst:576
+#: ../../source/dialplan/dialplan_details.rst:578
+#: ../../source/dialplan/dialplan_details.rst:580
+#: ../../source/dialplan/dialplan_details.rst:582
+#: ../../source/dialplan/dialplan_details.rst:584
+#: ../../source/dialplan/dialplan_details.rst:586
+#: ../../source/dialplan/dialplan_details.rst:588
+#: ../../source/dialplan/dialplan_details.rst:590
+#: ../../source/dialplan/dialplan_details.rst:592
+#: ../../source/dialplan/dialplan_details.rst:594
+#: ../../source/dialplan/dialplan_details.rst:596
+#: ../../source/dialplan/dialplan_details.rst:598
+#: ../../source/dialplan/dialplan_details.rst:600
+#: ../../source/dialplan/dialplan_details.rst:602
+#: ../../source/dialplan/dialplan_details.rst:604
+#: ../../source/dialplan/dialplan_details.rst:615
+#: ../../source/dialplan/dialplan_details.rst:617
+#: ../../source/dialplan/dialplan_details.rst:619
+#: ../../source/dialplan/dialplan_details.rst:684
+#: ../../source/dialplan/dialplan_details.rst:686
+#: ../../source/dialplan/dialplan_details.rst:692
+#: ../../source/dialplan/dialplan_details.rst:700
+#: ../../source/dialplan/dialplan_details.rst:708
+#: ../../source/dialplan/dialplan_details.rst:716
+#: ../../source/dialplan/dialplan_details.rst:720
+#: ../../source/dialplan/dialplan_details.rst:726
+#: ../../source/dialplan/dialplan_details.rst:734
+#: ../../source/dialplan/dialplan_details.rst:742
+#: ../../source/dialplan/dialplan_details.rst:750
+#: ../../source/dialplan/dialplan_details.rst:754
+#: ../../source/dialplan/dialplan_details.rst:756
+#: ../../source/dialplan/dialplan_details.rst:758
+#: ../../source/dialplan/dialplan_details.rst:760
+#: ../../source/dialplan/dialplan_details.rst:762
+#: ../../source/dialplan/dialplan_details.rst:805
+#: ../../source/dialplan/dialplan_details.rst:807
+#: ../../source/dialplan/dialplan_details.rst:811
+#: ../../source/dialplan/dialplan_details.rst:813
+#: ../../source/dialplan/dialplan_details.rst:1101
+#: ../../source/dialplan/dialplan_details.rst:1103
+#: ../../source/dialplan/dialplan_details.rst:1105
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:23
+#: ../../source/dialplan/dialplan_details.rst:37
+#: ../../source/dialplan/dialplan_details.rst:51
+#: ../../source/dialplan/dialplan_details.rst:65
+#: ../../source/dialplan/dialplan_details.rst:84
+#: ../../source/dialplan/dialplan_details.rst:103
+#: ../../source/dialplan/dialplan_details.rst:139
+#: ../../source/dialplan/dialplan_details.rst:170
+#: ../../source/dialplan/dialplan_details.rst:198
+#: ../../source/dialplan/dialplan_details.rst:213
+#: ../../source/dialplan/dialplan_details.rst:227
+#: ../../source/dialplan/dialplan_details.rst:246
+#: ../../source/dialplan/dialplan_details.rst:271
+#: ../../source/dialplan/dialplan_details.rst:312
+#: ../../source/dialplan/dialplan_details.rst:324
+#: ../../source/dialplan/dialplan_details.rst:358
+#: ../../source/dialplan/dialplan_details.rst:379
+#: ../../source/dialplan/dialplan_details.rst:415
+#: ../../source/dialplan/dialplan_details.rst:428
+#: ../../source/dialplan/dialplan_details.rst:442
+#: ../../source/dialplan/dialplan_details.rst:462
+#: ../../source/dialplan/dialplan_details.rst:479
+#: ../../source/dialplan/dialplan_details.rst:505
+#: ../../source/dialplan/dialplan_details.rst:517
+#: ../../source/dialplan/dialplan_details.rst:531
+#: ../../source/dialplan/dialplan_details.rst:570
+#: ../../source/dialplan/dialplan_details.rst:615
+#: ../../source/dialplan/dialplan_details.rst:632
+#: ../../source/dialplan/dialplan_details.rst:644
+#: ../../source/dialplan/dialplan_details.rst:658
+#: ../../source/dialplan/dialplan_details.rst:671
+#: ../../source/dialplan/dialplan_details.rst:684
+#: ../../source/dialplan/dialplan_details.rst:752
+#: ../../source/dialplan/dialplan_details.rst:754
+#: ../../source/dialplan/dialplan_details.rst:756
+#: ../../source/dialplan/dialplan_details.rst:758
+#: ../../source/dialplan/dialplan_details.rst:760
+#: ../../source/dialplan/dialplan_details.rst:762
+#: ../../source/dialplan/dialplan_details.rst:764
+#: ../../source/dialplan/dialplan_details.rst:776
+#: ../../source/dialplan/dialplan_details.rst:792
+#: ../../source/dialplan/dialplan_details.rst:805
+#: ../../source/dialplan/dialplan_details.rst:825
+#: ../../source/dialplan/dialplan_details.rst:844
+#: ../../source/dialplan/dialplan_details.rst:926
+#: ../../source/dialplan/dialplan_details.rst:946
+#: ../../source/dialplan/dialplan_details.rst:963
+#: ../../source/dialplan/dialplan_details.rst:977
+#: ../../source/dialplan/dialplan_details.rst:1004
+#: ../../source/dialplan/dialplan_details.rst:1023
+#: ../../source/dialplan/dialplan_details.rst:1040
+#: ../../source/dialplan/dialplan_details.rst:1055
+#: ../../source/dialplan/dialplan_details.rst:1071
+#: ../../source/dialplan/dialplan_details.rst:1089
+#: ../../source/dialplan/dialplan_details.rst:1103
+#: ../../source/dialplan/dialplan_details.rst:1129
+msgid "10"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:25
+msgid "log"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:25
+msgid "[inbound routes] 404 not found ${sip_network_ip}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:25
+#: ../../source/dialplan/dialplan_details.rst:39
+#: ../../source/dialplan/dialplan_details.rst:53
+#: ../../source/dialplan/dialplan_details.rst:67
+#: ../../source/dialplan/dialplan_details.rst:86
+#: ../../source/dialplan/dialplan_details.rst:141
+#: ../../source/dialplan/dialplan_details.rst:172
+#: ../../source/dialplan/dialplan_details.rst:200
+#: ../../source/dialplan/dialplan_details.rst:215
+#: ../../source/dialplan/dialplan_details.rst:229
+#: ../../source/dialplan/dialplan_details.rst:248
+#: ../../source/dialplan/dialplan_details.rst:273
+#: ../../source/dialplan/dialplan_details.rst:326
+#: ../../source/dialplan/dialplan_details.rst:360
+#: ../../source/dialplan/dialplan_details.rst:381
+#: ../../source/dialplan/dialplan_details.rst:430
+#: ../../source/dialplan/dialplan_details.rst:444
+#: ../../source/dialplan/dialplan_details.rst:464
+#: ../../source/dialplan/dialplan_details.rst:481
+#: ../../source/dialplan/dialplan_details.rst:519
+#: ../../source/dialplan/dialplan_details.rst:533
+#: ../../source/dialplan/dialplan_details.rst:617
+#: ../../source/dialplan/dialplan_details.rst:646
+#: ../../source/dialplan/dialplan_details.rst:686
+#: ../../source/dialplan/dialplan_details.rst:807
+#: ../../source/dialplan/dialplan_details.rst:827
+#: ../../source/dialplan/dialplan_details.rst:846
+#: ../../source/dialplan/dialplan_details.rst:928
+#: ../../source/dialplan/dialplan_details.rst:948
+#: ../../source/dialplan/dialplan_details.rst:979
+#: ../../source/dialplan/dialplan_details.rst:1006
+#: ../../source/dialplan/dialplan_details.rst:1025
+#: ../../source/dialplan/dialplan_details.rst:1042
+#: ../../source/dialplan/dialplan_details.rst:1057
+#: ../../source/dialplan/dialplan_details.rst:1073
+#: ../../source/dialplan/dialplan_details.rst:1091
+#: ../../source/dialplan/dialplan_details.rst:1105
+#: ../../source/dialplan/dialplan_details.rst:1131
+msgid "15"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:30
+msgid "Call Forward All"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:35
+#: ../../source/dialplan/dialplan_details.rst:101
+#: ../../source/dialplan/dialplan_details.rst:572
+#: ../../source/dialplan/dialplan_details.rst:669
+#: ../../source/dialplan/dialplan_details.rst:688
+#: ../../source/dialplan/dialplan_details.rst:694
+#: ../../source/dialplan/dialplan_details.rst:702
+#: ../../source/dialplan/dialplan_details.rst:710
+#: ../../source/dialplan/dialplan_details.rst:1069
+msgid "${user_exists}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:37
+msgid "${forward_all_enabled}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:39
+#: ../../source/dialplan/dialplan_details.rst:468
+#: ../../source/dialplan/dialplan_details.rst:549
+#: ../../source/dialplan/dialplan_details.rst:776
+#: ../../source/dialplan/dialplan_details.rst:858
+#: ../../source/dialplan/dialplan_details.rst:963
+#: ../../source/dialplan/dialplan_details.rst:1027
+#: ../../source/dialplan/dialplan_details.rst:1131
+msgid "transfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:39
+msgid "${forward_all_destination} XML ${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:44
+msgid "Intercept Ext Polycom"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:49
+#: ../../source/dialplan/dialplan_details.rst:63
+#: ../../source/dialplan/dialplan_details.rst:82
+#: ../../source/dialplan/dialplan_details.rst:103
+#: ../../source/dialplan/dialplan_details.rst:137
+#: ../../source/dialplan/dialplan_details.rst:168
+#: ../../source/dialplan/dialplan_details.rst:196
+#: ../../source/dialplan/dialplan_details.rst:211
+#: ../../source/dialplan/dialplan_details.rst:225
+#: ../../source/dialplan/dialplan_details.rst:244
+#: ../../source/dialplan/dialplan_details.rst:252
+#: ../../source/dialplan/dialplan_details.rst:269
+#: ../../source/dialplan/dialplan_details.rst:277
+#: ../../source/dialplan/dialplan_details.rst:285
+#: ../../source/dialplan/dialplan_details.rst:293
+#: ../../source/dialplan/dialplan_details.rst:322
+#: ../../source/dialplan/dialplan_details.rst:328
+#: ../../source/dialplan/dialplan_details.rst:334
+#: ../../source/dialplan/dialplan_details.rst:340
+#: ../../source/dialplan/dialplan_details.rst:356
+#: ../../source/dialplan/dialplan_details.rst:377
+#: ../../source/dialplan/dialplan_details.rst:389
+#: ../../source/dialplan/dialplan_details.rst:413
+#: ../../source/dialplan/dialplan_details.rst:426
+#: ../../source/dialplan/dialplan_details.rst:440
+#: ../../source/dialplan/dialplan_details.rst:460
+#: ../../source/dialplan/dialplan_details.rst:477
+#: ../../source/dialplan/dialplan_details.rst:503
+#: ../../source/dialplan/dialplan_details.rst:515
+#: ../../source/dialplan/dialplan_details.rst:529
+#: ../../source/dialplan/dialplan_details.rst:535
+#: ../../source/dialplan/dialplan_details.rst:541
+#: ../../source/dialplan/dialplan_details.rst:774
+#: ../../source/dialplan/dialplan_details.rst:790
+#: ../../source/dialplan/dialplan_details.rst:823
+#: ../../source/dialplan/dialplan_details.rst:842
+#: ../../source/dialplan/dialplan_details.rst:860
+#: ../../source/dialplan/dialplan_details.rst:868
+#: ../../source/dialplan/dialplan_details.rst:876
+#: ../../source/dialplan/dialplan_details.rst:880
+#: ../../source/dialplan/dialplan_details.rst:884
+#: ../../source/dialplan/dialplan_details.rst:892
+#: ../../source/dialplan/dialplan_details.rst:898
+#: ../../source/dialplan/dialplan_details.rst:912
+#: ../../source/dialplan/dialplan_details.rst:924
+#: ../../source/dialplan/dialplan_details.rst:944
+#: ../../source/dialplan/dialplan_details.rst:961
+#: ../../source/dialplan/dialplan_details.rst:975
+#: ../../source/dialplan/dialplan_details.rst:1002
+#: ../../source/dialplan/dialplan_details.rst:1021
+#: ../../source/dialplan/dialplan_details.rst:1038
+#: ../../source/dialplan/dialplan_details.rst:1053
+#: ../../source/dialplan/dialplan_details.rst:1087
+#: ../../source/dialplan/dialplan_details.rst:1127
+msgid "destination_number"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:49
+msgid "^\\*97(\\d+)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:51
+#: ../../source/dialplan/dialplan_details.rst:65
+#: ../../source/dialplan/dialplan_details.rst:84
+#: ../../source/dialplan/dialplan_details.rst:139
+#: ../../source/dialplan/dialplan_details.rst:172
+#: ../../source/dialplan/dialplan_details.rst:180
+#: ../../source/dialplan/dialplan_details.rst:227
+#: ../../source/dialplan/dialplan_details.rst:358
+#: ../../source/dialplan/dialplan_details.rst:379
+#: ../../source/dialplan/dialplan_details.rst:391
+#: ../../source/dialplan/dialplan_details.rst:428
+#: ../../source/dialplan/dialplan_details.rst:442
+#: ../../source/dialplan/dialplan_details.rst:517
+#: ../../source/dialplan/dialplan_details.rst:831
+#: ../../source/dialplan/dialplan_details.rst:906
+#: ../../source/dialplan/dialplan_details.rst:946
+#: ../../source/dialplan/dialplan_details.rst:1004
+#: ../../source/dialplan/dialplan_details.rst:1023
+#: ../../source/dialplan/dialplan_details.rst:1055
+#: ../../source/dialplan/dialplan_details.rst:1073
+#: ../../source/dialplan/dialplan_details.rst:1129
+msgid "answer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:53
+#: ../../source/dialplan/dialplan_details.rst:200
+#: ../../source/dialplan/dialplan_details.rst:215
+#: ../../source/dialplan/dialplan_details.rst:233
+#: ../../source/dialplan/dialplan_details.rst:250
+#: ../../source/dialplan/dialplan_details.rst:258
+#: ../../source/dialplan/dialplan_details.rst:275
+#: ../../source/dialplan/dialplan_details.rst:283
+#: ../../source/dialplan/dialplan_details.rst:291
+#: ../../source/dialplan/dialplan_details.rst:299
+#: ../../source/dialplan/dialplan_details.rst:312
+#: ../../source/dialplan/dialplan_details.rst:326
+#: ../../source/dialplan/dialplan_details.rst:332
+#: ../../source/dialplan/dialplan_details.rst:338
+#: ../../source/dialplan/dialplan_details.rst:344
+#: ../../source/dialplan/dialplan_details.rst:368
+#: ../../source/dialplan/dialplan_details.rst:387
+#: ../../source/dialplan/dialplan_details.rst:403
+#: ../../source/dialplan/dialplan_details.rst:415
+#: ../../source/dialplan/dialplan_details.rst:430
+#: ../../source/dialplan/dialplan_details.rst:450
+#: ../../source/dialplan/dialplan_details.rst:493
+#: ../../source/dialplan/dialplan_details.rst:671
+#: ../../source/dialplan/dialplan_details.rst:792
+#: ../../source/dialplan/dialplan_details.rst:833
+#: ../../source/dialplan/dialplan_details.rst:914
+#: ../../source/dialplan/dialplan_details.rst:934
+#: ../../source/dialplan/dialplan_details.rst:950
+#: ../../source/dialplan/dialplan_details.rst:991
+#: ../../source/dialplan/dialplan_details.rst:1010
+#: ../../source/dialplan/dialplan_details.rst:1059
+msgid "lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:53
+msgid "intercept.lua $1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:58
+msgid "Talking Clock Date"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:63
+msgid "^\\*9171$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:67
+#: ../../source/dialplan/dialplan_details.rst:86
+#: ../../source/dialplan/dialplan_details.rst:141
+#: ../../source/dialplan/dialplan_details.rst:360
+#: ../../source/dialplan/dialplan_details.rst:381
+#: ../../source/dialplan/dialplan_details.rst:393
+#: ../../source/dialplan/dialplan_details.rst:1075
+msgid "sleep"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:67
+#: ../../source/dialplan/dialplan_details.rst:86
+#: ../../source/dialplan/dialplan_details.rst:141
+#: ../../source/dialplan/dialplan_details.rst:360
+#: ../../source/dialplan/dialplan_details.rst:381
+#: ../../source/dialplan/dialplan_details.rst:393
+msgid "1000"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:69
+#: ../../source/dialplan/dialplan_details.rst:88
+#: ../../source/dialplan/dialplan_details.rst:143
+msgid "say"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:69
+msgid "${default_language} CURRENT_DATE pronounced ${strepoch()}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:69
+#: ../../source/dialplan/dialplan_details.rst:88
+#: ../../source/dialplan/dialplan_details.rst:105
+#: ../../source/dialplan/dialplan_details.rst:143
+#: ../../source/dialplan/dialplan_details.rst:174
+#: ../../source/dialplan/dialplan_details.rst:231
+#: ../../source/dialplan/dialplan_details.rst:250
+#: ../../source/dialplan/dialplan_details.rst:275
+#: ../../source/dialplan/dialplan_details.rst:362
+#: ../../source/dialplan/dialplan_details.rst:383
+#: ../../source/dialplan/dialplan_details.rst:446
+#: ../../source/dialplan/dialplan_details.rst:466
+#: ../../source/dialplan/dialplan_details.rst:483
+#: ../../source/dialplan/dialplan_details.rst:572
+#: ../../source/dialplan/dialplan_details.rst:619
+#: ../../source/dialplan/dialplan_details.rst:778
+#: ../../source/dialplan/dialplan_details.rst:848
+#: ../../source/dialplan/dialplan_details.rst:930
+#: ../../source/dialplan/dialplan_details.rst:950
+#: ../../source/dialplan/dialplan_details.rst:981
+#: ../../source/dialplan/dialplan_details.rst:1008
+#: ../../source/dialplan/dialplan_details.rst:1027
+#: ../../source/dialplan/dialplan_details.rst:1044
+#: ../../source/dialplan/dialplan_details.rst:1059
+#: ../../source/dialplan/dialplan_details.rst:1075
+msgid "20"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:71
+#: ../../source/dialplan/dialplan_details.rst:90
+#: ../../source/dialplan/dialplan_details.rst:145
+msgid "hangup"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:71
+#: ../../source/dialplan/dialplan_details.rst:90
+#: ../../source/dialplan/dialplan_details.rst:145
+#: ../../source/dialplan/dialplan_details.rst:176
+#: ../../source/dialplan/dialplan_details.rst:233
+#: ../../source/dialplan/dialplan_details.rst:328
+#: ../../source/dialplan/dialplan_details.rst:364
+#: ../../source/dialplan/dialplan_details.rst:385
+#: ../../source/dialplan/dialplan_details.rst:448
+#: ../../source/dialplan/dialplan_details.rst:468
+#: ../../source/dialplan/dialplan_details.rst:485
+#: ../../source/dialplan/dialplan_details.rst:535
+#: ../../source/dialplan/dialplan_details.rst:574
+#: ../../source/dialplan/dialplan_details.rst:688
+#: ../../source/dialplan/dialplan_details.rst:780
+#: ../../source/dialplan/dialplan_details.rst:809
+#: ../../source/dialplan/dialplan_details.rst:829
+#: ../../source/dialplan/dialplan_details.rst:850
+#: ../../source/dialplan/dialplan_details.rst:932
+#: ../../source/dialplan/dialplan_details.rst:983
+#: ../../source/dialplan/dialplan_details.rst:1010
+#: ../../source/dialplan/dialplan_details.rst:1077
+#: ../../source/dialplan/dialplan_details.rst:1107
+msgid "25"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:76
+msgid "Talking Clock Date And Time"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:82
+msgid "^\\*9172$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:88
+msgid "${default_language} CURRENT_DATE_TIME pronounced ${strepoch()}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:95
+msgid "Outbound Route Example"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:101
+#: ../../source/dialplan/dialplan_details.rst:669
+#: ../../source/dialplan/dialplan_details.rst:764
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:103
+msgid "^\\+?1?(\\d{10})$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:105
+msgid "sip_h_X-accountcode=${accountcode}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:107
+#: ../../source/dialplan/dialplan_details.rst:632
+#: ../../source/dialplan/dialplan_details.rst:644
+#: ../../source/dialplan/dialplan_details.rst:1089
+msgid "export"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:107
+msgid "call_direction=outbound"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:107
+#: ../../source/dialplan/dialplan_details.rst:178
+#: ../../source/dialplan/dialplan_details.rst:252
+#: ../../source/dialplan/dialplan_details.rst:277
+#: ../../source/dialplan/dialplan_details.rst:330
+#: ../../source/dialplan/dialplan_details.rst:366
+#: ../../source/dialplan/dialplan_details.rst:387
+#: ../../source/dialplan/dialplan_details.rst:450
+#: ../../source/dialplan/dialplan_details.rst:487
+#: ../../source/dialplan/dialplan_details.rst:537
+#: ../../source/dialplan/dialplan_details.rst:576
+#: ../../source/dialplan/dialplan_details.rst:690
+#: ../../source/dialplan/dialplan_details.rst:811
+#: ../../source/dialplan/dialplan_details.rst:831
+#: ../../source/dialplan/dialplan_details.rst:852
+#: ../../source/dialplan/dialplan_details.rst:934
+#: ../../source/dialplan/dialplan_details.rst:985
+#: ../../source/dialplan/dialplan_details.rst:1109
+msgid "30"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:109
+msgid "unset"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:109
+msgid "call_timeout"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:109
+#: ../../source/dialplan/dialplan_details.rst:182
+#: ../../source/dialplan/dialplan_details.rst:256
+#: ../../source/dialplan/dialplan_details.rst:281
+#: ../../source/dialplan/dialplan_details.rst:389
+#: ../../source/dialplan/dialplan_details.rst:491
+#: ../../source/dialplan/dialplan_details.rst:580
+#: ../../source/dialplan/dialplan_details.rst:856
+#: ../../source/dialplan/dialplan_details.rst:989
+#: ../../source/dialplan/dialplan_details.rst:1113
+msgid "40"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:111
+msgid "hangup_after_bridge=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:111
+#: ../../source/dialplan/dialplan_details.rst:186
+#: ../../source/dialplan/dialplan_details.rst:336
+#: ../../source/dialplan/dialplan_details.rst:393
+#: ../../source/dialplan/dialplan_details.rst:543
+#: ../../source/dialplan/dialplan_details.rst:584
+#: ../../source/dialplan/dialplan_details.rst:696
+#: ../../source/dialplan/dialplan_details.rst:1117
+msgid "50"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:113
+msgid "effective_caller_id_name=${outbound_caller_id_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:113
+#: ../../source/dialplan/dialplan_details.rst:287
+#: ../../source/dialplan/dialplan_details.rst:397
+#: ../../source/dialplan/dialplan_details.rst:588
+#: ../../source/dialplan/dialplan_details.rst:700
+#: ../../source/dialplan/dialplan_details.rst:862
+msgid "60"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:115
+msgid "effective_caller_id_number=${outbound_caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:115
+#: ../../source/dialplan/dialplan_details.rst:291
+#: ../../source/dialplan/dialplan_details.rst:342
+#: ../../source/dialplan/dialplan_details.rst:401
+#: ../../source/dialplan/dialplan_details.rst:549
+#: ../../source/dialplan/dialplan_details.rst:592
+#: ../../source/dialplan/dialplan_details.rst:702
+#: ../../source/dialplan/dialplan_details.rst:866
+msgid "70"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:117
+msgid "inherit_codec=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:117
+#: ../../source/dialplan/dialplan_details.rst:293
+#: ../../source/dialplan/dialplan_details.rst:553
+#: ../../source/dialplan/dialplan_details.rst:596
+#: ../../source/dialplan/dialplan_details.rst:706
+#: ../../source/dialplan/dialplan_details.rst:868
+msgid "80"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:119
+msgid "ignore_display_updates=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:119
+#: ../../source/dialplan/dialplan_details.rst:297
+#: ../../source/dialplan/dialplan_details.rst:557
+#: ../../source/dialplan/dialplan_details.rst:600
+#: ../../source/dialplan/dialplan_details.rst:872
+msgid "90"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:121
+msgid "callee_id_number=$1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:121
+#: ../../source/dialplan/dialplan_details.rst:604
+#: ../../source/dialplan/dialplan_details.rst:712
+msgid "100"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:123
+#: ../../source/dialplan/dialplan_details.rst:856
+msgid "continue_on_fail=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:123
+#: ../../source/dialplan/dialplan_details.rst:716
+#: ../../source/dialplan/dialplan_details.rst:878
+msgid "110"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:125
+#: ../../source/dialplan/dialplan_details.rst:127
+#: ../../source/dialplan/dialplan_details.rst:888
+#: ../../source/dialplan/dialplan_details.rst:1091
+msgid "bridge"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:125
+#: ../../source/dialplan/dialplan_details.rst:127
+msgid "sofia/gateway/72d236fb-945b-4c86-8e75-af7c6bcf2862/$1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:125
+#: ../../source/dialplan/dialplan_details.rst:718
+#: ../../source/dialplan/dialplan_details.rst:880
+msgid "120"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:127
+msgid "130"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:132
+msgid "Talking Clock Time"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:137
+msgid "^\\*9170$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:143
+msgid "${default_language} CURRENT_TIME pronounced ${strepoch()}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:157
+msgid "Domain Specific"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:159
+msgid ""
+"Domain specific dialplans are all the same initially but can be changed."
+"  Those changes are per domain, thus helps FusionPBX acheive "
+"multitennancy."
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:163
+msgid "Hold Music"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:168
+msgid "^\\*9664$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:170
+msgid "${sip_has_crypto}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:170
+msgid "^(AES_CM_128_HMAC_SHA1_32|AES_CM_128_HMAC_SHA1_80)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:174
+#: ../../source/dialplan/dialplan_details.rst:184
+#: ../../source/dialplan/dialplan_details.rst:874
+#: ../../source/dialplan/dialplan_details.rst:878
+#: ../../source/dialplan/dialplan_details.rst:882
+#: ../../source/dialplan/dialplan_details.rst:890
+#: ../../source/dialplan/dialplan_details.rst:896
+msgid "execute_extension"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:174
+msgid "is_secure XML ${context}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:176
+#: ../../source/dialplan/dialplan_details.rst:182
+#: ../../source/dialplan/dialplan_details.rst:186
+#: ../../source/dialplan/dialplan_details.rst:894
+#: ../../source/dialplan/dialplan_details.rst:908
+#: ../../source/dialplan/dialplan_details.rst:1077
+msgid "playback"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:176
+#: ../../source/dialplan/dialplan_details.rst:186
+msgid "$${hold_music}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:178
+#: ../../source/dialplan/dialplan_details.rst:180
+#: ../../source/dialplan/dialplan_details.rst:182
+#: ../../source/dialplan/dialplan_details.rst:184
+#: ../../source/dialplan/dialplan_details.rst:186
+#: ../../source/dialplan/dialplan_details.rst:551
+#: ../../source/dialplan/dialplan_details.rst:553
+#: ../../source/dialplan/dialplan_details.rst:555
+#: ../../source/dialplan/dialplan_details.rst:557
+#: ../../source/dialplan/dialplan_details.rst:632
+#: ../../source/dialplan/dialplan_details.rst:1105
+msgid "anti-action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:178
+msgid "zrtp_secure_media=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:180
+#: ../../source/dialplan/dialplan_details.rst:254
+#: ../../source/dialplan/dialplan_details.rst:279
+#: ../../source/dialplan/dialplan_details.rst:332
+#: ../../source/dialplan/dialplan_details.rst:368
+#: ../../source/dialplan/dialplan_details.rst:489
+#: ../../source/dialplan/dialplan_details.rst:539
+#: ../../source/dialplan/dialplan_details.rst:578
+#: ../../source/dialplan/dialplan_details.rst:692
+#: ../../source/dialplan/dialplan_details.rst:813
+#: ../../source/dialplan/dialplan_details.rst:833
+#: ../../source/dialplan/dialplan_details.rst:854
+#: ../../source/dialplan/dialplan_details.rst:987
+#: ../../source/dialplan/dialplan_details.rst:1111
+msgid "35"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:182
+msgid "silence_stream://2000"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:184
+msgid "is_zrtp_secure XML ${context}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:184
+#: ../../source/dialplan/dialplan_details.rst:258
+#: ../../source/dialplan/dialplan_details.rst:283
+#: ../../source/dialplan/dialplan_details.rst:334
+#: ../../source/dialplan/dialplan_details.rst:391
+#: ../../source/dialplan/dialplan_details.rst:493
+#: ../../source/dialplan/dialplan_details.rst:541
+#: ../../source/dialplan/dialplan_details.rst:582
+#: ../../source/dialplan/dialplan_details.rst:694
+#: ../../source/dialplan/dialplan_details.rst:858
+#: ../../source/dialplan/dialplan_details.rst:991
+#: ../../source/dialplan/dialplan_details.rst:1115
+msgid "45"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:191
+msgid "Agent Status"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:196
+msgid "^\\*22$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:198
+msgid "agent_id=${sip_from_user}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:200
+#: ../../source/dialplan/dialplan_details.rst:215
+msgid "app.lua agent_status"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:205
+msgid "Agent Status ID"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:211
+msgid "^\\*23$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:213
+msgid "agent_id="
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:220
+msgid "DISA"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:225
+msgid "^\\*(3472)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:229
+msgid "pin_number=36227215"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:231
+msgid "dialplan_context=${context}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:233
+msgid "disa.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:239
+msgid "Provision"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:244
+msgid "^\\*11$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:244
+#: ../../source/dialplan/dialplan_details.rst:269
+#: ../../source/dialplan/dialplan_details.rst:277
+#: ../../source/dialplan/dialplan_details.rst:285
+#: ../../source/dialplan/dialplan_details.rst:293
+#: ../../source/dialplan/dialplan_details.rst:322
+#: ../../source/dialplan/dialplan_details.rst:328
+#: ../../source/dialplan/dialplan_details.rst:334
+#: ../../source/dialplan/dialplan_details.rst:340
+#: ../../source/dialplan/dialplan_details.rst:774
+#: ../../source/dialplan/dialplan_details.rst:825
+#: ../../source/dialplan/dialplan_details.rst:842
+#: ../../source/dialplan/dialplan_details.rst:860
+#: ../../source/dialplan/dialplan_details.rst:868
+#: ../../source/dialplan/dialplan_details.rst:876
+#: ../../source/dialplan/dialplan_details.rst:880
+#: ../../source/dialplan/dialplan_details.rst:884
+#: ../../source/dialplan/dialplan_details.rst:892
+#: ../../source/dialplan/dialplan_details.rst:898
+msgid "on-true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:246
+#: ../../source/dialplan/dialplan_details.rst:254
+msgid "reboot=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:248
+msgid "action=login"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:250
+#: ../../source/dialplan/dialplan_details.rst:258
+msgid "app.lua provision"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:252
+msgid "^\\*12$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:252
+#: ../../source/dialplan/dialplan_details.rst:254
+#: ../../source/dialplan/dialplan_details.rst:256
+#: ../../source/dialplan/dialplan_details.rst:258
+#: ../../source/dialplan/dialplan_details.rst:277
+#: ../../source/dialplan/dialplan_details.rst:279
+#: ../../source/dialplan/dialplan_details.rst:281
+#: ../../source/dialplan/dialplan_details.rst:283
+#: ../../source/dialplan/dialplan_details.rst:328
+#: ../../source/dialplan/dialplan_details.rst:330
+#: ../../source/dialplan/dialplan_details.rst:332
+#: ../../source/dialplan/dialplan_details.rst:389
+#: ../../source/dialplan/dialplan_details.rst:391
+#: ../../source/dialplan/dialplan_details.rst:393
+#: ../../source/dialplan/dialplan_details.rst:395
+#: ../../source/dialplan/dialplan_details.rst:397
+#: ../../source/dialplan/dialplan_details.rst:399
+#: ../../source/dialplan/dialplan_details.rst:401
+#: ../../source/dialplan/dialplan_details.rst:403
+#: ../../source/dialplan/dialplan_details.rst:535
+#: ../../source/dialplan/dialplan_details.rst:537
+#: ../../source/dialplan/dialplan_details.rst:539
+#: ../../source/dialplan/dialplan_details.rst:572
+#: ../../source/dialplan/dialplan_details.rst:574
+#: ../../source/dialplan/dialplan_details.rst:576
+#: ../../source/dialplan/dialplan_details.rst:578
+#: ../../source/dialplan/dialplan_details.rst:580
+#: ../../source/dialplan/dialplan_details.rst:582
+#: ../../source/dialplan/dialplan_details.rst:584
+#: ../../source/dialplan/dialplan_details.rst:586
+#: ../../source/dialplan/dialplan_details.rst:588
+#: ../../source/dialplan/dialplan_details.rst:590
+#: ../../source/dialplan/dialplan_details.rst:592
+#: ../../source/dialplan/dialplan_details.rst:594
+#: ../../source/dialplan/dialplan_details.rst:596
+#: ../../source/dialplan/dialplan_details.rst:598
+#: ../../source/dialplan/dialplan_details.rst:600
+#: ../../source/dialplan/dialplan_details.rst:602
+#: ../../source/dialplan/dialplan_details.rst:604
+#: ../../source/dialplan/dialplan_details.rst:688
+#: ../../source/dialplan/dialplan_details.rst:690
+#: ../../source/dialplan/dialplan_details.rst:692
+#: ../../source/dialplan/dialplan_details.rst:778
+#: ../../source/dialplan/dialplan_details.rst:780
+#: ../../source/dialplan/dialplan_details.rst:809
+#: ../../source/dialplan/dialplan_details.rst:811
+#: ../../source/dialplan/dialplan_details.rst:813
+#: ../../source/dialplan/dialplan_details.rst:829
+#: ../../source/dialplan/dialplan_details.rst:831
+#: ../../source/dialplan/dialplan_details.rst:833
+#: ../../source/dialplan/dialplan_details.rst:860
+#: ../../source/dialplan/dialplan_details.rst:862
+#: ../../source/dialplan/dialplan_details.rst:864
+#: ../../source/dialplan/dialplan_details.rst:866
+#: ../../source/dialplan/dialplan_details.rst:1107
+#: ../../source/dialplan/dialplan_details.rst:1109
+#: ../../source/dialplan/dialplan_details.rst:1111
+#: ../../source/dialplan/dialplan_details.rst:1113
+#: ../../source/dialplan/dialplan_details.rst:1115
+#: ../../source/dialplan/dialplan_details.rst:1117
+msgid "1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:256
+msgid "action=logout"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:264
+msgid "Call Forward"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:269
+msgid "^\\*72$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:271
+#: ../../source/dialplan/dialplan_details.rst:279
+#: ../../source/dialplan/dialplan_details.rst:287
+msgid "request_id=false"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:273
+#: ../../source/dialplan/dialplan_details.rst:330
+msgid "enabled=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:275
+#: ../../source/dialplan/dialplan_details.rst:283
+#: ../../source/dialplan/dialplan_details.rst:291
+#: ../../source/dialplan/dialplan_details.rst:299
+msgid "call_forward.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:277
+msgid "^\\*73$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:281
+#: ../../source/dialplan/dialplan_details.rst:336
+msgid "enabled=false"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:285
+msgid "^\\*74$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:285
+#: ../../source/dialplan/dialplan_details.rst:287
+#: ../../source/dialplan/dialplan_details.rst:289
+#: ../../source/dialplan/dialplan_details.rst:291
+#: ../../source/dialplan/dialplan_details.rst:334
+#: ../../source/dialplan/dialplan_details.rst:336
+#: ../../source/dialplan/dialplan_details.rst:338
+#: ../../source/dialplan/dialplan_details.rst:541
+#: ../../source/dialplan/dialplan_details.rst:543
+#: ../../source/dialplan/dialplan_details.rst:545
+#: ../../source/dialplan/dialplan_details.rst:694
+#: ../../source/dialplan/dialplan_details.rst:696
+#: ../../source/dialplan/dialplan_details.rst:698
+#: ../../source/dialplan/dialplan_details.rst:700
+#: ../../source/dialplan/dialplan_details.rst:868
+#: ../../source/dialplan/dialplan_details.rst:870
+#: ../../source/dialplan/dialplan_details.rst:872
+#: ../../source/dialplan/dialplan_details.rst:874
+msgid "2"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:285
+#: ../../source/dialplan/dialplan_details.rst:338
+#: ../../source/dialplan/dialplan_details.rst:395
+#: ../../source/dialplan/dialplan_details.rst:545
+#: ../../source/dialplan/dialplan_details.rst:586
+#: ../../source/dialplan/dialplan_details.rst:698
+#: ../../source/dialplan/dialplan_details.rst:860
+msgid "55"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:289
+#: ../../source/dialplan/dialplan_details.rst:295
+#: ../../source/dialplan/dialplan_details.rst:324
+#: ../../source/dialplan/dialplan_details.rst:342
+msgid "enabled=toggle"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:289
+#: ../../source/dialplan/dialplan_details.rst:340
+#: ../../source/dialplan/dialplan_details.rst:399
+#: ../../source/dialplan/dialplan_details.rst:547
+#: ../../source/dialplan/dialplan_details.rst:590
+#: ../../source/dialplan/dialplan_details.rst:864
+msgid "65"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:293
+msgid "^forward\\+(\\Q${caller_id_number}\\E)(?:\\/(\\d+))?$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:293
+#: ../../source/dialplan/dialplan_details.rst:295
+#: ../../source/dialplan/dialplan_details.rst:297
+#: ../../source/dialplan/dialplan_details.rst:299
+#: ../../source/dialplan/dialplan_details.rst:340
+#: ../../source/dialplan/dialplan_details.rst:342
+#: ../../source/dialplan/dialplan_details.rst:344
+#: ../../source/dialplan/dialplan_details.rst:547
+#: ../../source/dialplan/dialplan_details.rst:549
+#: ../../source/dialplan/dialplan_details.rst:551
+#: ../../source/dialplan/dialplan_details.rst:553
+#: ../../source/dialplan/dialplan_details.rst:555
+#: ../../source/dialplan/dialplan_details.rst:557
+#: ../../source/dialplan/dialplan_details.rst:702
+#: ../../source/dialplan/dialplan_details.rst:704
+#: ../../source/dialplan/dialplan_details.rst:706
+#: ../../source/dialplan/dialplan_details.rst:708
+#: ../../source/dialplan/dialplan_details.rst:876
+#: ../../source/dialplan/dialplan_details.rst:878
+msgid "3"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:295
+#: ../../source/dialplan/dialplan_details.rst:555
+#: ../../source/dialplan/dialplan_details.rst:598
+#: ../../source/dialplan/dialplan_details.rst:708
+#: ../../source/dialplan/dialplan_details.rst:870
+msgid "85"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:297
+msgid "forward_all_destination=$2"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:299
+#: ../../source/dialplan/dialplan_details.rst:602
+#: ../../source/dialplan/dialplan_details.rst:710
+#: ../../source/dialplan/dialplan_details.rst:874
+msgid "95"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:304
+msgid "Call Block"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:310
+#: ../../source/dialplan/dialplan_details.rst:630
+#: ../../source/dialplan/dialplan_details.rst:656
+#: ../../source/dialplan/dialplan_details.rst:696
+#: ../../source/dialplan/dialplan_details.rst:704
+#: ../../source/dialplan/dialplan_details.rst:712
+#: ../../source/dialplan/dialplan_details.rst:730
+#: ../../source/dialplan/dialplan_details.rst:738
+#: ../../source/dialplan/dialplan_details.rst:746
+msgid "${call_direction}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:310
+#: ../../source/dialplan/dialplan_details.rst:696
+#: ../../source/dialplan/dialplan_details.rst:698
+#: ../../source/dialplan/dialplan_details.rst:730
+#: ../../source/dialplan/dialplan_details.rst:732
+msgid "^inbound$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:312
+msgid "app.lua call_block"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:317
+msgid "Do Not Disturb"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:322
+msgid "^\\*77$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:326
+#: ../../source/dialplan/dialplan_details.rst:332
+#: ../../source/dialplan/dialplan_details.rst:338
+#: ../../source/dialplan/dialplan_details.rst:344
+msgid "do_not_disturb.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:328
+msgid "^\\*78$|\\*363$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:334
+msgid "^\\*79$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:340
+msgid "^dnd\\+${caller_id_number}$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:344
+#: ../../source/dialplan/dialplan_details.rst:403
+#: ../../source/dialplan/dialplan_details.rst:551
+#: ../../source/dialplan/dialplan_details.rst:594
+#: ../../source/dialplan/dialplan_details.rst:704
+msgid "75"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:351
+msgid "Voicemail(Vmain User)"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:356
+msgid "^\\*97$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:362
+#: ../../source/dialplan/dialplan_details.rst:383
+#: ../../source/dialplan/dialplan_details.rst:395
+msgid "voicemail_action=check"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:364
+msgid "voicemail_id=${caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:366
+#: ../../source/dialplan/dialplan_details.rst:385
+#: ../../source/dialplan/dialplan_details.rst:399
+msgid "voicemail_profile=default"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:368
+#: ../../source/dialplan/dialplan_details.rst:387
+#: ../../source/dialplan/dialplan_details.rst:403
+msgid "app.lua voicemail"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:372
+msgid "Vmain"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:377
+msgid "^vmain$|^\\*4000$|^\\*98$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:377
+#: ../../source/dialplan/dialplan_details.rst:529
+#: ../../source/dialplan/dialplan_details.rst:531
+#: ../../source/dialplan/dialplan_details.rst:535
+#: ../../source/dialplan/dialplan_details.rst:543
+#: ../../source/dialplan/dialplan_details.rst:547
+#: ../../source/dialplan/dialplan_details.rst:613
+#: ../../source/dialplan/dialplan_details.rst:630
+#: ../../source/dialplan/dialplan_details.rst:688
+#: ../../source/dialplan/dialplan_details.rst:690
+#: ../../source/dialplan/dialplan_details.rst:694
+#: ../../source/dialplan/dialplan_details.rst:696
+#: ../../source/dialplan/dialplan_details.rst:698
+#: ../../source/dialplan/dialplan_details.rst:702
+#: ../../source/dialplan/dialplan_details.rst:704
+#: ../../source/dialplan/dialplan_details.rst:706
+#: ../../source/dialplan/dialplan_details.rst:710
+#: ../../source/dialplan/dialplan_details.rst:712
+#: ../../source/dialplan/dialplan_details.rst:714
+#: ../../source/dialplan/dialplan_details.rst:718
+#: ../../source/dialplan/dialplan_details.rst:722
+#: ../../source/dialplan/dialplan_details.rst:724
+#: ../../source/dialplan/dialplan_details.rst:728
+#: ../../source/dialplan/dialplan_details.rst:730
+#: ../../source/dialplan/dialplan_details.rst:732
+#: ../../source/dialplan/dialplan_details.rst:736
+#: ../../source/dialplan/dialplan_details.rst:738
+#: ../../source/dialplan/dialplan_details.rst:740
+#: ../../source/dialplan/dialplan_details.rst:744
+#: ../../source/dialplan/dialplan_details.rst:746
+#: ../../source/dialplan/dialplan_details.rst:748
+#: ../../source/dialplan/dialplan_details.rst:778
+#: ../../source/dialplan/dialplan_details.rst:803
+#: ../../source/dialplan/dialplan_details.rst:809
+#: ../../source/dialplan/dialplan_details.rst:1101
+msgid "never"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:389
+msgid "^(vmain$|^\\*4000$|^\\*98)(\\d{2,12})$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:397
+msgid "voicemail_id=$2"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:401
+msgid "voicemail_authorized=false"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:408
+msgid "Directory"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:413
+msgid "^\\*411$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:415
+msgid "directory.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:421
+msgid "Follow Me"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:426
+msgid "^\\*21$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:430
+msgid "follow_me.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:435
+msgid "Recordings"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:440
+msgid "^\\*(732)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:444
+msgid "pin_number=37775310"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:446
+msgid "recording_slots=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:448
+msgid "recording_prefix=recording"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:450
+msgid "recordings.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:455
+msgid "Call Privacy"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:460
+msgid "^\\*67(\\d+)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:462
+msgid "privacy"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:462
+msgid "full"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:464
+msgid "sip_h_Privacy=id"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:466
+msgid "privacy=yes"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:468
+msgid "$1 XML ${context}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:472
+msgid "Page"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:477
+msgid "^\\*724$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:479
+msgid "caller_id_name=Page"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:481
+msgid "caller_id_number="
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:483
+msgid "pin_number=48760243"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:485
+msgid "destinations=101-103,105"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:487
+#: ../../source/dialplan/dialplan_details.rst:932
+msgid "moderator=false"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:489
+#: ../../source/dialplan/dialplan_details.rst:930
+msgid "mute=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:491
+msgid "set api_hangup_hook=conference page-${destination_number} kick all"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:493
+#: ../../source/dialplan/dialplan_details.rst:934
+msgid "page.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:498
+msgid "Valet Park In"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:503
+msgid "^(park\\+)?(\\*5900)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:505
+#: ../../source/dialplan/dialplan_details.rst:519
+#: ../../source/dialplan/dialplan_details.rst:557
+msgid "valet_park"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:505
+msgid "park@${domain_name} auto in 5901 5999"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:510
+msgid "Valet Park Out"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:515
+msgid "^(park\\+)?\\*(59[0-9][0-9])$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:519
+msgid "park@${domain_name} $2"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:524
+msgid "Valet Parking"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:529
+#: ../../source/dialplan/dialplan_details.rst:535
+#: ../../source/dialplan/dialplan_details.rst:541
+msgid "^(park\\+)?(\\*59[0-9][0-9])$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:531
+msgid "${sip_h_Referred-By}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:531
+msgid "sip:(.*)@.*"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:533
+msgid "referred_by_user=$1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:537
+msgid "park_in_use=false"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:539
+msgid "park_lot=$2"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:543
+msgid "${cond ${sip_h_Referred-By} == '' ? false : true}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:545
+msgid "park_in_use=${regex ${valet_info park@${domain_name}}|${park_lot}}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:547
+msgid "${park_in_use}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:549
+msgid "${referred_by_user} XML ${context}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:551
+msgid "valet_parking_timeout=180"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:553
+msgid "valet_hold_music=${hold_music}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:555
+msgid "valet_parking_orbit_exten=${referred_by_user}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:557
+msgid "park@${domain_name} ${park_lot}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:562
+msgid "User Exists"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:570
+msgid "user_exists=${user_exists id ${destination_number} ${domain_name}}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:572
+#: ../../source/dialplan/dialplan_details.rst:688
+#: ../../source/dialplan/dialplan_details.rst:694
+#: ../../source/dialplan/dialplan_details.rst:702
+#: ../../source/dialplan/dialplan_details.rst:710
+#: ../../source/dialplan/dialplan_details.rst:718
+#: ../../source/dialplan/dialplan_details.rst:722
+#: ../../source/dialplan/dialplan_details.rst:728
+#: ../../source/dialplan/dialplan_details.rst:736
+#: ../../source/dialplan/dialplan_details.rst:744
+#: ../../source/dialplan/dialplan_details.rst:752
+#: ../../source/dialplan/dialplan_details.rst:1069
+msgid "^true$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:574
+msgid ""
+"extension_uuid=${user_data ${destination_number}@${domain_name} var "
+"extension_uuid}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:576
+msgid ""
+"hold_music=${user_data ${destination_number}@${domain_name} var "
+"hold_music}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:578
+msgid ""
+"forward_all_enabled=${user_data ${destination_number}@${domain_name} var "
+"forward_all_enabled}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:580
+msgid ""
+"forward_all_destination=${user_data ${destination_number}@${domain_name} "
+"var forward_all_destination}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:582
+msgid ""
+"forward_busy_enabled=${user_data ${destination_number}@${domain_name} var"
+" forward_busy_enabled}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:584
+msgid ""
+"forward_busy_destination=${user_data ${destination_number}@${domain_name}"
+" var forward_busy_destination}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:586
+msgid ""
+"forward_no_answer_enabled=${user_data "
+"${destination_number}@${domain_name} var forward_no_answer_enabled}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:588
+msgid ""
+"forward_no_answer_destination=${user_data "
+"${destination_number}@${domain_name} var forward_no_answer_destination}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:590
+msgid ""
+"forward_user_not_registered_enabled=${user_data "
+"${destination_number}@${domain_name} var "
+"forward_user_not_registered_enabled}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:592
+msgid ""
+"forward_user_not_registered_destination=${user_data "
+"${destination_number}@${domain_name} var "
+"forward_user_not_registered_destination}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:594
+msgid ""
+"do_not_disturb=${user_data ${destination_number}@${domain_name} var "
+"do_not_disturb}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:596
+msgid ""
+"call_timeout=${user_data ${destination_number}@${domain_name} var "
+"call_timeout}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:598
+msgid ""
+"missed_call_app=${user_data ${destination_number}@${domain_name} var "
+"missed_call_app}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:600
+msgid ""
+"missed_call_data=${user_data ${destination_number}@${domain_name} var "
+"missed_call_data}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:602
+msgid ""
+"toll_allow=${user_data ${destination_number}@${domain_name} var "
+"toll_allow}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:604
+msgid ""
+"call_screen_enabled=${user_data ${destination_number}@${domain_name} var "
+"call_screen_enabled}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:608
+msgid "Caller Details"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:615
+msgid "caller_destination=${destination_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:617
+msgid "caller_id_name=${caller_id_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:619
+msgid "caller_id_number=${caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:624
+msgid "Call Direction"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:630
+msgid "^(inbound|outbound|local)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:632
+msgid "call_direction=local"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:637
+msgid "Variables"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:644
+msgid "origination_callee_id_name=${destination_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:646
+#, python-format
+msgid "RFC2822_DATE=${strftime(%a, %d %b %Y %T %z)}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:651
+msgid "Call Limit"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:656
+msgid "^(inbound|outbound)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:658
+msgid "limit"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:658
+msgid "hash inbound ${domain_uuid} ${max_calls} !USER_BUSY"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:663
+msgid "Is Local"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:671
+msgid "app.lua is_local"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:676
+msgid "User Record"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:684
+msgid ""
+"user_record=${user_data ${destination_number}@${domain_name} var "
+"user_record}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:686
+msgid "from_user_exists=${user_exists id ${sip_from_user} ${sip_from_host}}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:690
+#: ../../source/dialplan/dialplan_details.rst:698
+#: ../../source/dialplan/dialplan_details.rst:706
+#: ../../source/dialplan/dialplan_details.rst:714
+msgid "${user_record}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:690
+#: ../../source/dialplan/dialplan_details.rst:724
+msgid "^all$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:692
+#: ../../source/dialplan/dialplan_details.rst:700
+#: ../../source/dialplan/dialplan_details.rst:708
+#: ../../source/dialplan/dialplan_details.rst:716
+#: ../../source/dialplan/dialplan_details.rst:726
+#: ../../source/dialplan/dialplan_details.rst:734
+#: ../../source/dialplan/dialplan_details.rst:742
+#: ../../source/dialplan/dialplan_details.rst:750
+msgid "record_session=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:704
+#: ../../source/dialplan/dialplan_details.rst:706
+#: ../../source/dialplan/dialplan_details.rst:738
+#: ../../source/dialplan/dialplan_details.rst:740
+msgid "^outbound$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:710
+#: ../../source/dialplan/dialplan_details.rst:712
+#: ../../source/dialplan/dialplan_details.rst:714
+#: ../../source/dialplan/dialplan_details.rst:716
+#: ../../source/dialplan/dialplan_details.rst:880
+#: ../../source/dialplan/dialplan_details.rst:882
+msgid "4"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:712
+#: ../../source/dialplan/dialplan_details.rst:714
+#: ../../source/dialplan/dialplan_details.rst:746
+#: ../../source/dialplan/dialplan_details.rst:748
+msgid "^local$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:714
+#: ../../source/dialplan/dialplan_details.rst:876
+msgid "105"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:718
+#: ../../source/dialplan/dialplan_details.rst:722
+#: ../../source/dialplan/dialplan_details.rst:728
+#: ../../source/dialplan/dialplan_details.rst:736
+#: ../../source/dialplan/dialplan_details.rst:744
+msgid "${from_user_exists}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:720
+msgid ""
+"from_user_record=${user_data ${sip_from_user}@${sip_from_host} var "
+"user_record}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:720
+#: ../../source/dialplan/dialplan_details.rst:882
+msgid "125"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:722
+#: ../../source/dialplan/dialplan_details.rst:724
+#: ../../source/dialplan/dialplan_details.rst:726
+#: ../../source/dialplan/dialplan_details.rst:892
+#: ../../source/dialplan/dialplan_details.rst:894
+#: ../../source/dialplan/dialplan_details.rst:896
+msgid "6"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:722
+#: ../../source/dialplan/dialplan_details.rst:884
+msgid "135"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:724
+#: ../../source/dialplan/dialplan_details.rst:732
+#: ../../source/dialplan/dialplan_details.rst:740
+#: ../../source/dialplan/dialplan_details.rst:748
+msgid "${from_user_record}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:724
+#: ../../source/dialplan/dialplan_details.rst:886
+msgid "140"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:726
+#: ../../source/dialplan/dialplan_details.rst:888
+msgid "145"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:728
+#: ../../source/dialplan/dialplan_details.rst:730
+#: ../../source/dialplan/dialplan_details.rst:732
+#: ../../source/dialplan/dialplan_details.rst:734
+#: ../../source/dialplan/dialplan_details.rst:898
+#: ../../source/dialplan/dialplan_details.rst:900
+#: ../../source/dialplan/dialplan_details.rst:902
+#: ../../source/dialplan/dialplan_details.rst:904
+#: ../../source/dialplan/dialplan_details.rst:906
+#: ../../source/dialplan/dialplan_details.rst:908
+#: ../../source/dialplan/dialplan_details.rst:910
+msgid "7"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:728
+msgid "155"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:730
+#: ../../source/dialplan/dialplan_details.rst:892
+msgid "160"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:732
+#: ../../source/dialplan/dialplan_details.rst:894
+msgid "165"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:734
+#: ../../source/dialplan/dialplan_details.rst:896
+msgid "170"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:736
+#: ../../source/dialplan/dialplan_details.rst:738
+#: ../../source/dialplan/dialplan_details.rst:740
+#: ../../source/dialplan/dialplan_details.rst:742
+#: ../../source/dialplan/dialplan_details.rst:912
+#: ../../source/dialplan/dialplan_details.rst:914
+msgid "8"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:736
+#: ../../source/dialplan/dialplan_details.rst:898
+msgid "180"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:738
+#: ../../source/dialplan/dialplan_details.rst:900
+msgid "185"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:740
+#: ../../source/dialplan/dialplan_details.rst:902
+msgid "190"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:742
+#: ../../source/dialplan/dialplan_details.rst:904
+msgid "195"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:744
+#: ../../source/dialplan/dialplan_details.rst:746
+#: ../../source/dialplan/dialplan_details.rst:748
+#: ../../source/dialplan/dialplan_details.rst:750
+msgid "9"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:744
+#: ../../source/dialplan/dialplan_details.rst:908
+msgid "205"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:746
+#: ../../source/dialplan/dialplan_details.rst:910
+msgid "210"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:748
+msgid "215"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:750
+#: ../../source/dialplan/dialplan_details.rst:912
+msgid "220"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:752
+msgid "${record_session}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:752
+msgid "230"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:754
+#, python-format
+msgid "record_path=${recordings_dir}/${domain_name}/archive/${strftime(%Y)}/${strftime(%b)}/${strftime(%d)}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:754
+msgid "235"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:756
+msgid "record_name=${uuid}.${record_ext}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:756
+msgid "240"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:758
+msgid "recording_follow_transfer=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:758
+msgid "245"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:760
+msgid "record_append=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:760
+msgid "250"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:762
+msgid "record_in_progress=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:762
+msgid "255"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:764
+msgid "record_session"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:764
+msgid "${record_path}/${record_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:764
+msgid "260"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:769
+msgid "Redial"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:774
+msgid "^(redial|\\*870)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:776
+msgid "${hash(select/${domain_name}-last_dial/${caller_id_number})}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:780
+msgid "hash"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:780
+msgid "insert/${domain_name}-last_dial/${caller_id_number}/${destination_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:785
+msgid "Speed Dial"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:790
+msgid "^\\*0(.*)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:792
+msgid "app.lua speed_dial $1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:797
+msgid "Default Caller ID"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:803
+msgid "${emergency_caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:803
+#: ../../source/dialplan/dialplan_details.rst:809
+msgid "^$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:805
+msgid "emergency_caller_id_name=${default_emergency_caller_id_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:807
+msgid "emergency_caller_id_number=${default_emergency_caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:809
+msgid "${outbound_caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:811
+msgid "outbound_caller_id_name=${default_outbound_caller_id_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:813
+msgid "outbound_caller_id_number=${default_outbound_caller_id_number}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:818
+msgid "Group Intercept"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:823
+msgid "^\\*8$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:825
+msgid "${sip_h_X-intercept_uuid}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:825
+msgid "^(.+)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:827
+msgid "intercept"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:827
+msgid "$1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:833
+msgid "intercept_group.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:837
+msgid "Conf Xfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:842
+msgid "^conf_add_begin$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:844
+msgid ""
+"api_result=${conference(${conf_xfer_number} unmute "
+"${conference_member_id} quiet)}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:846
+#: ../../source/dialplan/dialplan_details.rst:848
+#: ../../source/dialplan/dialplan_details.rst:850
+#: ../../source/dialplan/dialplan_details.rst:852
+#: ../../source/dialplan/dialplan_details.rst:854
+#: ../../source/dialplan/dialplan_details.rst:902
+#: ../../source/dialplan/dialplan_details.rst:1109
+#: ../../source/dialplan/dialplan_details.rst:1111
+#: ../../source/dialplan/dialplan_details.rst:1113
+#: ../../source/dialplan/dialplan_details.rst:1115
+msgid "bind_digit_action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:846
+msgid ""
+"conf-xfer,*0,api:lua,transfer2.lua ${uuid} conf_enter_number::XML::conf-"
+"xfer@${domain_name} conf_enter_to::XML::conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:848
+msgid ""
+"conf-xfer,##,api:lua,transfer2.lua ${uuid} conf_enter_number::XML::conf-"
+"xfer@${domain_name} ::KILL::"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:850
+msgid ""
+"conf-xfer,*#,api:lua,transfer2.lua ${uuid} conf_add_end::XML::conf-"
+"xfer@${domain_name} ::KILL::"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:852
+#: ../../source/dialplan/dialplan_details.rst:902
+msgid "conf,*#,exec:execute_extension,conf_add_begin XML conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:854
+msgid "none,NONE,api:sleep,1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:858
+#: ../../source/dialplan/dialplan_details.rst:896
+msgid "conf_enter_number XML conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:860
+msgid "^conf_add_end$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:862
+#: ../../source/dialplan/dialplan_details.rst:870
+#: ../../source/dialplan/dialplan_details.rst:886
+#: ../../source/dialplan/dialplan_details.rst:904
+#: ../../source/dialplan/dialplan_details.rst:1117
+msgid "digit_action_set_realm"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:862
+#: ../../source/dialplan/dialplan_details.rst:904
+msgid "conf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:864
+msgid "api_result=${conference(${conf_xfer_number} mute ${conference_member_id})}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:866
+#: ../../source/dialplan/dialplan_details.rst:910
+msgid "conference"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:866
+#: ../../source/dialplan/dialplan_details.rst:910
+msgid "${conf_xfer_number}@page"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:868
+msgid "^conf_enter_number$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:870
+msgid "none"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:872
+#: ../../source/dialplan/dialplan_details.rst:1025
+#: ../../source/dialplan/dialplan_details.rst:1040
+msgid "read"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:872
+msgid "2 11 'tone_stream://%(10000,0,350,440)' target_num 30000 #"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:874
+msgid "conf_bridge_${target_num} XML conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:876
+msgid "^conf_bridge_$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:878
+msgid "conf_add_end  XML conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:880
+msgid "^conf_bridge_\\*$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:882
+msgid "conf_add_end XML conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:884
+msgid "^conf_bridge_(\\d{2,7})$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:886
+msgid "conf-xfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:888
+msgid ""
+"{conf_xfer_number=${conf_xfer_number},transfer_after_bridge=conf_enter_to:XML"
+":conf-xfer@${domain_name}}user/$1@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:890
+msgid "conf_enter_number  XML conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:890
+msgid "150"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:892
+msgid "^conf_bridge_"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:894
+msgid "voicemail/vm-that_was_an_invalid_ext.wav"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:898
+msgid "^conf_enter_to$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:900
+msgid "unbind_meta_app"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:906
+msgid "200"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:908
+msgid "tone_stream://L=1;%(500, 0, 640)"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:912
+msgid "^conf_xfer_from_dialplan$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:914
+msgid ""
+"transfer2.lua ${uuid} conf_add_begin::XML::conf-xfer@${domain_name} "
+"conf_enter_to::XML::conf-xfer@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:914
+msgid "225"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:918
+msgid "Page Extension"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:924
+msgid "^\\*8(\\d{2,7})$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:926
+msgid "destinations=$1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:928
+msgid "pin_number=87462988"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:939
+msgid "Eavesdrop"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:944
+#: ../../source/dialplan/dialplan_details.rst:1053
+msgid "^\\*33(\\d{2,7})$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:948
+#: ../../source/dialplan/dialplan_details.rst:1057
+msgid "pin_number=03667751"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:950
+#: ../../source/dialplan/dialplan_details.rst:1059
+msgid "eavesdrop.lua $1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:955
+msgid "Call Return"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:959
+msgid "Dialplan DetailDdata"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:961
+msgid "^\\*69$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:963
+msgid "${hash(select/${domain_name}-call_return/${caller_id_number})}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:969
+msgid "Extension Queue"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:975
+msgid "^\\*800(.*)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:977
+msgid "fifo_music=$${hold_music}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:979
+msgid "extension_queue=queue_$1@\\${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:981
+msgid "fifo_simo=1"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:983
+msgid "fifo_timeout=30"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:985
+msgid "fifo_lag=10"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:987
+msgid "fifo_destroy_after_use=true"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:989
+msgid "fifo_extension_member=$1@\\${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:991
+msgid "extension_queue.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:997
+msgid "Wake Up"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1002
+msgid "^\\*(925)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1006
+msgid "pin_number=14509639"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1008
+msgid "time_zone_offset=-7"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1010
+msgid "wakeup.lua"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1015
+msgid "dx"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1021
+msgid "^dx$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1025
+msgid "11 11 'tone_stream://%(10000,0,350,440)' digits 5000 #"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1027
+msgid "-bleg ${digits}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1032
+msgid "ATT Xfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1038
+msgid "^att_xfer$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1040
+msgid "2 6 'tone_stream://%(10000,0,350,440)' digits 30000 #"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1042
+msgid "origination_cancel_key=#"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1044
+msgid "att_xfer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1044
+msgid "user/${digits}@${domain_name}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1048
+msgid "Evesdrop"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1064
+msgid "Please Hold"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1071
+msgid "transfer_ringback=$${hold_music}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1075
+msgid "1500"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1077
+msgid "ivr/ivr-hold_connect_call.wav"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1082
+msgid "Cluecon Weekly"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1087
+msgid "^\\*9(888|8888|1616|3232)$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1089
+msgid "hold_music=silence"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1091
+msgid "sofia/${use_profile}/$1@conference.freeswitch.org"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1096
+msgid "Bind Digit Action"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1101
+msgid "${sip_authorized}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1103
+msgid "bind_target=both"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1105
+msgid "bind_target=peer"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1109
+msgid "local,*1,exec:execute_extension,dx XML ${context},${bind_target}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1111
+#, python-format
+msgid "local,*2,exec:record_session,$${recordings_dir}/${domain_name}/archive/${strftime(%Y)}/${strftime(%b)}/${strftime(%d)}/${uuid}.${record_ext},${bind_target}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1113
+msgid "local,*3,exec:execute_extension,cf XML ${context},${bind_target}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1115
+msgid "local,*4,exec:execute_extension,att_xfer XML ${context},${bind_target}"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1117
+msgid "local"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1122
+msgid "cf"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1127
+msgid "^cf$"
+msgstr ""
+
+#: ../../source/dialplan/dialplan_details.rst:1131
+msgid "-both 30${dialed_extension:2} XML ${context}"
+msgstr ""
+

@@ -1,0 +1,293 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/switch.rst:3
+msgid "Switch"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:6
+msgid ""
+"Switch specific default settings. These defaults will change depending if"
+" you compiled the SWITCH source or used the newest default of packages."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:9
+msgid "default_setting_subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:9
+msgid "default_setting_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:9
+msgid "default_setting_value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:9
+msgid "default_setting_enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:9
+msgid "default_setting_description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:11
+msgid "bin"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:11
+#: ../../source/advanced/default_settings/switch.rst:13
+#: ../../source/advanced/default_settings/switch.rst:15
+#: ../../source/advanced/default_settings/switch.rst:17
+#: ../../source/advanced/default_settings/switch.rst:19
+#: ../../source/advanced/default_settings/switch.rst:21
+#: ../../source/advanced/default_settings/switch.rst:23
+#: ../../source/advanced/default_settings/switch.rst:25
+#: ../../source/advanced/default_settings/switch.rst:27
+#: ../../source/advanced/default_settings/switch.rst:29
+#: ../../source/advanced/default_settings/switch.rst:31
+#: ../../source/advanced/default_settings/switch.rst:33
+#: ../../source/advanced/default_settings/switch.rst:35
+#: ../../source/advanced/default_settings/switch.rst:37
+#: ../../source/advanced/default_settings/switch.rst:39
+#: ../../source/advanced/default_settings/switch.rst:41
+#: ../../source/advanced/default_settings/switch.rst:43
+msgid "dir"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:11
+#: ../../source/advanced/default_settings/switch.rst:13
+#: ../../source/advanced/default_settings/switch.rst:17
+#: ../../source/advanced/default_settings/switch.rst:19
+#: ../../source/advanced/default_settings/switch.rst:25
+#: ../../source/advanced/default_settings/switch.rst:27
+#: ../../source/advanced/default_settings/switch.rst:29
+#: ../../source/advanced/default_settings/switch.rst:31
+#: ../../source/advanced/default_settings/switch.rst:33
+#: ../../source/advanced/default_settings/switch.rst:35
+#: ../../source/advanced/default_settings/switch.rst:39
+#: ../../source/advanced/default_settings/switch.rst:41
+#: ../../source/advanced/default_settings/switch.rst:43
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:11
+msgid "Server path for bin."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:13
+msgid "base"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:13
+msgid "/usr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:13
+msgid "Server path for base."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:15
+msgid "call_center"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:15
+msgid "/etc/freeswitch/autoload_configs"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:15
+#: ../../source/advanced/default_settings/switch.rst:21
+#: ../../source/advanced/default_settings/switch.rst:23
+#: ../../source/advanced/default_settings/switch.rst:37
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:15
+msgid "Server path for Call Center."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:17
+msgid "conf"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:17
+msgid "/etc/freeswitch"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:17
+msgid "Server path for Conf files."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:19
+msgid "db"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:19
+msgid "/var/lib/freeswitch/db"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:19
+msgid "Server path for sqlite db files."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:21
+msgid "dialplan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:21
+msgid "/etc/freeswitch/dialplan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:21
+msgid "Server path for xml dialplan"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:23
+msgid "extensions"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:23
+msgid "/etc/freeswitch/directory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:23
+msgid "Server path for extension directory."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:25
+msgid "grammar"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:25
+msgid "/usr/share/freeswitch/grammar"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:25
+msgid "Server path for grammar xml."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:27
+msgid "log"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:27
+msgid "/var/log/freeswitch"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:27
+msgid "Server path for SWITCH logs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:29
+msgid "mod"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:29
+msgid "/usr/lib/freeswitch/mod"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:29
+msgid "Server path for SWITCH mod's."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:31
+msgid "phrases"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:31
+msgid "/etc/freeswitch/lang"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:31
+msgid "Server path for SWITCH xml phrases."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:33
+msgid "recordings"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:33
+msgid "/var/lib/freeswitch/recordings"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:33
+msgid "Server path for SWITCH recordings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:35
+msgid "scripts"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:35
+msgid "/usr/share/freeswitch/scripts"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:35
+msgid "Server path for SWITCH scripts."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:37
+msgid "sip_profiles"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:37
+msgid "/etc/freeswitch/sip_profiles"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:37
+msgid "Server path for SWITCH xml sip profiles."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:39
+msgid "sounds"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:39
+msgid "/usr/share/freeswitch/sounds"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:39
+msgid "Server path for SWITCH sounds."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:41
+msgid "storage"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:41
+msgid "/var/lib/freeswitch/storage"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:41
+msgid "Server path for SWITCH storage."
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:43
+msgid "voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:43
+msgid "/var/lib/freeswitch/storage/voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/switch.rst:43
+msgid "Server path for SWITCH voicemails."
+msgstr ""
+

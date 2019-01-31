@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/manual/dialplan.rst:3
+msgid "Dialplan"
+msgstr ""
+
+#: ../../source/manual/dialplan.rst:6
+msgid "Dialplan Manager"
+msgstr ""
+
+#: ../../source/manual/dialplan.rst:8
+msgid ""
+"The dialplan is used to setup call destinations based on conditions and "
+"context. You can use the dialplan to send calls to gateways, auto "
+"attendants, external numbers, to scripts, or any destination."
+msgstr ""
+
+#: ../../source/manual/dialplan.rst:11
+msgid "Inbound Routes"
+msgstr ""
+
+#: ../../source/manual/dialplan.rst:13
+msgid ""
+"Route incoming calls to destinations based on one or more conditions. It "
+"can send incoming calls to an IVR Menu, Call Group, Extension, External "
+"Number, Script. Order is important when an anti-action is used or when "
+"there are multiple conditions that match."
+msgstr ""
+
+#: ../../source/manual/dialplan.rst:16
+msgid "Outbound Routes"
+msgstr ""
+
+#: ../../source/manual/dialplan.rst:18
+msgid ""
+"Route outbound calls to gateways, tdm, enum and more. When a call matches"
+" the conditions the call to outbound routes."
+msgstr ""
+

@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/accounts/devices.rst:3
+msgid "Devices"
+msgstr ""
+
+#: ../../source/accounts/devices.rst:5
+msgid ""
+"Used to define the information needed to assign SIP accounts and keys to "
+"provision the devices."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:7
+msgid "Click the plus icon to add a device."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:8
+msgid "Click the edit pencil icon to edit a device."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:14
+msgid "Enter the mac address of the phone."
+msgstr "Entre com o mac address do seu telefone"
+
+#: ../../source/accounts/devices.rst:15
+msgid "Add a label."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:16
+msgid "Select from the drop down box the make/model."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:17
+msgid "Populate the lines section."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:18
+msgid "Populate the Key section."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:19
+msgid ""
+"(Optional) Populate the Settings section. These settings are the same as "
+"the variables from Advanced > Default Settings > Provisioning and can be "
+"overridden in this settings section. Just set the variable for the device"
+" you are adding."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:20
+msgid "Edit other fields as needed."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:21
+msgid "Click Save"
+msgstr ""
+
+#: ../../source/accounts/devices.rst:26
+msgid ""
+"To view steps on how to configure other devices to provision `click here "
+"for the provisioning section "
+"<http://docs.fusionpbx.com/en/latest/applications/provision.html>`_."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:30
+msgid "Device Vendors"
+msgstr ""
+
+#: ../../source/accounts/devices.rst:32
+msgid ""
+"Vendors can be added or removed to help fine tune the devices page when "
+"configuring specific vendor phones."
+msgstr ""
+
+#: ../../source/accounts/devices.rst:39
+msgid "Profiles"
+msgstr ""
+
+#: ../../source/accounts/devices.rst:41
+msgid ""
+"Define a set of keys as a profile. Any changes to the profile effect all "
+"devices assigned to the profile."
+msgstr ""
+

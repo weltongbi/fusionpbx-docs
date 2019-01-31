@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/email.rst:3
+msgid "Email"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:5
+msgid ""
+"This is where you configure email settings to receive email notifications"
+" of voicemail, missed calls and fax."
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:7
+msgid ""
+"Here are some example settings for some of the most common email "
+"providers."
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:9
+msgid ""
+"`SMTP2GO "
+"<http://docs.fusionpbx.com/en/latest/advanced/default_settings/smtp2go.html>`_"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:10
+msgid ""
+"`GMAIL "
+"<http://docs.fusionpbx.com/en/latest/advanced/default_settings/gmail.html>`_"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:13
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:13
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:13
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:13
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:13
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:15
+msgid "smtp_host"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:15
+#: ../../source/advanced/default_settings/email.rst:17
+#: ../../source/advanced/default_settings/email.rst:21
+#: ../../source/advanced/default_settings/email.rst:23
+#: ../../source/advanced/default_settings/email.rst:25
+#: ../../source/advanced/default_settings/email.rst:27
+#: ../../source/advanced/default_settings/email.rst:29
+#: ../../source/advanced/default_settings/email.rst:33
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:15
+msgid "mail.server.provider.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:15
+#: ../../source/advanced/default_settings/email.rst:17
+#: ../../source/advanced/default_settings/email.rst:19
+#: ../../source/advanced/default_settings/email.rst:21
+#: ../../source/advanced/default_settings/email.rst:23
+#: ../../source/advanced/default_settings/email.rst:25
+#: ../../source/advanced/default_settings/email.rst:27
+#: ../../source/advanced/default_settings/email.rst:29
+#: ../../source/advanced/default_settings/email.rst:31
+#: ../../source/advanced/default_settings/email.rst:33
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:15
+msgid "email providers server address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:17
+msgid "smtp_from"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:17
+msgid "emailexample@emailprovider.com"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:17
+msgid "smtp from emaill address"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:19
+msgid "smtp_port"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:19
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:19
+msgid "587"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:19
+msgid "port number of the mail server provider"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:21
+msgid "smtp_from_name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:21
+msgid "Voicemail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:21
+msgid "smtp from name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:23
+msgid "smtp_auth"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:23
+msgid "If smtp auth is required"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:25
+msgid "smtp_username"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:25
+msgid "user name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:25
+msgid "typically the email user name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:27
+msgid "smtp_password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:27
+msgid "supersecurepassword!"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:27
+msgid "typically the email password"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:29
+msgid "smtp_secure"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:29
+msgid "tls"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:29
+msgid "tls or ssl depending on the provider."
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:31
+msgid "smtp_validate_certificate"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:31
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:31
+msgid ""
+"set to false to ignore SSL certificate warnings e.g. for self-signed "
+"certificates"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:33
+msgid "method"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:33
+msgid "smtp"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:33
+msgid "smtp|sendmail|mail|qmail"
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:36
+msgid "Error log for failed or sucessfully sent messages."
+msgstr ""
+
+#: ../../source/advanced/default_settings/email.rst:38
+msgid ""
+"`Email Log "
+"<http://docs.fusionpbx.com/en/latest/advanced/default_settings/email_error_log.rst>`_"
+msgstr ""
+

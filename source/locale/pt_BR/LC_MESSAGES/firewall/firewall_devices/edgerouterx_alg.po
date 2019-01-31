@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:3
+msgid "Ubiquiti EdgerouterX SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:5
+msgid "In some scenerios you may have to turn off SIP ALG."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:11
+msgid "Check if SIP ALG is running"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:13
+msgid "**Command:** lsmod | grep sip"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:28
+msgid "This shows that SIP ALG is running in the example above."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:32
+msgid "Disable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:34
+msgid "To disable SIP ALG:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:36
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:62
+msgid ""
+"Either click on the CLI button from the Ubiquiti EdgerouterX GUI or via "
+"you favorite SSH client to the EdgerouterX."
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:37
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:63
+msgid "**Then type:** configure"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:38
+msgid "**Then type:** set system conntrack modules sip disable"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:39
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:66
+msgid "**Then type:** commit"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:40
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:67
+msgid "**Then type:** save"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:41
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:68
+msgid "**Then type:** exit"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:58
+msgid "Enable SIP ALG"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:60
+msgid "To enable SIP ALG:"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:64
+msgid "**Then type:** set system conntrack modules sip enable-indirect-media"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:65
+msgid "**Then type:** set system conntrack modules sip enable-indirect-signalling"
+msgstr ""
+
+#: ../../source/firewall/firewall_devices/edgerouterx_alg.rst:88
+msgid ""
+"set system conntrack modules sip port <1-65535> will change the sip port "
+"number"
+msgstr ""
+

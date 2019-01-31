@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/voicemail_transcription.rst:3
+msgid "Voicemail Transcription"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:7
+msgid ""
+"Uses API services to transcribe voicemails into text to be used in the "
+"app-sms and the voicemail to email options. Bing's Speech API or other "
+"generic APIs can be used."
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:10
+msgid "Bing API"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:13
+msgid ""
+"Sign up and language information is located on `Microsoft Site "
+"<https://www.microsoft.com/cognitive-services/en-us/Speech-"
+"api/documentation/API-Reference-REST/BingVoiceRecognition>`_ Note: The "
+"Bing Speech API is deprecated as of October 2018, this works for now but "
+"needs to be ported to `the new API <https://github.com/MicrosoftDocs"
+"/azure-docs/blob/master/articles/cognitive-services/Speech-Service/how-"
+"to-migrate-from-bing-speech.md>`_"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:15
+msgid ""
+"We cannot use mod_shout to record Voicemails because the transcription "
+"service needs an uncompressed version of the audio. Therefore we will "
+"record in WAV and then use LAME to re-encode in MP3. This could cause "
+"added resource utilization to your system."
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:17
+#: ../../source/applications/voicemail_transcription.rst:48
+msgid "**Goto Advanced > Default Settings.** Add the following entries"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:21
+#: ../../source/applications/voicemail_transcription.rst:52
+msgid "Category"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:21
+#: ../../source/applications/voicemail_transcription.rst:52
+msgid "Subcategory"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:21
+#: ../../source/applications/voicemail_transcription.rst:52
+msgid "Type"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:21
+#: ../../source/applications/voicemail_transcription.rst:52
+msgid "Value"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:21
+#: ../../source/applications/voicemail_transcription.rst:52
+msgid "Enabled"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:23
+#: ../../source/applications/voicemail_transcription.rst:25
+#: ../../source/applications/voicemail_transcription.rst:27
+#: ../../source/applications/voicemail_transcription.rst:29
+#: ../../source/applications/voicemail_transcription.rst:31
+#: ../../source/applications/voicemail_transcription.rst:54
+#: ../../source/applications/voicemail_transcription.rst:56
+#: ../../source/applications/voicemail_transcription.rst:58
+#: ../../source/applications/voicemail_transcription.rst:60
+#: ../../source/applications/voicemail_transcription.rst:62
+#: ../../source/applications/voicemail_transcription.rst:64
+msgid "voicemail"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:23
+#: ../../source/applications/voicemail_transcription.rst:54
+msgid "transcribe_provider"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:23
+#: ../../source/applications/voicemail_transcription.rst:25
+#: ../../source/applications/voicemail_transcription.rst:27
+#: ../../source/applications/voicemail_transcription.rst:29
+#: ../../source/applications/voicemail_transcription.rst:54
+#: ../../source/applications/voicemail_transcription.rst:56
+#: ../../source/applications/voicemail_transcription.rst:60
+#: ../../source/applications/voicemail_transcription.rst:62
+msgid "text"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:23
+msgid "microsoft"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:23
+#: ../../source/applications/voicemail_transcription.rst:25
+#: ../../source/applications/voicemail_transcription.rst:27
+#: ../../source/applications/voicemail_transcription.rst:29
+#: ../../source/applications/voicemail_transcription.rst:31
+#: ../../source/applications/voicemail_transcription.rst:54
+#: ../../source/applications/voicemail_transcription.rst:56
+#: ../../source/applications/voicemail_transcription.rst:58
+#: ../../source/applications/voicemail_transcription.rst:60
+#: ../../source/applications/voicemail_transcription.rst:62
+#: ../../source/applications/voicemail_transcription.rst:64
+msgid "True"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:25
+msgid "microsoft_key1"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:25
+msgid "{your microsoft key #1}"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:27
+msgid "microsoft_key2"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:27
+msgid "{your microsoft key #2}"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:29
+#: ../../source/applications/voicemail_transcription.rst:62
+msgid "transcribe_language"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:29
+#: ../../source/applications/voicemail_transcription.rst:62
+msgid "en-US"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:31
+#: ../../source/applications/voicemail_transcription.rst:64
+msgid "transcribe_enabled"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:31
+#: ../../source/applications/voicemail_transcription.rst:58
+#: ../../source/applications/voicemail_transcription.rst:64
+msgid "boolean"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:31
+#: ../../source/applications/voicemail_transcription.rst:58
+#: ../../source/applications/voicemail_transcription.rst:64
+msgid "true"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:34
+#: ../../source/applications/voicemail_transcription.rst:67
+msgid "Click \"Reload\" at the top of the page."
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:36
+#: ../../source/applications/voicemail_transcription.rst:69
+msgid "**Goto Status > Sip Status.**"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:38
+#: ../../source/applications/voicemail_transcription.rst:71
+msgid "Click \"Flush Memcache\", \"Reload XML\" and \"Rescan\"."
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:40
+#: ../../source/applications/voicemail_transcription.rst:73
+msgid ""
+"If you entered your key's correctly, you should now start getting "
+"transcriptions delivered in your voicemail to email and you will also see"
+" them on the Messages page."
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:43
+msgid "Custom API"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:46
+msgid ""
+"API info from the Speech to Text provider of your choice is needed, or "
+"you can self host a transcription engine like `Mozilla DeepSpeech "
+"<https://git.callpipe.com/fusionpbx/deepspeech_frontend>`_ or `Kaldi ASR "
+"<https://github.com/dialogflow/asr-server>`_"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:52
+msgid "Required?"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:54
+msgid "custom"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:56
+msgid "transcription_server"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:56
+msgid "https://yourserver"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:58
+msgid "json_enabled"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:58
+#: ../../source/applications/voicemail_transcription.rst:60
+msgid "Optional"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:60
+msgid "api_key"
+msgstr ""
+
+#: ../../source/applications/voicemail_transcription.rst:60
+msgid "your_api_key"
+msgstr ""
+

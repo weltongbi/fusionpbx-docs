@@ -1,0 +1,74 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/status/cdr_statistics.rst:3
+msgid "CDR Statistics"
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:5
+msgid "Call Detail Records Statics summarize the call information."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:17
+msgid "Definitions"
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:19
+msgid "Hours: Specific hour in that day."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:20
+msgid "Date: Specific date in that month."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:21
+msgid "Time: Specific time in that day."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:22
+msgid "Volume: Number of calls."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:23
+msgid "Minutes: Specific number of minutes."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:24
+msgid "Calls Per Minute: Specific number of calls per minute."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:25
+msgid "Missed: Specific number of missed calls."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:26
+msgid ""
+"ASR: The answer to seizure ratio. Which is how many calls where answered "
+"versus not answered."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:27
+msgid "Aloc:  ALOC is the average length of call."
+msgstr ""
+
+#: ../../source/status/cdr_statistics.rst:28
+msgid "Days: Specific day in that month."
+msgstr ""
+

@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:2
+msgid "Grandstream"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:4
+msgid "Auto provisioning with FusionPBX and Grandstream."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:6
+msgid "Top Menu > Maintenance > Upgrade and Provisioning."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:12
+msgid "Fill in the following fields:"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:14
+msgid ""
+"**HTTP/HTTPS User Name:** Set in Advanced > Default Settings > "
+"Provisioning section in your FusionPBX installation."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:16
+msgid ""
+"**HTTP/HTTPS Password:** Set in Advanced > Default Settings > "
+"Provisioning section in your FusionPBX installation."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:18
+msgid ""
+"**Config Server Path:** This is typically your FusionPBX installation "
+"url/app/provision. (**sub.domain.tld/app/provision**)"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:20
+msgid ""
+"**Firmware Server Path:** Set in Advanced > Default Settings > "
+"Provisioning section in your FusionPBX installation."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:22
+msgid "Click **Save and Apply** at the bottom."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:25
+msgid ""
+"Generally with provisioning, if there is an option like Grandstream has "
+"for a box or radio button to choose https or http then it is not needed "
+"to type http:// or https:// in the config url."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:32
+msgid ""
+"Once you have the proper information filled in, click the **Reboot** "
+"option at the top right."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:34
+msgid "Click **OK**"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:42
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:44
+msgid "Make sure provisioning is **enabled** in Advanced > Default Settings"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:46
+msgid ""
+"Check, double check that the correct extension number and password is "
+"being used."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:48
+msgid "Factory default the phone and try again."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:50
+msgid "Reboot the device."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:52
+msgid "Check Fail2ban and see if the ip got blocked."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:54
+msgid ""
+"Make sure you have created an DNS A record for the domain being used and "
+"there are no typos"
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:56
+msgid ""
+"Nat, firewalls and router settings. Some brands of routers can cause "
+"issues. Google the make and model of router or firewall appliance for "
+"common settings or remedies."
+msgstr ""
+
+#: ../../source/applications/provision/provision_auto_grandstream.rst:58
+msgid "Visit Grandstream Supoprt http://www.grandstream.com/support"
+msgstr ""
+

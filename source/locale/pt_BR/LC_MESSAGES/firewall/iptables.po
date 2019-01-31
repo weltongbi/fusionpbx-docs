@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/firewall/iptables.rst:3
+msgid "Iptables"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:5
+msgid "Iptables are used in the Debian install script."
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:8
+msgid "Basic Rules"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:10
+msgid "``iptables -A INPUT -i lo -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:11
+msgid "``iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:12
+msgid "``iptables -A INPUT -p tcp --dport 22 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:13
+msgid "``iptables -A INPUT -p tcp --dport 80 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:14
+msgid "``iptables -A INPUT -p tcp --dport 443 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:15
+msgid "``iptables -A INPUT -p tcp --dport 5060:5069 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:16
+msgid "``iptables -A INPUT -p udp --dport 5060:5069 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:17
+msgid "``iptables -A INPUT -p tcp --dport 5080 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:18
+msgid "``iptables -A INPUT -p udp --dport 5080 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:19
+msgid "``iptables -A INPUT -p udp --dport 16384:32768 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:20
+msgid "``iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:21
+msgid "``iptables -A INPUT -p udp --dport 1194 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:22
+msgid "``iptables -P INPUT DROP``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:23
+msgid "``iptables -P FORWARD DROP``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:24 ../../source/firewall/iptables.rst:77
+msgid "``iptables -P OUTPUT ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:27
+msgid "Optional Rules"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:29
+msgid "OPENVPN: ``iptables -A INPUT -p udp --dport 1194 -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:30
+msgid "ICMP: ``iptables -A INPUT -p icmp --icmp-type echo-request -j ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:33
+msgid "Friendly Scanner"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:35
+msgid "Rules to block not so friendly scanner"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:37
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5060 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:38
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5080 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:39
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5060 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:40
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5080 -m string --string "
+"\"friendly-scanner\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:42
+msgid "*Optional*"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:45
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5060 -m string --string "
+"\"VaxSIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:46
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5060 -m string --string "
+"\"VaxIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:47
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5080 -m string --string "
+"\"VaxSIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:48
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5080 -m string --string "
+"\"VaxIPUserAgent\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:50
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5060 -m string --string "
+"\"VaxSIPUserAgent/3.1\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:51
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5060 -m string --string "
+"\"VaxSIPUserAgent/3.1\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:52
+msgid ""
+"``iptables -I INPUT -j DROP -p udp --dport 5080 -m string --string "
+"\"VaxSIPUserAgent/3.1\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:53
+msgid ""
+"``iptables -I INPUT -j DROP -p tcp --dport 5080 -m string --string "
+"\"VaxSIPUserAgent/3.1\" --algo bm``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:56
+msgid "Show iptable rules"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:58
+msgid "``sudo iptables -L -v``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:61
+msgid "Show line numbers"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:63
+msgid "``iptables -L -v --line-numbers``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:66
+msgid "Delete a line"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:68
+msgid "Delete line 2"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:70
+msgid "``iptables -D INPUT 2``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:73
+msgid "Flush Out Iptables"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:75 ../../source/firewall/iptables.rst:94
+msgid "``iptables -P INPUT ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:76
+msgid "``iptables -P FORWARD ACCEPT``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:78 ../../source/firewall/iptables.rst:95
+msgid "``iptables -F``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:81
+msgid "Open a Port for a Specific IP Address"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:83
+msgid "iptables -A INPUT -j ACCEPT -p tcp --dport 5432 -s x.x.x.x/32"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:86
+msgid "Block IP address"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:88
+msgid "``iptables -I INPUT -s 62.210.245.132 -j DROP``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:91
+msgid "Flush iptables"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:92
+msgid "How to flush iptables without loosing access to ssh."
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:98
+msgid "Save Changes"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:100
+msgid "Debian / Ubuntu"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:102
+msgid "``apt-get install iptables-persistent``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:103
+msgid "``service iptables-persistent save``"
+msgstr ""
+
+#: ../../source/firewall/iptables.rst:104
+msgid "``dpkg-reconfigure iptables-persistent``"
+msgstr ""
+

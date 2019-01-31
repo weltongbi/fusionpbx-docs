@@ -1,0 +1,395 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/upgrade.rst:3
+msgid "Upgrade"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:6
+msgid ""
+"If you are looking to upgrade your current `version of FusionPBX to the "
+"next release version click here "
+"<http://docs.fusionpbx.com/en/latest/advanced/version_upgrade.html>`_."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:8
+msgid "The FusionPBX code is constantly evolving."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:10
+msgid "Bug fixes being submitted"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:11
+msgid "Additions to improve security"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:12
+msgid "Making FusionPBX look nicer"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:13
+msgid "More flexible"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:14
+msgid "More scalable"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:15
+msgid "New features"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:17
+msgid ""
+"A complete summary of the changes can be found on the github code page "
+"https://github.com/fusionpbx/fusionpbx/commits/master."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:19
+msgid ""
+"Go to the menu then click on Advanced and then Upgrade. This tool allows "
+"you to update the source code, update the database structure, restore the"
+" default menu and  permissions. `Click here for the Youtube video "
+"<https://youtu.be/QUB3u9pZ7ks>`_."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:32
+msgid "**Update the source from command line**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:41
+msgid "**Back to the GUI**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:52
+msgid "How to Upgrade"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:59
+msgid ""
+"To upgrade you will need to get the latest source code. Depending on how "
+"extreme the changes have been or the version you currently are on since "
+"your last update, you may need to follow version specific upgrade "
+"instructions to bring your install up to date."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:63
+msgid "**Step 1: Update FusionPBX Source**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:65
+msgid "1. GUI -> Advanced -> Upgrade (doesn't update all files)"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:67
+msgid "Used to update FusionPBX to the latest release."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:69
+msgid "**Upgrade the code via Github/GIT**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:71
+msgid ""
+"Login into the web interface with a user account assigned to the "
+"superadmin group."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:72
+msgid "Login to the console with either the ssh, the locally."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:73
+msgid ""
+"Backup It's a good idea to make a backup. If using sqlite, your backup "
+"will easily include the SQL database."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:85
+msgid ""
+"**Update the source code** (example assumes fusionpbx is in "
+"/var/www/fusionpbx)"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:92
+msgid "**Permissions**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:93
+msgid ""
+"Reset the permissions on the fusionpbx directory tree. When you do **git "
+"pull** it sets the permissions on any updated files to match the account "
+"that you are running **git pull** with. If that account is different to "
+"the web server account it will result in some files no longer being "
+"accessible and a red bar error at the top of the upgrade screen on the "
+"GUI.  To fix this you should reapply the permissions in fusionpbx and "
+"recursively in all directories inside it."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:95
+msgid ""
+"The example assumes the web server runs as user 'www-data' and fusionpbx "
+"is installed to /var/www/fusionpbx. (chown -Rv Ownername:GroupName "
+"/var/www/fusionpbx)"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:104
+msgid "**Step 2: Update Freeswitch Scripts**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:106
+msgid ""
+"NOTE: As of FusionPBX 3.8.3 (Stable Branch), the scripts should be "
+"automatically updated when updating the Source Code, using the **Advanced"
+" > Upgrade** page. Any customized scripts, having the same name as the "
+"default scripts, **will be overwritten.** (An option to disable this "
+"default behavior is available using **Default Setting: switch > "
+"scripts_update > false**) Missing scripts will be restored, and any "
+"additional files within the scripts folder will remain untouched."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:109
+msgid ""
+"FusionPBX is a fast moving project where features are constantly being "
+"added and bugs are being fixed on a daily basis so I would also suggest "
+"upgrading the Freeswitch scripts directory as part of any normal upgrade "
+"process."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:111
+msgid "**Update Freeswitch**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:113
+msgid ""
+"Use github to get the updated files. **You have to do this from an empty "
+"directory**."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:125
+msgid ""
+"(The last step above is not required if your config.lua file is being "
+"stored in a different location, such as the /etc/fusionpbx folder.)"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:127
+msgid "**Clean out this scripts directory**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:128
+msgid ""
+"An alternative is to remove the Lua scripts. **Only do this if you "
+"haven't customized any LUA scripts**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:136
+msgid "**Pull the most recent scripts down**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:138
+msgid ""
+"Here you need to go directly to step 3 and make sure you run upgrade "
+"schema from the GUI immediately otherwise your calls will not complete."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:140
+msgid "**Restore the config.lua file (IMPORTANT!!)**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:142
+msgid ""
+"If your config.lua file was located in scripts/resources/, then you'll "
+"need to restore it (from the backup previously performed) to "
+"scripts/resources/config.lua."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:145
+msgid "**Step 3: Upgrade Schema**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:147
+msgid ""
+"Many updates have changes to the database and to the Freeswitch scripts. "
+"The upgrade_schema script"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:149
+msgid "**Upgrade from the GUI**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:151
+msgid ""
+"From the GUI, run **Advanced -> Upgrade Schema** which will add any "
+"needed newer tables or columns."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:152
+msgid ""
+"Then run **App Defaults**. *If you removed the scripts on Step 2 then run"
+" this* **twice**."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:159
+msgid "**Upgrade from the Command Line**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:160
+msgid ""
+"An alternative to running upgrade_schema.php from the GUI is to run the "
+"upgrade.php from the command line. It was designed to make the upgrade "
+"easier. If you did not login when updating the FusionPBX source code then"
+" you will need to run the upgrade.php file from the command line. Make "
+"sure to use the full path to the PHP file."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:162
+msgid "As root run the following"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:169
+msgid ""
+"If your screen was nicely formatted with a fusionpbx theme, and suddenly "
+"now goes to a black and white screen with familiar text but no theme, it "
+"is because you were using a theme which no longer exists in the latest "
+"version of the code.  If this happens to you navigate to:"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:175
+msgid ""
+"Then scroll down to where it says **\"Template\"** and select one of the "
+"valid templates from the drop down list.  Then press Save.  It will be "
+"fixed now and you can continue with the remaining steps below."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:176
+msgid ""
+"(Note that any users who have invalid templates selected will also have "
+"the same problem you did. You can fix them from the user manager option "
+"in the accounts menu)"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:179
+msgid "**Step 4: Apply permissions and Restart Freeswitch**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:181
+msgid "**Make sure that the freeswitch directory has the correct permissions**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:187
+msgid "**Restart Freeswitch**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:194
+msgid "**Step 5: Menu**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:196
+msgid "Needed if your menu disappeared."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:197
+msgid "**v1 and v2**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:198
+msgid "Now update the menu to the latest version."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:205
+msgid "Press 'Restore Default' on the top right."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:206
+msgid "**v3**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:207
+msgid "https://your.ip/core/menu/menu.php"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:208
+msgid "click 'e' next to the default menu"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:209
+msgid "click the restore default button."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:210
+msgid "https://your.ip/logout.php"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:211
+msgid "https://your.ip/login.php"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:214
+msgid "**Step 6: Re-generate Settings**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:216
+msgid ""
+"Sometimes variable names changes. In rev 1877 **v_config_cli.php** "
+"variable names changed which caused no fax to email emails or voicemail "
+"emails to be sent. Problem was the SMTP details did not exist."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:218
+msgid ""
+"Go to **Advanced -> Settings** and then **click save**. This will re-"
+"generate v_config_cli.php and any other needs config files."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:221
+msgid "Move to a different Branch"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:223
+msgid ""
+"FusionPBX has a stable and a master(development) branch.  You can switch "
+"from stable to master but **not recomended to downgrade.**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:226
+msgid "**Move to the Stable Branch**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:233
+msgid ""
+"Make sure config.php exists in /etc/fusionpbx If missing then move it "
+"into this directory."
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:240
+msgid "**Move to the Master Branch**"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:247
+msgid "Complete the normal upgrade process at Advanced -> Upgrade"
+msgstr ""
+
+#: ../../source/advanced/upgrade.rst:248
+msgid ""
+"If the menu disappears you have to upgrade schema then restore the "
+"default menu to get it back."
+msgstr ""
+

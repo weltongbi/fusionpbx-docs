@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/regex.rst:3
+msgid "Regular Expressions"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:5
+msgid "^ Start of the string"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:6
+msgid "$ End of the string"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:7
+msgid "? optional example 1? makes the 1 optional"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:8
+msgid "\\\\d{10}  10 digits"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:9
+msgid ""
+"( and ) gets matching digits inside brackets sets a $1 and second set of "
+"brackets creates $2"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:10
+msgid ""
+"^\\\\+?1?(\\\\d{10})$   10 to 11 digits and e164 format sets $1 to 10 "
+"digits"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:11
+msgid "[0-9]   Any number between 0 to 9"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:12
+msgid "[2-9]   Any number between 2 to 9"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:13
+msgid "\\| The pipe works like an OR. Example ^101$|^102$ matches 101 or 102"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:14
+msgid ""
+"^9(\\\\d{10})$ This strips off the 9 and the $1 value is the remaining 10"
+" digits"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:16
+msgid "**Dialplan Expression**"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:18
+msgid "**Two digits:** ^(\\\\d{2})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:19
+msgid "**Three digits:** ^(\\\\d{3})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:20
+msgid "**Four digits:** ^(\\\\d{4})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:21
+msgid "**FIve digits:** ^(\\\\d{5})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:22
+msgid "**Six digits:** ^(\\\\d{6})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:23
+msgid "**Seven digits(Local Calling):** ^(\\\\d{7})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:24
+msgid "**Eight digits:** ^(\\\\d{8})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:25
+msgid "**Nine digits:** ^(\\\\d{9})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:26
+msgid "**Ten digits(Long Distance):** ^(\\\\d{10})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:27
+msgid "**Eleven digits(Long Distance with a 1):** ^\\\\+?(\\\\d{11})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:28
+msgid "**North America:** ^\\\\+?1?(\\\\d{10})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:29
+msgid "**North America International:** ^(011\\\\d{9,17})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:30
+msgid ""
+"**Caribbean:** "
+"^(?:\\+1|1)((?:684|264|268|242|246|441|284|345|767|809|829|849|473|876|664|670|787|939|869|758|784|721|868|649)\\d{7})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:31
+msgid "**Europe International:** ^(00\\\\d{9,17})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:32
+msgid "**International:** ^(\\\\d{12,20})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:33
+msgid "**311 Information:** ^(311)$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:34
+msgid "**711 TTY:** ^(711)$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:35
+msgid "**911 Emergency:** ^(911)$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:36
+msgid "**Toll Free:** ^1?(8(00|55|66|77|88)[2-9]\\\\d{6})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:37
+msgid "**INUM:** ^0118835100\\\\d{8}$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:38
+msgid "**Dial 9 then Two digits:** ^9(\\\\d{2})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:39
+msgid "**Dial 9 then Three digits:** ^9(\\\\d{3})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:40
+msgid "**Dial 9 then Four digits:** ^9(\\\\d{4})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:41
+msgid "**Dial 9 then Five digits:** ^9(\\\\d{5})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:42
+msgid "**Dial 9 then Six digits:** ^9(\\\\d{6})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:43
+msgid "**Dial 9 then Seven digits:** ^9(\\\\d{7})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:44
+msgid "**Dial 9 then Eight digits:** ^9(\\\\d{8})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:45
+msgid "**Dial 9 then Nine digits:** ^9(\\\\d{9})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:46
+msgid "**Dial 9 then Ten digits:** ^9(\\\\d{10})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:47
+msgid "**Dial 9 then Eleven digits:** ^9(\\\\d{11})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:48
+msgid "**Dial 9 then International:** ^9(\\\\d{12,20})$"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:50
+msgid "**Links**"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:52
+msgid "https://regex101.com/"
+msgstr ""
+
+#: ../../source/additional_information/regex.rst:53
+msgid "https://regex101.com/r/QmOZiH/3/"
+msgstr ""
+

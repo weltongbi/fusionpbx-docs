@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/installation/debian-scripted.rst:3
+msgid "Debian - Scripted Install"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:7
+msgid "This is currently the **recommended** installation method."
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:11
+msgid "Requirements"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:14
+msgid "Software"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:16
+msgid "**Database** : PostgreSQL 9.x / SQLite *(PostgreSQL recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:17
+msgid "**Web Server** : nginx / apache *(nginx recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:18
+msgid "**PHP** : 5.x *(Version 5.5 recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:19
+msgid "**FreeSWITCH** : 1.4.x * *(Version 1.4.26 recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:22
+msgid "Hardware"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:25
+msgid "**RAM** : 512MB *(1GB+ recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:26
+msgid "**DISK** : 10GB *(20GB+ recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:27
+msgid "**CPU** : Single core 2266 MHz *(Dual core 2266 MHz+ recommended)*"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:32
+msgid "Installation Guide"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:35
+msgid "# 1 - Debian ISO Download"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:37
+msgid ""
+"`Download <http://www.debian.org/distrib/netinst>`_ Debian Jessie net "
+"install ISO"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:40
+msgid "# 2 - nginx Configuration"
+msgstr ""
+
+#: ../../source/installation/debian-scripted.rst:42
+msgid "Sample contents of ``nginx.conf``"
+msgstr ""
+

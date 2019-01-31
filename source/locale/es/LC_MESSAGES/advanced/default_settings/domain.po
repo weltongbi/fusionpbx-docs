@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/domain.rst:3
+msgid "Domain"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:5
+msgid "Domain specific defaults."
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:10
+msgid "dial_string"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:10
+#: ../../source/advanced/default_settings/domain.rst:22
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:10
+msgid "{sip_invite_domain=${domain_name},leg_timeout=${call_timeout},presence_id=${dialed_user}@${dialed_domain}}${sofia_contact(*/${dialed_user}@${dialed_domain})}"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:10
+#: ../../source/advanced/default_settings/domain.rst:12
+#: ../../source/advanced/default_settings/domain.rst:14
+#: ../../source/advanced/default_settings/domain.rst:16
+#: ../../source/advanced/default_settings/domain.rst:20
+#: ../../source/advanced/default_settings/domain.rst:22
+#: ../../source/advanced/default_settings/domain.rst:24
+#: ../../source/advanced/default_settings/domain.rst:26
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:10
+msgid "The dial string used"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:12
+msgid "template"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:12
+#: ../../source/advanced/default_settings/domain.rst:26
+msgid "name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:12
+msgid "default"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:12
+msgid "The template used"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:14
+msgid "menu"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:14
+msgid "uuid"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:14
+msgid "b4750c3f-2a86-b00d-b7d0-345c14eca286"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:14
+msgid "The menu uuid"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:16
+msgid "language"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:16
+#: ../../source/advanced/default_settings/domain.rst:20
+msgid "code"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:16
+msgid "en-us"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:16
+msgid "Choose the language"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:18
+msgid "cidr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:18
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:18
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:18
+msgid "Allow only specific ip addresses access"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:20
+msgid "country"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:20
+msgid "us"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:20
+msgid "The country code"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:22
+msgid "bridge"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:22
+msgid "outbound"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:22
+msgid "outbound,loopback,lcr"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:24
+msgid "paging"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:24
+msgid "numeric"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:24
+msgid "100"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:24
+msgid "Set the maximum number of records displayed per page. (Default: 50)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:26
+msgid "time_zone"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:26
+msgid "America/Los_Angeles"
+msgstr ""
+
+#: ../../source/advanced/default_settings/domain.rst:26
+msgid "Time zone used. Follows UNIX format"
+msgstr ""
+

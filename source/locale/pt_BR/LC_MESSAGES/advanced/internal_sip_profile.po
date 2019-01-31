@@ -1,0 +1,925 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/internal_sip_profile.rst:3
+msgid "Internal Sip Profile"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:13
+msgid "**Hostname-** Should be left blank and is for advanced use."
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:20
+msgid "Name"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:20
+msgid "Value"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:20
+msgid "Enabled"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:20
+msgid "Description"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:22
+msgid "accept-blind-auth"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:22
+#: ../../source/advanced/internal_sip_profile.rst:24
+#: ../../source/advanced/internal_sip_profile.rst:26
+#: ../../source/advanced/internal_sip_profile.rst:70
+#: ../../source/advanced/internal_sip_profile.rst:72
+#: ../../source/advanced/internal_sip_profile.rst:76
+#: ../../source/advanced/internal_sip_profile.rst:78
+#: ../../source/advanced/internal_sip_profile.rst:80
+#: ../../source/advanced/internal_sip_profile.rst:86
+#: ../../source/advanced/internal_sip_profile.rst:88
+#: ../../source/advanced/internal_sip_profile.rst:90
+#: ../../source/advanced/internal_sip_profile.rst:94
+#: ../../source/advanced/internal_sip_profile.rst:112
+#: ../../source/advanced/internal_sip_profile.rst:118
+#: ../../source/advanced/internal_sip_profile.rst:120
+#: ../../source/advanced/internal_sip_profile.rst:124
+#: ../../source/advanced/internal_sip_profile.rst:128
+#: ../../source/advanced/internal_sip_profile.rst:130
+#: ../../source/advanced/internal_sip_profile.rst:132
+#: ../../source/advanced/internal_sip_profile.rst:134
+#: ../../source/advanced/internal_sip_profile.rst:146
+#: ../../source/advanced/internal_sip_profile.rst:148
+#: ../../source/advanced/internal_sip_profile.rst:162
+#: ../../source/advanced/internal_sip_profile.rst:168
+#: ../../source/advanced/internal_sip_profile.rst:170
+#: ../../source/advanced/internal_sip_profile.rst:178
+#: ../../source/advanced/internal_sip_profile.rst:194
+#: ../../source/advanced/internal_sip_profile.rst:202
+#: ../../source/advanced/internal_sip_profile.rst:206
+#: ../../source/advanced/internal_sip_profile.rst:216
+#: ../../source/advanced/internal_sip_profile.rst:238
+#: ../../source/advanced/internal_sip_profile.rst:248
+msgid "true"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:22
+#: ../../source/advanced/internal_sip_profile.rst:24
+#: ../../source/advanced/internal_sip_profile.rst:28
+#: ../../source/advanced/internal_sip_profile.rst:34
+#: ../../source/advanced/internal_sip_profile.rst:40
+#: ../../source/advanced/internal_sip_profile.rst:42
+#: ../../source/advanced/internal_sip_profile.rst:44
+#: ../../source/advanced/internal_sip_profile.rst:46
+#: ../../source/advanced/internal_sip_profile.rst:48
+#: ../../source/advanced/internal_sip_profile.rst:50
+#: ../../source/advanced/internal_sip_profile.rst:52
+#: ../../source/advanced/internal_sip_profile.rst:56
+#: ../../source/advanced/internal_sip_profile.rst:60
+#: ../../source/advanced/internal_sip_profile.rst:64
+#: ../../source/advanced/internal_sip_profile.rst:68
+#: ../../source/advanced/internal_sip_profile.rst:70
+#: ../../source/advanced/internal_sip_profile.rst:72
+#: ../../source/advanced/internal_sip_profile.rst:74
+#: ../../source/advanced/internal_sip_profile.rst:76
+#: ../../source/advanced/internal_sip_profile.rst:78
+#: ../../source/advanced/internal_sip_profile.rst:80
+#: ../../source/advanced/internal_sip_profile.rst:86
+#: ../../source/advanced/internal_sip_profile.rst:88
+#: ../../source/advanced/internal_sip_profile.rst:90
+#: ../../source/advanced/internal_sip_profile.rst:92
+#: ../../source/advanced/internal_sip_profile.rst:94
+#: ../../source/advanced/internal_sip_profile.rst:100
+#: ../../source/advanced/internal_sip_profile.rst:102
+#: ../../source/advanced/internal_sip_profile.rst:104
+#: ../../source/advanced/internal_sip_profile.rst:106
+#: ../../source/advanced/internal_sip_profile.rst:112
+#: ../../source/advanced/internal_sip_profile.rst:118
+#: ../../source/advanced/internal_sip_profile.rst:120
+#: ../../source/advanced/internal_sip_profile.rst:124
+#: ../../source/advanced/internal_sip_profile.rst:134
+#: ../../source/advanced/internal_sip_profile.rst:136
+#: ../../source/advanced/internal_sip_profile.rst:140
+#: ../../source/advanced/internal_sip_profile.rst:142
+#: ../../source/advanced/internal_sip_profile.rst:144
+#: ../../source/advanced/internal_sip_profile.rst:146
+#: ../../source/advanced/internal_sip_profile.rst:148
+#: ../../source/advanced/internal_sip_profile.rst:152
+#: ../../source/advanced/internal_sip_profile.rst:156
+#: ../../source/advanced/internal_sip_profile.rst:160
+#: ../../source/advanced/internal_sip_profile.rst:162
+#: ../../source/advanced/internal_sip_profile.rst:170
+#: ../../source/advanced/internal_sip_profile.rst:176
+#: ../../source/advanced/internal_sip_profile.rst:178
+#: ../../source/advanced/internal_sip_profile.rst:182
+#: ../../source/advanced/internal_sip_profile.rst:184
+#: ../../source/advanced/internal_sip_profile.rst:186
+#: ../../source/advanced/internal_sip_profile.rst:188
+#: ../../source/advanced/internal_sip_profile.rst:194
+#: ../../source/advanced/internal_sip_profile.rst:200
+#: ../../source/advanced/internal_sip_profile.rst:202
+#: ../../source/advanced/internal_sip_profile.rst:204
+#: ../../source/advanced/internal_sip_profile.rst:206
+#: ../../source/advanced/internal_sip_profile.rst:216
+#: ../../source/advanced/internal_sip_profile.rst:218
+#: ../../source/advanced/internal_sip_profile.rst:220
+#: ../../source/advanced/internal_sip_profile.rst:222
+#: ../../source/advanced/internal_sip_profile.rst:224
+#: ../../source/advanced/internal_sip_profile.rst:244
+#: ../../source/advanced/internal_sip_profile.rst:248
+#: ../../source/advanced/internal_sip_profile.rst:252
+msgid "False"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:24
+msgid "accept-blind-reg"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:26
+msgid "aggressive-nat-detection"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:26
+#: ../../source/advanced/internal_sip_profile.rst:30
+#: ../../source/advanced/internal_sip_profile.rst:32
+#: ../../source/advanced/internal_sip_profile.rst:36
+#: ../../source/advanced/internal_sip_profile.rst:38
+#: ../../source/advanced/internal_sip_profile.rst:54
+#: ../../source/advanced/internal_sip_profile.rst:58
+#: ../../source/advanced/internal_sip_profile.rst:62
+#: ../../source/advanced/internal_sip_profile.rst:66
+#: ../../source/advanced/internal_sip_profile.rst:82
+#: ../../source/advanced/internal_sip_profile.rst:84
+#: ../../source/advanced/internal_sip_profile.rst:96
+#: ../../source/advanced/internal_sip_profile.rst:98
+#: ../../source/advanced/internal_sip_profile.rst:108
+#: ../../source/advanced/internal_sip_profile.rst:110
+#: ../../source/advanced/internal_sip_profile.rst:114
+#: ../../source/advanced/internal_sip_profile.rst:116
+#: ../../source/advanced/internal_sip_profile.rst:122
+#: ../../source/advanced/internal_sip_profile.rst:126
+#: ../../source/advanced/internal_sip_profile.rst:128
+#: ../../source/advanced/internal_sip_profile.rst:130
+#: ../../source/advanced/internal_sip_profile.rst:132
+#: ../../source/advanced/internal_sip_profile.rst:150
+#: ../../source/advanced/internal_sip_profile.rst:154
+#: ../../source/advanced/internal_sip_profile.rst:158
+#: ../../source/advanced/internal_sip_profile.rst:166
+#: ../../source/advanced/internal_sip_profile.rst:168
+#: ../../source/advanced/internal_sip_profile.rst:172
+#: ../../source/advanced/internal_sip_profile.rst:180
+#: ../../source/advanced/internal_sip_profile.rst:190
+#: ../../source/advanced/internal_sip_profile.rst:192
+#: ../../source/advanced/internal_sip_profile.rst:196
+#: ../../source/advanced/internal_sip_profile.rst:198
+#: ../../source/advanced/internal_sip_profile.rst:208
+#: ../../source/advanced/internal_sip_profile.rst:210
+#: ../../source/advanced/internal_sip_profile.rst:212
+#: ../../source/advanced/internal_sip_profile.rst:214
+#: ../../source/advanced/internal_sip_profile.rst:226
+#: ../../source/advanced/internal_sip_profile.rst:228
+#: ../../source/advanced/internal_sip_profile.rst:230
+#: ../../source/advanced/internal_sip_profile.rst:232
+#: ../../source/advanced/internal_sip_profile.rst:234
+#: ../../source/advanced/internal_sip_profile.rst:236
+#: ../../source/advanced/internal_sip_profile.rst:238
+#: ../../source/advanced/internal_sip_profile.rst:240
+#: ../../source/advanced/internal_sip_profile.rst:242
+#: ../../source/advanced/internal_sip_profile.rst:246
+#: ../../source/advanced/internal_sip_profile.rst:250
+#: ../../source/advanced/internal_sip_profile.rst:254
+#: ../../source/advanced/internal_sip_profile.rst:256
+#: ../../source/advanced/internal_sip_profile.rst:258
+msgid "True"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:28
+msgid "alias"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:28
+msgid "sip:10.0.1.251:5555"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:30
+msgid "apply-inbound-acl"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:30
+#: ../../source/advanced/internal_sip_profile.rst:34
+msgid "domains"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:32
+msgid "apply-nat-acl"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:32
+msgid "nat.auto"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:34
+msgid "apply-register-acl"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:36
+msgid "auth-all-packets"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:36
+#: ../../source/advanced/internal_sip_profile.rst:56
+#: ../../source/advanced/internal_sip_profile.rst:64
+#: ../../source/advanced/internal_sip_profile.rst:68
+#: ../../source/advanced/internal_sip_profile.rst:74
+#: ../../source/advanced/internal_sip_profile.rst:92
+#: ../../source/advanced/internal_sip_profile.rst:160
+#: ../../source/advanced/internal_sip_profile.rst:186
+#: ../../source/advanced/internal_sip_profile.rst:232
+msgid "false"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:38
+msgid "auth-calls"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:38
+msgid "$${internal_auth_calls}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:40
+msgid "auto-jitterbuffer-msec"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:40
+#: ../../source/advanced/internal_sip_profile.rst:106
+#: ../../source/advanced/internal_sip_profile.rst:154
+msgid "60"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:42
+msgid "auto-rtp-bugs"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:44
+msgid "bind-params"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:44
+msgid "transport=udp"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:46
+msgid "bitpacking"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:46
+msgid "aal2"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:48
+#: ../../source/advanced/internal_sip_profile.rst:50
+#: ../../source/advanced/internal_sip_profile.rst:52
+msgid "caller-id-type"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:48
+msgid "rpid"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:50
+msgid "pid"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:52
+msgid "none"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:54
+msgid "challenge-realm"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:54
+msgid "auto_to"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:56
+msgid "cid-in-1xx"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:58
+msgid "context"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:58
+msgid "public"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:60
+msgid "dbname"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:60
+msgid "share_presence"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:62
+msgid "debug"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:62
+msgid "0"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:64
+msgid "delete-subs-on-register"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:66
+msgid "dialplan"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:66
+msgid "XML"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:68
+msgid "disable-naptr"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:70
+msgid "disable-register"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:72
+msgid "disable-rtp-auto-adjust"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:74
+msgid "disable-srv"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:76
+msgid "disable-srv503"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:78
+msgid "disable-transcoding"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:80
+msgid "disable-transfer"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:82
+msgid "dtmf-duration"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:82
+msgid "2000"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:84
+msgid "dtmf-type"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:84
+msgid "rfc2833"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:86
+msgid "enable-100rel"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:88
+msgid "enable-3pcc"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:90
+msgid "enable-compact-headers"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:92
+msgid "enable-timer"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:94
+msgid "extended-info-parsing"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:96
+msgid "ext-rtp-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:96
+#: ../../source/advanced/internal_sip_profile.rst:98
+msgid "$${external_rtp_ip}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:98
+msgid "ext-sip-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:100
+msgid "force-register-db-domain"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:100
+#: ../../source/advanced/internal_sip_profile.rst:102
+#: ../../source/advanced/internal_sip_profile.rst:104
+msgid "$${domain}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:102
+msgid "force-register-domain"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:104
+msgid "force-subscription-domain"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:106
+msgid "force-subscription-expires"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:108
+msgid "forward-unsolicited-mwi-notify  false"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:110
+msgid "hold-music"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:110
+msgid "$${hold_music}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:112
+msgid "inbound-bypass-media"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:114
+msgid "inbound-codec-negotiation"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:114
+msgid "generous"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:116
+msgid "inbound-codec-prefs"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:116
+#: ../../source/advanced/internal_sip_profile.rst:158
+msgid "$${global_codec_prefs}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:118
+msgid "inbound-late-negotiation"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:120
+msgid "inbound-proxy-media"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:122
+msgid "inbound-reg-force-matching-username    true"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:124
+msgid "liberal-dtmf"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:126
+msgid "local-network-acl"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:126
+msgid "localnet.auto"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:128
+msgid "log-auth-failures"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:130
+msgid "manage-presence"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:132
+msgid "manage-shared-appearance"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:134
+msgid "manual-redirect"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:136
+msgid "max-proceeding"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:136
+msgid "1000"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:138
+#: ../../source/advanced/internal_sip_profile.rst:140
+msgid "media-option"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:138
+msgid "bypass-media-after-att-xfer  False"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:140
+msgid "resume-media-on-hold"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:142
+msgid "minimum-session-expires"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:142
+msgid "120"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:144
+msgid "multiple-registrations"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:144
+msgid "contact"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:144
+msgid "Enables registrations on multiple endpoints"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:146
+msgid "nat-options-ping"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:148
+msgid "NDLB-broken-auth-hash"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:150
+msgid "NDLB-force-rport"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:150
+msgid "safe"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:150
+msgid "Enables rport"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:152
+msgid "NDLB-received-in-nat-reg-contact      true"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:154
+msgid "nonce-ttl"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:156
+msgid "odbc-dsn"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:156
+msgid "$${dsn}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:158
+msgid "outbound-codec-prefs"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:160
+msgid "pass-callee-id"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:162
+msgid "pass-rfc2833"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:164
+msgid "presence-hosts"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:164
+msgid "$${domain},$${local_ip_v4}   False"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:166
+msgid "presence-privacy"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:166
+msgid "$${presence_privacy}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:168
+msgid "presence-probe-on-register"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:170
+msgid "presence-proto-lookup"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:172
+msgid "record-path"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:172
+msgid "$${recordings_dir}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:174
+#, python-format
+msgid ""
+"record-template "
+"${domain_name}/archive/${strftime(%Y)}/${strftime(%b)}/${strftime(%d)}/${uuid}.${record_ext}"
+"     True"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:176
+msgid "registration-thread-frequency        30"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:178
+msgid "renegotiate-codec-on-hold"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:180
+msgid "rfc2833-pt"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:180
+msgid "101"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:182
+msgid "rtcp-audio-interval-msec"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:182
+#: ../../source/advanced/internal_sip_profile.rst:184
+msgid "5000"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:184
+msgid "rtcp-video-interval-msec"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:186
+msgid "rtp-autofix-timing"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:188
+msgid "rtp-autoflush-during-bridge      false"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:190
+msgid "rtp-hold-timeout-sec"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:190
+#: ../../source/advanced/internal_sip_profile.rst:204
+msgid "1800"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:192
+msgid "rtp-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:192
+#: ../../source/advanced/internal_sip_profile.rst:210
+msgid "$${local_ip_v4}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:194
+msgid "rtp-rewrite-timestamps"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:196
+msgid "rtp-timeout-sec"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:196
+msgid "300"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:198
+msgid "rtp-timer-name"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:198
+msgid "soft"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:200
+msgid "send-message-query-on-register             True"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:202
+msgid "send-presence-on-register"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:204
+msgid "session-timeout"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:206
+msgid "shutdown-on-fail"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:208
+msgid "sip-capture"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:208
+#: ../../source/advanced/internal_sip_profile.rst:214
+#: ../../source/advanced/internal_sip_profile.rst:254
+msgid "no"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:210
+msgid "sip-ip"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:212
+msgid "sip-port"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:212
+msgid "$${internal_sip_port}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:214
+msgid "sip-trace"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:216
+msgid "suppress-cng"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:218
+msgid "timer-T1"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:218
+msgid "500"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:220
+msgid "timer-T1X64"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:220
+msgid "32000"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:222
+msgid "timer-T2"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:222
+#: ../../source/advanced/internal_sip_profile.rst:224
+msgid "4000"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:224
+msgid "timer-T4"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:226
+msgid "tls"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:226
+msgid "$${internal_ssl_enable}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:228
+msgid "tls-bind-params"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:228
+msgid "transport=tls"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:230
+msgid "tls-cert-dir"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:230
+msgid "$${internal_ssl_dir}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:232
+msgid "tls-only"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:234
+msgid "tls-passphrase"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:236
+msgid "tls-sip-port"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:236
+msgid "$${internal_tls_port}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:238
+msgid "tls-verify-date"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:240
+msgid "tls-verify-depth"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:240
+msgid "2"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:242
+msgid "tls-verify-in-subjects"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:244
+msgid "tls-verify-policy"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:244
+msgid "all|subjects_all"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:246
+msgid "tls-version"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:246
+msgid "$${sip_tls_version}"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:248
+msgid "unregister-on-options-fail"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:250
+msgid "user-agent-string"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:250
+msgid "FreeSWITCH"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:252
+msgid "vad"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:252
+msgid "out"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:254
+msgid "watchdog-enabled"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:256
+msgid "watchdog-event-timeout"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:256
+msgid "30000"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:258
+msgid "watchdog-step-timeout"
+msgstr ""
+
+#: ../../source/advanced/internal_sip_profile.rst:258
+msgid "3000"
+msgstr ""
+

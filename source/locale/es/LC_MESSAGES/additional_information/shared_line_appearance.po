@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/additional_information/shared_line_appearance.rst:3
+msgid "Shared Line Appearance"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:5
+msgid ""
+"Shared Line Apprearance(SLA) also known in older phone systems as a \"Key"
+" System\"."
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:9
+msgid "FusionPBX Settings"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:11
+msgid "FusionPBX Menu Advanced > SIP Profiles > edit a profile to enable SLA."
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:17
+msgid "**name:** multiple-registrations"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:18
+msgid "**value:** contact"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:19
+msgid "**enabled:** true"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:23
+msgid "Yealink SLA"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:25
+#: ../../source/additional_information/shared_line_appearance.rst:40
+msgid "FusionPBX Menu Accounts > Device > Edit a specific device."
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:30
+#: ../../source/additional_information/shared_line_appearance.rst:45
+msgid "Line > Shared Line"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:32
+msgid "Options: 0-Disabled (default), 1-Broadsoft SCA, 2-BLA"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:38
+msgid "Polycom SLA"
+msgstr ""
+
+#: ../../source/additional_information/shared_line_appearance.rst:47
+msgid "Options: shared, private"
+msgstr ""
+

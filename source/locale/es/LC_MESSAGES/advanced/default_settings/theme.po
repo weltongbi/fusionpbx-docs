@@ -1,0 +1,2454 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/advanced/default_settings/theme.rst:3
+msgid "Theme"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:5
+msgid "Theme specific default settings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:8
+msgid "Default Setting Subcategory"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:8
+msgid "Default Setting Name"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:8
+msgid "Default Setting Value"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:8
+msgid "Default Setting Enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:8
+msgid "Default Setting Description"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:10
+#: ../../source/advanced/default_settings/theme.rst:396
+msgid "background_image"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:10
+#: ../../source/advanced/default_settings/theme.rst:12
+#: ../../source/advanced/default_settings/theme.rst:232
+#: ../../source/advanced/default_settings/theme.rst:234
+#: ../../source/advanced/default_settings/theme.rst:344
+#: ../../source/advanced/default_settings/theme.rst:396
+msgid "array"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:10
+msgid "/themes/default/images/backgrounds/blue_blur.jpg"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:10
+#: ../../source/advanced/default_settings/theme.rst:12
+#: ../../source/advanced/default_settings/theme.rst:14
+#: ../../source/advanced/default_settings/theme.rst:16
+#: ../../source/advanced/default_settings/theme.rst:28
+#: ../../source/advanced/default_settings/theme.rst:34
+#: ../../source/advanced/default_settings/theme.rst:36
+#: ../../source/advanced/default_settings/theme.rst:38
+#: ../../source/advanced/default_settings/theme.rst:40
+#: ../../source/advanced/default_settings/theme.rst:42
+#: ../../source/advanced/default_settings/theme.rst:44
+#: ../../source/advanced/default_settings/theme.rst:46
+#: ../../source/advanced/default_settings/theme.rst:48
+#: ../../source/advanced/default_settings/theme.rst:50
+#: ../../source/advanced/default_settings/theme.rst:52
+#: ../../source/advanced/default_settings/theme.rst:68
+#: ../../source/advanced/default_settings/theme.rst:82
+#: ../../source/advanced/default_settings/theme.rst:84
+#: ../../source/advanced/default_settings/theme.rst:88
+#: ../../source/advanced/default_settings/theme.rst:90
+#: ../../source/advanced/default_settings/theme.rst:236
+#: ../../source/advanced/default_settings/theme.rst:238
+#: ../../source/advanced/default_settings/theme.rst:240
+#: ../../source/advanced/default_settings/theme.rst:292
+#: ../../source/advanced/default_settings/theme.rst:296
+#: ../../source/advanced/default_settings/theme.rst:330
+#: ../../source/advanced/default_settings/theme.rst:344
+#: ../../source/advanced/default_settings/theme.rst:346
+#: ../../source/advanced/default_settings/theme.rst:350
+#: ../../source/advanced/default_settings/theme.rst:352
+#: ../../source/advanced/default_settings/theme.rst:394
+msgid "TRUE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:12
+#: ../../source/advanced/default_settings/theme.rst:344
+msgid "background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:12
+#: ../../source/advanced/default_settings/theme.rst:232
+msgid "#6c89b5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:12
+msgid "Set a background color."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:14
+msgid "background_image_enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:14
+#: ../../source/advanced/default_settings/theme.rst:56
+#: ../../source/advanced/default_settings/theme.rst:64
+#: ../../source/advanced/default_settings/theme.rst:88
+#: ../../source/advanced/default_settings/theme.rst:236
+msgid "boolean"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:14
+msgid "Enable use of background images."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:16
+msgid "logout_icon_visible"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:16
+#: ../../source/advanced/default_settings/theme.rst:18
+#: ../../source/advanced/default_settings/theme.rst:20
+#: ../../source/advanced/default_settings/theme.rst:22
+#: ../../source/advanced/default_settings/theme.rst:24
+#: ../../source/advanced/default_settings/theme.rst:26
+#: ../../source/advanced/default_settings/theme.rst:28
+#: ../../source/advanced/default_settings/theme.rst:30
+#: ../../source/advanced/default_settings/theme.rst:32
+#: ../../source/advanced/default_settings/theme.rst:34
+#: ../../source/advanced/default_settings/theme.rst:36
+#: ../../source/advanced/default_settings/theme.rst:38
+#: ../../source/advanced/default_settings/theme.rst:40
+#: ../../source/advanced/default_settings/theme.rst:42
+#: ../../source/advanced/default_settings/theme.rst:44
+#: ../../source/advanced/default_settings/theme.rst:46
+#: ../../source/advanced/default_settings/theme.rst:48
+#: ../../source/advanced/default_settings/theme.rst:50
+#: ../../source/advanced/default_settings/theme.rst:52
+#: ../../source/advanced/default_settings/theme.rst:54
+#: ../../source/advanced/default_settings/theme.rst:58
+#: ../../source/advanced/default_settings/theme.rst:60
+#: ../../source/advanced/default_settings/theme.rst:62
+#: ../../source/advanced/default_settings/theme.rst:66
+#: ../../source/advanced/default_settings/theme.rst:68
+#: ../../source/advanced/default_settings/theme.rst:70
+#: ../../source/advanced/default_settings/theme.rst:72
+#: ../../source/advanced/default_settings/theme.rst:74
+#: ../../source/advanced/default_settings/theme.rst:76
+#: ../../source/advanced/default_settings/theme.rst:78
+#: ../../source/advanced/default_settings/theme.rst:80
+#: ../../source/advanced/default_settings/theme.rst:82
+#: ../../source/advanced/default_settings/theme.rst:84
+#: ../../source/advanced/default_settings/theme.rst:86
+#: ../../source/advanced/default_settings/theme.rst:90
+#: ../../source/advanced/default_settings/theme.rst:92
+#: ../../source/advanced/default_settings/theme.rst:94
+#: ../../source/advanced/default_settings/theme.rst:96
+#: ../../source/advanced/default_settings/theme.rst:98
+#: ../../source/advanced/default_settings/theme.rst:100
+#: ../../source/advanced/default_settings/theme.rst:102
+#: ../../source/advanced/default_settings/theme.rst:104
+#: ../../source/advanced/default_settings/theme.rst:106
+#: ../../source/advanced/default_settings/theme.rst:108
+#: ../../source/advanced/default_settings/theme.rst:110
+#: ../../source/advanced/default_settings/theme.rst:112
+#: ../../source/advanced/default_settings/theme.rst:114
+#: ../../source/advanced/default_settings/theme.rst:116
+#: ../../source/advanced/default_settings/theme.rst:118
+#: ../../source/advanced/default_settings/theme.rst:120
+#: ../../source/advanced/default_settings/theme.rst:122
+#: ../../source/advanced/default_settings/theme.rst:124
+#: ../../source/advanced/default_settings/theme.rst:126
+#: ../../source/advanced/default_settings/theme.rst:128
+#: ../../source/advanced/default_settings/theme.rst:130
+#: ../../source/advanced/default_settings/theme.rst:132
+#: ../../source/advanced/default_settings/theme.rst:134
+#: ../../source/advanced/default_settings/theme.rst:136
+#: ../../source/advanced/default_settings/theme.rst:138
+#: ../../source/advanced/default_settings/theme.rst:140
+#: ../../source/advanced/default_settings/theme.rst:142
+#: ../../source/advanced/default_settings/theme.rst:144
+#: ../../source/advanced/default_settings/theme.rst:146
+#: ../../source/advanced/default_settings/theme.rst:148
+#: ../../source/advanced/default_settings/theme.rst:150
+#: ../../source/advanced/default_settings/theme.rst:152
+#: ../../source/advanced/default_settings/theme.rst:154
+#: ../../source/advanced/default_settings/theme.rst:156
+#: ../../source/advanced/default_settings/theme.rst:158
+#: ../../source/advanced/default_settings/theme.rst:160
+#: ../../source/advanced/default_settings/theme.rst:162
+#: ../../source/advanced/default_settings/theme.rst:164
+#: ../../source/advanced/default_settings/theme.rst:166
+#: ../../source/advanced/default_settings/theme.rst:168
+#: ../../source/advanced/default_settings/theme.rst:170
+#: ../../source/advanced/default_settings/theme.rst:172
+#: ../../source/advanced/default_settings/theme.rst:174
+#: ../../source/advanced/default_settings/theme.rst:176
+#: ../../source/advanced/default_settings/theme.rst:178
+#: ../../source/advanced/default_settings/theme.rst:180
+#: ../../source/advanced/default_settings/theme.rst:182
+#: ../../source/advanced/default_settings/theme.rst:184
+#: ../../source/advanced/default_settings/theme.rst:186
+#: ../../source/advanced/default_settings/theme.rst:188
+#: ../../source/advanced/default_settings/theme.rst:190
+#: ../../source/advanced/default_settings/theme.rst:192
+#: ../../source/advanced/default_settings/theme.rst:194
+#: ../../source/advanced/default_settings/theme.rst:196
+#: ../../source/advanced/default_settings/theme.rst:198
+#: ../../source/advanced/default_settings/theme.rst:200
+#: ../../source/advanced/default_settings/theme.rst:202
+#: ../../source/advanced/default_settings/theme.rst:204
+#: ../../source/advanced/default_settings/theme.rst:206
+#: ../../source/advanced/default_settings/theme.rst:208
+#: ../../source/advanced/default_settings/theme.rst:210
+#: ../../source/advanced/default_settings/theme.rst:212
+#: ../../source/advanced/default_settings/theme.rst:214
+#: ../../source/advanced/default_settings/theme.rst:216
+#: ../../source/advanced/default_settings/theme.rst:218
+#: ../../source/advanced/default_settings/theme.rst:220
+#: ../../source/advanced/default_settings/theme.rst:222
+#: ../../source/advanced/default_settings/theme.rst:224
+#: ../../source/advanced/default_settings/theme.rst:226
+#: ../../source/advanced/default_settings/theme.rst:228
+#: ../../source/advanced/default_settings/theme.rst:230
+#: ../../source/advanced/default_settings/theme.rst:238
+#: ../../source/advanced/default_settings/theme.rst:240
+#: ../../source/advanced/default_settings/theme.rst:242
+#: ../../source/advanced/default_settings/theme.rst:244
+#: ../../source/advanced/default_settings/theme.rst:246
+#: ../../source/advanced/default_settings/theme.rst:248
+#: ../../source/advanced/default_settings/theme.rst:250
+#: ../../source/advanced/default_settings/theme.rst:252
+#: ../../source/advanced/default_settings/theme.rst:254
+#: ../../source/advanced/default_settings/theme.rst:256
+#: ../../source/advanced/default_settings/theme.rst:258
+#: ../../source/advanced/default_settings/theme.rst:260
+#: ../../source/advanced/default_settings/theme.rst:262
+#: ../../source/advanced/default_settings/theme.rst:264
+#: ../../source/advanced/default_settings/theme.rst:266
+#: ../../source/advanced/default_settings/theme.rst:268
+#: ../../source/advanced/default_settings/theme.rst:270
+#: ../../source/advanced/default_settings/theme.rst:272
+#: ../../source/advanced/default_settings/theme.rst:274
+#: ../../source/advanced/default_settings/theme.rst:276
+#: ../../source/advanced/default_settings/theme.rst:278
+#: ../../source/advanced/default_settings/theme.rst:280
+#: ../../source/advanced/default_settings/theme.rst:282
+#: ../../source/advanced/default_settings/theme.rst:284
+#: ../../source/advanced/default_settings/theme.rst:286
+#: ../../source/advanced/default_settings/theme.rst:288
+#: ../../source/advanced/default_settings/theme.rst:290
+#: ../../source/advanced/default_settings/theme.rst:292
+#: ../../source/advanced/default_settings/theme.rst:294
+#: ../../source/advanced/default_settings/theme.rst:296
+#: ../../source/advanced/default_settings/theme.rst:298
+#: ../../source/advanced/default_settings/theme.rst:300
+#: ../../source/advanced/default_settings/theme.rst:302
+#: ../../source/advanced/default_settings/theme.rst:304
+#: ../../source/advanced/default_settings/theme.rst:306
+#: ../../source/advanced/default_settings/theme.rst:308
+#: ../../source/advanced/default_settings/theme.rst:310
+#: ../../source/advanced/default_settings/theme.rst:312
+#: ../../source/advanced/default_settings/theme.rst:314
+#: ../../source/advanced/default_settings/theme.rst:316
+#: ../../source/advanced/default_settings/theme.rst:318
+#: ../../source/advanced/default_settings/theme.rst:320
+#: ../../source/advanced/default_settings/theme.rst:322
+#: ../../source/advanced/default_settings/theme.rst:324
+#: ../../source/advanced/default_settings/theme.rst:326
+#: ../../source/advanced/default_settings/theme.rst:328
+#: ../../source/advanced/default_settings/theme.rst:330
+#: ../../source/advanced/default_settings/theme.rst:332
+#: ../../source/advanced/default_settings/theme.rst:334
+#: ../../source/advanced/default_settings/theme.rst:336
+#: ../../source/advanced/default_settings/theme.rst:338
+#: ../../source/advanced/default_settings/theme.rst:340
+#: ../../source/advanced/default_settings/theme.rst:342
+#: ../../source/advanced/default_settings/theme.rst:346
+#: ../../source/advanced/default_settings/theme.rst:348
+#: ../../source/advanced/default_settings/theme.rst:350
+#: ../../source/advanced/default_settings/theme.rst:352
+#: ../../source/advanced/default_settings/theme.rst:354
+#: ../../source/advanced/default_settings/theme.rst:356
+#: ../../source/advanced/default_settings/theme.rst:358
+#: ../../source/advanced/default_settings/theme.rst:360
+#: ../../source/advanced/default_settings/theme.rst:362
+#: ../../source/advanced/default_settings/theme.rst:364
+#: ../../source/advanced/default_settings/theme.rst:366
+#: ../../source/advanced/default_settings/theme.rst:368
+#: ../../source/advanced/default_settings/theme.rst:370
+#: ../../source/advanced/default_settings/theme.rst:372
+#: ../../source/advanced/default_settings/theme.rst:374
+#: ../../source/advanced/default_settings/theme.rst:376
+#: ../../source/advanced/default_settings/theme.rst:378
+#: ../../source/advanced/default_settings/theme.rst:380
+#: ../../source/advanced/default_settings/theme.rst:382
+#: ../../source/advanced/default_settings/theme.rst:384
+#: ../../source/advanced/default_settings/theme.rst:386
+#: ../../source/advanced/default_settings/theme.rst:388
+#: ../../source/advanced/default_settings/theme.rst:390
+#: ../../source/advanced/default_settings/theme.rst:392
+#: ../../source/advanced/default_settings/theme.rst:394
+msgid "text"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:16
+#: ../../source/advanced/default_settings/theme.rst:18
+#: ../../source/advanced/default_settings/theme.rst:20
+#: ../../source/advanced/default_settings/theme.rst:22
+#: ../../source/advanced/default_settings/theme.rst:24
+#: ../../source/advanced/default_settings/theme.rst:26
+#: ../../source/advanced/default_settings/theme.rst:30
+#: ../../source/advanced/default_settings/theme.rst:32
+#: ../../source/advanced/default_settings/theme.rst:54
+#: ../../source/advanced/default_settings/theme.rst:56
+#: ../../source/advanced/default_settings/theme.rst:58
+#: ../../source/advanced/default_settings/theme.rst:60
+#: ../../source/advanced/default_settings/theme.rst:62
+#: ../../source/advanced/default_settings/theme.rst:64
+#: ../../source/advanced/default_settings/theme.rst:66
+#: ../../source/advanced/default_settings/theme.rst:70
+#: ../../source/advanced/default_settings/theme.rst:72
+#: ../../source/advanced/default_settings/theme.rst:74
+#: ../../source/advanced/default_settings/theme.rst:76
+#: ../../source/advanced/default_settings/theme.rst:78
+#: ../../source/advanced/default_settings/theme.rst:80
+#: ../../source/advanced/default_settings/theme.rst:86
+#: ../../source/advanced/default_settings/theme.rst:88
+#: ../../source/advanced/default_settings/theme.rst:92
+#: ../../source/advanced/default_settings/theme.rst:94
+#: ../../source/advanced/default_settings/theme.rst:96
+#: ../../source/advanced/default_settings/theme.rst:98
+#: ../../source/advanced/default_settings/theme.rst:100
+#: ../../source/advanced/default_settings/theme.rst:102
+#: ../../source/advanced/default_settings/theme.rst:104
+#: ../../source/advanced/default_settings/theme.rst:106
+#: ../../source/advanced/default_settings/theme.rst:108
+#: ../../source/advanced/default_settings/theme.rst:110
+#: ../../source/advanced/default_settings/theme.rst:112
+#: ../../source/advanced/default_settings/theme.rst:114
+#: ../../source/advanced/default_settings/theme.rst:116
+#: ../../source/advanced/default_settings/theme.rst:118
+#: ../../source/advanced/default_settings/theme.rst:120
+#: ../../source/advanced/default_settings/theme.rst:122
+#: ../../source/advanced/default_settings/theme.rst:124
+#: ../../source/advanced/default_settings/theme.rst:126
+#: ../../source/advanced/default_settings/theme.rst:128
+#: ../../source/advanced/default_settings/theme.rst:130
+#: ../../source/advanced/default_settings/theme.rst:132
+#: ../../source/advanced/default_settings/theme.rst:134
+#: ../../source/advanced/default_settings/theme.rst:136
+#: ../../source/advanced/default_settings/theme.rst:138
+#: ../../source/advanced/default_settings/theme.rst:140
+#: ../../source/advanced/default_settings/theme.rst:142
+#: ../../source/advanced/default_settings/theme.rst:144
+#: ../../source/advanced/default_settings/theme.rst:146
+#: ../../source/advanced/default_settings/theme.rst:148
+#: ../../source/advanced/default_settings/theme.rst:150
+#: ../../source/advanced/default_settings/theme.rst:152
+#: ../../source/advanced/default_settings/theme.rst:154
+#: ../../source/advanced/default_settings/theme.rst:156
+#: ../../source/advanced/default_settings/theme.rst:158
+#: ../../source/advanced/default_settings/theme.rst:160
+#: ../../source/advanced/default_settings/theme.rst:162
+#: ../../source/advanced/default_settings/theme.rst:164
+#: ../../source/advanced/default_settings/theme.rst:166
+#: ../../source/advanced/default_settings/theme.rst:168
+#: ../../source/advanced/default_settings/theme.rst:170
+#: ../../source/advanced/default_settings/theme.rst:172
+#: ../../source/advanced/default_settings/theme.rst:174
+#: ../../source/advanced/default_settings/theme.rst:176
+#: ../../source/advanced/default_settings/theme.rst:178
+#: ../../source/advanced/default_settings/theme.rst:180
+#: ../../source/advanced/default_settings/theme.rst:182
+#: ../../source/advanced/default_settings/theme.rst:184
+#: ../../source/advanced/default_settings/theme.rst:186
+#: ../../source/advanced/default_settings/theme.rst:188
+#: ../../source/advanced/default_settings/theme.rst:190
+#: ../../source/advanced/default_settings/theme.rst:192
+#: ../../source/advanced/default_settings/theme.rst:194
+#: ../../source/advanced/default_settings/theme.rst:196
+#: ../../source/advanced/default_settings/theme.rst:198
+#: ../../source/advanced/default_settings/theme.rst:200
+#: ../../source/advanced/default_settings/theme.rst:202
+#: ../../source/advanced/default_settings/theme.rst:204
+#: ../../source/advanced/default_settings/theme.rst:206
+#: ../../source/advanced/default_settings/theme.rst:208
+#: ../../source/advanced/default_settings/theme.rst:210
+#: ../../source/advanced/default_settings/theme.rst:212
+#: ../../source/advanced/default_settings/theme.rst:214
+#: ../../source/advanced/default_settings/theme.rst:216
+#: ../../source/advanced/default_settings/theme.rst:218
+#: ../../source/advanced/default_settings/theme.rst:220
+#: ../../source/advanced/default_settings/theme.rst:222
+#: ../../source/advanced/default_settings/theme.rst:224
+#: ../../source/advanced/default_settings/theme.rst:226
+#: ../../source/advanced/default_settings/theme.rst:228
+#: ../../source/advanced/default_settings/theme.rst:230
+#: ../../source/advanced/default_settings/theme.rst:232
+#: ../../source/advanced/default_settings/theme.rst:234
+#: ../../source/advanced/default_settings/theme.rst:236
+#: ../../source/advanced/default_settings/theme.rst:242
+#: ../../source/advanced/default_settings/theme.rst:244
+#: ../../source/advanced/default_settings/theme.rst:246
+#: ../../source/advanced/default_settings/theme.rst:248
+#: ../../source/advanced/default_settings/theme.rst:250
+#: ../../source/advanced/default_settings/theme.rst:252
+#: ../../source/advanced/default_settings/theme.rst:254
+#: ../../source/advanced/default_settings/theme.rst:256
+#: ../../source/advanced/default_settings/theme.rst:258
+#: ../../source/advanced/default_settings/theme.rst:260
+#: ../../source/advanced/default_settings/theme.rst:262
+#: ../../source/advanced/default_settings/theme.rst:264
+#: ../../source/advanced/default_settings/theme.rst:266
+#: ../../source/advanced/default_settings/theme.rst:268
+#: ../../source/advanced/default_settings/theme.rst:270
+#: ../../source/advanced/default_settings/theme.rst:272
+#: ../../source/advanced/default_settings/theme.rst:274
+#: ../../source/advanced/default_settings/theme.rst:276
+#: ../../source/advanced/default_settings/theme.rst:278
+#: ../../source/advanced/default_settings/theme.rst:280
+#: ../../source/advanced/default_settings/theme.rst:282
+#: ../../source/advanced/default_settings/theme.rst:284
+#: ../../source/advanced/default_settings/theme.rst:286
+#: ../../source/advanced/default_settings/theme.rst:288
+#: ../../source/advanced/default_settings/theme.rst:290
+#: ../../source/advanced/default_settings/theme.rst:294
+#: ../../source/advanced/default_settings/theme.rst:298
+#: ../../source/advanced/default_settings/theme.rst:300
+#: ../../source/advanced/default_settings/theme.rst:302
+#: ../../source/advanced/default_settings/theme.rst:304
+#: ../../source/advanced/default_settings/theme.rst:306
+#: ../../source/advanced/default_settings/theme.rst:308
+#: ../../source/advanced/default_settings/theme.rst:310
+#: ../../source/advanced/default_settings/theme.rst:312
+#: ../../source/advanced/default_settings/theme.rst:314
+#: ../../source/advanced/default_settings/theme.rst:316
+#: ../../source/advanced/default_settings/theme.rst:318
+#: ../../source/advanced/default_settings/theme.rst:320
+#: ../../source/advanced/default_settings/theme.rst:322
+#: ../../source/advanced/default_settings/theme.rst:324
+#: ../../source/advanced/default_settings/theme.rst:326
+#: ../../source/advanced/default_settings/theme.rst:328
+#: ../../source/advanced/default_settings/theme.rst:330
+#: ../../source/advanced/default_settings/theme.rst:332
+#: ../../source/advanced/default_settings/theme.rst:334
+#: ../../source/advanced/default_settings/theme.rst:336
+#: ../../source/advanced/default_settings/theme.rst:338
+#: ../../source/advanced/default_settings/theme.rst:340
+#: ../../source/advanced/default_settings/theme.rst:342
+#: ../../source/advanced/default_settings/theme.rst:348
+#: ../../source/advanced/default_settings/theme.rst:354
+#: ../../source/advanced/default_settings/theme.rst:356
+#: ../../source/advanced/default_settings/theme.rst:358
+#: ../../source/advanced/default_settings/theme.rst:360
+#: ../../source/advanced/default_settings/theme.rst:362
+#: ../../source/advanced/default_settings/theme.rst:364
+#: ../../source/advanced/default_settings/theme.rst:366
+#: ../../source/advanced/default_settings/theme.rst:368
+#: ../../source/advanced/default_settings/theme.rst:370
+#: ../../source/advanced/default_settings/theme.rst:372
+#: ../../source/advanced/default_settings/theme.rst:374
+#: ../../source/advanced/default_settings/theme.rst:376
+#: ../../source/advanced/default_settings/theme.rst:378
+#: ../../source/advanced/default_settings/theme.rst:380
+#: ../../source/advanced/default_settings/theme.rst:382
+#: ../../source/advanced/default_settings/theme.rst:384
+#: ../../source/advanced/default_settings/theme.rst:386
+#: ../../source/advanced/default_settings/theme.rst:388
+#: ../../source/advanced/default_settings/theme.rst:390
+#: ../../source/advanced/default_settings/theme.rst:392
+#: ../../source/advanced/default_settings/theme.rst:396
+msgid "FALSE"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:16
+msgid "Set the visibility of the logout icon."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:18
+msgid "domain_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:18
+#: ../../source/advanced/default_settings/theme.rst:22
+#: ../../source/advanced/default_settings/theme.rst:26
+#: ../../source/advanced/default_settings/theme.rst:70
+#: ../../source/advanced/default_settings/theme.rst:80
+#: ../../source/advanced/default_settings/theme.rst:92
+#: ../../source/advanced/default_settings/theme.rst:122
+#: ../../source/advanced/default_settings/theme.rst:148
+#: ../../source/advanced/default_settings/theme.rst:150
+#: ../../source/advanced/default_settings/theme.rst:162
+#: ../../source/advanced/default_settings/theme.rst:164
+#: ../../source/advanced/default_settings/theme.rst:172
+#: ../../source/advanced/default_settings/theme.rst:198
+#: ../../source/advanced/default_settings/theme.rst:216
+#: ../../source/advanced/default_settings/theme.rst:248
+#: ../../source/advanced/default_settings/theme.rst:274
+#: ../../source/advanced/default_settings/theme.rst:294
+#: ../../source/advanced/default_settings/theme.rst:306
+#: ../../source/advanced/default_settings/theme.rst:318
+#: ../../source/advanced/default_settings/theme.rst:320
+#: ../../source/advanced/default_settings/theme.rst:358
+#: ../../source/advanced/default_settings/theme.rst:384
+#: ../../source/advanced/default_settings/theme.rst:386
+#: ../../source/advanced/default_settings/theme.rst:388
+msgid "#ffffff"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:18
+msgid "Set the text color (and opacity) for domain name."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:20
+msgid "domain_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:20
+#: ../../source/advanced/default_settings/theme.rst:24
+#: ../../source/advanced/default_settings/theme.rst:72
+#: ../../source/advanced/default_settings/theme.rst:94
+#: ../../source/advanced/default_settings/theme.rst:348
+msgid "#69e5ff"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:20
+msgid "Set the text hover color (and opacity) for domain name."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:22
+msgid "logout_icon_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:22
+msgid "Set the color (and opacity) for the logout icon (if visible)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:24
+msgid "logout_icon_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:24
+msgid "Set the hover color (and opacity) for the logout icon (if visible)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:26
+msgid "menu_main_toggle_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:26
+msgid "Set the color (and opacity) for the menu toggle icon (in mobile view)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:28
+msgid "footer_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:28
+msgid "rgba(0,0,0,0.1)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:28
+msgid "Set the background color (and opacity) for the footer bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:30
+msgid "footer_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:30
+msgid "rgba(255,255,255,0.1)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:30
+msgid "Set the text color (and opacity) for the footer bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:32
+msgid "footer_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:32
+#: ../../source/advanced/default_settings/theme.rst:100
+#: ../../source/advanced/default_settings/theme.rst:354
+msgid "0 0 4px 4px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:32
+msgid "Set the border radius of the footer bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:34
+msgid "message_default_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:34
+msgid "#fafafa"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:34
+msgid "Set the background color for the positive (default) message bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:36
+msgid "message_default_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:36
+msgid "#666"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:36
+msgid "Set the text color for the positive (default) message bar text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:38
+msgid "message_positive_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:38
+msgid "#ccffcc"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:38
+msgid "Set the background color for the positive (positive) message bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:40
+msgid "message_positive_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:40
+msgid "#004200"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:40
+msgid "Set the text color for the positive (positive) message bar text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:42
+msgid "message_negative_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:42
+msgid "#ffcdcd"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:42
+msgid "Set the background color for the negative message bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:44
+msgid "message_negative_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:44
+msgid "#670000"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:44
+msgid "Set the text color for the negative message bar text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:46
+msgid "message_alert_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:46
+msgid "#ffe585"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:46
+msgid "Set the background color for the alert message bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:48
+msgid "message_alert_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:48
+msgid "#d66721"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:48
+msgid "Set the text color for the alert message bar text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:50
+msgid "message_opacity"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:50
+msgid "0.9"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:50
+msgid "Set the opacity of the message bar (decimal)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:52
+msgid "body_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:52
+#: ../../source/advanced/default_settings/theme.rst:68
+#: ../../source/advanced/default_settings/theme.rst:86
+#: ../../source/advanced/default_settings/theme.rst:90
+#: ../../source/advanced/default_settings/theme.rst:154
+#: ../../source/advanced/default_settings/theme.rst:156
+#: ../../source/advanced/default_settings/theme.rst:206
+#: ../../source/advanced/default_settings/theme.rst:210
+#: ../../source/advanced/default_settings/theme.rst:258
+#: ../../source/advanced/default_settings/theme.rst:260
+#: ../../source/advanced/default_settings/theme.rst:262
+#: ../../source/advanced/default_settings/theme.rst:268
+#: ../../source/advanced/default_settings/theme.rst:302
+#: ../../source/advanced/default_settings/theme.rst:392
+msgid "#000000"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:52
+msgid "Set the color (and opacity) of the body."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:54
+msgid "body_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:54
+#: ../../source/advanced/default_settings/theme.rst:200
+#: ../../source/advanced/default_settings/theme.rst:378
+msgid "4px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:54
+msgid "Set the border radius of the body."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:56
+msgid "cache"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:56
+msgid "Set whether to cache the theme in the session."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:58
+msgid "logo_align"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:58
+msgid "center"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:58
+msgid "Set the alignment of the header logo (Inline menu only)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:60
+msgid "menu_main_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:60
+#: ../../source/advanced/default_settings/theme.rst:62
+msgid "#ff0000"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:60
+msgid "Set a background color (and opacity) of the main menu bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:62
+msgid "menu_main_background_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:62
+msgid "Set a background hover color (and opacity) of the main menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:64
+msgid "menu_main_icons"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:64
+msgid "Show icons next to main menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:66
+msgid "menu_main_background_image"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:66
+msgid "/themes/default/images/background_black.png"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:66
+msgid "Set a background image for the main menu bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:68
+msgid "menu_main_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:68
+msgid "Set the shadow color (and opacity) of the main menu bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:70
+msgid "menu_main_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:70
+msgid "Set the text color of the main menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:72
+msgid "menu_main_text_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:72
+msgid "Set the text hover color of the main menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:74
+msgid "menu_main_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:74
+#: ../../source/advanced/default_settings/theme.rst:96
+#: ../../source/advanced/default_settings/theme.rst:204
+#: ../../source/advanced/default_settings/theme.rst:224
+#: ../../source/advanced/default_settings/theme.rst:256
+#: ../../source/advanced/default_settings/theme.rst:300
+#: ../../source/advanced/default_settings/theme.rst:326
+msgid "Arial"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:74
+msgid "Set the font of the main menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:76
+msgid "menu_main_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:76
+msgid "10.25pt"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:76
+msgid "Set the text size of the main menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:78
+msgid "menu_main_border_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:78
+#: ../../source/advanced/default_settings/theme.rst:102
+#: ../../source/advanced/default_settings/theme.rst:246
+#: ../../source/advanced/default_settings/theme.rst:264
+#: ../../source/advanced/default_settings/theme.rst:288
+#: ../../source/advanced/default_settings/theme.rst:312
+msgid "1px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:78
+msgid "Set the border size of the main menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:80
+msgid "menu_main_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:80
+msgid "Set the border color (and opacity) of the main menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:82
+msgid "menu_position"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:82
+msgid "top"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:82
+msgid "Set the position of the main menu (Fixed menu only)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:84
+msgid "menu_style"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:84
+msgid "fixed"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:84
+msgid "Set the style of the main menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:86
+msgid "menu_sub_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:86
+msgid "Set the background color (and opacity) of the sub menus."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:88
+msgid "menu_sub_icons"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:88
+msgid "Show indicator icons next to selected sub menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:90
+msgid "menu_sub_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:90
+msgid "Set the shadow color (and opacity) of sub menus."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:92
+msgid "menu_sub_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:92
+msgid "Set the text color (and opacity) of sub menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:94
+msgid "menu_sub_text_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:94
+msgid "Set the hover text color (and opacity) of sub menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:96
+msgid "menu_sub_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:96
+msgid "Set the font of the sub menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:98
+msgid "menu_sub_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:98
+msgid "10pt"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:98
+msgid "Set the text size of the sub menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:100
+msgid "menu_sub_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:100
+msgid "Set the border radius of the sub menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:102
+msgid "menu_sub_border_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:102
+msgid "Set the border size of the sub menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:104
+msgid "heading_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:104
+#: ../../source/advanced/default_settings/theme.rst:110
+#: ../../source/advanced/default_settings/theme.rst:118
+#: ../../source/advanced/default_settings/theme.rst:126
+msgid "arial"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:104
+msgid "Set the font of the page heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:106
+msgid "heading_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:106
+msgid "15px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:106
+msgid "Set the size of the page heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:108
+msgid "heading_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:108
+msgid "#952424"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:108
+msgid "Set the color (and opacity) of the page heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:110
+msgid "body_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:110
+msgid "Set the font of body text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:112
+msgid "body_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:112
+msgid "#5f5f5f"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:112
+msgid "Set the color (and opacity) of the body text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:114
+msgid "text_link_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:114
+#: ../../source/advanced/default_settings/theme.rst:250
+msgid "#004083"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:114
+msgid "Set the link color (and opacity) of text links outside tables."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:116
+msgid "text_link_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:116
+#: ../../source/advanced/default_settings/theme.rst:252
+msgid "#5082ca"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:116
+msgid "Set the hover color (and opacity) of text links outside tables."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:118
+msgid "table_heading_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:118
+msgid "Set the text font of table header rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:120
+msgid "table_heading_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:120
+#: ../../source/advanced/default_settings/theme.rst:128
+#: ../../source/advanced/default_settings/theme.rst:298
+#: ../../source/advanced/default_settings/theme.rst:324
+#: ../../source/advanced/default_settings/theme.rst:360
+msgid "12px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:120
+msgid "Set the text size of table header rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:122
+msgid "table_heading_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:122
+msgid "Set the background color (and opacity) of table header rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:124
+msgid "table_heading_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:124
+#: ../../source/advanced/default_settings/theme.rst:158
+#: ../../source/advanced/default_settings/theme.rst:190
+#: ../../source/advanced/default_settings/theme.rst:192
+msgid "#a4aebf"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:124
+msgid "Set the bottom border color (and opacity) of table header rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:126
+msgid "table_row_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:126
+msgid "Set the text font of table data rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:128
+msgid "table_row_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:128
+msgid "Set the text size of table data rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:130
+msgid "table_row_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:130
+msgid "#000"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:130
+msgid "Set the text color (and opacity) of table data rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:132
+msgid "table_row_background_color_dark"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:132
+#: ../../source/advanced/default_settings/theme.rst:196
+#: ../../source/advanced/default_settings/theme.rst:218
+#: ../../source/advanced/default_settings/theme.rst:372
+#: ../../source/advanced/default_settings/theme.rst:374
+msgid "#e5e9f0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:132
+msgid "Set the darker background color (and opacity) of table data rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:134
+msgid "table_row_background_color_medium"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:134
+msgid "#f0f2f6"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:134
+msgid "Set the medium background color (and opacity) of table data rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:136
+msgid "table_row_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:136
+msgid "#c5d1e5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:136
+msgid ""
+"Set the bottom border (dividing line) color (and opacity) of table data "
+"rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:138
+msgid "dashboard_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:138
+msgid "#dbe0ea"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:138
+msgid "Set the border color (and opacity) of the Dashboard blocks."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:140
+msgid "dashboard_border_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:140
+msgid "#cbd3e1"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:140
+msgid "Set the border hover color (and opacity) of the Dashboard block."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:142
+msgid "dashboard_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:142
+msgid "5px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:142
+msgid "Set the border radius of the Dashboard block."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:144
+msgid "dashboard_heading_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:144
+msgid "#8e96a5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:144
+msgid "Set the background color (and opacity) of the Dashboard block heading."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:146
+msgid "dashboard_heading_background_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:146
+msgid "#969dab"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:146
+msgid ""
+"Set the background hover color (and opacity) of the Dashboard block "
+"heading."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:148
+msgid "dashboard_heading_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:148
+msgid "Set the color (and opacity) of the Dashboard block heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:150
+msgid "dashboard_heading_text_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:150
+msgid "Set the hover color (and opacity) of the Dashboard block heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:152
+msgid "dashboard_heading_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:152
+msgid "10.5pt"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:152
+msgid "Set the size of the Dashboard block heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:154
+msgid "dashboard_heading_text_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:154
+msgid "Set the shadow color (and opacity) of the Dashboard block heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:156
+msgid "dashboard_heading_text_shadow_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:156
+msgid ""
+"Set the shadow hover color (and opacity) of the Dashboard block heading "
+"text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:158
+msgid "dashboard_number_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:158
+msgid "Set the background color (and opacity) of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:160
+msgid "dashboard_number_background_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:160
+msgid "#aeb7c5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:160
+msgid ""
+"Set the background hover color (and opacity) of the Dashboard block "
+"number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:162
+msgid "dashboard_number_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:162
+msgid "Set the color (and opacity) of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:164
+msgid "dashboard_number_text_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:164
+msgid "Set the hover color (and opacity) of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:166
+msgid "dashboard_number_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:166
+#: ../../source/advanced/default_settings/theme.rst:174
+#: ../../source/advanced/default_settings/theme.rst:366
+msgid "Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:166
+msgid "Set the font of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:168
+msgid "dashboard_number_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:168
+msgid "60pt"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:168
+msgid "Set the size of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:170
+msgid "dashboard_number_text_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:170
+#: ../../source/advanced/default_settings/theme.rst:178
+#: ../../source/advanced/default_settings/theme.rst:184
+#: ../../source/advanced/default_settings/theme.rst:368
+msgid "#737983"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:170
+msgid "Set the shadow color (and opacity) of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:172
+msgid "dashboard_number_title_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:172
+msgid "Set the color (and opacity) of the Dashboard block number title."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:174
+msgid "dashboard_number_title_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:174
+msgid "Set the font of the Dashboard block number title."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:176
+msgid "dashboard_number_title_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:176
+msgid "14px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:176
+msgid "Set the size of the Dashboard block number title."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:178
+msgid "dashboard_number_title_text_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:178
+msgid "Set the shadow color (and opacity) of the Dashboard block number title."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:180
+msgid "dashboard_detail_heading_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:180
+#: ../../source/advanced/default_settings/theme.rst:182
+#: ../../source/advanced/default_settings/theme.rst:254
+#: ../../source/advanced/default_settings/theme.rst:272
+msgid "11px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:180
+msgid "Set the size of the Dashboard block detail header text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:182
+msgid "dashboard_detail_row_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:182
+msgid "Set the size of the Dashboard block detail row text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:184
+msgid "dashboard_detail_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:184
+msgid "Set the shadow color of the Dashboard block detail box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:186
+msgid "dashboard_detail_background_color_center"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:186
+msgid "#f9fbfe"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:186
+msgid "Set the center gradient color of the Dashboard block detail area."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:188
+msgid "dashboard_footer_background_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:188
+msgid "#ebeef3"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:188
+msgid ""
+"Set the background hover color (and opacity) of the Dashboard block "
+"footer bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:190
+msgid "dashboard_footer_dots_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:190
+msgid "Set the color (and opacity) of the Dashboard block footer bar dots."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:192
+msgid "dashboard_footer_dots_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:192
+msgid "Set the hover color (and opacity) of the Dashboard block footer bar dots."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:194
+msgid "form_table_label_padding"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:194
+msgid "7px 8px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:194
+msgid "Set the padding of the form label cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:196
+msgid "form_table_label_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:196
+msgid "Set the background color (and opacity) of the form label cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:198
+msgid "form_table_label_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:198
+msgid "Set the bottom-border color (and opacity) of the form label cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:200
+msgid "form_table_label_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:200
+#: ../../source/advanced/default_settings/theme.rst:220
+msgid "Set the border radius of the form label cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:202
+msgid "form_table_label_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:202
+#: ../../source/advanced/default_settings/theme.rst:230
+msgid "9pt"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:202
+msgid "Set the text size of the form label."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:204
+msgid "form_table_label_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:204
+msgid "Set the text font of the form label."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:206
+msgid "form_table_label_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:206
+msgid "Set the text color (and opacity) of the form label."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:208
+msgid "form_table_label_required_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:208
+msgid "#cbcfd5"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:208
+msgid "Set the right-border color (and opacity) of the required form label cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:210
+msgid "form_table_label_required_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:210
+msgid "Set the text color (and opacity) of the required form label."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:212
+msgid "form_table_label_required_text_weight"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:212
+#: ../../source/advanced/default_settings/theme.rst:276
+msgid "bold"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:212
+msgid "Set the text weight of the required form label."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:214
+msgid "form_table_field_padding"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:214
+msgid "6px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:214
+msgid "Set the padding of the form field cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:216
+msgid "form_table_field_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:216
+msgid "Set the background color (and opacity) of the form field cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:218
+msgid "form_table_field_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:218
+msgid "Set the bottom-border color (and opacity) of the form field cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:220
+msgid "form_table_field_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:220
+msgid "0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:222
+msgid "form_table_field_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:222
+msgid "8pt"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:222
+msgid "Set the size of text in the form field cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:224
+msgid "form_table_field_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:224
+msgid "Set the font of text in the form field cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:226
+msgid "form_table_heading_padding"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:226
+msgid "8px 8px 4px 8px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:226
+msgid "Set the padding of form column headings."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:228
+msgid "form_table_row_padding"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:228
+msgid "3px 0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:228
+msgid "Set the padding of form row cells."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:230
+msgid "form_table_row_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:230
+msgid "Set the size of text in the form rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:232
+#: ../../source/advanced/default_settings/theme.rst:234
+msgid "login_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:232
+msgid "Set the background color of the login page."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:234
+#: ../../source/advanced/default_settings/theme.rst:344
+msgid "#144794"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:234
+msgid "Set a secondary background color of the login page, for a gradient effect."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:236
+msgid "login_background_image_enabled"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:236
+msgid "Enable use of background images on the login page."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:238
+msgid "login_body_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:238
+msgid "rgba(255,255,255,0.3)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:238
+msgid "Set the background color for the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:240
+msgid "login_body_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:240
+msgid "rgba(140,140,140,0.3)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:240
+msgid "Set the shadow color of the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:242
+msgid "login_body_padding"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:242
+msgid "30px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:242
+msgid "Set the padding of the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:244
+msgid "login_body_width"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:244
+msgid "100%"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:244
+msgid "Set the width of the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:246
+msgid "login_body_border_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:246
+msgid "Set the border size of the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:248
+msgid "login_body_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:248
+msgid "Set the border color (and opacity) of the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:250
+msgid "login_link_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:250
+msgid "Set the color (and opacity) of text links on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:252
+msgid "login_link_text_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:252
+msgid "Set the hover color (and opacity) of text links on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:254
+msgid "login_link_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:254
+msgid "Set the size of text links on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:256
+msgid "login_link_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:256
+msgid "Set the font of text links on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:258
+msgid "button_background_color_bottom"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:258
+msgid "Set the background bottom color (and opacity) of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:260
+msgid "button_background_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:260
+msgid "Set the background main/top hover color (and opacity) of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:262
+msgid "button_background_color_bottom_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:262
+msgid "Set the background bottom hover color (and opacity) of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:264
+msgid "button_border_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:264
+msgid "Set the border size of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:266
+msgid "button_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:266
+msgid "#242424"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:266
+msgid "Set the border color (and opacity) of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:268
+msgid "button_border_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:268
+msgid "Set the border hover color (and opacity) of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:270
+msgid "button_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:270
+#: ../../source/advanced/default_settings/theme.rst:290
+#: ../../source/advanced/default_settings/theme.rst:314
+msgid "3px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:270
+msgid "Set the border radius of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:272
+msgid "button_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:272
+msgid "Set the size of button text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:274
+msgid "button_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:274
+msgid "Set the color (and opacity) of button text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:276
+msgid "button_text_weight"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:276
+msgid "Set the weight of button text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:278
+msgid "button_padding"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:278
+msgid "5px 8px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:278
+msgid "Set the padding of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:280
+msgid "button_height"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:280
+msgid "28px"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:280
+msgid "Set the height of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:282
+msgid "input_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:282
+#: ../../source/advanced/default_settings/theme.rst:284
+#: ../../source/advanced/default_settings/theme.rst:286
+#: ../../source/advanced/default_settings/theme.rst:308
+#: ../../source/advanced/default_settings/theme.rst:310
+#: ../../source/advanced/default_settings/theme.rst:390
+msgid "#c0c0c0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:282
+msgid "Set the border color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:284
+msgid "input_border_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:284
+msgid "Set the border hover color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:286
+msgid "input_border_color_focus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:286
+msgid "Set the border focus color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:288
+msgid "input_border_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:288
+msgid "Set the border size of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:290
+msgid "input_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:290
+msgid "Set the border radius of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:292
+msgid "input_shadow_inner_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:292
+#: ../../source/advanced/default_settings/theme.rst:296
+#: ../../source/advanced/default_settings/theme.rst:316
+#: ../../source/advanced/default_settings/theme.rst:322
+msgid "#cddaf0"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:292
+msgid "Set the inner shadow color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:294
+msgid "input_shadow_outer_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:294
+msgid "Set the outer shadow color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:296
+msgid "input_shadow_outer_color_focus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:296
+msgid "Set the outer focus shadow color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:298
+msgid "input_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:298
+msgid "Set the size of text input content."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:300
+msgid "input_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:300
+msgid "Set the font of text input content."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:302
+msgid "input_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:302
+msgid "Set the color (and opacity) of text input content."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:304
+msgid "input_text_placeholder_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:304
+#: ../../source/advanced/default_settings/theme.rst:328
+msgid "#999999"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:304
+msgid "Set the color (and opacity) of input placeholder text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:306
+msgid "login_input_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:306
+msgid "Set the background color (and opacity) of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:308
+msgid "login_input_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:308
+msgid "Set the border color (and opacity) of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:310
+msgid "login_input_border_color_focus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:310
+msgid "Set the border focus color (and opacity) of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:312
+msgid "login_input_border_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:312
+msgid "Set the border size of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:314
+msgid "login_input_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:314
+msgid "Set the border radius of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:316
+msgid "login_input_shadow_inner_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:316
+msgid "Set the inner shadow color (and opacity) of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:318
+msgid "login_input_shadow_inner_color_focus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:318
+msgid ""
+"Set the inner focus shadow color (and opacity) of text inputs on the "
+"login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:320
+msgid "login_input_shadow_outer_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:320
+msgid "Set the outer shadow color (and opacity) of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:322
+msgid "login_input_shadow_outer_color_focus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:322
+msgid ""
+"Set the outer focus shadow color (and opacity) of text inputs on the "
+"login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:324
+msgid "login_input_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:324
+msgid "Set the size of text input content on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:326
+msgid "login_input_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:326
+msgid "Set the font of text input content on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:328
+msgid "login_input_text_placeholder_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:328
+msgid "Set the color (and opacity) of input placeholder text on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:330
+msgid "font_loader"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:330
+msgid ""
+"Enables the dynamic loading of web fonts (requires an Internet "
+"connection)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:332
+msgid "font_loader_version"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:332
+msgid "1.6.16"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:332
+msgid ""
+"Set the web font loader version to use - specific (e.g. 1.6.16) or latest"
+" in branch (e.g. 1)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:334
+msgid "font_retrieval"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:334
+msgid "asynchronous"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:334
+msgid "Set the retrieval method for the web font loader (default: synchronous)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:336
+msgid "font_source_key"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:336
+msgid "API key that allows access to the available fonts list."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:338
+msgid "body_icon_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:338
+msgid "rgba(255,255,255,0.25)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:338
+msgid "Set the color (and opacity) for the icons in the body."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:340
+msgid "body_icon_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:340
+msgid "rgba(255,255,255,0.50)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:340
+msgid "Set the hover color (and opacity) for the icons in the body."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:342
+msgid "menu_brand_type"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:342
+msgid "image"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:344
+msgid "Set a secondary background color, for a gradient effect."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:346
+msgid "domain_visible"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:346
+msgid "Set the visibility of the name of the domain currently being managed."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:348
+msgid "menu_main_toggle_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:348
+msgid ""
+"Set the hover color (and opacity) for the menu toggle icon (in mobile "
+"view)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:350
+msgid "message_delay"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:350
+msgid "1.75"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:350
+msgid "Set the hide delay of the message bar (seconds)."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:352
+msgid "domain_selector_shadow_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:352
+msgid "#888888"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:352
+msgid "Set the shadow color (and opacity) of the domain selector pane."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:354
+msgid "menu_main_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:354
+msgid "Set the border radius of the main menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:356
+msgid "menu_sub_background_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:356
+msgid "Set the hover background color (and opacity) of the sub menu items."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:358
+msgid "menu_sub_border_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:358
+msgid "Set the border color (and opacity) of the sub menu."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:360
+msgid "body_text_size"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:360
+msgid "Set the size of the body text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:362
+msgid "table_heading_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:362
+msgid "#3164ad"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:362
+msgid "Set the text color (and opacity) of table header rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:364
+msgid "table_row_background_color_light"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:364
+msgid "#fff"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:364
+msgid "Set the lighter background color (and opacity) of table data rows."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:366
+msgid "dashboard_heading_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:366
+msgid "Set the font of the Dashboard block heading text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:368
+msgid "dashboard_number_text_shadow_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:368
+msgid "Set the shadow hover color (and opacity) of the Dashboard block number."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:370
+msgid "dashboard_detail_background_color_edge"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:370
+msgid "#edf1f7"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:370
+msgid "Set the edge gradient color of the Dashboard block detail area."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:372
+msgid "dashboard_footer_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:372
+msgid "Set the background color (and opacity) of the Dashboard block footer bar."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:374
+msgid "form_table_label_required_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:374
+msgid "Set the background color of the required form label cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:376
+msgid "form_table_field_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:376
+msgid "#666666"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:376
+msgid "Set the color (and opacity) of text in the form field cell."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:378
+msgid "login_body_border_radius"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:378
+msgid "Set the border radius of the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:380
+msgid "button_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:380
+msgid "#4f4f4f"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:380
+msgid "Set the background main/top color (and opacity) of buttons."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:382
+msgid "button_text_font"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:382
+msgid "Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:382
+msgid "Set the font of button text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:384
+msgid "button_text_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:384
+msgid "Set the hover color (and opacity) of button text."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:386
+msgid "input_background_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:386
+msgid "Set the background color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:388
+msgid "input_shadow_inner_color_focus"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:388
+msgid "Set the inner focus shadow color (and opacity) of text inputs."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:390
+msgid "login_input_border_color_hover"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:390
+msgid "Set the border hover color (and opacity) of text inputs on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:392
+msgid "login_input_text_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:392
+msgid "Set the color (and opacity) of text input content on the login box."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:394
+msgid "body_color"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:394
+msgid "rgba(255,255,255,0.77)"
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:394
+msgid "Set then body background color (and opacity) of the content."
+msgstr ""
+
+#: ../../source/advanced/default_settings/theme.rst:396
+msgid "/themes/default/images/backgrounds/yellowstone_3.jpg"
+msgstr ""
+

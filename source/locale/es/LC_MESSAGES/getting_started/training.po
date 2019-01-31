@@ -1,0 +1,152 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/getting_started/training.rst:3
+msgid "Training"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:5
+msgid ""
+"FusionPBX offers different levels of training. We love helping people and"
+" companies succeed."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:7
+msgid "Small family business."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:8
+msgid "Someone that loves to tinker with technology."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:9
+msgid "Major companies all around the world."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:12
+msgid "Free"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:14
+msgid ""
+"FusionPBX has content available in this document and video's on youtube "
+"to help get you started."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:16
+msgid "Free Self help is available for you right here at docs.fusionpbx.com"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:17
+msgid "Video's at https://youtube.com/fusionpbx"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:21
+msgid ""
+"`Paid Training and technical support "
+"<https://www.fusionpbx.com/training.php>`_"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:23
+msgid ""
+"FusionPBX offers an Admin class, Advanced class and an affordable "
+"Continuing Education class.  If you want to accelerate your understanding"
+" of how to use FusionPBX and unleash your full potential these classes "
+"are for you."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:31
+msgid "`Admin Class <https://www.fusionpbx.com/training.php>`_"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:26
+#: ../../source/getting_started/training.rst:34
+msgid "Online or Webex"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:27
+#: ../../source/getting_started/training.rst:35
+msgid "Access to Class Documentation"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:28
+#: ../../source/getting_started/training.rst:36
+msgid "Recorded video of the class for you to keep"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:29
+#: ../../source/getting_started/training.rst:37
+msgid "Interactive question and answer with the FusionPBX founder and trainer"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:30
+msgid "Covers the basics and some advanced topics with FusionPBX"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:31
+#: ../../source/getting_started/training.rst:39
+#: ../../source/getting_started/training.rst:48
+msgid "Plus much more..."
+msgstr ""
+
+#: ../../source/getting_started/training.rst:39
+msgid "`Advanced Class <https://www.fusionpbx.com/training.php>`_"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:38
+msgid "Covers advanced topics and methods"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:48
+msgid "`Continuing Education <https://www.fusionpbx.com/training.php>`_"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:42
+msgid "Monthly Webex meeting on changes with FusionPBX"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:43
+msgid ""
+"Option to take the advanced or admin over again (included in the monthly "
+"price)"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:44
+msgid "Report bugs or ask questions that might not have came up until now"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:45
+msgid "Get a closer more indepth look into FusionPBX"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:46
+msgid "Know how to use new features when they are added"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:47
+msgid "Know how to upgrade to the next release version"
+msgstr ""
+
+#: ../../source/getting_started/training.rst:51
+msgid ""
+"`Come join us!  We look forward to meeting you! "
+"<https://www.fusionpbx.com/training.php>`_"
+msgstr ""
+

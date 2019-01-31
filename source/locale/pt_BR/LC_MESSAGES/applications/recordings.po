@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/recordings.rst:3
+msgid "Recordings"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:5
+msgid ""
+"Dial \\*\\732 to create a recording, or (for best results) upload a 16bit"
+" 8khz/16khz mono WAV file. `Click here for the youtube video.`_"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:13
+msgid ""
+"To view and set the pin number goto Dialplan > Dialplan Manager > Click "
+"on Recordings > pin_number=8675309 at the bottom."
+msgstr ""
+
+#: ../../source/applications/recordings.rst:17
+msgid ""
+"Pin number is recomended but can be left empty if no pin number is "
+"desired then pin_number="
+msgstr ""
+
+#: ../../source/applications/recordings.rst:21
+msgid "Create a Recording"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:23
+msgid "Dial \\*\\732 and wait for the voice prompt"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:24
+msgid ""
+"Enter the password (pin_number) followed by the pound sign# Enter at "
+"least a 3 digit number.  This will label the recording file. "
+"(recording100.wav)"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:26
+msgid ""
+"start talking to make the recording after the voice prompt and press the "
+"pound key #"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:27
+msgid "Press 1 to accept the recording then hang up or press 2 to start over."
+msgstr ""
+
+#: ../../source/applications/recordings.rst:36
+msgid "Edit Recording"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:38
+msgid "Click the edit pencil icon."
+msgstr ""
+
+#: ../../source/applications/recordings.rst:39
+msgid "Rename as needed."
+msgstr ""
+
+#: ../../source/applications/recordings.rst:40
+msgid "Click save to save the changes."
+msgstr ""
+
+#: ../../source/applications/recordings.rst:48
+msgid "Applying Recordings"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:50
+msgid ""
+"Once you have a recording made you can use the recordings in different "
+"area's of FusionPBX.  Custom IVR's and phrases would be the typical uses."
+msgstr ""
+
+#: ../../source/applications/recordings.rst:54
+msgid "`Recordings Default Settings`_"
+msgstr ""
+
+#: ../../source/applications/recordings.rst:56
+msgid "Click the link above for Recordings default settings."
+msgstr ""
+

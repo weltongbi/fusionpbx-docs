@@ -1,0 +1,126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2008-2019, Mark J Crane
+# This file is distributed under the same license as the FusionPBX Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionPBX Docs 4.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-30 19:46-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../source/applications/ring_group.rst:3
+msgid "Ring Groups"
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:7
+msgid ""
+"A ring group is a set of destinations that can be called with a ring "
+"strategy."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:15
+msgid ""
+"To add a ring group click the plus. `Click for the youtube video "
+"<https://youtu.be/sULuuLOSvLQ>`_ ."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:21
+msgid ""
+"**Name** A meaningful name for this ring group. This name is used in th "
+"Destination select list."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:22
+msgid "**Extension** The extension number for this ring group."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:23
+msgid "**Greeting** Play a sound file upon calling the Ring Group extension."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:25
+msgid "**Strategy** The selectable way in which the destinations are being used."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:27
+msgid ""
+"**Simultaneous** Rings all destinations. All destination share the same "
+"thread."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:28
+msgid ""
+"**Sequence**  Calls destinations in sequence where order that is lower "
+"goes first."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:29
+msgid ""
+"**Enterprise** Ring all destinations. Each destination uses its own "
+"thread."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:30
+msgid "**Rollover** Calls destinations in sequence and skips busy destinations."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:31
+msgid "**Random** A random destination will ring."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:33
+msgid "**Destinations** The extensions that this ring group applies to."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:34
+msgid ""
+"**Prompt** Where you determine if the call must have a dial to confirm "
+"before a pickup event."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:35
+msgid ""
+"**Caller ID Name Prefix** The string that is added to the caller ID when "
+"it displays on the ringing extension."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:36
+msgid ""
+"**Caller ID Number Prefix** The **Number** that is added to the caller ID"
+" when it displays on the ringing extension."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:37
+msgid ""
+"**Ring Back** What the caller hears when they are waiting for the "
+"**Destinations** to answer. (ex. Music on Hold, us-ring)"
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:38
+msgid "**Context** The context defaults to the domain name."
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:45
+msgid "Ring Group Example"
+msgstr ""
+
+#: ../../source/applications/ring_group.rst:47
+msgid ""
+"In our example we will have 4 extensions all ring at the same time until "
+"one of them pick up first.  Click the + to create a ring group.  Fill in "
+"the fields that are in **bold**.  In the Extension box type a number that"
+" is **NOT** already created.  This new extention won't be in the "
+"extension list.  The strategy will be Simultaneous. Enter in the "
+"destination the 4 extensions 1001, 1002, 1003, 1004."
+msgstr ""
+
